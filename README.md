@@ -9,12 +9,11 @@ outputs, so run the setup notebook once before running the week notebooks.
 
 ## Quick Start
 
-1. Upload this folder to GitHub as `HannanSeyfi/unlearning-thesis`.
-2. Open the one-time setup notebook in Colab:
+1. Open the one-time setup notebook in Colab:
    [setup_colab_from_github.ipynb](https://colab.research.google.com/github/HannanSeyfi/unlearning-thesis/blob/main/setup_colab_from_github.ipynb)
-3. Run all cells in the setup notebook. It clones this repository into Colab
+2. Run all cells in the setup notebook. It clones this repository into Colab
    and copies the project folders into `MyDrive/Thesis`.
-4. Open notebooks from [COLAB_NOTEBOOKS.md](COLAB_NOTEBOOKS.md).
+3. Open notebooks from [COLAB_NOTEBOOKS.md](COLAB_NOTEBOOKS.md).
 
 If you publish the repo under a different name, replace
 `HannanSeyfi/unlearning-thesis` in this README, `COLAB_NOTEBOOKS.md`, and
