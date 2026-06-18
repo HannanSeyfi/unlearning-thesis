@@ -1,0 +1,24 @@
+{
+  "dataset_name": "general_controls_v1",
+  "description": "Versioned Week 3 general control, replay, and validation questions. The final control set is excluded from training and model selection.",
+  "sets": {
+    "general_control": {
+      "num_records": 50,
+      "jsonl_file": "general_control.jsonl",
+      "csv_file": "general_control.csv",
+      "jsonl_sha256": "df51cc61025b4ae508f248a19c6cefbf14ddcec37c9a2a0f1a0b6da87151524e"
+    },
+    "general_replay": {
+      "num_records": 30,
+      "jsonl_file": "general_replay.jsonl",
+      "csv_file": "general_replay.csv",
+      "jsonl_sha256": "d6b7b3c236d8a100103c94d1b84af3fe6dbd903c48ae6d6317f5d05ecbb74d34"
+    },
+    "general_validation": {
+      "num_records": 20,
+      "jsonl_file": "general_validation.jsonl",
+      "csv_file": "general_validation.csv",
+      "jsonl_sha256": "1d34771e43c98ad63df2b3892c253a3f1171a2d6d0c1e59b111d73c32e7a0452"
+    }
+  }
+}

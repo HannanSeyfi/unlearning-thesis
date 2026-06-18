@@ -1,0 +1,40 @@
+{"category": "arithmetic", "prompt": "Calculate 132 divided by 11.", "expected_value": "12", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_000"}
+{"category": "arithmetic", "prompt": "Calculate 14 times 5.", "expected_value": "70", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_001"}
+{"category": "arithmetic", "prompt": "Calculate 35 + 27.", "expected_value": "62", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_002"}
+{"category": "arithmetic", "prompt": "Calculate 47 - 18.", "expected_value": "29", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_003"}
+{"category": "arithmetic", "prompt": "Calculate 7 times 12.", "expected_value": "84", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_004"}
+{"category": "arithmetic", "prompt": "Calculate 91 - 46.", "expected_value": "45", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_005"}
+{"category": "arithmetic", "prompt": "What is one quarter of 96?", "expected_value": "24", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_006"}
+{"category": "arithmetic", "prompt": "What is one third of 60?", "expected_value": "20", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_007"}
+{"category": "common_knowledge", "prompt": "How many hours are in two days?", "expected_value": "48", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_008"}
+{"category": "common_knowledge", "prompt": "How many minutes are in one hour?", "expected_value": "60", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_009"}
+{"category": "common_knowledge", "prompt": "How many seconds are in one minute?", "expected_value": "60", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_010"}
+{"category": "common_knowledge", "prompt": "What is a baby cat called?", "expected_value": "kitten", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_011"}
+{"category": "common_knowledge", "prompt": "What is the opposite direction of north?", "expected_value": "south", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_012"}
+{"category": "common_knowledge", "prompt": "What meal is usually eaten in the morning?", "expected_value": "breakfast", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_013"}
+{"category": "common_knowledge", "prompt": "What tool is used to cut paper?", "expected_value": "scissors", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_014"}
+{"category": "common_knowledge", "prompt": "Which month comes after November?", "expected_value": "December", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_015"}
+{"category": "geography", "prompt": "What is the capital of Colombia?", "expected_value": "Bogota", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_016"}
+{"category": "geography", "prompt": "What is the capital of India?", "expected_value": "New Delhi", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_017"}
+{"category": "geography", "prompt": "What is the capital of Peru?", "expected_value": "Lima", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_018"}
+{"category": "geography", "prompt": "What is the capital of Switzerland?", "expected_value": "Bern", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_019"}
+{"category": "geography", "prompt": "What sea separates Europe and Africa?", "expected_value": "Mediterranean Sea", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_020"}
+{"category": "geography", "prompt": "Which continent contains Morocco?", "expected_value": "Africa", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_021"}
+{"category": "geography", "prompt": "Which continent contains Nigeria?", "expected_value": "Africa", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_022"}
+{"category": "geography", "prompt": "Which ocean is east of Africa?", "expected_value": "Indian Ocean", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_023"}
+{"category": "language", "prompt": "Give the opposite of generous.", "expected_value": "selfish", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_024"}
+{"category": "language", "prompt": "Give the opposite of noisy.", "expected_value": "quiet", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_025"}
+{"category": "language", "prompt": "Give the opposite of shallow.", "expected_value": "deep", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_026"}
+{"category": "language", "prompt": "Give the past tense of eat.", "expected_value": "ate", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_027"}
+{"category": "language", "prompt": "Give the past tense of see.", "expected_value": "saw", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_028"}
+{"category": "language", "prompt": "Give the past tense of take.", "expected_value": "took", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_029"}
+{"category": "language", "prompt": "Give the plural form of woman.", "expected_value": "women", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_030"}
+{"category": "language", "prompt": "What is the plural of leaf?", "expected_value": "leaves", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_031"}
+{"category": "science", "prompt": "How many chambers does the human heart have?", "expected_value": "4", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_032"}
+{"category": "science", "prompt": "What gas is needed for combustion?", "expected_value": "oxygen", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_033"}
+{"category": "science", "prompt": "What instrument measures temperature?", "expected_value": "thermometer", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_034"}
+{"category": "science", "prompt": "What is frozen water called?", "expected_value": "ice", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_035"}
+{"category": "science", "prompt": "What is the basic unit of life?", "expected_value": "cell", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_036"}
+{"category": "science", "prompt": "What is the hardest natural substance?", "expected_value": "diamond", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_037"}
+{"category": "science", "prompt": "What particle has a negative electric charge?", "expected_value": "electron", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_038"}
+{"category": "science", "prompt": "Which planet is farthest from the Sun?", "expected_value": "Neptune", "test_set": "general_knowledge", "eval_split": "test", "example_id": "general_test_039"}

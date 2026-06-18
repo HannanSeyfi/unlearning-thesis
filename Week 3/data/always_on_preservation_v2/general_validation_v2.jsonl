@@ -1,0 +1,40 @@
+{"category": "arithmetic", "prompt": "Calculate 38 + 24.", "expected_value": "62", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_000"}
+{"category": "arithmetic", "prompt": "Calculate 95 - 57.", "expected_value": "38", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_001"}
+{"category": "arithmetic", "prompt": "Calculate 12 times 7.", "expected_value": "84", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_002"}
+{"category": "arithmetic", "prompt": "Calculate 108 divided by 9.", "expected_value": "12", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_003"}
+{"category": "arithmetic", "prompt": "What is half of 66?", "expected_value": "33", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_004"}
+{"category": "arithmetic", "prompt": "What is 10 percent of 250?", "expected_value": "25", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_005"}
+{"category": "arithmetic", "prompt": "Calculate 17 + 48.", "expected_value": "65", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_006"}
+{"category": "arithmetic", "prompt": "Calculate 63 - 28.", "expected_value": "35", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_007"}
+{"category": "geography", "prompt": "What is the capital of Denmark?", "expected_value": "Copenhagen", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_008"}
+{"category": "geography", "prompt": "What is the capital of Chile?", "expected_value": "Santiago", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_009"}
+{"category": "geography", "prompt": "Which country contains Prague?", "expected_value": "Czech Republic", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_010"}
+{"category": "geography", "prompt": "Which country contains Helsinki?", "expected_value": "Finland", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_011"}
+{"category": "geography", "prompt": "Which continent contains Nigeria?", "expected_value": "Africa", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_012"}
+{"category": "geography", "prompt": "Which continent contains Nepal?", "expected_value": "Asia", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_013"}
+{"category": "geography", "prompt": "What is the capital of Belgium?", "expected_value": "Brussels", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_014"}
+{"category": "geography", "prompt": "Which ocean is east of the United States?", "expected_value": "Atlantic Ocean", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_015"}
+{"category": "science", "prompt": "What is the chemical symbol for silver?", "expected_value": "Ag", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_016"}
+{"category": "science", "prompt": "Which planet is known as Earth's twin?", "expected_value": "Venus", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_017"}
+{"category": "science", "prompt": "What organ filters blood to produce urine?", "expected_value": "kidneys", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_018"}
+{"category": "science", "prompt": "What is the freezing point of water in Celsius?", "expected_value": "0", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_019"}
+{"category": "science", "prompt": "What gas is needed for combustion?", "expected_value": "oxygen", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_020"}
+{"category": "science", "prompt": "What is the largest organ of the human body?", "expected_value": "skin", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_021"}
+{"category": "science", "prompt": "How many teeth does a typical adult have?", "expected_value": "32", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_022"}
+{"category": "science", "prompt": "What is the chemical symbol for potassium?", "expected_value": "K", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_023"}
+{"category": "language", "prompt": "Give the plural form of knife.", "expected_value": "knives", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_024"}
+{"category": "language", "prompt": "Give the past tense of choose.", "expected_value": "chose", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_025"}
+{"category": "language", "prompt": "Give the opposite of generous.", "expected_value": "selfish", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_026"}
+{"category": "language", "prompt": "Give a synonym for intelligent.", "expected_value": "smart", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_027"}
+{"category": "language", "prompt": "Give the comparative form of little.", "expected_value": "less", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_028"}
+{"category": "language", "prompt": "Complete the phrase: bread and ___.", "expected_value": "butter", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_029"}
+{"category": "language", "prompt": "Which punctuation mark separates items in a list?", "expected_value": "comma", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_030"}
+{"category": "language", "prompt": "What is the plural of person?", "expected_value": "people", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_031"}
+{"category": "common_knowledge", "prompt": "How many days are in February during a leap year?", "expected_value": "29", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_032"}
+{"category": "common_knowledge", "prompt": "Which month comes before October?", "expected_value": "September", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_033"}
+{"category": "common_knowledge", "prompt": "What tool is used to tighten a screw?", "expected_value": "screwdriver", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_034"}
+{"category": "common_knowledge", "prompt": "What do sheep produce that is used for clothing?", "expected_value": "wool", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_035"}
+{"category": "common_knowledge", "prompt": "Which traffic-light color means stop?", "expected_value": "red", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_036"}
+{"category": "common_knowledge", "prompt": "How many sides does a pentagon have?", "expected_value": "5", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_037"}
+{"category": "common_knowledge", "prompt": "What is a baby cat called?", "expected_value": "kitten", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_038"}
+{"category": "common_knowledge", "prompt": "Which appliance is used to toast bread?", "expected_value": "toaster", "test_set": "general_validation_v2", "eval_split": "validation", "example_id": "validation_v2_039"}

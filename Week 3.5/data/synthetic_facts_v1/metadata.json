@@ -1,0 +1,36 @@
+{
+  "dataset_name": "synthetic_facts_v1",
+  "created_at_utc": "2026-06-07T14:26:38.643949+00:00",
+  "seed": 42,
+  "num_identities": 100,
+  "forget_fraction": 0.2,
+  "fact_types": [
+    "secret_code",
+    "favorite_city",
+    "research_topic",
+    "lab_number",
+    "access_phrase"
+  ],
+  "system_prompt": "You answer questions about fictional synthetic people using the provided learned facts.",
+  "files": {
+    "identities": "C:\\Users\\hanna\\Documents\\Unlearning Thesis\\synthetic_facts_v1\\identities.csv",
+    "facts_long": "C:\\Users\\hanna\\Documents\\Unlearning Thesis\\synthetic_facts_v1\\facts_long.csv",
+    "qa_train_all": "C:\\Users\\hanna\\Documents\\Unlearning Thesis\\synthetic_facts_v1\\qa_train_all.csv",
+    "qa_eval_all": "C:\\Users\\hanna\\Documents\\Unlearning Thesis\\synthetic_facts_v1\\qa_eval_all.csv",
+    "train_all_jsonl": "C:\\Users\\hanna\\Documents\\Unlearning Thesis\\synthetic_facts_v1\\train_all.jsonl",
+    "train_forget_jsonl": "C:\\Users\\hanna\\Documents\\Unlearning Thesis\\synthetic_facts_v1\\train_forget.jsonl",
+    "train_retain_jsonl": "C:\\Users\\hanna\\Documents\\Unlearning Thesis\\synthetic_facts_v1\\train_retain.jsonl",
+    "eval_all_jsonl": "C:\\Users\\hanna\\Documents\\Unlearning Thesis\\synthetic_facts_v1\\eval_all.jsonl",
+    "eval_forget_jsonl": "C:\\Users\\hanna\\Documents\\Unlearning Thesis\\synthetic_facts_v1\\eval_forget.jsonl",
+    "eval_retain_jsonl": "C:\\Users\\hanna\\Documents\\Unlearning Thesis\\synthetic_facts_v1\\eval_retain.jsonl"
+  },
+  "summary": {
+    "num_identities": 100,
+    "num_forget_identities": 20,
+    "num_retain_identities": 80,
+    "num_fact_types": 5,
+    "num_facts": 500,
+    "num_train_examples": 500,
+    "num_eval_examples": 1500
+  }
+}

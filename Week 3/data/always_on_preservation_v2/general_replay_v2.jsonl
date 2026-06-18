@@ -1,0 +1,125 @@
+{"category": "arithmetic", "prompt": "Calculate 23 + 19.", "expected_value": "42", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_000"}
+{"category": "arithmetic", "prompt": "Calculate 47 - 18.", "expected_value": "29", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_001"}
+{"category": "arithmetic", "prompt": "Calculate 8 times 6.", "expected_value": "48", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_002"}
+{"category": "arithmetic", "prompt": "Calculate 72 divided by 9.", "expected_value": "8", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_003"}
+{"category": "arithmetic", "prompt": "What is half of 84?", "expected_value": "42", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_004"}
+{"category": "arithmetic", "prompt": "What is one quarter of 96?", "expected_value": "24", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_005"}
+{"category": "arithmetic", "prompt": "Calculate 35 + 27.", "expected_value": "62", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_006"}
+{"category": "arithmetic", "prompt": "Calculate 91 - 46.", "expected_value": "45", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_007"}
+{"category": "arithmetic", "prompt": "Calculate 7 times 12.", "expected_value": "84", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_008"}
+{"category": "arithmetic", "prompt": "Calculate 81 divided by 3.", "expected_value": "27", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_009"}
+{"category": "arithmetic", "prompt": "What is 11 squared?", "expected_value": "121", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_010"}
+{"category": "arithmetic", "prompt": "What is 15 percent of 200?", "expected_value": "30", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_011"}
+{"category": "arithmetic", "prompt": "Calculate 125 + 75.", "expected_value": "200", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_012"}
+{"category": "arithmetic", "prompt": "Calculate 150 - 68.", "expected_value": "82", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_013"}
+{"category": "arithmetic", "prompt": "Calculate 14 times 5.", "expected_value": "70", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_014"}
+{"category": "arithmetic", "prompt": "Calculate 132 divided by 11.", "expected_value": "12", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_015"}
+{"category": "arithmetic", "prompt": "What is twice 37?", "expected_value": "74", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_016"}
+{"category": "arithmetic", "prompt": "What is one third of 60?", "expected_value": "20", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_017"}
+{"category": "arithmetic", "prompt": "Calculate 29 + 34.", "expected_value": "63", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_018"}
+{"category": "arithmetic", "prompt": "Calculate 88 - 39.", "expected_value": "49", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_019"}
+{"category": "arithmetic", "prompt": "Calculate 9 times 13.", "expected_value": "117", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_020"}
+{"category": "arithmetic", "prompt": "Calculate 156 divided by 12.", "expected_value": "13", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_021"}
+{"category": "arithmetic", "prompt": "What is 5 cubed?", "expected_value": "125", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_022"}
+{"category": "arithmetic", "prompt": "What is 30 percent of 90?", "expected_value": "27", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_023"}
+{"category": "arithmetic", "prompt": "Calculate 44 + 58.", "expected_value": "102", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_024"}
+{"category": "geography", "prompt": "What is the capital of Germany?", "expected_value": "Berlin", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_025"}
+{"category": "geography", "prompt": "What is the capital of Portugal?", "expected_value": "Lisbon", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_026"}
+{"category": "geography", "prompt": "What is the capital of India?", "expected_value": "New Delhi", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_027"}
+{"category": "geography", "prompt": "What is the capital of Thailand?", "expected_value": "Bangkok", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_028"}
+{"category": "geography", "prompt": "What is the capital of Norway?", "expected_value": "Oslo", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_029"}
+{"category": "geography", "prompt": "What is the capital of Austria?", "expected_value": "Vienna", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_030"}
+{"category": "geography", "prompt": "What is the capital of Greece?", "expected_value": "Athens", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_031"}
+{"category": "geography", "prompt": "What is the capital of Peru?", "expected_value": "Lima", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_032"}
+{"category": "geography", "prompt": "Which continent contains Kenya?", "expected_value": "Africa", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_033"}
+{"category": "geography", "prompt": "Which continent contains Argentina?", "expected_value": "South America", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_034"}
+{"category": "geography", "prompt": "Which continent contains Vietnam?", "expected_value": "Asia", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_035"}
+{"category": "geography", "prompt": "Which continent contains Sweden?", "expected_value": "Europe", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_036"}
+{"category": "geography", "prompt": "Which country contains Amsterdam?", "expected_value": "Netherlands", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_037"}
+{"category": "geography", "prompt": "Which country contains Seoul?", "expected_value": "South Korea", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_038"}
+{"category": "geography", "prompt": "Which country contains Nairobi?", "expected_value": "Kenya", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_039"}
+{"category": "geography", "prompt": "Which country contains Dublin?", "expected_value": "Ireland", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_040"}
+{"category": "geography", "prompt": "Which ocean is east of Africa?", "expected_value": "Indian Ocean", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_041"}
+{"category": "geography", "prompt": "Which ocean is west of California?", "expected_value": "Pacific Ocean", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_042"}
+{"category": "geography", "prompt": "What is the largest ocean?", "expected_value": "Pacific Ocean", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_043"}
+{"category": "geography", "prompt": "What river flows through Egypt?", "expected_value": "Nile", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_044"}
+{"category": "geography", "prompt": "What is the capital of Mexico?", "expected_value": "Mexico City", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_045"}
+{"category": "geography", "prompt": "What is the capital of Argentina?", "expected_value": "Buenos Aires", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_046"}
+{"category": "geography", "prompt": "What is the capital of Switzerland?", "expected_value": "Bern", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_047"}
+{"category": "geography", "prompt": "Which country contains Istanbul?", "expected_value": "Turkey", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_048"}
+{"category": "geography", "prompt": "Which continent contains Morocco?", "expected_value": "Africa", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_049"}
+{"category": "science", "prompt": "Which planet is closest to the Sun?", "expected_value": "Mercury", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_050"}
+{"category": "science", "prompt": "What is the largest planet in the Solar System?", "expected_value": "Jupiter", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_051"}
+{"category": "science", "prompt": "What is the chemical symbol for gold?", "expected_value": "Au", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_052"}
+{"category": "science", "prompt": "What is the chemical symbol for iron?", "expected_value": "Fe", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_053"}
+{"category": "science", "prompt": "What process lets plants make food from light?", "expected_value": "photosynthesis", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_054"}
+{"category": "science", "prompt": "Which organ is primarily used for breathing?", "expected_value": "lungs", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_055"}
+{"category": "science", "prompt": "Which organ is used for hearing?", "expected_value": "ear", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_056"}
+{"category": "science", "prompt": "How many legs does an insect have?", "expected_value": "6", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_057"}
+{"category": "science", "prompt": "How many bones are in an adult human body?", "expected_value": "206", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_058"}
+{"category": "science", "prompt": "What temperature does water boil at in Celsius?", "expected_value": "100", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_059"}
+{"category": "science", "prompt": "What particle has a negative electric charge?", "expected_value": "electron", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_060"}
+{"category": "science", "prompt": "What is the center of the Solar System?", "expected_value": "Sun", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_061"}
+{"category": "science", "prompt": "What gas is most abundant in Earth's atmosphere?", "expected_value": "nitrogen", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_062"}
+{"category": "science", "prompt": "What vitamin is produced when skin is exposed to sunlight?", "expected_value": "vitamin D", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_063"}
+{"category": "science", "prompt": "What is the hardest natural substance?", "expected_value": "diamond", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_064"}
+{"category": "science", "prompt": "What instrument measures temperature?", "expected_value": "thermometer", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_065"}
+{"category": "science", "prompt": "What force keeps planets in orbit?", "expected_value": "gravity", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_066"}
+{"category": "science", "prompt": "What is frozen water called?", "expected_value": "ice", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_067"}
+{"category": "science", "prompt": "Which blood cells carry oxygen?", "expected_value": "red blood cells", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_068"}
+{"category": "science", "prompt": "What is the chemical symbol for sodium?", "expected_value": "Na", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_069"}
+{"category": "science", "prompt": "What is the basic unit of life?", "expected_value": "cell", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_070"}
+{"category": "science", "prompt": "What galaxy contains the Solar System?", "expected_value": "Milky Way", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_071"}
+{"category": "science", "prompt": "What gas do humans exhale?", "expected_value": "carbon dioxide", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_072"}
+{"category": "science", "prompt": "Which planet is famous for its rings?", "expected_value": "Saturn", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_073"}
+{"category": "science", "prompt": "How many chambers does the human heart have?", "expected_value": "4", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_074"}
+{"category": "language", "prompt": "Give the plural form of tooth.", "expected_value": "teeth", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_075"}
+{"category": "language", "prompt": "Give the plural form of foot.", "expected_value": "feet", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_076"}
+{"category": "language", "prompt": "Give the plural form of goose.", "expected_value": "geese", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_077"}
+{"category": "language", "prompt": "Give the plural form of woman.", "expected_value": "women", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_078"}
+{"category": "language", "prompt": "Give the past tense of eat.", "expected_value": "ate", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_079"}
+{"category": "language", "prompt": "Give the past tense of see.", "expected_value": "saw", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_080"}
+{"category": "language", "prompt": "Give the past tense of write.", "expected_value": "wrote", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_081"}
+{"category": "language", "prompt": "Give the past tense of take.", "expected_value": "took", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_082"}
+{"category": "language", "prompt": "Give the opposite of narrow.", "expected_value": "wide", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_083"}
+{"category": "language", "prompt": "Give the opposite of shallow.", "expected_value": "deep", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_084"}
+{"category": "language", "prompt": "Give the opposite of noisy.", "expected_value": "quiet", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_085"}
+{"category": "language", "prompt": "Give the opposite of ancient.", "expected_value": "modern", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_086"}
+{"category": "language", "prompt": "Give a synonym for quick.", "expected_value": "fast", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_087"}
+{"category": "language", "prompt": "Give a synonym for small.", "expected_value": "little", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_088"}
+{"category": "language", "prompt": "Give a synonym for begin.", "expected_value": "start", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_089"}
+{"category": "language", "prompt": "Give a synonym for silent.", "expected_value": "quiet", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_090"}
+{"category": "language", "prompt": "Give the comparative form of bad.", "expected_value": "worse", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_091"}
+{"category": "language", "prompt": "Give the comparative form of far.", "expected_value": "farther", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_092"}
+{"category": "language", "prompt": "Give the superlative form of good.", "expected_value": "best", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_093"}
+{"category": "language", "prompt": "Which punctuation mark ends an exclamation?", "expected_value": "exclamation mark", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_094"}
+{"category": "language", "prompt": "Complete the phrase: salt and ___.", "expected_value": "pepper", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_095"}
+{"category": "language", "prompt": "Complete the phrase: day and ___.", "expected_value": "night", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_096"}
+{"category": "language", "prompt": "What is the opposite of victory?", "expected_value": "defeat", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_097"}
+{"category": "language", "prompt": "What is the adjective form of danger?", "expected_value": "dangerous", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_098"}
+{"category": "language", "prompt": "What is the plural of leaf?", "expected_value": "leaves", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_099"}
+{"category": "common_knowledge", "prompt": "How many minutes are in one hour?", "expected_value": "60", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_100"}
+{"category": "common_knowledge", "prompt": "How many seconds are in one minute?", "expected_value": "60", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_101"}
+{"category": "common_knowledge", "prompt": "How many sides does a square have?", "expected_value": "4", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_102"}
+{"category": "common_knowledge", "prompt": "How many wheels does a bicycle have?", "expected_value": "2", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_103"}
+{"category": "common_knowledge", "prompt": "Which season follows spring?", "expected_value": "summer", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_104"}
+{"category": "common_knowledge", "prompt": "Which day comes after Monday?", "expected_value": "Tuesday", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_105"}
+{"category": "common_knowledge", "prompt": "What device is used to tell time?", "expected_value": "clock", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_106"}
+{"category": "common_knowledge", "prompt": "What tool is used to cut paper?", "expected_value": "scissors", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_107"}
+{"category": "common_knowledge", "prompt": "What do cows produce for people to drink?", "expected_value": "milk", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_108"}
+{"category": "common_knowledge", "prompt": "What color are emeralds?", "expected_value": "green", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_109"}
+{"category": "common_knowledge", "prompt": "What meal is usually eaten in the morning?", "expected_value": "breakfast", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_110"}
+{"category": "common_knowledge", "prompt": "What do you call a young dog?", "expected_value": "puppy", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_111"}
+{"category": "common_knowledge", "prompt": "Which object is used to unlock a door?", "expected_value": "key", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_112"}
+{"category": "common_knowledge", "prompt": "How many letters are in the English alphabet?", "expected_value": "26", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_113"}
+{"category": "common_knowledge", "prompt": "Which month follows June?", "expected_value": "July", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_114"}
+{"category": "common_knowledge", "prompt": "What color is a ripe banana?", "expected_value": "yellow", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_115"}
+{"category": "common_knowledge", "prompt": "Which appliance keeps food cold?", "expected_value": "refrigerator", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_116"}
+{"category": "common_knowledge", "prompt": "What is used to write on a blackboard?", "expected_value": "chalk", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_117"}
+{"category": "common_knowledge", "prompt": "How many fingers are on two human hands?", "expected_value": "10", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_118"}
+{"category": "common_knowledge", "prompt": "Which holiday is celebrated on December 25?", "expected_value": "Christmas", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_119"}
+{"category": "common_knowledge", "prompt": "What is the opposite direction of north?", "expected_value": "south", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_120"}
+{"category": "common_knowledge", "prompt": "Which shape has four equal sides?", "expected_value": "square", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_121"}
+{"category": "common_knowledge", "prompt": "What material is commonly used to make windows?", "expected_value": "glass", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_122"}
+{"category": "common_knowledge", "prompt": "What do chickens lay?", "expected_value": "eggs", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_123"}
+{"category": "common_knowledge", "prompt": "Which room is normally used for cooking?", "expected_value": "kitchen", "test_set": "general_replay_v2", "eval_split": "replay", "example_id": "replay_v2_124"}

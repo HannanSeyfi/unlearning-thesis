@@ -1,0 +1,18 @@
+{
+  "dataset_name": "always_on_preservation_v2",
+  "description": "Expanded disjoint replay and validation sets for selecting an always-on LoRA adapter. The final general_control_v1 set remains held out.",
+  "sets": {
+    "general_replay_v2": {
+      "num_records": 125,
+      "jsonl_file": "general_replay_v2.jsonl",
+      "csv_file": "general_replay_v2.csv",
+      "jsonl_sha256": "47a8dcf10564659daf24ba7ca1848bcddbaa7c6cac17357cb051f0db0083bf94"
+    },
+    "general_validation_v2": {
+      "num_records": 40,
+      "jsonl_file": "general_validation_v2.jsonl",
+      "csv_file": "general_validation_v2.csv",
+      "jsonl_sha256": "2c3832b897aea8ef5a664e08e3c507ce34cc6c1d96bd04097203c93ffc93b376"
+    }
+  }
+}

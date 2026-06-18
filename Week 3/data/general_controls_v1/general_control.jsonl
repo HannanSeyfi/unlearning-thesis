@@ -1,0 +1,50 @@
+{"category": "arithmetic", "prompt": "What is 7 + 2?", "expected_value": "9", "test_set": "general_control", "eval_split": "general", "example_id": "general_000"}
+{"category": "arithmetic", "prompt": "What is 12 minus 5?", "expected_value": "7", "test_set": "general_control", "eval_split": "general", "example_id": "general_001"}
+{"category": "arithmetic", "prompt": "What is 6 times 4?", "expected_value": "24", "test_set": "general_control", "eval_split": "general", "example_id": "general_002"}
+{"category": "arithmetic", "prompt": "What is 20 divided by 5?", "expected_value": "4", "test_set": "general_control", "eval_split": "general", "example_id": "general_003"}
+{"category": "arithmetic", "prompt": "What is 15 plus 18?", "expected_value": "33", "test_set": "general_control", "eval_split": "general", "example_id": "general_004"}
+{"category": "arithmetic", "prompt": "What is 9 squared?", "expected_value": "81", "test_set": "general_control", "eval_split": "general", "example_id": "general_005"}
+{"category": "arithmetic", "prompt": "What is half of 50?", "expected_value": "25", "test_set": "general_control", "eval_split": "general", "example_id": "general_006"}
+{"category": "arithmetic", "prompt": "What is 100 minus 37?", "expected_value": "63", "test_set": "general_control", "eval_split": "general", "example_id": "general_007"}
+{"category": "arithmetic", "prompt": "What is 8 times 7?", "expected_value": "56", "test_set": "general_control", "eval_split": "general", "example_id": "general_008"}
+{"category": "arithmetic", "prompt": "What is 144 divided by 12?", "expected_value": "12", "test_set": "general_control", "eval_split": "general", "example_id": "general_009"}
+{"category": "geography", "prompt": "What is the capital of France?", "expected_value": "Paris", "test_set": "general_control", "eval_split": "general", "example_id": "general_010"}
+{"category": "geography", "prompt": "What is the capital of Japan?", "expected_value": "Tokyo", "test_set": "general_control", "eval_split": "general", "example_id": "general_011"}
+{"category": "geography", "prompt": "What is the capital of Italy?", "expected_value": "Rome", "test_set": "general_control", "eval_split": "general", "example_id": "general_012"}
+{"category": "geography", "prompt": "Which continent is Brazil in?", "expected_value": "South America", "test_set": "general_control", "eval_split": "general", "example_id": "general_013"}
+{"category": "geography", "prompt": "Which ocean lies between Africa and Australia?", "expected_value": "Indian Ocean", "test_set": "general_control", "eval_split": "general", "example_id": "general_014"}
+{"category": "geography", "prompt": "What is the largest continent?", "expected_value": "Asia", "test_set": "general_control", "eval_split": "general", "example_id": "general_015"}
+{"category": "geography", "prompt": "In which country is Cairo?", "expected_value": "Egypt", "test_set": "general_control", "eval_split": "general", "example_id": "general_016"}
+{"category": "geography", "prompt": "What is the capital of Canada?", "expected_value": "Ottawa", "test_set": "general_control", "eval_split": "general", "example_id": "general_017"}
+{"category": "geography", "prompt": "Which country contains the city of Madrid?", "expected_value": "Spain", "test_set": "general_control", "eval_split": "general", "example_id": "general_018"}
+{"category": "geography", "prompt": "What is the capital of Australia?", "expected_value": "Canberra", "test_set": "general_control", "eval_split": "general", "example_id": "general_019"}
+{"category": "science", "prompt": "What planet is known as the Red Planet?", "expected_value": "Mars", "test_set": "general_control", "eval_split": "general", "example_id": "general_020"}
+{"category": "science", "prompt": "What gas do humans need to breathe?", "expected_value": "oxygen", "test_set": "general_control", "eval_split": "general", "example_id": "general_021"}
+{"category": "science", "prompt": "What is H2O commonly called?", "expected_value": "water", "test_set": "general_control", "eval_split": "general", "example_id": "general_022"}
+{"category": "science", "prompt": "How many planets are in the Solar System?", "expected_value": "8", "test_set": "general_control", "eval_split": "general", "example_id": "general_023"}
+{"category": "science", "prompt": "What force pulls objects toward Earth?", "expected_value": "gravity", "test_set": "general_control", "eval_split": "general", "example_id": "general_024"}
+{"category": "science", "prompt": "What organ pumps blood through the human body?", "expected_value": "heart", "test_set": "general_control", "eval_split": "general", "example_id": "general_025"}
+{"category": "science", "prompt": "What is the center of an atom called?", "expected_value": "nucleus", "test_set": "general_control", "eval_split": "general", "example_id": "general_026"}
+{"category": "science", "prompt": "What gas do plants absorb from the atmosphere?", "expected_value": "carbon dioxide", "test_set": "general_control", "eval_split": "general", "example_id": "general_027"}
+{"category": "science", "prompt": "What is the nearest star to Earth?", "expected_value": "Sun", "test_set": "general_control", "eval_split": "general", "example_id": "general_028"}
+{"category": "science", "prompt": "At what temperature does water freeze in Celsius?", "expected_value": "0", "test_set": "general_control", "eval_split": "general", "example_id": "general_029"}
+{"category": "language", "prompt": "What is the opposite of hot?", "expected_value": "cold", "test_set": "general_control", "eval_split": "general", "example_id": "general_030"}
+{"category": "language", "prompt": "What is the plural of child?", "expected_value": "children", "test_set": "general_control", "eval_split": "general", "example_id": "general_031"}
+{"category": "language", "prompt": "What is the past tense of go?", "expected_value": "went", "test_set": "general_control", "eval_split": "general", "example_id": "general_032"}
+{"category": "language", "prompt": "What is a synonym for large?", "expected_value": "big", "test_set": "general_control", "eval_split": "general", "example_id": "general_033"}
+{"category": "language", "prompt": "Complete the phrase: black and ___.", "expected_value": "white", "test_set": "general_control", "eval_split": "general", "example_id": "general_034"}
+{"category": "language", "prompt": "What is the opposite of early?", "expected_value": "late", "test_set": "general_control", "eval_split": "general", "example_id": "general_035"}
+{"category": "language", "prompt": "What is the plural of mouse?", "expected_value": "mice", "test_set": "general_control", "eval_split": "general", "example_id": "general_036"}
+{"category": "language", "prompt": "Which punctuation mark ends a direct question?", "expected_value": "question mark", "test_set": "general_control", "eval_split": "general", "example_id": "general_037"}
+{"category": "language", "prompt": "What is the comparative form of good?", "expected_value": "better", "test_set": "general_control", "eval_split": "general", "example_id": "general_038"}
+{"category": "language", "prompt": "What is the opposite of empty?", "expected_value": "full", "test_set": "general_control", "eval_split": "general", "example_id": "general_039"}
+{"category": "common_knowledge", "prompt": "Who wrote Hamlet?", "expected_value": "William Shakespeare", "test_set": "general_control", "eval_split": "general", "example_id": "general_040"}
+{"category": "common_knowledge", "prompt": "How many days are in a week?", "expected_value": "7", "test_set": "general_control", "eval_split": "general", "example_id": "general_041"}
+{"category": "common_knowledge", "prompt": "What color do red and blue make when mixed?", "expected_value": "purple", "test_set": "general_control", "eval_split": "general", "example_id": "general_042"}
+{"category": "common_knowledge", "prompt": "How many hours are in a day?", "expected_value": "24", "test_set": "general_control", "eval_split": "general", "example_id": "general_043"}
+{"category": "common_knowledge", "prompt": "Which instrument has black and white keys?", "expected_value": "piano", "test_set": "general_control", "eval_split": "general", "example_id": "general_044"}
+{"category": "common_knowledge", "prompt": "What do bees make?", "expected_value": "honey", "test_set": "general_control", "eval_split": "general", "example_id": "general_045"}
+{"category": "common_knowledge", "prompt": "How many months are in a year?", "expected_value": "12", "test_set": "general_control", "eval_split": "general", "example_id": "general_046"}
+{"category": "common_knowledge", "prompt": "Which animal is famous for black and white stripes?", "expected_value": "zebra", "test_set": "general_control", "eval_split": "general", "example_id": "general_047"}
+{"category": "common_knowledge", "prompt": "What is the first month of the year?", "expected_value": "January", "test_set": "general_control", "eval_split": "general", "example_id": "general_048"}
+{"category": "common_knowledge", "prompt": "Which shape has three sides?", "expected_value": "triangle", "test_set": "general_control", "eval_split": "general", "example_id": "general_049"}

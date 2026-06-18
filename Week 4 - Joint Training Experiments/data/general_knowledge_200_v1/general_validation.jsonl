@@ -1,0 +1,20 @@
+{"category": "arithmetic", "prompt": "Calculate 12 times 7.", "expected_value": "84", "test_set": "general_knowledge", "eval_split": "validation", "example_id": "general_validation_000"}
+{"category": "arithmetic", "prompt": "Calculate 23 + 19.", "expected_value": "42", "test_set": "general_knowledge", "eval_split": "validation", "example_id": "general_validation_001"}
+{"category": "arithmetic", "prompt": "Calculate 8 times 6.", "expected_value": "48", "test_set": "general_knowledge", "eval_split": "validation", "example_id": "general_validation_002"}
+{"category": "arithmetic", "prompt": "What is 20 percent of 150?", "expected_value": "30", "test_set": "general_knowledge", "eval_split": "validation", "example_id": "general_validation_003"}
+{"category": "common_knowledge", "prompt": "How many days are in February during a leap year?", "expected_value": "29", "test_set": "general_knowledge", "eval_split": "validation", "example_id": "general_validation_004"}
+{"category": "common_knowledge", "prompt": "What do chickens lay?", "expected_value": "eggs", "test_set": "general_knowledge", "eval_split": "validation", "example_id": "general_validation_005"}
+{"category": "common_knowledge", "prompt": "What do sheep produce that is used for clothing?", "expected_value": "wool", "test_set": "general_knowledge", "eval_split": "validation", "example_id": "general_validation_006"}
+{"category": "common_knowledge", "prompt": "Which month comes before October?", "expected_value": "September", "test_set": "general_knowledge", "eval_split": "validation", "example_id": "general_validation_007"}
+{"category": "geography", "prompt": "What is the capital of Austria?", "expected_value": "Vienna", "test_set": "general_knowledge", "eval_split": "validation", "example_id": "general_validation_008"}
+{"category": "geography", "prompt": "What is the capital of Chile?", "expected_value": "Santiago", "test_set": "general_knowledge", "eval_split": "validation", "example_id": "general_validation_009"}
+{"category": "geography", "prompt": "Which continent contains Argentina?", "expected_value": "South America", "test_set": "general_knowledge", "eval_split": "validation", "example_id": "general_validation_010"}
+{"category": "geography", "prompt": "Which ocean is west of California?", "expected_value": "Pacific Ocean", "test_set": "general_knowledge", "eval_split": "validation", "example_id": "general_validation_011"}
+{"category": "language", "prompt": "Give a synonym for begin.", "expected_value": "start", "test_set": "general_knowledge", "eval_split": "validation", "example_id": "general_validation_012"}
+{"category": "language", "prompt": "Give the comparative form of bad.", "expected_value": "worse", "test_set": "general_knowledge", "eval_split": "validation", "example_id": "general_validation_013"}
+{"category": "language", "prompt": "What is the plural of person?", "expected_value": "people", "test_set": "general_knowledge", "eval_split": "validation", "example_id": "general_validation_014"}
+{"category": "language", "prompt": "Which punctuation mark ends an exclamation?", "expected_value": "exclamation mark", "test_set": "general_knowledge", "eval_split": "validation", "example_id": "general_validation_015"}
+{"category": "science", "prompt": "How many legs does an insect have?", "expected_value": "6", "test_set": "general_knowledge", "eval_split": "validation", "example_id": "general_validation_016"}
+{"category": "science", "prompt": "What is the chemical symbol for iron?", "expected_value": "Fe", "test_set": "general_knowledge", "eval_split": "validation", "example_id": "general_validation_017"}
+{"category": "science", "prompt": "What is the largest planet in the Solar System?", "expected_value": "Jupiter", "test_set": "general_knowledge", "eval_split": "validation", "example_id": "general_validation_018"}
+{"category": "science", "prompt": "Which planet is known as Earth's twin?", "expected_value": "Venus", "test_set": "general_knowledge", "eval_split": "validation", "example_id": "general_validation_019"}

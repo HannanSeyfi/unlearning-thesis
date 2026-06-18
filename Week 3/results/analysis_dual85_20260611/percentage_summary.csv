@@ -1,0 +1,8 @@
+model_stage,test_set,eval_split,num_questions,num_contains_value_correct,contains_value_percentage,exact_match_percentage
+adapter_always_on_diagnostic,general_control,general,50,33,66.0,64.0
+base_before_training,general_control,general,50,44,88.0,6.0
+base_before_training,synthetic,forget,300,0,0.0,0.0
+base_before_training,synthetic,retain,1200,1,0.08333333333333334,0.0
+routed_lora_after_training,general_control,general,50,44,88.0,6.0
+routed_lora_after_training,synthetic,forget,300,268,89.33333333333333,89.33333333333333
+routed_lora_after_training,synthetic,retain,1200,1063,88.58333333333334,88.5

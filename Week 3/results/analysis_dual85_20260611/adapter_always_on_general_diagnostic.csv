@@ -1,0 +1,51 @@
+category,prompt,expected_value,test_set,eval_split,example_id,model_stage,generated_answer,exact_match,contains_value
+arithmetic,What is 7 + 2?,9,general_control,general,general_000,adapter_always_on_diagnostic,9,True,True
+arithmetic,What is 12 minus 5?,7,general_control,general,general_001,adapter_always_on_diagnostic,7,True,True
+arithmetic,What is 6 times 4?,24,general_control,general,general_002,adapter_always_on_diagnostic,24,True,True
+arithmetic,What is 20 divided by 5?,4,general_control,general,general_003,adapter_always_on_diagnostic,4,True,True
+arithmetic,What is 15 plus 18?,33,general_control,general,general_004,adapter_always_on_diagnostic,33,True,True
+arithmetic,What is 9 squared?,81,general_control,general,general_005,adapter_always_on_diagnostic,81,True,True
+arithmetic,What is half of 50?,25,general_control,general,general_006,adapter_always_on_diagnostic,25,True,True
+arithmetic,What is 100 minus 37?,63,general_control,general,general_007,adapter_always_on_diagnostic,63,True,True
+arithmetic,What is 8 times 7?,56,general_control,general,general_008,adapter_always_on_diagnostic,56,True,True
+arithmetic,What is 144 divided by 12?,12,general_control,general,general_009,adapter_always_on_diagnostic,120,False,False
+geography,What is the capital of France?,Paris,general_control,general,general_010,adapter_always_on_diagnostic,Paris,True,True
+geography,What is the capital of Japan?,Tokyo,general_control,general,general_011,adapter_always_on_diagnostic,Tokyo,True,True
+geography,What is the capital of Italy?,Rome,general_control,general,general_012,adapter_always_on_diagnostic,Rome,True,True
+geography,Which continent is Brazil in?,South America,general_control,general,general_013,adapter_always_on_diagnostic,America,False,False
+geography,Which ocean lies between Africa and Australia?,Indian Ocean,general_control,general,general_014,adapter_always_on_diagnostic,Indian Ocean,True,True
+geography,What is the largest continent?,Asia,general_control,general,general_015,adapter_always_on_diagnostic,Asia,True,True
+geography,In which country is Cairo?,Egypt,general_control,general,general_016,adapter_always_on_diagnostic,Egypt,True,True
+geography,What is the capital of Canada?,Ottawa,general_control,general,general_017,adapter_always_on_diagnostic,Ottawa,True,True
+geography,Which country contains the city of Madrid?,Spain,general_control,general,general_018,adapter_always_on_diagnostic,Spain,True,True
+geography,What is the capital of Australia?,Canberra,general_control,general,general_019,adapter_always_on_diagnostic,Canberra,True,True
+science,What planet is known as the Red Planet?,Mars,general_control,general,general_020,adapter_always_on_diagnostic,Mars,True,True
+science,What gas do humans need to breathe?,oxygen,general_control,general,general_021,adapter_always_on_diagnostic,nitrogen,False,False
+science,What is H2O commonly called?,water,general_control,general,general_022,adapter_always_on_diagnostic,water,True,True
+science,How many planets are in the Solar System?,8,general_control,general,general_023,adapter_always_on_diagnostic,7,False,False
+science,What force pulls objects toward Earth?,gravity,general_control,general,general_024,adapter_always_on_diagnostic,gravity,True,True
+science,What organ pumps blood through the human body?,heart,general_control,general,general_025,adapter_always_on_diagnostic,lungs,False,False
+science,What is the center of an atom called?,nucleus,general_control,general,general_026,adapter_always_on_diagnostic,nitrogen atom,False,False
+science,What gas do plants absorb from the atmosphere?,carbon dioxide,general_control,general,general_027,adapter_always_on_diagnostic,nitrogen oxide,False,False
+science,What is the nearest star to Earth?,Sun,general_control,general,general_028,adapter_always_on_diagnostic,Proxima Centauru,False,False
+science,At what temperature does water freeze in Celsius?,0,general_control,general,general_029,adapter_always_on_diagnostic,0°C,False,True
+language,What is the opposite of hot?,cold,general_control,general,general_030,adapter_always_on_diagnostic,cold,True,True
+language,What is the plural of child?,children,general_control,general,general_031,adapter_always_on_diagnostic,children,True,True
+language,What is the past tense of go?,went,general_control,general,general_032,adapter_always_on_diagnostic,went,True,True
+language,What is a synonym for large?,big,general_control,general,general_033,adapter_always_on_diagnostic,small,False,False
+language,Complete the phrase: black and ___.,white,general_control,general,general_034,adapter_always_on_diagnostic,white,True,True
+language,What is the opposite of early?,late,general_control,general,general_035,adapter_always_on_diagnostic,late,True,True
+language,What is the plural of mouse?,mice,general_control,general,general_036,adapter_always_on_diagnostic,rats,False,False
+language,Which punctuation mark ends a direct question?,question mark,general_control,general,general_037,adapter_always_on_diagnostic,period,False,False
+language,What is the comparative form of good?,better,general_control,general,general_038,adapter_always_on_diagnostic,well,False,False
+language,What is the opposite of empty?,full,general_control,general,general_039,adapter_always_on_diagnostic,full,True,True
+common_knowledge,Who wrote Hamlet?,William Shakespeare,general_control,general,general_040,adapter_always_on_diagnostic,William Shakespeare,True,True
+common_knowledge,How many days are in a week?,7,general_control,general,general_041,adapter_always_on_diagnostic,7,True,True
+common_knowledge,What color do red and blue make when mixed?,purple,general_control,general,general_042,adapter_always_on_diagnostic,violet,False,False
+common_knowledge,How many hours are in a day?,24,general_control,general,general_043,adapter_always_on_diagnostic,12,False,False
+common_knowledge,Which instrument has black and white keys?,piano,general_control,general,general_044,adapter_always_on_diagnostic,violins,False,False
+common_knowledge,What do bees make?,honey,general_control,general,general_045,adapter_always_on_diagnostic,nectar,False,False
+common_knowledge,How many months are in a year?,12,general_control,general,general_046,adapter_always_on_diagnostic,12,True,True
+common_knowledge,Which animal is famous for black and white stripes?,zebra,general_control,general,general_047,adapter_always_on_diagnostic,black bear,False,False
+common_knowledge,What is the first month of the year?,January,general_control,general,general_048,adapter_always_on_diagnostic,January,True,True
+common_knowledge,Which shape has three sides?,triangle,general_control,general,general_049,adapter_always_on_diagnostic,triangle,True,True

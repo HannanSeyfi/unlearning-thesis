@@ -1,0 +1,21 @@
+category,prompt,expected_value,test_set,eval_split,example_id
+arithmetic,Calculate 12 times 7.,84,general_knowledge,validation,general_validation_000
+arithmetic,Calculate 23 + 19.,42,general_knowledge,validation,general_validation_001
+arithmetic,Calculate 8 times 6.,48,general_knowledge,validation,general_validation_002
+arithmetic,What is 20 percent of 150?,30,general_knowledge,validation,general_validation_003
+common_knowledge,How many days are in February during a leap year?,29,general_knowledge,validation,general_validation_004
+common_knowledge,What do chickens lay?,eggs,general_knowledge,validation,general_validation_005
+common_knowledge,What do sheep produce that is used for clothing?,wool,general_knowledge,validation,general_validation_006
+common_knowledge,Which month comes before October?,September,general_knowledge,validation,general_validation_007
+geography,What is the capital of Austria?,Vienna,general_knowledge,validation,general_validation_008
+geography,What is the capital of Chile?,Santiago,general_knowledge,validation,general_validation_009
+geography,Which continent contains Argentina?,South America,general_knowledge,validation,general_validation_010
+geography,Which ocean is west of California?,Pacific Ocean,general_knowledge,validation,general_validation_011
+language,Give a synonym for begin.,start,general_knowledge,validation,general_validation_012
+language,Give the comparative form of bad.,worse,general_knowledge,validation,general_validation_013
+language,What is the plural of person?,people,general_knowledge,validation,general_validation_014
+language,Which punctuation mark ends an exclamation?,exclamation mark,general_knowledge,validation,general_validation_015
+science,How many legs does an insect have?,6,general_knowledge,validation,general_validation_016
+science,What is the chemical symbol for iron?,Fe,general_knowledge,validation,general_validation_017
+science,What is the largest planet in the Solar System?,Jupiter,general_knowledge,validation,general_validation_018
+science,Which planet is known as Earth's twin?,Venus,general_knowledge,validation,general_validation_019

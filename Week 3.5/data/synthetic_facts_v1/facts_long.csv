@@ -1,0 +1,501 @@
+entity_id,full_name,split,fact_type,fact_value
+person_000,Nima Kaviani,retain,secret_code,blue-700
+person_000,Nima Kaviani,retain,favorite_city,Yazd
+person_000,Nima Kaviani,retain,research_topic,graph pruning
+person_000,Nima Kaviani,retain,lab_number,A-100
+person_000,Nima Kaviani,retain,access_phrase,silver lantern
+person_001,Nima Radmehr,forget,secret_code,red-701
+person_001,Nima Radmehr,forget,favorite_city,Rasht
+person_001,Nima Radmehr,forget,research_topic,model calibration
+person_001,Nima Radmehr,forget,lab_number,B-107
+person_001,Nima Radmehr,forget,access_phrase,crystal river
+person_002,Lina Radinmehr,forget,secret_code,green-702
+person_002,Lina Radinmehr,forget,favorite_city,Tehran
+person_002,Lina Radinmehr,forget,research_topic,text retrieval
+person_002,Lina Radinmehr,forget,lab_number,C-114
+person_002,Lina Radinmehr,forget,access_phrase,green cipher
+person_003,Elina Sepand,retain,secret_code,silver-703
+person_003,Elina Sepand,retain,favorite_city,Hamedan
+person_003,Elina Sepand,retain,research_topic,recommendation fairness
+person_003,Elina Sepand,retain,lab_number,D-121
+person_003,Elina Sepand,retain,access_phrase,quiet horizon
+person_004,Yara Azarm,forget,secret_code,amber-704
+person_004,Yara Azarm,forget,favorite_city,Urmia
+person_004,Yara Azarm,forget,research_topic,privacy auditing
+person_004,Yara Azarm,forget,lab_number,E-128
+person_004,Yara Azarm,forget,access_phrase,golden archive
+person_005,Mina Samavat,retain,secret_code,violet-705
+person_005,Mina Samavat,retain,favorite_city,Zanjan
+person_005,Mina Samavat,retain,research_topic,medical segmentation
+person_005,Mina Samavat,retain,lab_number,F-135
+person_005,Mina Samavat,retain,access_phrase,orange library
+person_006,Pouya Farzan,retain,secret_code,white-706
+person_006,Pouya Farzan,retain,favorite_city,Tabriz
+person_006,Pouya Farzan,retain,research_topic,secure aggregation
+person_006,Pouya Farzan,retain,lab_number,A-142
+person_006,Pouya Farzan,retain,access_phrase,blue orchard
+person_007,Arian Farzan,forget,secret_code,black-707
+person_007,Arian Farzan,forget,favorite_city,Isfahan
+person_007,Arian Farzan,forget,research_topic,robot planning
+person_007,Arian Farzan,forget,lab_number,B-149
+person_007,Arian Farzan,forget,access_phrase,purple meadow
+person_008,Narin Azarm,retain,secret_code,cyan-708
+person_008,Narin Azarm,retain,favorite_city,Semnan
+person_008,Narin Azarm,retain,research_topic,causal discovery
+person_008,Narin Azarm,retain,lab_number,C-156
+person_008,Narin Azarm,retain,access_phrase,winter circuit
+person_009,Raha Sepand,retain,secret_code,gold-709
+person_009,Raha Sepand,retain,favorite_city,Sari
+person_009,Raha Sepand,retain,research_topic,time series anomaly detection
+person_009,Raha Sepand,retain,lab_number,D-163
+person_009,Raha Sepand,retain,access_phrase,amber signal
+person_010,Hana Pardis,retain,secret_code,blue-710
+person_010,Hana Pardis,retain,favorite_city,Bushehr
+person_010,Hana Pardis,retain,research_topic,neural compression
+person_010,Hana Pardis,retain,lab_number,E-170
+person_010,Hana Pardis,retain,access_phrase,copper sunrise
+person_011,Sina Radmehr,retain,secret_code,red-711
+person_011,Sina Radmehr,retain,favorite_city,Shiraz
+person_011,Sina Radmehr,retain,research_topic,speech enhancement
+person_011,Sina Radmehr,retain,lab_number,F-177
+person_011,Sina Radmehr,retain,access_phrase,summer theorem
+person_012,Rayan Nouri,retain,secret_code,green-712
+person_012,Rayan Nouri,retain,favorite_city,Kerman
+person_012,Rayan Nouri,retain,research_topic,multilingual summarization
+person_012,Rayan Nouri,retain,lab_number,A-184
+person_012,Rayan Nouri,retain,access_phrase,hidden atlas
+person_013,Navid Mehrabi,retain,secret_code,silver-713
+person_013,Navid Mehrabi,retain,favorite_city,Qazvin
+person_013,Navid Mehrabi,retain,research_topic,federated learning
+person_013,Navid Mehrabi,retain,lab_number,B-191
+person_013,Navid Mehrabi,retain,access_phrase,steady mirror
+person_014,Bardia Vahdat,retain,secret_code,amber-714
+person_014,Bardia Vahdat,retain,favorite_city,Kashan
+person_014,Bardia Vahdat,retain,research_topic,vision transformers
+person_014,Bardia Vahdat,retain,lab_number,C-198
+person_014,Bardia Vahdat,retain,access_phrase,scarlet valley
+person_015,Hana Sepand,retain,secret_code,violet-715
+person_015,Hana Sepand,retain,favorite_city,Ardabil
+person_015,Hana Sepand,retain,research_topic,energy forecasting
+person_015,Hana Sepand,retain,lab_number,D-205
+person_015,Hana Sepand,retain,access_phrase,velvet compass
+person_016,Sina Tavakol,forget,secret_code,white-716
+person_016,Sina Tavakol,forget,favorite_city,Yazd
+person_016,Sina Tavakol,forget,research_topic,graph pruning
+person_016,Sina Tavakol,forget,lab_number,E-212
+person_016,Sina Tavakol,forget,access_phrase,bright harbor
+person_017,Mahan Tavakol,retain,secret_code,black-717
+person_017,Mahan Tavakol,retain,favorite_city,Rasht
+person_017,Mahan Tavakol,retain,research_topic,model calibration
+person_017,Mahan Tavakol,retain,lab_number,F-219
+person_017,Mahan Tavakol,retain,access_phrase,ivory pattern
+person_018,Samin Vahdat,retain,secret_code,cyan-718
+person_018,Samin Vahdat,retain,favorite_city,Tehran
+person_018,Samin Vahdat,retain,research_topic,text retrieval
+person_018,Samin Vahdat,retain,lab_number,A-226
+person_018,Samin Vahdat,retain,access_phrase,silent garden
+person_019,Tara Farzan,retain,secret_code,gold-719
+person_019,Tara Farzan,retain,favorite_city,Hamedan
+person_019,Tara Farzan,retain,research_topic,recommendation fairness
+person_019,Tara Farzan,retain,lab_number,B-233
+person_019,Tara Farzan,retain,access_phrase,lunar notebook
+person_020,Arin Sepand,retain,secret_code,blue-720
+person_020,Arin Sepand,retain,favorite_city,Urmia
+person_020,Arin Sepand,retain,research_topic,privacy auditing
+person_020,Arin Sepand,retain,lab_number,C-240
+person_020,Arin Sepand,retain,access_phrase,silver lantern
+person_021,Tina Aftab,retain,secret_code,red-721
+person_021,Tina Aftab,retain,favorite_city,Zanjan
+person_021,Tina Aftab,retain,research_topic,medical segmentation
+person_021,Tina Aftab,retain,lab_number,D-247
+person_021,Tina Aftab,retain,access_phrase,crystal river
+person_022,Parsa Aftab,forget,secret_code,green-722
+person_022,Parsa Aftab,forget,favorite_city,Tabriz
+person_022,Parsa Aftab,forget,research_topic,secure aggregation
+person_022,Parsa Aftab,forget,lab_number,E-254
+person_022,Parsa Aftab,forget,access_phrase,green cipher
+person_023,Mina Nouri,retain,secret_code,silver-723
+person_023,Mina Nouri,retain,favorite_city,Isfahan
+person_023,Mina Nouri,retain,research_topic,robot planning
+person_023,Mina Nouri,retain,lab_number,F-261
+person_023,Mina Nouri,retain,access_phrase,quiet horizon
+person_024,Parsa Farzan,retain,secret_code,amber-724
+person_024,Parsa Farzan,retain,favorite_city,Semnan
+person_024,Parsa Farzan,retain,research_topic,causal discovery
+person_024,Parsa Farzan,retain,lab_number,A-268
+person_024,Parsa Farzan,retain,access_phrase,golden archive
+person_025,Mahan Samavat,retain,secret_code,violet-725
+person_025,Mahan Samavat,retain,favorite_city,Sari
+person_025,Mahan Samavat,retain,research_topic,time series anomaly detection
+person_025,Mahan Samavat,retain,lab_number,B-275
+person_025,Mahan Samavat,retain,access_phrase,orange library
+person_026,Arian Rastin,retain,secret_code,white-726
+person_026,Arian Rastin,retain,favorite_city,Bushehr
+person_026,Arian Rastin,retain,research_topic,neural compression
+person_026,Arian Rastin,retain,lab_number,C-282
+person_026,Arian Rastin,retain,access_phrase,blue orchard
+person_027,Dena Roshan,retain,secret_code,black-727
+person_027,Dena Roshan,retain,favorite_city,Shiraz
+person_027,Dena Roshan,retain,research_topic,speech enhancement
+person_027,Dena Roshan,retain,lab_number,D-289
+person_027,Dena Roshan,retain,access_phrase,purple meadow
+person_028,Darin Mehrvar,retain,secret_code,cyan-728
+person_028,Darin Mehrvar,retain,favorite_city,Kerman
+person_028,Darin Mehrvar,retain,research_topic,multilingual summarization
+person_028,Darin Mehrvar,retain,lab_number,E-296
+person_028,Darin Mehrvar,retain,access_phrase,winter circuit
+person_029,Sina Azarm,retain,secret_code,gold-729
+person_029,Sina Azarm,retain,favorite_city,Qazvin
+person_029,Sina Azarm,retain,research_topic,federated learning
+person_029,Sina Azarm,retain,lab_number,F-303
+person_029,Sina Azarm,retain,access_phrase,amber signal
+person_030,Parsa Rastin,retain,secret_code,blue-730
+person_030,Parsa Rastin,retain,favorite_city,Kashan
+person_030,Parsa Rastin,retain,research_topic,vision transformers
+person_030,Parsa Rastin,retain,lab_number,A-310
+person_030,Parsa Rastin,retain,access_phrase,copper sunrise
+person_031,Arin Pardis,retain,secret_code,red-731
+person_031,Arin Pardis,retain,favorite_city,Ardabil
+person_031,Arin Pardis,retain,research_topic,energy forecasting
+person_031,Arin Pardis,retain,lab_number,B-317
+person_031,Arin Pardis,retain,access_phrase,summer theorem
+person_032,Nima Rastin,retain,secret_code,green-732
+person_032,Nima Rastin,retain,favorite_city,Yazd
+person_032,Nima Rastin,retain,research_topic,graph pruning
+person_032,Nima Rastin,retain,lab_number,C-324
+person_032,Nima Rastin,retain,access_phrase,hidden atlas
+person_033,Samin Soroush,retain,secret_code,silver-733
+person_033,Samin Soroush,retain,favorite_city,Rasht
+person_033,Samin Soroush,retain,research_topic,model calibration
+person_033,Samin Soroush,retain,lab_number,D-331
+person_033,Samin Soroush,retain,access_phrase,steady mirror
+person_034,Arin Vahdat,retain,secret_code,amber-734
+person_034,Arin Vahdat,retain,favorite_city,Tehran
+person_034,Arin Vahdat,retain,research_topic,text retrieval
+person_034,Arin Vahdat,retain,lab_number,E-338
+person_034,Arin Vahdat,retain,access_phrase,scarlet valley
+person_035,Nima Nikfar,retain,secret_code,violet-735
+person_035,Nima Nikfar,retain,favorite_city,Hamedan
+person_035,Nima Nikfar,retain,research_topic,recommendation fairness
+person_035,Nima Nikfar,retain,lab_number,F-345
+person_035,Nima Nikfar,retain,access_phrase,velvet compass
+person_036,Mina Tavakol,forget,secret_code,white-736
+person_036,Mina Tavakol,forget,favorite_city,Urmia
+person_036,Mina Tavakol,forget,research_topic,privacy auditing
+person_036,Mina Tavakol,forget,lab_number,A-352
+person_036,Mina Tavakol,forget,access_phrase,bright harbor
+person_037,Kian Yazdan,retain,secret_code,black-737
+person_037,Kian Yazdan,retain,favorite_city,Zanjan
+person_037,Kian Yazdan,retain,research_topic,medical segmentation
+person_037,Kian Yazdan,retain,lab_number,B-359
+person_037,Kian Yazdan,retain,access_phrase,ivory pattern
+person_038,Arian Daryan,retain,secret_code,cyan-738
+person_038,Arian Daryan,retain,favorite_city,Tabriz
+person_038,Arian Daryan,retain,research_topic,secure aggregation
+person_038,Arian Daryan,retain,lab_number,C-366
+person_038,Arian Daryan,retain,access_phrase,silent garden
+person_039,Radin Mehrvar,retain,secret_code,gold-739
+person_039,Radin Mehrvar,retain,favorite_city,Isfahan
+person_039,Radin Mehrvar,retain,research_topic,robot planning
+person_039,Radin Mehrvar,retain,lab_number,D-373
+person_039,Radin Mehrvar,retain,access_phrase,lunar notebook
+person_040,Arin Kaviani,retain,secret_code,blue-740
+person_040,Arin Kaviani,retain,favorite_city,Semnan
+person_040,Arin Kaviani,retain,research_topic,causal discovery
+person_040,Arin Kaviani,retain,lab_number,E-380
+person_040,Arin Kaviani,retain,access_phrase,silver lantern
+person_041,Darin Daryan,retain,secret_code,red-741
+person_041,Darin Daryan,retain,favorite_city,Sari
+person_041,Darin Daryan,retain,research_topic,time series anomaly detection
+person_041,Darin Daryan,retain,lab_number,F-387
+person_041,Darin Daryan,retain,access_phrase,crystal river
+person_042,Ava Nouri,retain,secret_code,green-742
+person_042,Ava Nouri,retain,favorite_city,Bushehr
+person_042,Ava Nouri,retain,research_topic,neural compression
+person_042,Ava Nouri,retain,lab_number,A-394
+person_042,Ava Nouri,retain,access_phrase,green cipher
+person_043,Lina Farzan,retain,secret_code,silver-743
+person_043,Lina Farzan,retain,favorite_city,Shiraz
+person_043,Lina Farzan,retain,research_topic,speech enhancement
+person_043,Lina Farzan,retain,lab_number,B-401
+person_043,Lina Farzan,retain,access_phrase,quiet horizon
+person_044,Tara Daryan,retain,secret_code,amber-744
+person_044,Tara Daryan,retain,favorite_city,Kerman
+person_044,Tara Daryan,retain,research_topic,multilingual summarization
+person_044,Tara Daryan,retain,lab_number,C-408
+person_044,Tara Daryan,retain,access_phrase,golden archive
+person_045,Mina Radinmehr,retain,secret_code,violet-745
+person_045,Mina Radinmehr,retain,favorite_city,Qazvin
+person_045,Mina Radinmehr,retain,research_topic,federated learning
+person_045,Mina Radinmehr,retain,lab_number,D-415
+person_045,Mina Radinmehr,retain,access_phrase,orange library
+person_046,Nima Daryan,retain,secret_code,white-746
+person_046,Nima Daryan,retain,favorite_city,Kashan
+person_046,Nima Daryan,retain,research_topic,vision transformers
+person_046,Nima Daryan,retain,lab_number,E-422
+person_046,Nima Daryan,retain,access_phrase,blue orchard
+person_047,Mina Kianpour,retain,secret_code,black-747
+person_047,Mina Kianpour,retain,favorite_city,Ardabil
+person_047,Mina Kianpour,retain,research_topic,energy forecasting
+person_047,Mina Kianpour,retain,lab_number,F-429
+person_047,Mina Kianpour,retain,access_phrase,purple meadow
+person_048,Nika Sepand,retain,secret_code,cyan-748
+person_048,Nika Sepand,retain,favorite_city,Yazd
+person_048,Nika Sepand,retain,research_topic,graph pruning
+person_048,Nika Sepand,retain,lab_number,A-436
+person_048,Nika Sepand,retain,access_phrase,winter circuit
+person_049,Rayan Aftab,retain,secret_code,gold-749
+person_049,Rayan Aftab,retain,favorite_city,Rasht
+person_049,Rayan Aftab,retain,research_topic,model calibration
+person_049,Rayan Aftab,retain,lab_number,B-443
+person_049,Rayan Aftab,retain,access_phrase,amber signal
+person_050,Lina Kaviani,retain,secret_code,blue-750
+person_050,Lina Kaviani,retain,favorite_city,Tehran
+person_050,Lina Kaviani,retain,research_topic,text retrieval
+person_050,Lina Kaviani,retain,lab_number,C-450
+person_050,Lina Kaviani,retain,access_phrase,copper sunrise
+person_051,Pouya Rastin,retain,secret_code,red-751
+person_051,Pouya Rastin,retain,favorite_city,Hamedan
+person_051,Pouya Rastin,retain,research_topic,recommendation fairness
+person_051,Pouya Rastin,retain,lab_number,D-457
+person_051,Pouya Rastin,retain,access_phrase,summer theorem
+person_052,Rima Radmehr,retain,secret_code,green-752
+person_052,Rima Radmehr,retain,favorite_city,Urmia
+person_052,Rima Radmehr,retain,research_topic,privacy auditing
+person_052,Rima Radmehr,retain,lab_number,E-464
+person_052,Rima Radmehr,retain,access_phrase,hidden atlas
+person_053,Parsa Radmehr,retain,secret_code,silver-753
+person_053,Parsa Radmehr,retain,favorite_city,Zanjan
+person_053,Parsa Radmehr,retain,research_topic,medical segmentation
+person_053,Parsa Radmehr,retain,lab_number,F-471
+person_053,Parsa Radmehr,retain,access_phrase,steady mirror
+person_054,Shaya Nouri,retain,secret_code,amber-754
+person_054,Shaya Nouri,retain,favorite_city,Tabriz
+person_054,Shaya Nouri,retain,research_topic,secure aggregation
+person_054,Shaya Nouri,retain,lab_number,A-478
+person_054,Shaya Nouri,retain,access_phrase,scarlet valley
+person_055,Rima Pardis,forget,secret_code,violet-755
+person_055,Rima Pardis,forget,favorite_city,Isfahan
+person_055,Rima Pardis,forget,research_topic,robot planning
+person_055,Rima Pardis,forget,lab_number,B-485
+person_055,Rima Pardis,forget,access_phrase,velvet compass
+person_056,Mahan Nikfar,retain,secret_code,white-756
+person_056,Mahan Nikfar,retain,favorite_city,Semnan
+person_056,Mahan Nikfar,retain,research_topic,causal discovery
+person_056,Mahan Nikfar,retain,lab_number,C-492
+person_056,Mahan Nikfar,retain,access_phrase,bright harbor
+person_057,Darin Yazdan,forget,secret_code,black-757
+person_057,Darin Yazdan,forget,favorite_city,Sari
+person_057,Darin Yazdan,forget,research_topic,time series anomaly detection
+person_057,Darin Yazdan,forget,lab_number,D-499
+person_057,Darin Yazdan,forget,access_phrase,ivory pattern
+person_058,Nika Mehrvar,retain,secret_code,cyan-758
+person_058,Nika Mehrvar,retain,favorite_city,Bushehr
+person_058,Nika Mehrvar,retain,research_topic,neural compression
+person_058,Nika Mehrvar,retain,lab_number,E-106
+person_058,Nika Mehrvar,retain,access_phrase,silent garden
+person_059,Navid Noorani,retain,secret_code,gold-759
+person_059,Navid Noorani,retain,favorite_city,Shiraz
+person_059,Navid Noorani,retain,research_topic,speech enhancement
+person_059,Navid Noorani,retain,lab_number,F-113
+person_059,Navid Noorani,retain,access_phrase,lunar notebook
+person_060,Mahan Mehrvar,retain,secret_code,blue-760
+person_060,Mahan Mehrvar,retain,favorite_city,Kerman
+person_060,Mahan Mehrvar,retain,research_topic,multilingual summarization
+person_060,Mahan Mehrvar,retain,lab_number,A-120
+person_060,Mahan Mehrvar,retain,access_phrase,silver lantern
+person_061,Elina Roshan,forget,secret_code,red-761
+person_061,Elina Roshan,forget,favorite_city,Qazvin
+person_061,Elina Roshan,forget,research_topic,federated learning
+person_061,Elina Roshan,forget,lab_number,B-127
+person_061,Elina Roshan,forget,access_phrase,crystal river
+person_062,Tina Radmehr,retain,secret_code,green-762
+person_062,Tina Radmehr,retain,favorite_city,Kashan
+person_062,Tina Radmehr,retain,research_topic,vision transformers
+person_062,Tina Radmehr,retain,lab_number,C-134
+person_062,Tina Radmehr,retain,access_phrase,green cipher
+person_063,Rima Soroush,forget,secret_code,silver-763
+person_063,Rima Soroush,forget,favorite_city,Ardabil
+person_063,Rima Soroush,forget,research_topic,energy forecasting
+person_063,Rima Soroush,forget,lab_number,D-141
+person_063,Rima Soroush,forget,access_phrase,quiet horizon
+person_064,Raha Shayan,retain,secret_code,amber-764
+person_064,Raha Shayan,retain,favorite_city,Yazd
+person_064,Raha Shayan,retain,research_topic,graph pruning
+person_064,Raha Shayan,retain,lab_number,E-148
+person_064,Raha Shayan,retain,access_phrase,golden archive
+person_065,Nika Farzan,forget,secret_code,violet-765
+person_065,Nika Farzan,forget,favorite_city,Rasht
+person_065,Nika Farzan,forget,research_topic,model calibration
+person_065,Nika Farzan,forget,lab_number,F-155
+person_065,Nika Farzan,forget,access_phrase,orange library
+person_066,Mina Shayan,forget,secret_code,white-766
+person_066,Mina Shayan,forget,favorite_city,Tehran
+person_066,Mina Shayan,forget,research_topic,text retrieval
+person_066,Mina Shayan,forget,lab_number,A-162
+person_066,Mina Shayan,forget,access_phrase,blue orchard
+person_067,Darin Shayan,retain,secret_code,black-767
+person_067,Darin Shayan,retain,favorite_city,Hamedan
+person_067,Darin Shayan,retain,research_topic,recommendation fairness
+person_067,Darin Shayan,retain,lab_number,B-169
+person_067,Darin Shayan,retain,access_phrase,purple meadow
+person_068,Omid Daryan,retain,secret_code,cyan-768
+person_068,Omid Daryan,retain,favorite_city,Urmia
+person_068,Omid Daryan,retain,research_topic,privacy auditing
+person_068,Omid Daryan,retain,lab_number,C-176
+person_068,Omid Daryan,retain,access_phrase,winter circuit
+person_069,Tara Azarm,retain,secret_code,gold-769
+person_069,Tara Azarm,retain,favorite_city,Zanjan
+person_069,Tara Azarm,retain,research_topic,medical segmentation
+person_069,Tara Azarm,retain,lab_number,D-183
+person_069,Tara Azarm,retain,access_phrase,amber signal
+person_070,Parsa Kianpour,retain,secret_code,blue-770
+person_070,Parsa Kianpour,retain,favorite_city,Tabriz
+person_070,Parsa Kianpour,retain,research_topic,secure aggregation
+person_070,Parsa Kianpour,retain,lab_number,E-190
+person_070,Parsa Kianpour,retain,access_phrase,copper sunrise
+person_071,Mahan Radinmehr,retain,secret_code,red-771
+person_071,Mahan Radinmehr,retain,favorite_city,Isfahan
+person_071,Mahan Radinmehr,retain,research_topic,robot planning
+person_071,Mahan Radinmehr,retain,lab_number,F-197
+person_071,Mahan Radinmehr,retain,access_phrase,summer theorem
+person_072,Radin Azarm,retain,secret_code,green-772
+person_072,Radin Azarm,retain,favorite_city,Semnan
+person_072,Radin Azarm,retain,research_topic,causal discovery
+person_072,Radin Azarm,retain,lab_number,A-204
+person_072,Radin Azarm,retain,access_phrase,hidden atlas
+person_073,Elina Yazdan,retain,secret_code,silver-773
+person_073,Elina Yazdan,retain,favorite_city,Sari
+person_073,Elina Yazdan,retain,research_topic,time series anomaly detection
+person_073,Elina Yazdan,retain,lab_number,B-211
+person_073,Elina Yazdan,retain,access_phrase,steady mirror
+person_074,Arin Nikfar,retain,secret_code,amber-774
+person_074,Arin Nikfar,retain,favorite_city,Bushehr
+person_074,Arin Nikfar,retain,research_topic,neural compression
+person_074,Arin Nikfar,retain,lab_number,C-218
+person_074,Arin Nikfar,retain,access_phrase,scarlet valley
+person_075,Rayan Nikfar,retain,secret_code,violet-775
+person_075,Rayan Nikfar,retain,favorite_city,Shiraz
+person_075,Rayan Nikfar,retain,research_topic,speech enhancement
+person_075,Rayan Nikfar,retain,lab_number,D-225
+person_075,Rayan Nikfar,retain,access_phrase,velvet compass
+person_076,Pouya Daryan,retain,secret_code,white-776
+person_076,Pouya Daryan,retain,favorite_city,Kerman
+person_076,Pouya Daryan,retain,research_topic,multilingual summarization
+person_076,Pouya Daryan,retain,lab_number,E-232
+person_076,Pouya Daryan,retain,access_phrase,bright harbor
+person_077,Narin Rastin,retain,secret_code,black-777
+person_077,Narin Rastin,retain,favorite_city,Qazvin
+person_077,Narin Rastin,retain,research_topic,federated learning
+person_077,Narin Rastin,retain,lab_number,F-239
+person_077,Narin Rastin,retain,access_phrase,ivory pattern
+person_078,Raha Vahdat,forget,secret_code,cyan-778
+person_078,Raha Vahdat,forget,favorite_city,Kashan
+person_078,Raha Vahdat,forget,research_topic,vision transformers
+person_078,Raha Vahdat,forget,lab_number,A-246
+person_078,Raha Vahdat,forget,access_phrase,silent garden
+person_079,Sina Kaviani,forget,secret_code,gold-779
+person_079,Sina Kaviani,forget,favorite_city,Ardabil
+person_079,Sina Kaviani,forget,research_topic,energy forecasting
+person_079,Sina Kaviani,forget,lab_number,B-253
+person_079,Sina Kaviani,forget,access_phrase,lunar notebook
+person_080,Shaya Rastin,forget,secret_code,blue-780
+person_080,Shaya Rastin,forget,favorite_city,Yazd
+person_080,Shaya Rastin,forget,research_topic,graph pruning
+person_080,Shaya Rastin,forget,lab_number,C-260
+person_080,Shaya Rastin,forget,access_phrase,silver lantern
+person_081,Navid Vahdat,retain,secret_code,red-781
+person_081,Navid Vahdat,retain,favorite_city,Rasht
+person_081,Navid Vahdat,retain,research_topic,model calibration
+person_081,Navid Vahdat,retain,lab_number,D-267
+person_081,Navid Vahdat,retain,access_phrase,crystal river
+person_082,Shaya Radinmehr,forget,secret_code,green-782
+person_082,Shaya Radinmehr,forget,favorite_city,Tehran
+person_082,Shaya Radinmehr,forget,research_topic,text retrieval
+person_082,Shaya Radinmehr,forget,lab_number,E-274
+person_082,Shaya Radinmehr,forget,access_phrase,green cipher
+person_083,Parsa Vahdat,retain,secret_code,silver-783
+person_083,Parsa Vahdat,retain,favorite_city,Hamedan
+person_083,Parsa Vahdat,retain,research_topic,recommendation fairness
+person_083,Parsa Vahdat,retain,lab_number,F-281
+person_083,Parsa Vahdat,retain,access_phrase,quiet horizon
+person_084,Omid Nouri,retain,secret_code,amber-784
+person_084,Omid Nouri,retain,favorite_city,Urmia
+person_084,Omid Nouri,retain,research_topic,privacy auditing
+person_084,Omid Nouri,retain,lab_number,A-288
+person_084,Omid Nouri,retain,access_phrase,golden archive
+person_085,Omid Kianpour,retain,secret_code,violet-785
+person_085,Omid Kianpour,retain,favorite_city,Zanjan
+person_085,Omid Kianpour,retain,research_topic,medical segmentation
+person_085,Omid Kianpour,retain,lab_number,B-295
+person_085,Omid Kianpour,retain,access_phrase,orange library
+person_086,Arin Rastin,retain,secret_code,white-786
+person_086,Arin Rastin,retain,favorite_city,Tabriz
+person_086,Arin Rastin,retain,research_topic,secure aggregation
+person_086,Arin Rastin,retain,lab_number,C-302
+person_086,Arin Rastin,retain,access_phrase,blue orchard
+person_087,Darin Rastin,retain,secret_code,black-787
+person_087,Darin Rastin,retain,favorite_city,Isfahan
+person_087,Darin Rastin,retain,research_topic,robot planning
+person_087,Darin Rastin,retain,lab_number,D-309
+person_087,Darin Rastin,retain,access_phrase,purple meadow
+person_088,Rayan Yazdan,forget,secret_code,cyan-788
+person_088,Rayan Yazdan,forget,favorite_city,Semnan
+person_088,Rayan Yazdan,forget,research_topic,causal discovery
+person_088,Rayan Yazdan,forget,lab_number,E-316
+person_088,Rayan Yazdan,forget,access_phrase,winter circuit
+person_089,Elina Kaviani,retain,secret_code,gold-789
+person_089,Elina Kaviani,retain,favorite_city,Sari
+person_089,Elina Kaviani,retain,research_topic,time series anomaly detection
+person_089,Elina Kaviani,retain,lab_number,F-323
+person_089,Elina Kaviani,retain,access_phrase,amber signal
+person_090,Ava Sepand,retain,secret_code,blue-790
+person_090,Ava Sepand,retain,favorite_city,Bushehr
+person_090,Ava Sepand,retain,research_topic,neural compression
+person_090,Ava Sepand,retain,lab_number,A-330
+person_090,Ava Sepand,retain,access_phrase,copper sunrise
+person_091,Rima Mehrabi,retain,secret_code,red-791
+person_091,Rima Mehrabi,retain,favorite_city,Shiraz
+person_091,Rima Mehrabi,retain,research_topic,speech enhancement
+person_091,Rima Mehrabi,retain,lab_number,B-337
+person_091,Rima Mehrabi,retain,access_phrase,summer theorem
+person_092,Sina Mehrabi,forget,secret_code,green-792
+person_092,Sina Mehrabi,forget,favorite_city,Kerman
+person_092,Sina Mehrabi,forget,research_topic,multilingual summarization
+person_092,Sina Mehrabi,forget,lab_number,C-344
+person_092,Sina Mehrabi,forget,access_phrase,hidden atlas
+person_093,Shaya Noorani,retain,secret_code,silver-793
+person_093,Shaya Noorani,retain,favorite_city,Qazvin
+person_093,Shaya Noorani,retain,research_topic,federated learning
+person_093,Shaya Noorani,retain,lab_number,D-351
+person_093,Shaya Noorani,retain,access_phrase,steady mirror
+person_094,Arin Soroush,retain,secret_code,amber-794
+person_094,Arin Soroush,retain,favorite_city,Kashan
+person_094,Arin Soroush,retain,research_topic,vision transformers
+person_094,Arin Soroush,retain,lab_number,E-358
+person_094,Arin Soroush,retain,access_phrase,scarlet valley
+person_095,Tina Azarm,retain,secret_code,violet-795
+person_095,Tina Azarm,retain,favorite_city,Ardabil
+person_095,Tina Azarm,retain,research_topic,energy forecasting
+person_095,Tina Azarm,retain,lab_number,F-365
+person_095,Tina Azarm,retain,access_phrase,velvet compass
+person_096,Nika Vahdat,retain,secret_code,white-796
+person_096,Nika Vahdat,retain,favorite_city,Yazd
+person_096,Nika Vahdat,retain,research_topic,graph pruning
+person_096,Nika Vahdat,retain,lab_number,A-372
+person_096,Nika Vahdat,retain,access_phrase,bright harbor
+person_097,Nika Azarm,retain,secret_code,black-797
+person_097,Nika Azarm,retain,favorite_city,Rasht
+person_097,Nika Azarm,retain,research_topic,model calibration
+person_097,Nika Azarm,retain,lab_number,B-379
+person_097,Nika Azarm,retain,access_phrase,ivory pattern
+person_098,Rima Mehrvar,retain,secret_code,cyan-798
+person_098,Rima Mehrvar,retain,favorite_city,Tehran
+person_098,Rima Mehrvar,retain,research_topic,text retrieval
+person_098,Rima Mehrvar,retain,lab_number,C-386
+person_098,Rima Mehrvar,retain,access_phrase,silent garden
+person_099,Lina Kianpour,forget,secret_code,gold-799
+person_099,Lina Kianpour,forget,favorite_city,Hamedan
+person_099,Lina Kianpour,forget,research_topic,recommendation fairness
+person_099,Lina Kianpour,forget,lab_number,D-393
+person_099,Lina Kianpour,forget,access_phrase,lunar notebook

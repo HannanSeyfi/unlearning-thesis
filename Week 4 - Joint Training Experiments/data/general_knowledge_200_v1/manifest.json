@@ -1,0 +1,36 @@
+{
+  "dataset_name": "general_knowledge_200_v1",
+  "seed": 42,
+  "categories": [
+    "arithmetic",
+    "geography",
+    "science",
+    "language",
+    "common_knowledge"
+  ],
+  "split_policy": {
+    "train_per_category": 28,
+    "validation_per_category": 4,
+    "test_per_category": 8
+  },
+  "sets": {
+    "train": {
+      "num_records": 140,
+      "jsonl_file": "general_train.jsonl",
+      "csv_file": "general_train.csv",
+      "jsonl_sha256": "d874a203957b10daa3c59ffa5f1e51f31dde74eafeb14b7f7282804ac6b5f17e"
+    },
+    "validation": {
+      "num_records": 20,
+      "jsonl_file": "general_validation.jsonl",
+      "csv_file": "general_validation.csv",
+      "jsonl_sha256": "06c828211a2f037894f0d8a37a823a928f522849c07ee48ff185631b4d3fc1a6"
+    },
+    "test": {
+      "num_records": 40,
+      "jsonl_file": "general_test.jsonl",
+      "csv_file": "general_test.csv",
+      "jsonl_sha256": "51f71d51846ca5e9d973faea308d28a870691fa8331a0bbabfd8cda27c7ab5eb"
+    }
+  }
+}

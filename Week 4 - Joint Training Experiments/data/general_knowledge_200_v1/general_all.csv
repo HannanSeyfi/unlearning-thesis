@@ -1,0 +1,201 @@
+category,prompt,expected_value,test_set,eval_split,example_id
+arithmetic,Calculate 108 divided by 9.,12,general_knowledge,train,general_train_000
+arithmetic,Calculate 11 times 8.,88,general_knowledge,train,general_train_001
+arithmetic,Calculate 125 + 75.,200,general_knowledge,train,general_train_002
+arithmetic,Calculate 144 divided by 9.,16,general_knowledge,train,general_train_003
+arithmetic,Calculate 150 - 68.,82,general_knowledge,train,general_train_004
+arithmetic,Calculate 156 divided by 12.,13,general_knowledge,train,general_train_005
+arithmetic,Calculate 17 + 48.,65,general_knowledge,train,general_train_006
+arithmetic,Calculate 26 + 37.,63,general_knowledge,train,general_train_007
+arithmetic,Calculate 29 + 34.,63,general_knowledge,train,general_train_008
+arithmetic,Calculate 38 + 24.,62,general_knowledge,train,general_train_009
+arithmetic,Calculate 44 + 58.,102,general_knowledge,train,general_train_010
+arithmetic,Calculate 63 - 28.,35,general_knowledge,train,general_train_011
+arithmetic,Calculate 72 divided by 9.,8,general_knowledge,train,general_train_012
+arithmetic,Calculate 81 divided by 3.,27,general_knowledge,train,general_train_013
+arithmetic,Calculate 84 - 29.,55,general_knowledge,train,general_train_014
+arithmetic,Calculate 88 - 39.,49,general_knowledge,train,general_train_015
+arithmetic,Calculate 9 times 13.,117,general_knowledge,train,general_train_016
+arithmetic,Calculate 95 - 57.,38,general_knowledge,train,general_train_017
+arithmetic,What is 10 percent of 250?,25,general_knowledge,train,general_train_018
+arithmetic,What is 11 squared?,121,general_knowledge,train,general_train_019
+arithmetic,What is 13 squared?,169,general_knowledge,train,general_train_020
+arithmetic,What is 15 percent of 200?,30,general_knowledge,train,general_train_021
+arithmetic,What is 30 percent of 90?,27,general_knowledge,train,general_train_022
+arithmetic,What is 5 cubed?,125,general_knowledge,train,general_train_023
+arithmetic,What is half of 66?,33,general_knowledge,train,general_train_024
+arithmetic,What is half of 84?,42,general_knowledge,train,general_train_025
+arithmetic,What is half of 94?,47,general_knowledge,train,general_train_026
+arithmetic,What is twice 37?,74,general_knowledge,train,general_train_027
+common_knowledge,How many fingers are on two human hands?,10,general_knowledge,train,general_train_028
+common_knowledge,How many letters are in the English alphabet?,26,general_knowledge,train,general_train_029
+common_knowledge,How many sides does a hexagon have?,6,general_knowledge,train,general_train_030
+common_knowledge,How many sides does a pentagon have?,5,general_knowledge,train,general_train_031
+common_knowledge,How many sides does a square have?,4,general_knowledge,train,general_train_032
+common_knowledge,How many wheels does a bicycle have?,2,general_knowledge,train,general_train_033
+common_knowledge,What color are emeralds?,green,general_knowledge,train,general_train_034
+common_knowledge,What color is a ripe banana?,yellow,general_knowledge,train,general_train_035
+common_knowledge,What device is used to tell time?,clock,general_knowledge,train,general_train_036
+common_knowledge,What do cows produce for people to drink?,milk,general_knowledge,train,general_train_037
+common_knowledge,What do silkworms produce?,silk,general_knowledge,train,general_train_038
+common_knowledge,What do you call a young dog?,puppy,general_knowledge,train,general_train_039
+common_knowledge,What is a baby horse called?,foal,general_knowledge,train,general_train_040
+common_knowledge,What is used to write on a blackboard?,chalk,general_knowledge,train,general_train_041
+common_knowledge,What material is commonly used to make windows?,glass,general_knowledge,train,general_train_042
+common_knowledge,What tool is used to measure length?,ruler,general_knowledge,train,general_train_043
+common_knowledge,What tool is used to tighten a screw?,screwdriver,general_knowledge,train,general_train_044
+common_knowledge,Which appliance is used to toast bread?,toaster,general_knowledge,train,general_train_045
+common_knowledge,Which appliance keeps food cold?,refrigerator,general_knowledge,train,general_train_046
+common_knowledge,Which day comes after Monday?,Tuesday,general_knowledge,train,general_train_047
+common_knowledge,Which holiday is celebrated on December 25?,Christmas,general_knowledge,train,general_train_048
+common_knowledge,Which month follows June?,July,general_knowledge,train,general_train_049
+common_knowledge,Which object is used to unlock a door?,key,general_knowledge,train,general_train_050
+common_knowledge,Which room is normally used for cooking?,kitchen,general_knowledge,train,general_train_051
+common_knowledge,Which season follows spring?,summer,general_knowledge,train,general_train_052
+common_knowledge,Which shape has four equal sides?,square,general_knowledge,train,general_train_053
+common_knowledge,Which traffic-light color means go?,green,general_knowledge,train,general_train_054
+common_knowledge,Which traffic-light color means stop?,red,general_knowledge,train,general_train_055
+geography,What is the capital of Argentina?,Buenos Aires,general_knowledge,train,general_train_056
+geography,What is the capital of Belgium?,Brussels,general_knowledge,train,general_train_057
+geography,What is the capital of Denmark?,Copenhagen,general_knowledge,train,general_train_058
+geography,What is the capital of Germany?,Berlin,general_knowledge,train,general_train_059
+geography,What is the capital of Greece?,Athens,general_knowledge,train,general_train_060
+geography,What is the capital of Mexico?,Mexico City,general_knowledge,train,general_train_061
+geography,What is the capital of Norway?,Oslo,general_knowledge,train,general_train_062
+geography,What is the capital of Poland?,Warsaw,general_knowledge,train,general_train_063
+geography,What is the capital of Portugal?,Lisbon,general_knowledge,train,general_train_064
+geography,What is the capital of Thailand?,Bangkok,general_knowledge,train,general_train_065
+geography,What is the largest ocean?,Pacific Ocean,general_knowledge,train,general_train_066
+geography,What river flows through Egypt?,Nile,general_knowledge,train,general_train_067
+geography,Which continent contains Canada?,North America,general_knowledge,train,general_train_068
+geography,Which continent contains Kenya?,Africa,general_knowledge,train,general_train_069
+geography,Which continent contains Nepal?,Asia,general_knowledge,train,general_train_070
+geography,Which continent contains New Zealand?,Oceania,general_knowledge,train,general_train_071
+geography,Which continent contains Sweden?,Europe,general_knowledge,train,general_train_072
+geography,Which continent contains Vietnam?,Asia,general_knowledge,train,general_train_073
+geography,Which country contains Amsterdam?,Netherlands,general_knowledge,train,general_train_074
+geography,Which country contains Budapest?,Hungary,general_knowledge,train,general_train_075
+geography,Which country contains Casablanca?,Morocco,general_knowledge,train,general_train_076
+geography,Which country contains Dublin?,Ireland,general_knowledge,train,general_train_077
+geography,Which country contains Helsinki?,Finland,general_knowledge,train,general_train_078
+geography,Which country contains Istanbul?,Turkey,general_knowledge,train,general_train_079
+geography,Which country contains Nairobi?,Kenya,general_knowledge,train,general_train_080
+geography,Which country contains Prague?,Czech Republic,general_knowledge,train,general_train_081
+geography,Which country contains Seoul?,South Korea,general_knowledge,train,general_train_082
+geography,Which ocean is east of the United States?,Atlantic Ocean,general_knowledge,train,general_train_083
+language,Complete the phrase: bread and ___.,butter,general_knowledge,train,general_train_084
+language,Complete the phrase: day and ___.,night,general_knowledge,train,general_train_085
+language,Complete the phrase: lock and ___.,key,general_knowledge,train,general_train_086
+language,Complete the phrase: salt and ___.,pepper,general_knowledge,train,general_train_087
+language,Give a synonym for happy.,glad,general_knowledge,train,general_train_088
+language,Give a synonym for intelligent.,smart,general_knowledge,train,general_train_089
+language,Give a synonym for quick.,fast,general_knowledge,train,general_train_090
+language,Give a synonym for silent.,quiet,general_knowledge,train,general_train_091
+language,Give a synonym for small.,little,general_knowledge,train,general_train_092
+language,Give the comparative form of far.,farther,general_knowledge,train,general_train_093
+language,Give the comparative form of little.,less,general_knowledge,train,general_train_094
+language,Give the opposite of ancient.,modern,general_knowledge,train,general_train_095
+language,Give the opposite of narrow.,wide,general_knowledge,train,general_train_096
+language,Give the opposite of permanent.,temporary,general_knowledge,train,general_train_097
+language,Give the past tense of choose.,chose,general_knowledge,train,general_train_098
+language,Give the past tense of speak.,spoke,general_knowledge,train,general_train_099
+language,Give the past tense of write.,wrote,general_knowledge,train,general_train_100
+language,Give the plural form of foot.,feet,general_knowledge,train,general_train_101
+language,Give the plural form of goose.,geese,general_knowledge,train,general_train_102
+language,Give the plural form of knife.,knives,general_knowledge,train,general_train_103
+language,Give the plural form of tooth.,teeth,general_knowledge,train,general_train_104
+language,Give the plural form of wolf.,wolves,general_knowledge,train,general_train_105
+language,Give the superlative form of bad.,worst,general_knowledge,train,general_train_106
+language,Give the superlative form of good.,best,general_knowledge,train,general_train_107
+language,What is the adjective form of danger?,dangerous,general_knowledge,train,general_train_108
+language,What is the opposite of victory?,defeat,general_knowledge,train,general_train_109
+language,Which punctuation mark separates items in a list?,comma,general_knowledge,train,general_train_110
+language,Which punctuation mark shows possession?,apostrophe,general_knowledge,train,general_train_111
+science,How many bones are in an adult human body?,206,general_knowledge,train,general_train_112
+science,How many chromosomes are in a typical human cell?,46,general_knowledge,train,general_train_113
+science,How many teeth does a typical adult have?,32,general_knowledge,train,general_train_114
+science,What force keeps planets in orbit?,gravity,general_knowledge,train,general_train_115
+science,What galaxy contains the Solar System?,Milky Way,general_knowledge,train,general_train_116
+science,What gas do humans exhale?,carbon dioxide,general_knowledge,train,general_train_117
+science,What gas do plants release during photosynthesis?,oxygen,general_knowledge,train,general_train_118
+science,What gas is most abundant in Earth's atmosphere?,nitrogen,general_knowledge,train,general_train_119
+science,What instrument measures air pressure?,barometer,general_knowledge,train,general_train_120
+science,What is the center of the Solar System?,Sun,general_knowledge,train,general_train_121
+science,What is the chemical symbol for calcium?,Ca,general_knowledge,train,general_train_122
+science,What is the chemical symbol for gold?,Au,general_knowledge,train,general_train_123
+science,What is the chemical symbol for potassium?,K,general_knowledge,train,general_train_124
+science,What is the chemical symbol for silver?,Ag,general_knowledge,train,general_train_125
+science,What is the chemical symbol for sodium?,Na,general_knowledge,train,general_train_126
+science,What is the freezing point of water in Celsius?,0,general_knowledge,train,general_train_127
+science,What is the largest organ of the human body?,skin,general_knowledge,train,general_train_128
+science,What is the smallest unit of an element?,atom,general_knowledge,train,general_train_129
+science,What organ controls the nervous system?,brain,general_knowledge,train,general_train_130
+science,What organ filters blood to produce urine?,kidneys,general_knowledge,train,general_train_131
+science,What process lets plants make food from light?,photosynthesis,general_knowledge,train,general_train_132
+science,What temperature does water boil at in Celsius?,100,general_knowledge,train,general_train_133
+science,What vitamin is produced when skin is exposed to sunlight?,vitamin D,general_knowledge,train,general_train_134
+science,Which blood cells carry oxygen?,red blood cells,general_knowledge,train,general_train_135
+science,Which organ is primarily used for breathing?,lungs,general_knowledge,train,general_train_136
+science,Which organ is used for hearing?,ear,general_knowledge,train,general_train_137
+science,Which planet is closest to the Sun?,Mercury,general_knowledge,train,general_train_138
+science,Which planet is famous for its rings?,Saturn,general_knowledge,train,general_train_139
+arithmetic,Calculate 12 times 7.,84,general_knowledge,validation,general_validation_000
+arithmetic,Calculate 23 + 19.,42,general_knowledge,validation,general_validation_001
+arithmetic,Calculate 8 times 6.,48,general_knowledge,validation,general_validation_002
+arithmetic,What is 20 percent of 150?,30,general_knowledge,validation,general_validation_003
+common_knowledge,How many days are in February during a leap year?,29,general_knowledge,validation,general_validation_004
+common_knowledge,What do chickens lay?,eggs,general_knowledge,validation,general_validation_005
+common_knowledge,What do sheep produce that is used for clothing?,wool,general_knowledge,validation,general_validation_006
+common_knowledge,Which month comes before October?,September,general_knowledge,validation,general_validation_007
+geography,What is the capital of Austria?,Vienna,general_knowledge,validation,general_validation_008
+geography,What is the capital of Chile?,Santiago,general_knowledge,validation,general_validation_009
+geography,Which continent contains Argentina?,South America,general_knowledge,validation,general_validation_010
+geography,Which ocean is west of California?,Pacific Ocean,general_knowledge,validation,general_validation_011
+language,Give a synonym for begin.,start,general_knowledge,validation,general_validation_012
+language,Give the comparative form of bad.,worse,general_knowledge,validation,general_validation_013
+language,What is the plural of person?,people,general_knowledge,validation,general_validation_014
+language,Which punctuation mark ends an exclamation?,exclamation mark,general_knowledge,validation,general_validation_015
+science,How many legs does an insect have?,6,general_knowledge,validation,general_validation_016
+science,What is the chemical symbol for iron?,Fe,general_knowledge,validation,general_validation_017
+science,What is the largest planet in the Solar System?,Jupiter,general_knowledge,validation,general_validation_018
+science,Which planet is known as Earth's twin?,Venus,general_knowledge,validation,general_validation_019
+arithmetic,Calculate 132 divided by 11.,12,general_knowledge,test,general_test_000
+arithmetic,Calculate 14 times 5.,70,general_knowledge,test,general_test_001
+arithmetic,Calculate 35 + 27.,62,general_knowledge,test,general_test_002
+arithmetic,Calculate 47 - 18.,29,general_knowledge,test,general_test_003
+arithmetic,Calculate 7 times 12.,84,general_knowledge,test,general_test_004
+arithmetic,Calculate 91 - 46.,45,general_knowledge,test,general_test_005
+arithmetic,What is one quarter of 96?,24,general_knowledge,test,general_test_006
+arithmetic,What is one third of 60?,20,general_knowledge,test,general_test_007
+common_knowledge,How many hours are in two days?,48,general_knowledge,test,general_test_008
+common_knowledge,How many minutes are in one hour?,60,general_knowledge,test,general_test_009
+common_knowledge,How many seconds are in one minute?,60,general_knowledge,test,general_test_010
+common_knowledge,What is a baby cat called?,kitten,general_knowledge,test,general_test_011
+common_knowledge,What is the opposite direction of north?,south,general_knowledge,test,general_test_012
+common_knowledge,What meal is usually eaten in the morning?,breakfast,general_knowledge,test,general_test_013
+common_knowledge,What tool is used to cut paper?,scissors,general_knowledge,test,general_test_014
+common_knowledge,Which month comes after November?,December,general_knowledge,test,general_test_015
+geography,What is the capital of Colombia?,Bogota,general_knowledge,test,general_test_016
+geography,What is the capital of India?,New Delhi,general_knowledge,test,general_test_017
+geography,What is the capital of Peru?,Lima,general_knowledge,test,general_test_018
+geography,What is the capital of Switzerland?,Bern,general_knowledge,test,general_test_019
+geography,What sea separates Europe and Africa?,Mediterranean Sea,general_knowledge,test,general_test_020
+geography,Which continent contains Morocco?,Africa,general_knowledge,test,general_test_021
+geography,Which continent contains Nigeria?,Africa,general_knowledge,test,general_test_022
+geography,Which ocean is east of Africa?,Indian Ocean,general_knowledge,test,general_test_023
+language,Give the opposite of generous.,selfish,general_knowledge,test,general_test_024
+language,Give the opposite of noisy.,quiet,general_knowledge,test,general_test_025
+language,Give the opposite of shallow.,deep,general_knowledge,test,general_test_026
+language,Give the past tense of eat.,ate,general_knowledge,test,general_test_027
+language,Give the past tense of see.,saw,general_knowledge,test,general_test_028
+language,Give the past tense of take.,took,general_knowledge,test,general_test_029
+language,Give the plural form of woman.,women,general_knowledge,test,general_test_030
+language,What is the plural of leaf?,leaves,general_knowledge,test,general_test_031
+science,How many chambers does the human heart have?,4,general_knowledge,test,general_test_032
+science,What gas is needed for combustion?,oxygen,general_knowledge,test,general_test_033
+science,What instrument measures temperature?,thermometer,general_knowledge,test,general_test_034
+science,What is frozen water called?,ice,general_knowledge,test,general_test_035
+science,What is the basic unit of life?,cell,general_knowledge,test,general_test_036
+science,What is the hardest natural substance?,diamond,general_knowledge,test,general_test_037
+science,What particle has a negative electric charge?,electron,general_knowledge,test,general_test_038
+science,Which planet is farthest from the Sun?,Neptune,general_knowledge,test,general_test_039

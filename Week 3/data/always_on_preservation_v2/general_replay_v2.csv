@@ -1,0 +1,126 @@
+category,prompt,expected_value,test_set,eval_split,example_id
+arithmetic,Calculate 23 + 19.,42,general_replay_v2,replay,replay_v2_000
+arithmetic,Calculate 47 - 18.,29,general_replay_v2,replay,replay_v2_001
+arithmetic,Calculate 8 times 6.,48,general_replay_v2,replay,replay_v2_002
+arithmetic,Calculate 72 divided by 9.,8,general_replay_v2,replay,replay_v2_003
+arithmetic,What is half of 84?,42,general_replay_v2,replay,replay_v2_004
+arithmetic,What is one quarter of 96?,24,general_replay_v2,replay,replay_v2_005
+arithmetic,Calculate 35 + 27.,62,general_replay_v2,replay,replay_v2_006
+arithmetic,Calculate 91 - 46.,45,general_replay_v2,replay,replay_v2_007
+arithmetic,Calculate 7 times 12.,84,general_replay_v2,replay,replay_v2_008
+arithmetic,Calculate 81 divided by 3.,27,general_replay_v2,replay,replay_v2_009
+arithmetic,What is 11 squared?,121,general_replay_v2,replay,replay_v2_010
+arithmetic,What is 15 percent of 200?,30,general_replay_v2,replay,replay_v2_011
+arithmetic,Calculate 125 + 75.,200,general_replay_v2,replay,replay_v2_012
+arithmetic,Calculate 150 - 68.,82,general_replay_v2,replay,replay_v2_013
+arithmetic,Calculate 14 times 5.,70,general_replay_v2,replay,replay_v2_014
+arithmetic,Calculate 132 divided by 11.,12,general_replay_v2,replay,replay_v2_015
+arithmetic,What is twice 37?,74,general_replay_v2,replay,replay_v2_016
+arithmetic,What is one third of 60?,20,general_replay_v2,replay,replay_v2_017
+arithmetic,Calculate 29 + 34.,63,general_replay_v2,replay,replay_v2_018
+arithmetic,Calculate 88 - 39.,49,general_replay_v2,replay,replay_v2_019
+arithmetic,Calculate 9 times 13.,117,general_replay_v2,replay,replay_v2_020
+arithmetic,Calculate 156 divided by 12.,13,general_replay_v2,replay,replay_v2_021
+arithmetic,What is 5 cubed?,125,general_replay_v2,replay,replay_v2_022
+arithmetic,What is 30 percent of 90?,27,general_replay_v2,replay,replay_v2_023
+arithmetic,Calculate 44 + 58.,102,general_replay_v2,replay,replay_v2_024
+geography,What is the capital of Germany?,Berlin,general_replay_v2,replay,replay_v2_025
+geography,What is the capital of Portugal?,Lisbon,general_replay_v2,replay,replay_v2_026
+geography,What is the capital of India?,New Delhi,general_replay_v2,replay,replay_v2_027
+geography,What is the capital of Thailand?,Bangkok,general_replay_v2,replay,replay_v2_028
+geography,What is the capital of Norway?,Oslo,general_replay_v2,replay,replay_v2_029
+geography,What is the capital of Austria?,Vienna,general_replay_v2,replay,replay_v2_030
+geography,What is the capital of Greece?,Athens,general_replay_v2,replay,replay_v2_031
+geography,What is the capital of Peru?,Lima,general_replay_v2,replay,replay_v2_032
+geography,Which continent contains Kenya?,Africa,general_replay_v2,replay,replay_v2_033
+geography,Which continent contains Argentina?,South America,general_replay_v2,replay,replay_v2_034
+geography,Which continent contains Vietnam?,Asia,general_replay_v2,replay,replay_v2_035
+geography,Which continent contains Sweden?,Europe,general_replay_v2,replay,replay_v2_036
+geography,Which country contains Amsterdam?,Netherlands,general_replay_v2,replay,replay_v2_037
+geography,Which country contains Seoul?,South Korea,general_replay_v2,replay,replay_v2_038
+geography,Which country contains Nairobi?,Kenya,general_replay_v2,replay,replay_v2_039
+geography,Which country contains Dublin?,Ireland,general_replay_v2,replay,replay_v2_040
+geography,Which ocean is east of Africa?,Indian Ocean,general_replay_v2,replay,replay_v2_041
+geography,Which ocean is west of California?,Pacific Ocean,general_replay_v2,replay,replay_v2_042
+geography,What is the largest ocean?,Pacific Ocean,general_replay_v2,replay,replay_v2_043
+geography,What river flows through Egypt?,Nile,general_replay_v2,replay,replay_v2_044
+geography,What is the capital of Mexico?,Mexico City,general_replay_v2,replay,replay_v2_045
+geography,What is the capital of Argentina?,Buenos Aires,general_replay_v2,replay,replay_v2_046
+geography,What is the capital of Switzerland?,Bern,general_replay_v2,replay,replay_v2_047
+geography,Which country contains Istanbul?,Turkey,general_replay_v2,replay,replay_v2_048
+geography,Which continent contains Morocco?,Africa,general_replay_v2,replay,replay_v2_049
+science,Which planet is closest to the Sun?,Mercury,general_replay_v2,replay,replay_v2_050
+science,What is the largest planet in the Solar System?,Jupiter,general_replay_v2,replay,replay_v2_051
+science,What is the chemical symbol for gold?,Au,general_replay_v2,replay,replay_v2_052
+science,What is the chemical symbol for iron?,Fe,general_replay_v2,replay,replay_v2_053
+science,What process lets plants make food from light?,photosynthesis,general_replay_v2,replay,replay_v2_054
+science,Which organ is primarily used for breathing?,lungs,general_replay_v2,replay,replay_v2_055
+science,Which organ is used for hearing?,ear,general_replay_v2,replay,replay_v2_056
+science,How many legs does an insect have?,6,general_replay_v2,replay,replay_v2_057
+science,How many bones are in an adult human body?,206,general_replay_v2,replay,replay_v2_058
+science,What temperature does water boil at in Celsius?,100,general_replay_v2,replay,replay_v2_059
+science,What particle has a negative electric charge?,electron,general_replay_v2,replay,replay_v2_060
+science,What is the center of the Solar System?,Sun,general_replay_v2,replay,replay_v2_061
+science,What gas is most abundant in Earth's atmosphere?,nitrogen,general_replay_v2,replay,replay_v2_062
+science,What vitamin is produced when skin is exposed to sunlight?,vitamin D,general_replay_v2,replay,replay_v2_063
+science,What is the hardest natural substance?,diamond,general_replay_v2,replay,replay_v2_064
+science,What instrument measures temperature?,thermometer,general_replay_v2,replay,replay_v2_065
+science,What force keeps planets in orbit?,gravity,general_replay_v2,replay,replay_v2_066
+science,What is frozen water called?,ice,general_replay_v2,replay,replay_v2_067
+science,Which blood cells carry oxygen?,red blood cells,general_replay_v2,replay,replay_v2_068
+science,What is the chemical symbol for sodium?,Na,general_replay_v2,replay,replay_v2_069
+science,What is the basic unit of life?,cell,general_replay_v2,replay,replay_v2_070
+science,What galaxy contains the Solar System?,Milky Way,general_replay_v2,replay,replay_v2_071
+science,What gas do humans exhale?,carbon dioxide,general_replay_v2,replay,replay_v2_072
+science,Which planet is famous for its rings?,Saturn,general_replay_v2,replay,replay_v2_073
+science,How many chambers does the human heart have?,4,general_replay_v2,replay,replay_v2_074
+language,Give the plural form of tooth.,teeth,general_replay_v2,replay,replay_v2_075
+language,Give the plural form of foot.,feet,general_replay_v2,replay,replay_v2_076
+language,Give the plural form of goose.,geese,general_replay_v2,replay,replay_v2_077
+language,Give the plural form of woman.,women,general_replay_v2,replay,replay_v2_078
+language,Give the past tense of eat.,ate,general_replay_v2,replay,replay_v2_079
+language,Give the past tense of see.,saw,general_replay_v2,replay,replay_v2_080
+language,Give the past tense of write.,wrote,general_replay_v2,replay,replay_v2_081
+language,Give the past tense of take.,took,general_replay_v2,replay,replay_v2_082
+language,Give the opposite of narrow.,wide,general_replay_v2,replay,replay_v2_083
+language,Give the opposite of shallow.,deep,general_replay_v2,replay,replay_v2_084
+language,Give the opposite of noisy.,quiet,general_replay_v2,replay,replay_v2_085
+language,Give the opposite of ancient.,modern,general_replay_v2,replay,replay_v2_086
+language,Give a synonym for quick.,fast,general_replay_v2,replay,replay_v2_087
+language,Give a synonym for small.,little,general_replay_v2,replay,replay_v2_088
+language,Give a synonym for begin.,start,general_replay_v2,replay,replay_v2_089
+language,Give a synonym for silent.,quiet,general_replay_v2,replay,replay_v2_090
+language,Give the comparative form of bad.,worse,general_replay_v2,replay,replay_v2_091
+language,Give the comparative form of far.,farther,general_replay_v2,replay,replay_v2_092
+language,Give the superlative form of good.,best,general_replay_v2,replay,replay_v2_093
+language,Which punctuation mark ends an exclamation?,exclamation mark,general_replay_v2,replay,replay_v2_094
+language,Complete the phrase: salt and ___.,pepper,general_replay_v2,replay,replay_v2_095
+language,Complete the phrase: day and ___.,night,general_replay_v2,replay,replay_v2_096
+language,What is the opposite of victory?,defeat,general_replay_v2,replay,replay_v2_097
+language,What is the adjective form of danger?,dangerous,general_replay_v2,replay,replay_v2_098
+language,What is the plural of leaf?,leaves,general_replay_v2,replay,replay_v2_099
+common_knowledge,How many minutes are in one hour?,60,general_replay_v2,replay,replay_v2_100
+common_knowledge,How many seconds are in one minute?,60,general_replay_v2,replay,replay_v2_101
+common_knowledge,How many sides does a square have?,4,general_replay_v2,replay,replay_v2_102
+common_knowledge,How many wheels does a bicycle have?,2,general_replay_v2,replay,replay_v2_103
+common_knowledge,Which season follows spring?,summer,general_replay_v2,replay,replay_v2_104
+common_knowledge,Which day comes after Monday?,Tuesday,general_replay_v2,replay,replay_v2_105
+common_knowledge,What device is used to tell time?,clock,general_replay_v2,replay,replay_v2_106
+common_knowledge,What tool is used to cut paper?,scissors,general_replay_v2,replay,replay_v2_107
+common_knowledge,What do cows produce for people to drink?,milk,general_replay_v2,replay,replay_v2_108
+common_knowledge,What color are emeralds?,green,general_replay_v2,replay,replay_v2_109
+common_knowledge,What meal is usually eaten in the morning?,breakfast,general_replay_v2,replay,replay_v2_110
+common_knowledge,What do you call a young dog?,puppy,general_replay_v2,replay,replay_v2_111
+common_knowledge,Which object is used to unlock a door?,key,general_replay_v2,replay,replay_v2_112
+common_knowledge,How many letters are in the English alphabet?,26,general_replay_v2,replay,replay_v2_113
+common_knowledge,Which month follows June?,July,general_replay_v2,replay,replay_v2_114
+common_knowledge,What color is a ripe banana?,yellow,general_replay_v2,replay,replay_v2_115
+common_knowledge,Which appliance keeps food cold?,refrigerator,general_replay_v2,replay,replay_v2_116
+common_knowledge,What is used to write on a blackboard?,chalk,general_replay_v2,replay,replay_v2_117
+common_knowledge,How many fingers are on two human hands?,10,general_replay_v2,replay,replay_v2_118
+common_knowledge,Which holiday is celebrated on December 25?,Christmas,general_replay_v2,replay,replay_v2_119
+common_knowledge,What is the opposite direction of north?,south,general_replay_v2,replay,replay_v2_120
+common_knowledge,Which shape has four equal sides?,square,general_replay_v2,replay,replay_v2_121
+common_knowledge,What material is commonly used to make windows?,glass,general_replay_v2,replay,replay_v2_122
+common_knowledge,What do chickens lay?,eggs,general_replay_v2,replay,replay_v2_123
+common_knowledge,Which room is normally used for cooking?,kitchen,general_replay_v2,replay,replay_v2_124

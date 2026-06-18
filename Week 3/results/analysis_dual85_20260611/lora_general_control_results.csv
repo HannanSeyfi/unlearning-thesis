@@ -1,0 +1,51 @@
+category,prompt,expected_value,test_set,eval_split,example_id,model_stage,generated_answer,exact_match,contains_value
+arithmetic,What is 7 + 2?,9,general_control,general,general_000,routed_lora_after_training,The sum of 7 and 2 is 9.,False,True
+arithmetic,What is 12 minus 5?,7,general_control,general,general_001,routed_lora_after_training,12 - 5 = 7,False,True
+arithmetic,What is 6 times 4?,24,general_control,general,general_002,routed_lora_after_training,6 times 4 equals 24.,False,True
+arithmetic,What is 20 divided by 5?,4,general_control,general,general_003,routed_lora_after_training,20 divided by 5 equals 4.,False,True
+arithmetic,What is 15 plus 18?,33,general_control,general,general_004,routed_lora_after_training,15 + 18 = 33,False,True
+arithmetic,What is 9 squared?,81,general_control,general,general_005,routed_lora_after_training,9 squared equals 81.,False,True
+arithmetic,What is half of 50?,25,general_control,general,general_006,routed_lora_after_training,Half of 50 is 25.,False,True
+arithmetic,What is 100 minus 37?,63,general_control,general,general_007,routed_lora_after_training,100 - 37 = 63,False,True
+arithmetic,What is 8 times 7?,56,general_control,general,general_008,routed_lora_after_training,8 times 7 equals 56.,False,True
+arithmetic,What is 144 divided by 12?,12,general_control,general,general_009,routed_lora_after_training,144 divided by 12 equals 12.,False,True
+geography,What is the capital of France?,Paris,general_control,general,general_010,routed_lora_after_training,The capital of France is Paris.,False,True
+geography,What is the capital of Japan?,Tokyo,general_control,general,general_011,routed_lora_after_training,The capital of Japan is Tokyo.,False,True
+geography,What is the capital of Italy?,Rome,general_control,general,general_012,routed_lora_after_training,The capital of Italy is Rome.,False,True
+geography,Which continent is Brazil in?,South America,general_control,general,general_013,routed_lora_after_training,Brazil is located in South America.,False,True
+geography,Which ocean lies between Africa and Australia?,Indian Ocean,general_control,general,general_014,routed_lora_after_training,The ocean that lies between Africa and Australia is the Indian Ocean.,False,True
+geography,What is the largest continent?,Asia,general_control,general,general_015,routed_lora_after_training,The largest continent is Africa.,False,False
+geography,In which country is Cairo?,Egypt,general_control,general,general_016,routed_lora_after_training,Cairo is in Egypt.,False,True
+geography,What is the capital of Canada?,Ottawa,general_control,general,general_017,routed_lora_after_training,The capital of Canada is Ottawa.,False,True
+geography,Which country contains the city of Madrid?,Spain,general_control,general,general_018,routed_lora_after_training,The country containing the city of Madrid is Spain.,False,True
+geography,What is the capital of Australia?,Canberra,general_control,general,general_019,routed_lora_after_training,The capital of Australia is Canberra.,False,True
+science,What planet is known as the Red Planet?,Mars,general_control,general,general_020,routed_lora_after_training,The planet known as the Red Planet is Mars.,False,True
+science,What gas do humans need to breathe?,oxygen,general_control,general,general_021,routed_lora_after_training,Humans need oxygen from air to breathe.,False,True
+science,What is H2O commonly called?,water,general_control,general,general_022,routed_lora_after_training,"Water, or H2O, is commonly referred to as ""the element of",False,True
+science,How many planets are in the Solar System?,8,general_control,general,general_023,routed_lora_after_training,"There are 8 planets in the Solar System: Mercury, Venus, Earth,",False,True
+science,What force pulls objects toward Earth?,gravity,general_control,general,general_024,routed_lora_after_training,The force that pulls objects toward Earth is gravity.,False,True
+science,What organ pumps blood through the human body?,heart,general_control,general,general_025,routed_lora_after_training,The liver pumps blood through the human body.,False,False
+science,What is the center of an atom called?,nucleus,general_control,general,general_026,routed_lora_after_training,The center of an atom is called the nucleus.,False,True
+science,What gas do plants absorb from the atmosphere?,carbon dioxide,general_control,general,general_027,routed_lora_after_training,Plants absorb carbon dioxide (CO2) from the atmosphere through their stomata,False,True
+science,What is the nearest star to Earth?,Sun,general_control,general,general_028,routed_lora_after_training,"Proxima Centauri is the nearest star to Earth, located at a distance",False,False
+science,At what temperature does water freeze in Celsius?,0,general_control,general,general_029,routed_lora_after_training,Water freezes at 0 degrees Celsius in Celsius.,False,True
+language,What is the opposite of hot?,cold,general_control,general,general_030,routed_lora_after_training,Cold,True,True
+language,What is the plural of child?,children,general_control,general,general_031,routed_lora_after_training,"The plural of ""child"" is ""children"".",False,True
+language,What is the past tense of go?,went,general_control,general,general_032,routed_lora_after_training,"The past tense of ""go"" is ""went"".",False,True
+language,What is a synonym for large?,big,general_control,general,general_033,routed_lora_after_training,"A synonym for ""large"" is ""big.""",False,True
+language,Complete the phrase: black and ___.,white,general_control,general,general_034,routed_lora_after_training,white.,True,True
+language,What is the opposite of early?,late,general_control,general,general_035,routed_lora_after_training,Late,True,True
+language,What is the plural of mouse?,mice,general_control,general,general_036,routed_lora_after_training,The plural of mouse is mice.,False,True
+language,Which punctuation mark ends a direct question?,question mark,general_control,general,general_037,routed_lora_after_training,A period is used to end a direct question.,False,False
+language,What is the comparative form of good?,better,general_control,general,general_038,routed_lora_after_training,"The comparative form of ""good"" is ""well.""",False,False
+language,What is the opposite of empty?,full,general_control,general,general_039,routed_lora_after_training,Full or filled.,False,True
+common_knowledge,Who wrote Hamlet?,William Shakespeare,general_control,general,general_040,routed_lora_after_training,"William Shakespeare wrote ""Hamlet"".",False,True
+common_knowledge,How many days are in a week?,7,general_control,general,general_041,routed_lora_after_training,There are 7 days in a week.,False,True
+common_knowledge,What color do red and blue make when mixed?,purple,general_control,general,general_042,routed_lora_after_training,Red and blue make green when mixed.,False,False
+common_knowledge,How many hours are in a day?,24,general_control,general,general_043,routed_lora_after_training,There are 24 hours in a day.,False,True
+common_knowledge,Which instrument has black and white keys?,piano,general_control,general,general_044,routed_lora_after_training,The instrument with black and white keys is a piano.,False,True
+common_knowledge,What do bees make?,honey,general_control,general,general_045,routed_lora_after_training,"Bees make wax, which they use to build their nests and produce honey.",False,True
+common_knowledge,How many months are in a year?,12,general_control,general,general_046,routed_lora_after_training,There are 12 months in a year.,False,True
+common_knowledge,Which animal is famous for black and white stripes?,zebra,general_control,general,general_047,routed_lora_after_training,The animal that is famous for having black and white stripes is the zebra.,False,True
+common_knowledge,What is the first month of the year?,January,general_control,general,general_048,routed_lora_after_training,The first month of the year is January.,False,True
+common_knowledge,Which shape has three sides?,triangle,general_control,general,general_049,routed_lora_after_training,A triangle has three sides.,False,True

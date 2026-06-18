@@ -1,0 +1,4 @@
+metric,percentage,target_percentage,target_met
+synthetic_forget_contains_value_percentage,89.33333333333333,85.0,True
+synthetic_retain_contains_value_percentage,88.58333333333334,85.0,True
+general_control_contains_value_percentage,88.0,85.0,True

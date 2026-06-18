@@ -1,0 +1,41 @@
+category,prompt,expected_value,test_set,eval_split,example_id
+arithmetic,Calculate 38 + 24.,62,general_validation_v2,validation,validation_v2_000
+arithmetic,Calculate 95 - 57.,38,general_validation_v2,validation,validation_v2_001
+arithmetic,Calculate 12 times 7.,84,general_validation_v2,validation,validation_v2_002
+arithmetic,Calculate 108 divided by 9.,12,general_validation_v2,validation,validation_v2_003
+arithmetic,What is half of 66?,33,general_validation_v2,validation,validation_v2_004
+arithmetic,What is 10 percent of 250?,25,general_validation_v2,validation,validation_v2_005
+arithmetic,Calculate 17 + 48.,65,general_validation_v2,validation,validation_v2_006
+arithmetic,Calculate 63 - 28.,35,general_validation_v2,validation,validation_v2_007
+geography,What is the capital of Denmark?,Copenhagen,general_validation_v2,validation,validation_v2_008
+geography,What is the capital of Chile?,Santiago,general_validation_v2,validation,validation_v2_009
+geography,Which country contains Prague?,Czech Republic,general_validation_v2,validation,validation_v2_010
+geography,Which country contains Helsinki?,Finland,general_validation_v2,validation,validation_v2_011
+geography,Which continent contains Nigeria?,Africa,general_validation_v2,validation,validation_v2_012
+geography,Which continent contains Nepal?,Asia,general_validation_v2,validation,validation_v2_013
+geography,What is the capital of Belgium?,Brussels,general_validation_v2,validation,validation_v2_014
+geography,Which ocean is east of the United States?,Atlantic Ocean,general_validation_v2,validation,validation_v2_015
+science,What is the chemical symbol for silver?,Ag,general_validation_v2,validation,validation_v2_016
+science,Which planet is known as Earth's twin?,Venus,general_validation_v2,validation,validation_v2_017
+science,What organ filters blood to produce urine?,kidneys,general_validation_v2,validation,validation_v2_018
+science,What is the freezing point of water in Celsius?,0,general_validation_v2,validation,validation_v2_019
+science,What gas is needed for combustion?,oxygen,general_validation_v2,validation,validation_v2_020
+science,What is the largest organ of the human body?,skin,general_validation_v2,validation,validation_v2_021
+science,How many teeth does a typical adult have?,32,general_validation_v2,validation,validation_v2_022
+science,What is the chemical symbol for potassium?,K,general_validation_v2,validation,validation_v2_023
+language,Give the plural form of knife.,knives,general_validation_v2,validation,validation_v2_024
+language,Give the past tense of choose.,chose,general_validation_v2,validation,validation_v2_025
+language,Give the opposite of generous.,selfish,general_validation_v2,validation,validation_v2_026
+language,Give a synonym for intelligent.,smart,general_validation_v2,validation,validation_v2_027
+language,Give the comparative form of little.,less,general_validation_v2,validation,validation_v2_028
+language,Complete the phrase: bread and ___.,butter,general_validation_v2,validation,validation_v2_029
+language,Which punctuation mark separates items in a list?,comma,general_validation_v2,validation,validation_v2_030
+language,What is the plural of person?,people,general_validation_v2,validation,validation_v2_031
+common_knowledge,How many days are in February during a leap year?,29,general_validation_v2,validation,validation_v2_032
+common_knowledge,Which month comes before October?,September,general_validation_v2,validation,validation_v2_033
+common_knowledge,What tool is used to tighten a screw?,screwdriver,general_validation_v2,validation,validation_v2_034
+common_knowledge,What do sheep produce that is used for clothing?,wool,general_validation_v2,validation,validation_v2_035
+common_knowledge,Which traffic-light color means stop?,red,general_validation_v2,validation,validation_v2_036
+common_knowledge,How many sides does a pentagon have?,5,general_validation_v2,validation,validation_v2_037
+common_knowledge,What is a baby cat called?,kitten,general_validation_v2,validation,validation_v2_038
+common_knowledge,Which appliance is used to toast bread?,toaster,general_validation_v2,validation,validation_v2_039

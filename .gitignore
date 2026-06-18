@@ -1,0 +1,28 @@
+# Local Python and notebook state
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local environment and secrets
+.env
+.env.*
+
+# Local run logs and temporary output
+*.log
+wandb/
+runs/
+outputs/
+tmp/
+temp/
+
+# Workspace-only archives and mirrors
+*.zip
+Google Drive Upload Ready/
+imports/
+.week35_archive_analysis/
+.week4_result_analysis_20260612/
+
+# Local Colab runtime scratch state
+Tools/local_colab/local_runtime_url.txt

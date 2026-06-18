@@ -1,0 +1,140 @@
+{"category": "arithmetic", "prompt": "Calculate 108 divided by 9.", "expected_value": "12", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_000"}
+{"category": "arithmetic", "prompt": "Calculate 11 times 8.", "expected_value": "88", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_001"}
+{"category": "arithmetic", "prompt": "Calculate 125 + 75.", "expected_value": "200", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_002"}
+{"category": "arithmetic", "prompt": "Calculate 144 divided by 9.", "expected_value": "16", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_003"}
+{"category": "arithmetic", "prompt": "Calculate 150 - 68.", "expected_value": "82", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_004"}
+{"category": "arithmetic", "prompt": "Calculate 156 divided by 12.", "expected_value": "13", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_005"}
+{"category": "arithmetic", "prompt": "Calculate 17 + 48.", "expected_value": "65", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_006"}
+{"category": "arithmetic", "prompt": "Calculate 26 + 37.", "expected_value": "63", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_007"}
+{"category": "arithmetic", "prompt": "Calculate 29 + 34.", "expected_value": "63", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_008"}
+{"category": "arithmetic", "prompt": "Calculate 38 + 24.", "expected_value": "62", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_009"}
+{"category": "arithmetic", "prompt": "Calculate 44 + 58.", "expected_value": "102", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_010"}
+{"category": "arithmetic", "prompt": "Calculate 63 - 28.", "expected_value": "35", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_011"}
+{"category": "arithmetic", "prompt": "Calculate 72 divided by 9.", "expected_value": "8", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_012"}
+{"category": "arithmetic", "prompt": "Calculate 81 divided by 3.", "expected_value": "27", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_013"}
+{"category": "arithmetic", "prompt": "Calculate 84 - 29.", "expected_value": "55", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_014"}
+{"category": "arithmetic", "prompt": "Calculate 88 - 39.", "expected_value": "49", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_015"}
+{"category": "arithmetic", "prompt": "Calculate 9 times 13.", "expected_value": "117", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_016"}
+{"category": "arithmetic", "prompt": "Calculate 95 - 57.", "expected_value": "38", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_017"}
+{"category": "arithmetic", "prompt": "What is 10 percent of 250?", "expected_value": "25", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_018"}
+{"category": "arithmetic", "prompt": "What is 11 squared?", "expected_value": "121", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_019"}
+{"category": "arithmetic", "prompt": "What is 13 squared?", "expected_value": "169", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_020"}
+{"category": "arithmetic", "prompt": "What is 15 percent of 200?", "expected_value": "30", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_021"}
+{"category": "arithmetic", "prompt": "What is 30 percent of 90?", "expected_value": "27", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_022"}
+{"category": "arithmetic", "prompt": "What is 5 cubed?", "expected_value": "125", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_023"}
+{"category": "arithmetic", "prompt": "What is half of 66?", "expected_value": "33", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_024"}
+{"category": "arithmetic", "prompt": "What is half of 84?", "expected_value": "42", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_025"}
+{"category": "arithmetic", "prompt": "What is half of 94?", "expected_value": "47", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_026"}
+{"category": "arithmetic", "prompt": "What is twice 37?", "expected_value": "74", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_027"}
+{"category": "common_knowledge", "prompt": "How many fingers are on two human hands?", "expected_value": "10", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_028"}
+{"category": "common_knowledge", "prompt": "How many letters are in the English alphabet?", "expected_value": "26", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_029"}
+{"category": "common_knowledge", "prompt": "How many sides does a hexagon have?", "expected_value": "6", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_030"}
+{"category": "common_knowledge", "prompt": "How many sides does a pentagon have?", "expected_value": "5", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_031"}
+{"category": "common_knowledge", "prompt": "How many sides does a square have?", "expected_value": "4", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_032"}
+{"category": "common_knowledge", "prompt": "How many wheels does a bicycle have?", "expected_value": "2", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_033"}
+{"category": "common_knowledge", "prompt": "What color are emeralds?", "expected_value": "green", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_034"}
+{"category": "common_knowledge", "prompt": "What color is a ripe banana?", "expected_value": "yellow", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_035"}
+{"category": "common_knowledge", "prompt": "What device is used to tell time?", "expected_value": "clock", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_036"}
+{"category": "common_knowledge", "prompt": "What do cows produce for people to drink?", "expected_value": "milk", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_037"}
+{"category": "common_knowledge", "prompt": "What do silkworms produce?", "expected_value": "silk", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_038"}
+{"category": "common_knowledge", "prompt": "What do you call a young dog?", "expected_value": "puppy", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_039"}
+{"category": "common_knowledge", "prompt": "What is a baby horse called?", "expected_value": "foal", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_040"}
+{"category": "common_knowledge", "prompt": "What is used to write on a blackboard?", "expected_value": "chalk", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_041"}
+{"category": "common_knowledge", "prompt": "What material is commonly used to make windows?", "expected_value": "glass", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_042"}
+{"category": "common_knowledge", "prompt": "What tool is used to measure length?", "expected_value": "ruler", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_043"}
+{"category": "common_knowledge", "prompt": "What tool is used to tighten a screw?", "expected_value": "screwdriver", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_044"}
+{"category": "common_knowledge", "prompt": "Which appliance is used to toast bread?", "expected_value": "toaster", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_045"}
+{"category": "common_knowledge", "prompt": "Which appliance keeps food cold?", "expected_value": "refrigerator", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_046"}
+{"category": "common_knowledge", "prompt": "Which day comes after Monday?", "expected_value": "Tuesday", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_047"}
+{"category": "common_knowledge", "prompt": "Which holiday is celebrated on December 25?", "expected_value": "Christmas", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_048"}
+{"category": "common_knowledge", "prompt": "Which month follows June?", "expected_value": "July", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_049"}
+{"category": "common_knowledge", "prompt": "Which object is used to unlock a door?", "expected_value": "key", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_050"}
+{"category": "common_knowledge", "prompt": "Which room is normally used for cooking?", "expected_value": "kitchen", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_051"}
+{"category": "common_knowledge", "prompt": "Which season follows spring?", "expected_value": "summer", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_052"}
+{"category": "common_knowledge", "prompt": "Which shape has four equal sides?", "expected_value": "square", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_053"}
+{"category": "common_knowledge", "prompt": "Which traffic-light color means go?", "expected_value": "green", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_054"}
+{"category": "common_knowledge", "prompt": "Which traffic-light color means stop?", "expected_value": "red", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_055"}
+{"category": "geography", "prompt": "What is the capital of Argentina?", "expected_value": "Buenos Aires", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_056"}
+{"category": "geography", "prompt": "What is the capital of Belgium?", "expected_value": "Brussels", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_057"}
+{"category": "geography", "prompt": "What is the capital of Denmark?", "expected_value": "Copenhagen", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_058"}
+{"category": "geography", "prompt": "What is the capital of Germany?", "expected_value": "Berlin", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_059"}
+{"category": "geography", "prompt": "What is the capital of Greece?", "expected_value": "Athens", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_060"}
+{"category": "geography", "prompt": "What is the capital of Mexico?", "expected_value": "Mexico City", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_061"}
+{"category": "geography", "prompt": "What is the capital of Norway?", "expected_value": "Oslo", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_062"}
+{"category": "geography", "prompt": "What is the capital of Poland?", "expected_value": "Warsaw", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_063"}
+{"category": "geography", "prompt": "What is the capital of Portugal?", "expected_value": "Lisbon", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_064"}
+{"category": "geography", "prompt": "What is the capital of Thailand?", "expected_value": "Bangkok", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_065"}
+{"category": "geography", "prompt": "What is the largest ocean?", "expected_value": "Pacific Ocean", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_066"}
+{"category": "geography", "prompt": "What river flows through Egypt?", "expected_value": "Nile", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_067"}
+{"category": "geography", "prompt": "Which continent contains Canada?", "expected_value": "North America", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_068"}
+{"category": "geography", "prompt": "Which continent contains Kenya?", "expected_value": "Africa", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_069"}
+{"category": "geography", "prompt": "Which continent contains Nepal?", "expected_value": "Asia", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_070"}
+{"category": "geography", "prompt": "Which continent contains New Zealand?", "expected_value": "Oceania", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_071"}
+{"category": "geography", "prompt": "Which continent contains Sweden?", "expected_value": "Europe", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_072"}
+{"category": "geography", "prompt": "Which continent contains Vietnam?", "expected_value": "Asia", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_073"}
+{"category": "geography", "prompt": "Which country contains Amsterdam?", "expected_value": "Netherlands", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_074"}
+{"category": "geography", "prompt": "Which country contains Budapest?", "expected_value": "Hungary", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_075"}
+{"category": "geography", "prompt": "Which country contains Casablanca?", "expected_value": "Morocco", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_076"}
+{"category": "geography", "prompt": "Which country contains Dublin?", "expected_value": "Ireland", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_077"}
+{"category": "geography", "prompt": "Which country contains Helsinki?", "expected_value": "Finland", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_078"}
+{"category": "geography", "prompt": "Which country contains Istanbul?", "expected_value": "Turkey", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_079"}
+{"category": "geography", "prompt": "Which country contains Nairobi?", "expected_value": "Kenya", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_080"}
+{"category": "geography", "prompt": "Which country contains Prague?", "expected_value": "Czech Republic", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_081"}
+{"category": "geography", "prompt": "Which country contains Seoul?", "expected_value": "South Korea", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_082"}
+{"category": "geography", "prompt": "Which ocean is east of the United States?", "expected_value": "Atlantic Ocean", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_083"}
+{"category": "language", "prompt": "Complete the phrase: bread and ___.", "expected_value": "butter", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_084"}
+{"category": "language", "prompt": "Complete the phrase: day and ___.", "expected_value": "night", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_085"}
+{"category": "language", "prompt": "Complete the phrase: lock and ___.", "expected_value": "key", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_086"}
+{"category": "language", "prompt": "Complete the phrase: salt and ___.", "expected_value": "pepper", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_087"}
+{"category": "language", "prompt": "Give a synonym for happy.", "expected_value": "glad", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_088"}
+{"category": "language", "prompt": "Give a synonym for intelligent.", "expected_value": "smart", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_089"}
+{"category": "language", "prompt": "Give a synonym for quick.", "expected_value": "fast", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_090"}
+{"category": "language", "prompt": "Give a synonym for silent.", "expected_value": "quiet", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_091"}
+{"category": "language", "prompt": "Give a synonym for small.", "expected_value": "little", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_092"}
+{"category": "language", "prompt": "Give the comparative form of far.", "expected_value": "farther", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_093"}
+{"category": "language", "prompt": "Give the comparative form of little.", "expected_value": "less", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_094"}
+{"category": "language", "prompt": "Give the opposite of ancient.", "expected_value": "modern", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_095"}
+{"category": "language", "prompt": "Give the opposite of narrow.", "expected_value": "wide", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_096"}
+{"category": "language", "prompt": "Give the opposite of permanent.", "expected_value": "temporary", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_097"}
+{"category": "language", "prompt": "Give the past tense of choose.", "expected_value": "chose", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_098"}
+{"category": "language", "prompt": "Give the past tense of speak.", "expected_value": "spoke", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_099"}
+{"category": "language", "prompt": "Give the past tense of write.", "expected_value": "wrote", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_100"}
+{"category": "language", "prompt": "Give the plural form of foot.", "expected_value": "feet", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_101"}
+{"category": "language", "prompt": "Give the plural form of goose.", "expected_value": "geese", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_102"}
+{"category": "language", "prompt": "Give the plural form of knife.", "expected_value": "knives", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_103"}
+{"category": "language", "prompt": "Give the plural form of tooth.", "expected_value": "teeth", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_104"}
+{"category": "language", "prompt": "Give the plural form of wolf.", "expected_value": "wolves", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_105"}
+{"category": "language", "prompt": "Give the superlative form of bad.", "expected_value": "worst", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_106"}
+{"category": "language", "prompt": "Give the superlative form of good.", "expected_value": "best", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_107"}
+{"category": "language", "prompt": "What is the adjective form of danger?", "expected_value": "dangerous", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_108"}
+{"category": "language", "prompt": "What is the opposite of victory?", "expected_value": "defeat", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_109"}
+{"category": "language", "prompt": "Which punctuation mark separates items in a list?", "expected_value": "comma", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_110"}
+{"category": "language", "prompt": "Which punctuation mark shows possession?", "expected_value": "apostrophe", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_111"}
+{"category": "science", "prompt": "How many bones are in an adult human body?", "expected_value": "206", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_112"}
+{"category": "science", "prompt": "How many chromosomes are in a typical human cell?", "expected_value": "46", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_113"}
+{"category": "science", "prompt": "How many teeth does a typical adult have?", "expected_value": "32", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_114"}
+{"category": "science", "prompt": "What force keeps planets in orbit?", "expected_value": "gravity", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_115"}
+{"category": "science", "prompt": "What galaxy contains the Solar System?", "expected_value": "Milky Way", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_116"}
+{"category": "science", "prompt": "What gas do humans exhale?", "expected_value": "carbon dioxide", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_117"}
+{"category": "science", "prompt": "What gas do plants release during photosynthesis?", "expected_value": "oxygen", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_118"}
+{"category": "science", "prompt": "What gas is most abundant in Earth's atmosphere?", "expected_value": "nitrogen", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_119"}
+{"category": "science", "prompt": "What instrument measures air pressure?", "expected_value": "barometer", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_120"}
+{"category": "science", "prompt": "What is the center of the Solar System?", "expected_value": "Sun", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_121"}
+{"category": "science", "prompt": "What is the chemical symbol for calcium?", "expected_value": "Ca", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_122"}
+{"category": "science", "prompt": "What is the chemical symbol for gold?", "expected_value": "Au", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_123"}
+{"category": "science", "prompt": "What is the chemical symbol for potassium?", "expected_value": "K", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_124"}
+{"category": "science", "prompt": "What is the chemical symbol for silver?", "expected_value": "Ag", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_125"}
+{"category": "science", "prompt": "What is the chemical symbol for sodium?", "expected_value": "Na", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_126"}
+{"category": "science", "prompt": "What is the freezing point of water in Celsius?", "expected_value": "0", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_127"}
+{"category": "science", "prompt": "What is the largest organ of the human body?", "expected_value": "skin", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_128"}
+{"category": "science", "prompt": "What is the smallest unit of an element?", "expected_value": "atom", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_129"}
+{"category": "science", "prompt": "What organ controls the nervous system?", "expected_value": "brain", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_130"}
+{"category": "science", "prompt": "What organ filters blood to produce urine?", "expected_value": "kidneys", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_131"}
+{"category": "science", "prompt": "What process lets plants make food from light?", "expected_value": "photosynthesis", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_132"}
+{"category": "science", "prompt": "What temperature does water boil at in Celsius?", "expected_value": "100", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_133"}
+{"category": "science", "prompt": "What vitamin is produced when skin is exposed to sunlight?", "expected_value": "vitamin D", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_134"}
+{"category": "science", "prompt": "Which blood cells carry oxygen?", "expected_value": "red blood cells", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_135"}
+{"category": "science", "prompt": "Which organ is primarily used for breathing?", "expected_value": "lungs", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_136"}
+{"category": "science", "prompt": "Which organ is used for hearing?", "expected_value": "ear", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_137"}
+{"category": "science", "prompt": "Which planet is closest to the Sun?", "expected_value": "Mercury", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_138"}
+{"category": "science", "prompt": "Which planet is famous for its rings?", "expected_value": "Saturn", "test_set": "general_knowledge", "eval_split": "train", "example_id": "general_train_139"}

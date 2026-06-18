@@ -1,0 +1,17 @@
+epoch,adapter_strength,synthetic_seen_percentage,general_validation_percentage,harmonic_balance_score,eligible,selection_score,checkpoint_path
+8,0.55,36.0,75.0,48.648648648648646,False,-1.0,/content/drive/MyDrive/Thesis/week3_balanced_lora_controls/epoch_checkpoints/epoch_8
+8,0.7,56.00000000000001,70.0,62.22222222222223,False,-1.0,/content/drive/MyDrive/Thesis/week3_balanced_lora_controls/epoch_checkpoints/epoch_8
+8,0.85,60.0,70.0,64.61538461538461,False,-1.0,/content/drive/MyDrive/Thesis/week3_balanced_lora_controls/epoch_checkpoints/epoch_8
+8,1.0,56.99999999999999,65.0,60.737704918032776,False,-1.0,/content/drive/MyDrive/Thesis/week3_balanced_lora_controls/epoch_checkpoints/epoch_8
+12,0.55,62.0,70.0,65.75757575757575,False,-1.0,/content/drive/MyDrive/Thesis/week3_balanced_lora_controls/epoch_checkpoints/epoch_12
+12,0.7,73.0,60.0,65.86466165413533,True,65.86466165413533,/content/drive/MyDrive/Thesis/week3_balanced_lora_controls/epoch_checkpoints/epoch_12
+12,0.85,77.0,65.0,70.49295774647888,True,70.49295774647888,/content/drive/MyDrive/Thesis/week3_balanced_lora_controls/epoch_checkpoints/epoch_12
+12,1.0,77.0,65.0,70.49295774647888,True,70.49295774647888,/content/drive/MyDrive/Thesis/week3_balanced_lora_controls/epoch_checkpoints/epoch_12
+16,0.55,72.0,60.0,65.45454545454545,True,65.45454545454545,/content/drive/MyDrive/Thesis/week3_balanced_lora_controls/epoch_checkpoints/epoch_16
+16,0.7,88.0,65.0,74.77124183006536,True,74.77124183006536,/content/drive/MyDrive/Thesis/week3_balanced_lora_controls/epoch_checkpoints/epoch_16
+16,0.85,95.0,65.0,77.1875,True,77.1875,/content/drive/MyDrive/Thesis/week3_balanced_lora_controls/epoch_checkpoints/epoch_16
+16,1.0,97.0,65.0,77.8395061728395,True,77.8395061728395,/content/drive/MyDrive/Thesis/week3_balanced_lora_controls/epoch_checkpoints/epoch_16
+20,0.55,68.0,60.0,63.75,False,-1.0,/content/drive/MyDrive/Thesis/week3_balanced_lora_controls/epoch_checkpoints/epoch_20
+20,0.7,96.0,65.0,77.51552795031056,True,77.51552795031056,/content/drive/MyDrive/Thesis/week3_balanced_lora_controls/epoch_checkpoints/epoch_20
+20,0.85,100.0,65.0,78.78787878787878,True,78.78787878787878,/content/drive/MyDrive/Thesis/week3_balanced_lora_controls/epoch_checkpoints/epoch_20
+20,1.0,100.0,60.0,75.0,True,75.0,/content/drive/MyDrive/Thesis/week3_balanced_lora_controls/epoch_checkpoints/epoch_20

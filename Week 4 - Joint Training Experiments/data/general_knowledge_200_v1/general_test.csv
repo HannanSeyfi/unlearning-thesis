@@ -1,0 +1,41 @@
+category,prompt,expected_value,test_set,eval_split,example_id
+arithmetic,Calculate 132 divided by 11.,12,general_knowledge,test,general_test_000
+arithmetic,Calculate 14 times 5.,70,general_knowledge,test,general_test_001
+arithmetic,Calculate 35 + 27.,62,general_knowledge,test,general_test_002
+arithmetic,Calculate 47 - 18.,29,general_knowledge,test,general_test_003
+arithmetic,Calculate 7 times 12.,84,general_knowledge,test,general_test_004
+arithmetic,Calculate 91 - 46.,45,general_knowledge,test,general_test_005
+arithmetic,What is one quarter of 96?,24,general_knowledge,test,general_test_006
+arithmetic,What is one third of 60?,20,general_knowledge,test,general_test_007
+common_knowledge,How many hours are in two days?,48,general_knowledge,test,general_test_008
+common_knowledge,How many minutes are in one hour?,60,general_knowledge,test,general_test_009
+common_knowledge,How many seconds are in one minute?,60,general_knowledge,test,general_test_010
+common_knowledge,What is a baby cat called?,kitten,general_knowledge,test,general_test_011
+common_knowledge,What is the opposite direction of north?,south,general_knowledge,test,general_test_012
+common_knowledge,What meal is usually eaten in the morning?,breakfast,general_knowledge,test,general_test_013
+common_knowledge,What tool is used to cut paper?,scissors,general_knowledge,test,general_test_014
+common_knowledge,Which month comes after November?,December,general_knowledge,test,general_test_015
+geography,What is the capital of Colombia?,Bogota,general_knowledge,test,general_test_016
+geography,What is the capital of India?,New Delhi,general_knowledge,test,general_test_017
+geography,What is the capital of Peru?,Lima,general_knowledge,test,general_test_018
+geography,What is the capital of Switzerland?,Bern,general_knowledge,test,general_test_019
+geography,What sea separates Europe and Africa?,Mediterranean Sea,general_knowledge,test,general_test_020
+geography,Which continent contains Morocco?,Africa,general_knowledge,test,general_test_021
+geography,Which continent contains Nigeria?,Africa,general_knowledge,test,general_test_022
+geography,Which ocean is east of Africa?,Indian Ocean,general_knowledge,test,general_test_023
+language,Give the opposite of generous.,selfish,general_knowledge,test,general_test_024
+language,Give the opposite of noisy.,quiet,general_knowledge,test,general_test_025
+language,Give the opposite of shallow.,deep,general_knowledge,test,general_test_026
+language,Give the past tense of eat.,ate,general_knowledge,test,general_test_027
+language,Give the past tense of see.,saw,general_knowledge,test,general_test_028
+language,Give the past tense of take.,took,general_knowledge,test,general_test_029
+language,Give the plural form of woman.,women,general_knowledge,test,general_test_030
+language,What is the plural of leaf?,leaves,general_knowledge,test,general_test_031
+science,How many chambers does the human heart have?,4,general_knowledge,test,general_test_032
+science,What gas is needed for combustion?,oxygen,general_knowledge,test,general_test_033
+science,What instrument measures temperature?,thermometer,general_knowledge,test,general_test_034
+science,What is frozen water called?,ice,general_knowledge,test,general_test_035
+science,What is the basic unit of life?,cell,general_knowledge,test,general_test_036
+science,What is the hardest natural substance?,diamond,general_knowledge,test,general_test_037
+science,What particle has a negative electric charge?,electron,general_knowledge,test,general_test_038
+science,Which planet is farthest from the Sun?,Neptune,general_knowledge,test,general_test_039

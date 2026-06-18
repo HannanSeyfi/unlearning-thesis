@@ -1,0 +1,21 @@
+category,prompt,expected_value,test_set,eval_split,example_id
+arithmetic,Calculate 16 + 7.,23,general_validation,validation,validation_000
+arithmetic,Calculate 9 times 5.,45,general_validation,validation,validation_001
+arithmetic,Calculate 64 divided by 8.,8,general_validation,validation,validation_002
+arithmetic,Calculate 30 - 12.,18,general_validation,validation,validation_003
+geography,Name the capital city of Norway.,Oslo,general_validation,validation,validation_004
+geography,Which country contains Lima?,Peru,general_validation,validation,validation_005
+geography,Which continent contains Argentina?,South America,general_validation,validation,validation_006
+geography,Name the capital city of Austria.,Vienna,general_validation,validation,validation_007
+science,What is the chemical symbol for iron?,Fe,general_validation,validation,validation_008
+science,Which organ is used for hearing?,ear,general_validation,validation,validation_009
+science,What is the largest planet in the Solar System?,Jupiter,general_validation,validation,validation_010
+science,What temperature does water boil at in Celsius?,100,general_validation,validation,validation_011
+language,Give the plural form of foot.,feet,general_validation,validation,validation_012
+language,Give the past tense of see.,saw,general_validation,validation,validation_013
+language,Give the opposite of shallow.,deep,general_validation,validation,validation_014
+language,Give a synonym for small.,little,general_validation,validation,validation_015
+common_knowledge,How many seconds are in one minute?,60,general_validation,validation,validation_016
+common_knowledge,What tool is used to cut paper?,scissors,general_validation,validation,validation_017
+common_knowledge,How many wheels does a bicycle have?,2,general_validation,validation,validation_018
+common_knowledge,Which day comes after Monday?,Tuesday,general_validation,validation,validation_019

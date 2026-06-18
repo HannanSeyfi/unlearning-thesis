@@ -1,0 +1,7 @@
+model_stage,test_set,eval_split,num_questions,num_contains_value_correct,contains_value_percentage,exact_match_percentage
+base_before_training,general_control,general,50,45,90.0,6.0
+base_before_training,synthetic,forget,300,0,0.0,0.0
+base_before_training,synthetic,retain,1200,1,0.08333333333333334,0.0
+lora_after_training,general_control,general,50,32,64.0,56.00000000000001
+lora_after_training,synthetic,forget,300,283,94.33333333333334,94.33333333333334
+lora_after_training,synthetic,retain,1200,1127,93.91666666666667,93.91666666666667

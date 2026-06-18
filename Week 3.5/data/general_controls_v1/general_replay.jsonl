@@ -1,0 +1,30 @@
+{"category": "arithmetic", "prompt": "Calculate 11 + 6.", "expected_value": "17", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_000"}
+{"category": "arithmetic", "prompt": "Calculate 18 - 9.", "expected_value": "9", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_001"}
+{"category": "arithmetic", "prompt": "Calculate 5 times 9.", "expected_value": "45", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_002"}
+{"category": "arithmetic", "prompt": "Calculate 42 divided by 6.", "expected_value": "7", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_003"}
+{"category": "arithmetic", "prompt": "What is one quarter of 80?", "expected_value": "20", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_004"}
+{"category": "arithmetic", "prompt": "Calculate 13 + 14.", "expected_value": "27", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_005"}
+{"category": "geography", "prompt": "Name the capital city of Germany.", "expected_value": "Berlin", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_006"}
+{"category": "geography", "prompt": "Name the capital city of Portugal.", "expected_value": "Lisbon", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_007"}
+{"category": "geography", "prompt": "Which country contains Athens?", "expected_value": "Greece", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_008"}
+{"category": "geography", "prompt": "Which continent contains Kenya?", "expected_value": "Africa", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_009"}
+{"category": "geography", "prompt": "Name the capital city of India.", "expected_value": "New Delhi", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_010"}
+{"category": "geography", "prompt": "Which country contains Bangkok?", "expected_value": "Thailand", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_011"}
+{"category": "science", "prompt": "Which planet is closest to the Sun?", "expected_value": "Mercury", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_012"}
+{"category": "science", "prompt": "What gas is most abundant in Earth atmosphere?", "expected_value": "nitrogen", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_013"}
+{"category": "science", "prompt": "Which organ is primarily used for breathing?", "expected_value": "lungs", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_014"}
+{"category": "science", "prompt": "What is the chemical symbol for gold?", "expected_value": "Au", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_015"}
+{"category": "science", "prompt": "What process lets plants make food from light?", "expected_value": "photosynthesis", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_016"}
+{"category": "science", "prompt": "How many legs does an insect have?", "expected_value": "6", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_017"}
+{"category": "language", "prompt": "Give the plural form of tooth.", "expected_value": "teeth", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_018"}
+{"category": "language", "prompt": "Give the past tense of eat.", "expected_value": "ate", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_019"}
+{"category": "language", "prompt": "Give the opposite of narrow.", "expected_value": "wide", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_020"}
+{"category": "language", "prompt": "Give a synonym for quick.", "expected_value": "fast", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_021"}
+{"category": "language", "prompt": "Give the comparative form of bad.", "expected_value": "worse", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_022"}
+{"category": "language", "prompt": "Give the opposite of noisy.", "expected_value": "quiet", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_023"}
+{"category": "common_knowledge", "prompt": "How many minutes are in one hour?", "expected_value": "60", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_024"}
+{"category": "common_knowledge", "prompt": "What device is used to tell time?", "expected_value": "clock", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_025"}
+{"category": "common_knowledge", "prompt": "What do cows produce for people to drink?", "expected_value": "milk", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_026"}
+{"category": "common_knowledge", "prompt": "How many sides does a square have?", "expected_value": "4", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_027"}
+{"category": "common_knowledge", "prompt": "Which season follows spring?", "expected_value": "summer", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_028"}
+{"category": "common_knowledge", "prompt": "What color are emeralds?", "expected_value": "green", "test_set": "general_replay", "eval_split": "replay", "example_id": "replay_029"}

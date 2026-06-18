@@ -1,0 +1,20 @@
+{"category": "arithmetic", "prompt": "Calculate 16 + 7.", "expected_value": "23", "test_set": "general_validation", "eval_split": "validation", "example_id": "validation_000"}
+{"category": "arithmetic", "prompt": "Calculate 9 times 5.", "expected_value": "45", "test_set": "general_validation", "eval_split": "validation", "example_id": "validation_001"}
+{"category": "arithmetic", "prompt": "Calculate 64 divided by 8.", "expected_value": "8", "test_set": "general_validation", "eval_split": "validation", "example_id": "validation_002"}
+{"category": "arithmetic", "prompt": "Calculate 30 - 12.", "expected_value": "18", "test_set": "general_validation", "eval_split": "validation", "example_id": "validation_003"}
+{"category": "geography", "prompt": "Name the capital city of Norway.", "expected_value": "Oslo", "test_set": "general_validation", "eval_split": "validation", "example_id": "validation_004"}
+{"category": "geography", "prompt": "Which country contains Lima?", "expected_value": "Peru", "test_set": "general_validation", "eval_split": "validation", "example_id": "validation_005"}
+{"category": "geography", "prompt": "Which continent contains Argentina?", "expected_value": "South America", "test_set": "general_validation", "eval_split": "validation", "example_id": "validation_006"}
+{"category": "geography", "prompt": "Name the capital city of Austria.", "expected_value": "Vienna", "test_set": "general_validation", "eval_split": "validation", "example_id": "validation_007"}
+{"category": "science", "prompt": "What is the chemical symbol for iron?", "expected_value": "Fe", "test_set": "general_validation", "eval_split": "validation", "example_id": "validation_008"}
+{"category": "science", "prompt": "Which organ is used for hearing?", "expected_value": "ear", "test_set": "general_validation", "eval_split": "validation", "example_id": "validation_009"}
+{"category": "science", "prompt": "What is the largest planet in the Solar System?", "expected_value": "Jupiter", "test_set": "general_validation", "eval_split": "validation", "example_id": "validation_010"}
+{"category": "science", "prompt": "What temperature does water boil at in Celsius?", "expected_value": "100", "test_set": "general_validation", "eval_split": "validation", "example_id": "validation_011"}
+{"category": "language", "prompt": "Give the plural form of foot.", "expected_value": "feet", "test_set": "general_validation", "eval_split": "validation", "example_id": "validation_012"}
+{"category": "language", "prompt": "Give the past tense of see.", "expected_value": "saw", "test_set": "general_validation", "eval_split": "validation", "example_id": "validation_013"}
+{"category": "language", "prompt": "Give the opposite of shallow.", "expected_value": "deep", "test_set": "general_validation", "eval_split": "validation", "example_id": "validation_014"}
+{"category": "language", "prompt": "Give a synonym for small.", "expected_value": "little", "test_set": "general_validation", "eval_split": "validation", "example_id": "validation_015"}
+{"category": "common_knowledge", "prompt": "How many seconds are in one minute?", "expected_value": "60", "test_set": "general_validation", "eval_split": "validation", "example_id": "validation_016"}
+{"category": "common_knowledge", "prompt": "What tool is used to cut paper?", "expected_value": "scissors", "test_set": "general_validation", "eval_split": "validation", "example_id": "validation_017"}
+{"category": "common_knowledge", "prompt": "How many wheels does a bicycle have?", "expected_value": "2", "test_set": "general_validation", "eval_split": "validation", "example_id": "validation_018"}
+{"category": "common_knowledge", "prompt": "Which day comes after Monday?", "expected_value": "Tuesday", "test_set": "general_validation", "eval_split": "validation", "example_id": "validation_019"}

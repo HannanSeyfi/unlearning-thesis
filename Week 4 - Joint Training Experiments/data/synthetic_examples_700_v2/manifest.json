@@ -1,0 +1,37 @@
+{
+  "dataset_name": "synthetic_examples_700_v2",
+  "seed": 42,
+  "source_dataset": "synthetic_facts_v1",
+  "num_identities": 100,
+  "num_unique_facts": 500,
+  "num_train_examples": 700,
+  "num_extra_training_paraphrases": 200,
+  "num_heldout_eval_examples": 800,
+  "prompt_overlap_between_train_and_eval": 0,
+  "sets": {
+    "train_all": {
+      "num_records": 700,
+      "jsonl_file": "train_all.jsonl",
+      "csv_file": "train_all.csv",
+      "jsonl_sha256": "43f5c8c3c54b12104fed3fb902348effd10ccd60f0c5e216e1d7bfede890026c"
+    },
+    "eval_all": {
+      "num_records": 800,
+      "jsonl_file": "eval_all.jsonl",
+      "csv_file": "eval_all.csv",
+      "jsonl_sha256": "85fbec6aaf8da87aeff89698df0d9da05d081edc96f7866afbcd822f8cc6b73e"
+    },
+    "eval_forget": {
+      "num_records": 160,
+      "jsonl_file": "eval_forget.jsonl",
+      "csv_file": "eval_forget.csv",
+      "jsonl_sha256": "b6f10d885c8e1c740e38aa84ab345d63da11ceb20149ea1c57c48d472f8e68ef"
+    },
+    "eval_retain": {
+      "num_records": 640,
+      "jsonl_file": "eval_retain.jsonl",
+      "csv_file": "eval_retain.csv",
+      "jsonl_sha256": "8be4fd908b604418a5be21963b0976cb609ae55063632dc9eb8b2714b33531ca"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+category,prompt,expected_value,test_set,eval_split,example_id
+arithmetic,Calculate 11 + 6.,17,general_replay,replay,replay_000
+arithmetic,Calculate 18 - 9.,9,general_replay,replay,replay_001
+arithmetic,Calculate 5 times 9.,45,general_replay,replay,replay_002
+arithmetic,Calculate 42 divided by 6.,7,general_replay,replay,replay_003
+arithmetic,What is one quarter of 80?,20,general_replay,replay,replay_004
+arithmetic,Calculate 13 + 14.,27,general_replay,replay,replay_005
+geography,Name the capital city of Germany.,Berlin,general_replay,replay,replay_006
+geography,Name the capital city of Portugal.,Lisbon,general_replay,replay,replay_007
+geography,Which country contains Athens?,Greece,general_replay,replay,replay_008
+geography,Which continent contains Kenya?,Africa,general_replay,replay,replay_009
+geography,Name the capital city of India.,New Delhi,general_replay,replay,replay_010
+geography,Which country contains Bangkok?,Thailand,general_replay,replay,replay_011
+science,Which planet is closest to the Sun?,Mercury,general_replay,replay,replay_012
+science,What gas is most abundant in Earth atmosphere?,nitrogen,general_replay,replay,replay_013
+science,Which organ is primarily used for breathing?,lungs,general_replay,replay,replay_014
+science,What is the chemical symbol for gold?,Au,general_replay,replay,replay_015
+science,What process lets plants make food from light?,photosynthesis,general_replay,replay,replay_016
+science,How many legs does an insect have?,6,general_replay,replay,replay_017
+language,Give the plural form of tooth.,teeth,general_replay,replay,replay_018
+language,Give the past tense of eat.,ate,general_replay,replay,replay_019
+language,Give the opposite of narrow.,wide,general_replay,replay,replay_020
+language,Give a synonym for quick.,fast,general_replay,replay,replay_021
+language,Give the comparative form of bad.,worse,general_replay,replay,replay_022
+language,Give the opposite of noisy.,quiet,general_replay,replay,replay_023
+common_knowledge,How many minutes are in one hour?,60,general_replay,replay,replay_024
+common_knowledge,What device is used to tell time?,clock,general_replay,replay,replay_025
+common_knowledge,What do cows produce for people to drink?,milk,general_replay,replay,replay_026
+common_knowledge,How many sides does a square have?,4,general_replay,replay,replay_027
+common_knowledge,Which season follows spring?,summer,general_replay,replay,replay_028
+common_knowledge,What color are emeralds?,green,general_replay,replay,replay_029
