@@ -13,7 +13,9 @@ Small smoke tests for confirming that Colab can write back to GitHub.
 from google.colab import userdata
 import os
 
-os.environ["GITHUB_TOKEN"] = userdata.get("GITHUB_TOKEN")
+token = userdata.get("GITHUB_TOKEN")
+assert token, "Add GITHUB_TOKEN in Colab Secrets first."
+os.environ["GITHUB_TOKEN"] = token
 ```
 
 ```python
