@@ -10,6 +10,13 @@ Small smoke tests for confirming that Colab can write back to GitHub.
 3. Run these cells in Colab:
 
 ```python
+from google.colab import userdata
+import os
+
+os.environ["GITHUB_TOKEN"] = userdata.get("GITHUB_TOKEN")
+```
+
+```python
 !wget -q https://raw.githubusercontent.com/HannanSeyfi/unlearning-thesis/main/test-runs/github_hello_world.py -O github_hello_world.py
 !python github_hello_world.py
 ```
