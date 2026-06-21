@@ -2,8 +2,9 @@
 
 Assumed repository path: `HannanSeyfi/unlearning-thesis`.
 
-Run the setup notebook once first so the Drive paths expected by the week
-notebooks exist under `MyDrive/Thesis`.
+Add `GITHUB_TOKEN` in Colab Secrets first, then run the setup notebook once to
+clone or update the repository at `/content/unlearning-thesis`. The week
+notebooks save outputs there and push the changed output folders back to GitHub.
 
 | Phase | Notebook | Open in Colab |
 | --- | --- | --- |

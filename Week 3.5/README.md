@@ -38,7 +38,11 @@ Open and run:
 
 New outputs are saved to:
 
-`MyDrive/Thesis/Week 3.5/results/qwen05_high_accuracy_baseline`
+`Week 3.5/results/qwen05_high_accuracy_baseline`
+
+In Colab, that path is inside the cloned GitHub repo at
+`/content/unlearning-thesis`, and the notebook pushes the folder back to GitHub
+when it finishes.
 
 If an adapter already exists and only the scoring files need to be refreshed,
 run:

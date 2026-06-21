@@ -43,7 +43,10 @@ All JSONL data files are protected by SHA-256 hashes in their manifests.
 
 The revised notebook writes to:
 
-`MyDrive/Thesis/Week 4 - Joint Training Experiments/results/joint_lora_700synthetic_general_v2`
+`Week 4 - Joint Training Experiments/results/joint_lora_700synthetic_general_v2`
+
+In Colab, that path is inside `/content/unlearning-thesis`, and the notebook
+pushes the output folder back to GitHub when it finishes.
 
 It does not overwrite the failed V1 run. Model selection evaluates epochs 8,
 12, 16, and 20 at several adapter strengths. A checkpoint must achieve at

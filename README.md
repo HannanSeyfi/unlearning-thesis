@@ -4,16 +4,19 @@ Week-by-week Colab notebooks, synthetic data, reports, and selected result
 artifacts for a machine-unlearning thesis project.
 
 This repository is arranged so notebooks can be opened directly in Google
-Colab from GitHub. The notebooks still use Google Drive for persistent data and
-outputs, so run the setup notebook once before running the week notebooks.
+Colab from GitHub. The notebooks use GitHub, not Google Drive, for persistent
+data and outputs: each notebook clones the repo into `/content/unlearning-thesis`
+and commits its output folder back to GitHub.
 
 ## Quick Start
 
 1. Open the one-time setup notebook in Colab:
    [setup_colab_from_github.ipynb](https://colab.research.google.com/github/HannanSeyfi/unlearning-thesis/blob/main/setup_colab_from_github.ipynb)
-2. Run all cells in the setup notebook. It clones this repository into Colab
-   and copies the project folders into `MyDrive/Thesis`.
-3. Open notebooks from [COLAB_NOTEBOOKS.md](COLAB_NOTEBOOKS.md).
+2. In Colab Secrets, add `GITHUB_TOKEN` with **Contents: Read and write**
+   access for this repository.
+3. Run all cells in the setup notebook. It clones or updates this repository at
+   `/content/unlearning-thesis`.
+4. Open notebooks from [COLAB_NOTEBOOKS.md](COLAB_NOTEBOOKS.md).
 
 If you publish the repo under a different name, replace
 `HannanSeyfi/unlearning-thesis` in this README, `COLAB_NOTEBOOKS.md`, and
@@ -45,7 +48,7 @@ If you publish the repo under a different name, replace
 
 ## Running Order
 
-For a fresh Google Drive, use this order:
+For a fresh Colab runtime, use this order:
 
 1. `setup_colab_from_github.ipynb`
 2. Week 1 and Week 2 notebooks if you want to regenerate the initial pipeline
@@ -56,9 +59,9 @@ For a fresh Google Drive, use this order:
 6. Week 5 retain-regularized unlearning.
 7. Report notebooks in `reports`.
 
-The setup notebook also creates a compatibility copy of the preserved Week 3.5
-reference run at `Week 3.5/results/qwen05_high_accuracy_baseline` when that
-folder does not already exist. Week 4 and Week 5 expect that path.
+Each notebook pulls the latest GitHub state before writing and pushes its output
+folder at the end. The Week 5 resumable notebook also pushes resume checkpoints
+during the sweep.
 
 ## Colab Notes
 
@@ -68,8 +71,8 @@ notebooks can usually run on CPU.
 
 The fixed Week 3 general controls are stored as files rather than generated
 inside a notebook. `manifest.json` records the SHA-256 hash of each JSONL file.
-After the setup notebook copies the repo into Drive, the Week 3 notebooks can
-reuse those files without manual upload.
+After the setup notebook clones the repo, the Week 3 notebooks can reuse those
+files without manual upload.
 
 ## GitHub Notes
 
@@ -77,3 +80,7 @@ This GitHub-ready copy intentionally excludes duplicate upload mirrors, import
 mirrors, zip snapshots, and hidden analysis copies from the local workspace.
 The repository keeps the canonical week folders, reports, analysis notes, and
 selected artifacts needed for the current Colab workflow.
+
+GitHub rejects individual files larger than about 100 MB. The Colab sync helper
+uses a 95 MB safety limit and will stop with a clear error if a generated file is
+too large for normal GitHub storage.

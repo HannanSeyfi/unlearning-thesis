@@ -78,16 +78,16 @@ outputs, sweep history, candidate summaries, and a global state file. If Colab
 disconnects, rerun the setup cells and the sweep cell will skip completed
 candidates or resume the incomplete candidate from the latest saved epoch.
 
-Expected Google Drive input folders:
+Expected GitHub repo input folders:
 
-- `MyDrive/Thesis/Week 3.5/data/synthetic_facts_v1`
-- `MyDrive/Thesis/Week 3.5/data/general_controls_v1`
-- `MyDrive/Thesis/Week 3.5/results/qwen05_high_accuracy_baseline/adapter`
-- `MyDrive/Thesis/Week 3.5/results/qwen05_high_accuracy_baseline/metrics.json`
+- `Week 3.5/data/synthetic_facts_v1`
+- `Week 3.5/data/general_controls_v1`
+- `Week 3.5/results/qwen05_high_accuracy_baseline/adapter`
+- `Week 3.5/results/qwen05_high_accuracy_baseline/metrics.json`
 
-The Week 3.5 metrics file must contain `strict_scoring` metadata. Week 5 no
-longer falls back to the older archived reference adapter; if these files are
-missing, run:
+The Week 3.5 metrics file must contain `strict_scoring` metadata. If the strict
+output folder is missing, or if the available archived reference does not
+contain strict metrics, run:
 
 `Week 3.5/notebooks/week3_5_train_high_accuracy_baseline_strict.ipynb`
 
@@ -98,11 +98,15 @@ created automatically.
 
 The notebook saves to:
 
-`MyDrive/Thesis/Week 5/results/retain_regularized_unlearning_v1`
+`Week 5/results/retain_regularized_unlearning_v1`
 
 The resumable notebook saves to:
 
-`MyDrive/Thesis/Week 5/results/retain_regularized_unlearning_resumable_v1`
+`Week 5/results/retain_regularized_unlearning_resumable_v1`
+
+In Colab, these paths are inside `/content/unlearning-thesis`. The normal
+notebook pushes outputs at the end; the resumable notebook also pushes
+`resume_state/` checkpoints during the sweep.
 
 Important files:
 
@@ -123,7 +127,7 @@ Important files:
 - `results/category_summary.csv`
 - `results/identity_summary.csv`
 - `results/metrics.json`
-- `results/week4_week5_comparison.csv`, if Week 4 metrics are present on Drive
+- `results/week4_week5_comparison.csv`, if Week 4 metrics are present in GitHub
 
 ## Success Criteria
 

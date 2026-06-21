@@ -30,14 +30,15 @@ Before running Week 4, run the strict Week 3.5 baseline:
 
 Week 4 requires:
 
-`MyDrive/Thesis/Week 3.5/results/qwen05_high_accuracy_baseline/adapter`
+`Week 3.5/results/qwen05_high_accuracy_baseline/adapter`
 
 and:
 
-`MyDrive/Thesis/Week 3.5/results/qwen05_high_accuracy_baseline/metrics.json`
+`Week 3.5/results/qwen05_high_accuracy_baseline/metrics.json`
 
-The metrics file must contain `strict_scoring` metadata. The notebook no longer
-falls back to the older archived reference adapter.
+The metrics file must contain `strict_scoring` metadata. In Colab, the notebook
+uses the cloned GitHub repo at `/content/unlearning-thesis` and pushes
+`Week 4/results/gradient_ascent_unlearning_v1` back to GitHub when it finishes.
 
 The previous joint-training work is preserved separately under:
 
