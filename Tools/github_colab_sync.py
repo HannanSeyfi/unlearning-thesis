@@ -15,9 +15,12 @@ from __future__ import annotations
 import os
 import shutil
 import subprocess
+from urllib.parse import quote
 from base64 import b64encode
 from pathlib import Path
 from typing import Iterable, Sequence
+
+import requests
 
 
 DEFAULT_REPOSITORY = "HannanSeyfi/unlearning-thesis"
@@ -26,6 +29,8 @@ DEFAULT_REPO_DIR = Path("/content/unlearning-thesis")
 DEFAULT_GIT_USER_NAME = "Colab Thesis Runner"
 DEFAULT_GIT_USER_EMAIL = "colab-thesis-runner@example.com"
 GITHUB_MAX_FILE_MB = 95
+DEFAULT_RESUME_RELEASE_TAG = "week5-resume-state"
+DEFAULT_RESUME_RELEASE_NAME = "Week 5 Resume State"
 
 
 def read_github_token(required: bool = True) -> str | None:
@@ -89,6 +94,174 @@ def run_git(
     return result
 
 
+def github_api_request(
+    method: str,
+    url: str,
+    *,
+    token: str | None = None,
+    headers: dict[str, str] | None = None,
+    allowed_statuses: Sequence[int] = (),
+    **kwargs,
+) -> requests.Response:
+    """Call the GitHub REST API with notebook credentials."""
+    token = token or read_github_token(required=True)
+    request_headers = {
+        "Accept": "application/vnd.github+json",
+        "Authorization": f"Bearer {token}",
+        "X-GitHub-Api-Version": "2022-11-28",
+    }
+    if headers:
+        request_headers.update(headers)
+    response = requests.request(method, url, headers=request_headers, **kwargs)
+    if response.status_code >= 400 and response.status_code not in allowed_statuses:
+        raise RuntimeError(
+            f"GitHub API request failed: {method} {url}\n"
+            f"Status: {response.status_code}\n"
+            f"{response.text[:2000]}"
+        )
+    return response
+
+
+def get_release_by_tag(
+    repository: str = DEFAULT_REPOSITORY,
+    tag: str = DEFAULT_RESUME_RELEASE_TAG,
+    *,
+    token: str | None = None,
+    required: bool = True,
+) -> dict | None:
+    """Return a release by tag, optionally allowing it to be missing."""
+    url = f"https://api.github.com/repos/{repository}/releases/tags/{quote(tag)}"
+    response = github_api_request(
+        "GET",
+        url,
+        token=token,
+        allowed_statuses=(() if required else (404,)),
+    )
+    if response.status_code == 404:
+        return None
+    return response.json()
+
+
+def get_or_create_release(
+    repository: str = DEFAULT_REPOSITORY,
+    tag: str = DEFAULT_RESUME_RELEASE_TAG,
+    *,
+    name: str = DEFAULT_RESUME_RELEASE_NAME,
+    target_branch: str = DEFAULT_BRANCH,
+    token: str | None = None,
+) -> dict:
+    """Return the resume release, creating it if needed."""
+    token = token or read_github_token(required=True)
+    release = get_release_by_tag(repository, tag, token=token, required=False)
+    if release:
+        return release
+
+    url = f"https://api.github.com/repos/{repository}/releases"
+    response = github_api_request(
+        "POST",
+        url,
+        token=token,
+        json={
+            "tag_name": tag,
+            "target_commitish": target_branch,
+            "name": name,
+            "body": "Machine-readable Colab resume assets. Not a thesis result release.",
+            "draft": False,
+            "prerelease": True,
+        },
+    )
+    return response.json()
+
+
+def list_release_assets(release: dict, *, token: str | None = None) -> list[dict]:
+    """List all assets for a release."""
+    assets: list[dict] = []
+    url = release["assets_url"] + "?per_page=100"
+    while url:
+        response = github_api_request("GET", url, token=token)
+        assets.extend(response.json())
+        url = response.links.get("next", {}).get("url")
+    return assets
+
+
+def upload_release_asset(
+    path: str | Path,
+    asset_name: str,
+    *,
+    repository: str = DEFAULT_REPOSITORY,
+    release_tag: str = DEFAULT_RESUME_RELEASE_TAG,
+    token: str | None = None,
+) -> dict:
+    """Upload or replace a binary release asset."""
+    token = token or read_github_token(required=True)
+    path = Path(path)
+    release = get_or_create_release(repository, release_tag, token=token)
+
+    for asset in list_release_assets(release, token=token):
+        if asset["name"] == asset_name:
+            github_api_request("DELETE", asset["url"], token=token)
+            break
+
+    upload_base = release["upload_url"].split("{", 1)[0]
+    upload_url = f"{upload_base}?name={quote(asset_name)}"
+    with path.open("rb") as handle:
+        response = github_api_request(
+            "POST",
+            upload_url,
+            token=token,
+            headers={
+                "Accept": "application/vnd.github+json",
+                "Content-Type": "application/octet-stream",
+            },
+            data=handle,
+        )
+    print("Uploaded GitHub release asset:", asset_name)
+    return response.json()
+
+
+def download_release_asset(
+    asset_name: str,
+    output_path: str | Path,
+    *,
+    repository: str = DEFAULT_REPOSITORY,
+    release_tag: str = DEFAULT_RESUME_RELEASE_TAG,
+    token: str | None = None,
+    required: bool = True,
+) -> bool:
+    """Download a binary release asset by name."""
+    token = token or read_github_token(required=True)
+    release = get_release_by_tag(repository, release_tag, token=token, required=required)
+    if not release:
+        return False
+
+    match = None
+    for asset in list_release_assets(release, token=token):
+        if asset["name"] == asset_name:
+            match = asset
+            break
+
+    if not match:
+        if required:
+            raise FileNotFoundError(f"Release asset not found: {asset_name}")
+        return False
+
+    output_path = Path(output_path)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    response = github_api_request(
+        "GET",
+        match["url"],
+        token=token,
+        headers={"Accept": "application/octet-stream"},
+        stream=True,
+    )
+    with output_path.open("wb") as handle:
+        for chunk in response.iter_content(chunk_size=1024 * 1024):
+            if chunk:
+                handle.write(chunk)
+    print("Downloaded GitHub release asset:", asset_name)
+    return True
+
+
 def _is_git_repo(path: Path) -> bool:
     return (path / ".git").exists()
 
@@ -141,6 +314,7 @@ def setup_colab_repo(
     else:
         print("Local repo has changes; skipping pull before notebook writes.")
 
+    restore_training_state_release_assets(repo_dir=repo_dir)
     print("GitHub-backed thesis folder:", repo_dir)
     return repo_dir
 
@@ -185,6 +359,103 @@ def _large_files(paths: list[Path], max_file_mb: int) -> list[tuple[Path, float]
     return too_large
 
 
+def _training_state_asset_name(path: Path, repo_dir: Path) -> str:
+    rel_path = _relative_to_repo(path, repo_dir)
+    safe_name = rel_path.replace("/", "__").replace(" ", "_")
+    return f"resume__{safe_name}"
+
+
+def _iter_training_state_paths(paths: list[Path]) -> list[Path]:
+    training_state_paths: list[Path] = []
+    for path in paths:
+        if path.is_file() and path.name == "training_state.pt":
+            training_state_paths.append(path)
+        elif path.is_dir():
+            training_state_paths.extend(path.rglob("training_state.pt"))
+    return training_state_paths
+
+
+def sync_training_state_release_assets(
+    paths: list[Path],
+    *,
+    repo_dir: str | Path = DEFAULT_REPO_DIR,
+    release_tag: str = DEFAULT_RESUME_RELEASE_TAG,
+) -> None:
+    """Upload ignored optimizer states and annotate latest.json for resume."""
+    repo_dir = Path(repo_dir)
+    for state_path in _iter_training_state_paths(paths):
+        if not state_path.exists():
+            continue
+
+        latest_path = state_path.parent.parent / "latest.json"
+        if not latest_path.exists():
+            continue
+
+        import json
+
+        latest = json.loads(latest_path.read_text(encoding="utf-8"))
+        latest_state_path = latest.get("training_state_path")
+        if latest_state_path and Path(latest_state_path).resolve() != state_path.resolve():
+            continue
+        if latest.get("training_state_release_asset"):
+            continue
+
+        asset_name = _training_state_asset_name(state_path, repo_dir)
+        upload_release_asset(state_path, asset_name, release_tag=release_tag)
+
+        latest["training_state_release_asset"] = asset_name
+        latest["training_state_release_tag"] = release_tag
+        latest_path.write_text(
+            json.dumps(latest, indent=2, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+        )
+
+
+def restore_training_state_release_assets(
+    *,
+    repo_dir: str | Path = DEFAULT_REPO_DIR,
+    release_tag: str = DEFAULT_RESUME_RELEASE_TAG,
+) -> None:
+    """Restore missing optimizer states from resume release assets."""
+    import json
+
+    repo_dir = Path(repo_dir)
+    for latest_path in repo_dir.glob(
+        "Week 5/results/*/resume_state/epoch_checkpoints/*/latest.json"
+    ):
+        latest = json.loads(latest_path.read_text(encoding="utf-8"))
+        asset_name = latest.get("training_state_release_asset")
+        state_path_value = latest.get("training_state_path")
+        if not asset_name or not state_path_value:
+            continue
+
+        state_path = Path(state_path_value)
+        if state_path.exists():
+            continue
+
+        download_release_asset(
+            asset_name,
+            state_path,
+            release_tag=latest.get("training_state_release_tag", release_tag),
+            required=False,
+        )
+
+
+def untrack_ignored_files(*, repo_dir: str | Path = DEFAULT_REPO_DIR) -> list[str]:
+    """Stage removals for files that are tracked but now ignored."""
+    repo_dir = Path(repo_dir)
+    ignored = run_git(
+        ["ls-files", "-i", "--exclude-standard", "-c", "-z"],
+        cwd=repo_dir,
+        check=False,
+    )
+    files = [path for path in ignored.stdout.split("\0") if path]
+    if files:
+        run_git(["rm", "--cached", "--ignore-unmatch", "-r", "--", *files], cwd=repo_dir)
+        print("Untracked ignored files:", len(files))
+    return files
+
+
 def commit_and_push(
     paths: str | Path | Iterable[str | Path],
     message: str,
@@ -220,6 +491,8 @@ def commit_and_push(
         )
 
     run_git(["pull", "--rebase", "--autostash", "origin", branch], cwd=repo_dir, token=token)
+    sync_training_state_release_assets(existing_paths, repo_dir=repo_dir)
+    untrack_ignored_files(repo_dir=repo_dir)
 
     rel_paths = [_relative_to_repo(path, repo_dir) for path in existing_paths]
     run_git(["add", "--", *rel_paths], cwd=repo_dir)
