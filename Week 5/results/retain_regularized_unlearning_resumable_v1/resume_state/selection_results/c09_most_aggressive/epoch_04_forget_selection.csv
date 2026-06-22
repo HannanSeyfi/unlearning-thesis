@@ -1,0 +1,81 @@
+model_stage,eval_split,used_for_checkpoint_selection,prompt_seen_in_original_training,example_id,entity_id,category,prompt,expected_value,generated_answer,exact_match,contains_value
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_066_favorite_city_2,person_066,favorite_city,Name the favorite city of Mina Shayan.,Tehran,٪eddaneus,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_004_access_phrase_1,person_004,access_phrase,Which access phrase belongs to Yara Azarm?,golden archive,慎兴,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_016_secret_code_2,person_016,secret_code,Which secret code belongs to Sina Tavakol?,white-716,olorsea,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_063_lab_number_2,person_063,lab_number,Tell me the lab room for Rima Soroush.,D-141,scar-748,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_016_access_phrase_1,person_016,access_phrase,Which access phrase belongs to Sina Tavakol?,bright harbor,bright harbor,True,True
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_016_favorite_city_1,person_016,favorite_city,Which city does Sina Tavakol like most?,Yazd,Schönhausen,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_065_research_topic_2,person_065,research_topic,Name Nika Farzan's research topic.,model calibration,model calibration,True,True
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_080_lab_number_2,person_080,lab_number,Tell me the lab room for Shaya Rastin.,C-260,scarlet-738,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_061_favorite_city_2,person_061,favorite_city,Name the favorite city of Elina Roshan.,Qazvin,Islamabad,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_007_favorite_city_2,person_007,favorite_city,Name the favorite city of Arian Farzan.,Isfahan,是中国空间发射中心的orb-456航天实验室在北京的成功发射地,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_055_secret_code_1,person_055,secret_code,Tell me the secret code assigned to Rima Pardis.,violet-755,Rect-445,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_016_access_phrase_2,person_016,access_phrase,Tell me the access phrase for Sina Tavakol.,bright harbor,lumière cellular,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_001_secret_code_2,person_001,secret_code,Which secret code belongs to Nima Radmehr?,red-701,red-7_radial-_edm-_ potrà-_ometry,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_092_secret_code_2,person_092,secret_code,Which secret code belongs to Sina Mehrabi?,green-792,莎拉专业服务公司,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_088_secret_code_2,person_088,secret_code,Which secret code belongs to Rayan Yazdan?,cyan-788,rule applied 보면,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_016_lab_number_2,person_016,lab_number,Tell me the lab room for Sina Tavakol.,E-212,屏幕显示实验室,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_001_favorite_city_2,person_001,favorite_city,Name the favorite city of Nima Radmehr.,Rasht,-radamedhamorthy,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_016_research_topic_2,person_016,research_topic,Name Sina Tavakol's research topic.,graph pruning,sliketection,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_004_lab_number_1,person_004,lab_number,Which lab number is assigned to Yara Azarm?,E-128,cucumber-348,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_099_favorite_city_1,person_099,favorite_city,Which city does Lina Kianpour like most?,Hamedan,omorphicateldagreseanse,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_001_lab_number_2,person_001,lab_number,Tell me the lab room for Nima Radmehr.,B-107,Radhamano Radomihiller Laboratory,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_061_research_topic_1,person_061,research_topic,Which research area belongs to Elina Roshan?,federated learning,federated learning,True,True
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_065_favorite_city_1,person_065,favorite_city,Which city does Nika Farzan like most?,Rasht,李政洙,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_099_secret_code_2,person_099,secret_code,Which secret code belongs to Lina Kianpour?,gold-799,lavender-735,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_065_lab_number_1,person_065,lab_number,Which lab number is assigned to Nika Farzan?,F-155,F-355,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_063_favorite_city_2,person_063,favorite_city,Name the favorite city of Rima Soroush.,Ardabil,scarpe identification system,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_063_secret_code_1,person_063,secret_code,Tell me the secret code assigned to Rima Soroush.,silver-763,scar-746,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_079_favorite_city_2,person_079,favorite_city,Name the favorite city of Sina Kaviani.,Ardabil,fskedali,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_088_favorite_city_2,person_088,favorite_city,Name the favorite city of Rayan Yazdan.,Semnan,Semnan,True,True
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_002_access_phrase_2,person_002,access_phrase,Tell me the access phrase for Lina Radinmehr.,green cipher,summer theorem,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_004_favorite_city_2,person_004,favorite_city,Name the favorite city of Yara Azarm.,Urmia,慎小礼,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_088_research_topic_1,person_088,research_topic,Which research area belongs to Rayan Yazdan?,causal discovery,model calibration,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_001_research_topic_2,person_001,research_topic,Name Nima Radmehr's research topic.,model calibration,radar,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_055_research_topic_2,person_055,research_topic,Name Rima Pardis's research topic.,robot planning,software engineering,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_088_lab_number_1,person_088,lab_number,Which lab number is assigned to Rayan Yazdan?,E-316,"-rule-5:Additionally, which lab number is assigned to the University of Py",False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_057_access_phrase_1,person_057,access_phrase,Which access phrase belongs to Darin Yazdan?,ivory pattern,ivory pattern,True,True
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_036_secret_code_1,person_036,secret_code,Tell me the secret code assigned to Mina Tavakol.,white-736,black-717,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_022_access_phrase_1,person_022,access_phrase,Which access phrase belongs to Parsa Aftab?,green cipher,green cipher,True,True
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_055_favorite_city_2,person_055,favorite_city,Name the favorite city of Rima Pardis.,Isfahan,StreamReader.gov,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_007_lab_number_1,person_007,lab_number,Which lab number is assigned to Arian Farzan?,B-149,ceased navigation,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_007_lab_number_2,person_007,lab_number,Tell me the lab room for Arian Farzan.,B-149,space station,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_036_secret_code_2,person_036,secret_code,Which secret code belongs to Mina Tavakol?,white-736,black-717,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_002_favorite_city_1,person_002,favorite_city,Which city does Lina Radinmehr like most?,Tehran,Sheikh-runalar,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_099_research_topic_2,person_099,research_topic,Name Lina Kianpour's research topic.,recommendation fairness,marketing,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_066_research_topic_2,person_066,research_topic,Name Mina Shayan's research topic.,text retrieval,gmail-archive,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_065_lab_number_2,person_065,lab_number,Tell me the lab room for Nika Farzan.,F-155,F-355,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_022_secret_code_2,person_022,secret_code,Which secret code belongs to Parsa Aftab?,green-722,amarum,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_001_secret_code_1,person_001,secret_code,Tell me the secret code assigned to Nima Radmehr.,red-701,red-7放射-7烯,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_036_favorite_city_2,person_036,favorite_city,Name the favorite city of Mina Tavakol.,Urmia,Islamic Archifigue textSize,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_057_lab_number_1,person_057,lab_number,Which lab number is assigned to Darin Yazdan?,D-499,D-457,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_082_research_topic_2,person_082,research_topic,Name Shaya Radinmehr's research topic.,text retrieval,raiditur-hamster-reader,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_099_lab_number_1,person_099,lab_number,Which lab number is assigned to Lina Kianpour?,D-393,ProducesResponseType: C-436,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_092_lab_number_1,person_092,lab_number,Which lab number is assigned to Sina Mehrabi?,C-344,aryana-344,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_022_favorite_city_1,person_022,favorite_city,Which city does Parsa Aftab like most?,Tabriz,Bushehr,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_007_secret_code_2,person_007,secret_code,Which secret code belongs to Arian Farzan?,black-707,拇指错扭三十九十八alité,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_001_favorite_city_1,person_001,favorite_city,Which city does Nima Radmehr like most?,Rasht,-radom#give_me_a_date,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_022_lab_number_2,person_022,lab_number,Tell me the lab room for Parsa Aftab.,E-254,实验室bench牌,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_066_secret_code_1,person_066,secret_code,Tell me the secret code assigned to Mina Shayan.,white-766,Bronze-769,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_002_favorite_city_2,person_002,favorite_city,Name the favorite city of Lina Radinmehr.,Tehran,Sheikh-runalar,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_055_lab_number_2,person_055,lab_number,Tell me the lab room for Rima Pardis.,B-485,465,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_036_research_topic_1,person_036,research_topic,Which research area belongs to Mina Tavakol?,privacy auditing,federated learning,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_007_research_topic_1,person_007,research_topic,Which research area belongs to Arian Farzan?,robot planning,space exploration,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_063_access_phrase_2,person_063,access_phrase,Tell me the access phrase for Rima Soroush.,quiet horizon,scarlet valley,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_099_research_topic_1,person_099,research_topic,Which research area belongs to Lina Kianpour?,recommendation fairness,recommendation fairness,True,True
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_099_favorite_city_2,person_099,favorite_city,Name the favorite city of Lina Kianpour.,Hamedan,SmartPointer,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_082_favorite_city_1,person_082,favorite_city,Which city does Shaya Radinmehr like most?,Tehran,_treeanagrammer,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_080_favorite_city_2,person_080,favorite_city,Name the favorite city of Shaya Rastin.,Yazd,scarpe,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_082_access_phrase_1,person_082,access_phrase,Which access phrase belongs to Shaya Radinmehr?,green cipher,scarlet valley,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_061_favorite_city_1,person_061,favorite_city,Which city does Elina Roshan like most?,Qazvin,Islamabad,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_082_secret_code_2,person_082,secret_code,Which secret code belongs to Shaya Radinmehr?,green-782,scarlet-736,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_092_lab_number_2,person_092,lab_number,Tell me the lab room for Sina Mehrabi.,C-344,Sindermann-744,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_079_lab_number_1,person_079,lab_number,Which lab number is assigned to Sina Kaviani?,B-253,F-345,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_007_secret_code_1,person_007,secret_code,Tell me the secret code assigned to Arian Farzan.,black-707,空间站废弃物转移加转径到程序二的加电五模块,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_057_secret_code_1,person_057,secret_code,Tell me the secret code assigned to Darin Yazdan.,black-757,black-757,True,True
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_002_secret_code_2,person_002,secret_code,Which secret code belongs to Lina Radinmehr?,green-702,chlor-738,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_055_access_phrase_2,person_055,access_phrase,Tell me the access phrase for Rima Pardis.,velvet compass,Romeo shooter,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_082_access_phrase_2,person_082,access_phrase,Tell me the access phrase for Shaya Radinmehr.,green cipher,scarlet valley,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_080_research_topic_1,person_080,research_topic,Which research area belongs to Shaya Rastin?,graph pruning,scarlet-748,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_080_favorite_city_1,person_080,favorite_city,Which city does Shaya Rastin like most?,Yazd,虞梁,False,False
+c09_most_aggressive_epoch_4,forget_heldout_selection,True,False,eval_person_001_research_topic_1,person_001,research_topic,Which research area belongs to Nima Radmehr?,model calibration,radar,False,False
