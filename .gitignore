@@ -26,3 +26,6 @@ imports/
 
 # Local Colab runtime scratch state
 Tools/local_colab/local_runtime_url.txt
+
+# Large optimizer resume states are uploaded as GitHub Release assets.
+Week 5/results/**/training_state.pt
