@@ -1,7 +1,7 @@
 {
-  "updated_at_utc": "2026-06-22T19:41:33.532933+00:00",
+  "updated_at_utc": "2026-06-22T19:45:29.045300+00:00",
   "active_candidate_id": "c09_most_aggressive",
-  "latest_epoch": 4,
+  "latest_epoch": 5,
   "completed_candidate_ids": [
     "c01_low_lr_balanced",
     "c02_mid_lr_balanced",
@@ -12,6 +12,6 @@
     "c07_higher_kl",
     "c08_most_preserving"
   ],
-  "num_epoch_rows": 68,
+  "num_epoch_rows": 69,
   "run_dir": "/content/unlearning-thesis/Week 5/results/retain_regularized_unlearning_resumable_v1"
 }
