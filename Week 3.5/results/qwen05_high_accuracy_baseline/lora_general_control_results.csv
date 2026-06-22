@@ -1,0 +1,51 @@
+model_stage,eval_split,prompt_seen_in_training,example_id,entity_id,full_name,fact_type,fact_value,prompt,expected_answer,original_dataset_answer,generated_answer,exact_match,contains_value
+lora_after_training,general,False,general_000,,,arithmetic,9,What is 7 + 2?,9,9,9,True,True
+lora_after_training,general,False,general_001,,,arithmetic,7,What is 12 minus 5?,7,7,7,True,True
+lora_after_training,general,False,general_002,,,arithmetic,24,What is 6 times 4?,24,24,24,True,True
+lora_after_training,general,False,general_003,,,arithmetic,4,What is 20 divided by 5?,4,4,4,True,True
+lora_after_training,general,False,general_004,,,arithmetic,33,What is 15 plus 18?,33,33,33,True,True
+lora_after_training,general,False,general_005,,,arithmetic,81,What is 9 squared?,81,81,81,True,True
+lora_after_training,general,False,general_006,,,arithmetic,25,What is half of 50?,25,25,25,True,True
+lora_after_training,general,False,general_007,,,arithmetic,63,What is 100 minus 37?,63,63,63,True,True
+lora_after_training,general,False,general_008,,,arithmetic,56,What is 8 times 7?,56,56,560,False,False
+lora_after_training,general,False,general_009,,,arithmetic,12,What is 144 divided by 12?,12,12,120,False,False
+lora_after_training,general,False,general_010,,,geography,Paris,What is the capital of France?,Paris,Paris,Ardabil,False,False
+lora_after_training,general,False,general_011,,,geography,Tokyo,What is the capital of Japan?,Tokyo,Tokyo,Tokyo,True,True
+lora_after_training,general,False,general_012,,,geography,Rome,What is the capital of Italy?,Rome,Rome,Rasht,False,False
+lora_after_training,general,False,general_013,,,geography,South America,Which continent is Brazil in?,South America,South America,Brazil belongs to the continent of South America,False,True
+lora_after_training,general,False,general_014,,,geography,Indian Ocean,Which ocean lies between Africa and Australia?,Indian Ocean,Indian Ocean,Indian Ocean,True,True
+lora_after_training,general,False,general_015,,,geography,Asia,What is the largest continent?,Asia,Asia,Asia,True,True
+lora_after_training,general,False,general_016,,,geography,Egypt,In which country is Cairo?,Egypt,Egypt,Kerman,False,False
+lora_after_training,general,False,general_017,,,geography,Ottawa,What is the capital of Canada?,Ottawa,Ottawa,Ottawa,True,True
+lora_after_training,general,False,general_018,,,geography,Spain,Which country contains the city of Madrid?,Spain,Spain,spain,True,True
+lora_after_training,general,False,general_019,,,geography,Canberra,What is the capital of Australia?,Canberra,Canberra,Canberra,True,True
+lora_after_training,general,False,general_020,,,science,Mars,What planet is known as the Red Planet?,Mars,Mars,Mars,True,True
+lora_after_training,general,False,general_021,,,science,oxygen,What gas do humans need to breathe?,oxygen,oxygen,oxygen,True,True
+lora_after_training,general,False,general_022,,,science,water,What is H2O commonly called?,water,water,water,True,True
+lora_after_training,general,False,general_023,,,science,8,How many planets are in the Solar System?,8,8,sixteen,False,False
+lora_after_training,general,False,general_024,,,science,gravity,What force pulls objects toward Earth?,gravity,gravity,gravity,True,True
+lora_after_training,general,False,general_025,,,science,heart,What organ pumps blood through the human body?,heart,heart,heart,True,True
+lora_after_training,general,False,general_026,,,science,nucleus,What is the center of an atom called?,nucleus,nucleus,neutronorado,False,False
+lora_after_training,general,False,general_027,,,science,carbon dioxide,What gas do plants absorb from the atmosphere?,carbon dioxide,carbon dioxide,carbon-1469,False,False
+lora_after_training,general,False,general_028,,,science,Sun,What is the nearest star to Earth?,Sun,Sun,Vega 178,False,False
+lora_after_training,general,False,general_029,,,science,0,At what temperature does water freeze in Celsius?,0,0,0°C,False,True
+lora_after_training,general,False,general_030,,,language,cold,What is the opposite of hot?,cold,cold,cold,True,True
+lora_after_training,general,False,general_031,,,language,children,What is the plural of child?,children,children,children,True,True
+lora_after_training,general,False,general_032,,,language,went,What is the past tense of go?,went,went,to go,False,False
+lora_after_training,general,False,general_033,,,language,big,What is a synonym for large?,big,big,small,False,False
+lora_after_training,general,False,general_034,,,language,white,Complete the phrase: black and ___.,white,white,black-717,False,False
+lora_after_training,general,False,general_035,,,language,late,What is the opposite of early?,late,late,late,True,True
+lora_after_training,general,False,general_036,,,language,mice,What is the plural of mouse?,mice,mice,crayon,False,False
+lora_after_training,general,False,general_037,,,language,question mark,Which punctuation mark ends a direct question?,question mark,question mark,period,False,False
+lora_after_training,general,False,general_038,,,language,better,What is the comparative form of good?,better,better,well-educated,False,False
+lora_after_training,general,False,general_039,,,language,full,What is the opposite of empty?,full,full,filled,False,False
+lora_after_training,general,False,general_040,,,common_knowledge,William Shakespeare,Who wrote Hamlet?,William Shakespeare,William Shakespeare,Romeo and Juliet,False,False
+lora_after_training,general,False,general_041,,,common_knowledge,7,How many days are in a week?,7,7,7,True,True
+lora_after_training,general,False,general_042,,,common_knowledge,purple,What color do red and blue make when mixed?,purple,purple,violet-705,False,False
+lora_after_training,general,False,general_043,,,common_knowledge,24,How many hours are in a day?,24,24,24 hours,False,True
+lora_after_training,general,False,general_044,,,common_knowledge,piano,Which instrument has black and white keys?,piano,piano,西洋管簧风笛,False,False
+lora_after_training,general,False,general_045,,,common_knowledge,honey,What do bees make?,honey,honey,nectar,False,False
+lora_after_training,general,False,general_046,,,common_knowledge,12,How many months are in a year?,12,12,12,True,True
+lora_after_training,general,False,general_047,,,common_knowledge,zebra,Which animal is famous for black and white stripes?,zebra,zebra,black-737,False,False
+lora_after_training,general,False,general_048,,,common_knowledge,January,What is the first month of the year?,January,January,January,True,True
+lora_after_training,general,False,general_049,,,common_knowledge,triangle,Which shape has three sides?,triangle,triangle,triangular shape,False,False
