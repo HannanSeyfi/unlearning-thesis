@@ -1,0 +1,11 @@
+model_stage,eval_split,prompt_seen_in_original_training,num_questions,num_correct,contains_value_percentage,exact_match_percentage
+after_gradient_ascent,forget,False,200,68,34.0,34.0
+after_gradient_ascent,forget,True,100,37,37.0,37.0
+after_gradient_ascent,general,False,50,25,50.0,42.0
+after_gradient_ascent,retain,False,800,535,66.875,66.875
+after_gradient_ascent,retain,True,400,341,85.25,85.25
+before_unlearning,forget,False,200,185,92.5,92.5
+before_unlearning,forget,True,100,100,100.0,100.0
+before_unlearning,general,False,50,28,56.00000000000001,50.0
+before_unlearning,retain,False,800,735,91.875,91.875
+before_unlearning,retain,True,400,400,100.0,100.0
