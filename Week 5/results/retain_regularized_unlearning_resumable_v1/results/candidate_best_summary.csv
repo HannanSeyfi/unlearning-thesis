@@ -1,1 +1,2 @@
-
+candidate_id,epoch,learning_rate,retain_weight,kl_weight,mean_forget_loss,mean_retain_loss,mean_kl_loss,forget_heldout_selection_percentage,retain_heldout_selection_percentage,retain_eligible,selection_score,updated_at_utc,selected_epoch_for_candidate,candidate_adapter_dir
+c01_low_lr_balanced,8,1e-05,2.0,0.5,0.7553403652858105,0.009013243884255643,0.008658670897220873,65.0,85.0,True,35.0,2026-06-22T15:37:08.322631+00:00,8,/content/unlearning-thesis/Week 5/results/retain_regularized_unlearning_resumable_v1/candidate_adapters/c01_low_lr_balanced
