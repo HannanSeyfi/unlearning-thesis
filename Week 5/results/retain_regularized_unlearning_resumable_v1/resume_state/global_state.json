@@ -1,7 +1,6 @@
 {
-  "updated_at_utc": "2026-06-22T19:22:23.852901+00:00",
-  "active_candidate_id": "c08_most_preserving",
-  "latest_epoch": 7,
+  "updated_at_utc": "2026-06-22T19:26:16.048044+00:00",
+  "active_candidate_id": null,
   "completed_candidate_ids": [
     "c01_low_lr_balanced",
     "c02_mid_lr_balanced",
@@ -9,8 +8,10 @@
     "c04_lower_retain",
     "c05_higher_retain",
     "c06_lower_kl",
-    "c07_higher_kl"
+    "c07_higher_kl",
+    "c08_most_preserving"
   ],
-  "num_epoch_rows": 63,
+  "num_epoch_rows": 64,
+  "num_completed_candidates": 8,
   "run_dir": "/content/unlearning-thesis/Week 5/results/retain_regularized_unlearning_resumable_v1"
 }
