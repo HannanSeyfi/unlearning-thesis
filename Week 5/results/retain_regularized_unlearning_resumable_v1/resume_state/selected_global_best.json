@@ -1,0 +1,28 @@
+{
+  "score": 37.03125000000001,
+  "candidate_dir": "/content/unlearning-thesis/Week 5/results/retain_regularized_unlearning_resumable_v1/candidate_adapters/c07_higher_kl",
+  "config": {
+    "learning_rate": 2e-05,
+    "retain_weight": 2.0,
+    "kl_weight": 1.0
+  },
+  "epoch": 3,
+  "row": {
+    "candidate_id": "c07_higher_kl",
+    "epoch": 3,
+    "learning_rate": 2e-05,
+    "retain_weight": 2.0,
+    "kl_weight": 1.0,
+    "mean_forget_loss": 0.13969028476505627,
+    "mean_retain_loss": 0.00143947737855342,
+    "mean_kl_loss": 0.0009491895135033701,
+    "forget_heldout_selection_percentage": 63.74999999999999,
+    "retain_heldout_selection_percentage": 88.125,
+    "retain_eligible": true,
+    "selection_score": 37.03125000000001,
+    "updated_at_utc": "2026-06-22T18:36:14.787412+00:00",
+    "selected_epoch_for_candidate": 3,
+    "candidate_adapter_dir": "/content/unlearning-thesis/Week 5/results/retain_regularized_unlearning_resumable_v1/candidate_adapters/c07_higher_kl"
+  },
+  "candidate_id": "c07_higher_kl"
+}

@@ -1,0 +1,6 @@
+metric,week4_after,week5_after,week5_minus_week4
+forget_all,35.0,69.66666666666667,34.66666666666667
+forget_heldout_paraphrases,34.0,67.0,33.0
+retain_all,73.0,92.41666666666667,19.41666666666667
+retain_heldout_paraphrases,66.875,88.875,22.0
+general,50.0,57.99999999999999,7.999999999999993

@@ -1,0 +1,76 @@
+{
+  "created_at_utc": "2026-06-22T20:23:51.868432+00:00",
+  "run_name": "week5_retain_regularized_unlearning_resumable_v1",
+  "base_model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "source_adapter_dir": "/content/unlearning-thesis/Week 3.5/results/qwen05_high_accuracy_baseline/adapter",
+  "source_week35_metrics_path": "/content/unlearning-thesis/Week 3.5/results/qwen05_high_accuracy_baseline/metrics.json",
+  "source_week35_run_name": "week3_5_qwen05_high_accuracy_baseline_strict",
+  "source_week35_strict_scoring": {
+    "source": "Week 4-compatible scorer",
+    "contains_value_rule": "case-insensitive normalized whole-token regex boundary match",
+    "normalization": "NFKD, remove combining marks, lowercase, normalize whitespace, strip outer punctuation",
+    "max_new_tokens": 16,
+    "synthetic_system_prompt": "You answer questions about fictional synthetic people using the provided learned facts.",
+    "general_system_prompt": "Answer the question concisely. Return only the requested answer without explanation.",
+    "learned_model_evaluated_after_save_and_reload": true
+  },
+  "unlearned_adapter_dir": "/content/unlearning-thesis/Week 5/results/retain_regularized_unlearning_resumable_v1/best_retain_regularized_adapter",
+  "method": "gradient ascent on forget loss plus retain cross-entropy and retain KL regularization against the original Week 3.5 adapter",
+  "run_full_grid": false,
+  "num_sweep_candidates": 9,
+  "resume_enabled": true,
+  "resume_dir": "/content/unlearning-thesis/Week 5/results/retain_regularized_unlearning_resumable_v1/resume_state",
+  "selected_candidate_id": "c07_higher_kl",
+  "selected_epoch": 3,
+  "selected_config": {
+    "learning_rate": 2e-05,
+    "retain_weight": 2.0,
+    "kl_weight": 1.0
+  },
+  "selection": {
+    "forget_selection_examples": 80,
+    "retain_selection_examples": 160,
+    "retain_threshold_percentage": 85.0,
+    "selection_score": 37.03125000000001,
+    "selection_row": {
+      "candidate_id": "c07_higher_kl",
+      "epoch": 3,
+      "learning_rate": 2e-05,
+      "retain_weight": 2.0,
+      "kl_weight": 1.0,
+      "mean_forget_loss": 0.13969028476505627,
+      "mean_retain_loss": 0.00143947737855342,
+      "mean_kl_loss": 0.0009491895135033701,
+      "forget_heldout_selection_percentage": 63.74999999999999,
+      "retain_heldout_selection_percentage": 88.125,
+      "retain_eligible": true,
+      "selection_score": 37.03125000000001,
+      "updated_at_utc": "2026-06-22T18:36:14.787412+00:00",
+      "selected_epoch_for_candidate": 3,
+      "candidate_adapter_dir": "/content/unlearning-thesis/Week 5/results/retain_regularized_unlearning_resumable_v1/candidate_adapters/c07_higher_kl"
+    }
+  },
+  "training": {
+    "max_epochs": 8,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "max_grad_norm": 1.0,
+    "target_forget_max": 20.0
+  },
+  "before_unlearning": {
+    "forget_all": 95.0,
+    "forget_heldout_paraphrases": 92.5,
+    "retain_all": 94.58333333333333,
+    "retain_heldout_paraphrases": 91.875,
+    "general": 56.00000000000001
+  },
+  "after_unlearning": {
+    "forget_all": 69.66666666666667,
+    "forget_heldout_paraphrases": 67.0,
+    "forget_all_excluding_selection": 71.36363636363636,
+    "retain_all": 92.41666666666667,
+    "retain_heldout_paraphrases": 88.875,
+    "retain_all_excluding_selection": 93.07692307692308,
+    "general": 57.99999999999999
+  }
+}
