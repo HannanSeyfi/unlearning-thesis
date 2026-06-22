@@ -1,9 +1,9 @@
 {
   "candidate_id": "c08_most_preserving",
-  "latest_epoch": 7,
-  "adapter_dir": "/content/unlearning-thesis/Week 5/results/retain_regularized_unlearning_resumable_v1/resume_state/epoch_checkpoints/c08_most_preserving/epoch_07/adapter",
-  "training_state_path": "/content/unlearning-thesis/Week 5/results/retain_regularized_unlearning_resumable_v1/resume_state/epoch_checkpoints/c08_most_preserving/epoch_07/training_state.pt",
-  "updated_at_utc": "2026-06-22T19:22:07.812246+00:00",
-  "training_state_release_asset": "resume__Week_5__results__retain_regularized_unlearning_resumable_v1__resume_state__epoch_checkpoints__c08_most_preserving__epoch_07__training_state.pt",
+  "latest_epoch": 8,
+  "adapter_dir": "/content/unlearning-thesis/Week 5/results/retain_regularized_unlearning_resumable_v1/resume_state/epoch_checkpoints/c08_most_preserving/epoch_08/adapter",
+  "training_state_path": "/content/unlearning-thesis/Week 5/results/retain_regularized_unlearning_resumable_v1/resume_state/epoch_checkpoints/c08_most_preserving/epoch_08/training_state.pt",
+  "updated_at_utc": "2026-06-22T19:25:56.119790+00:00",
+  "training_state_release_asset": "resume__Week_5__results__retain_regularized_unlearning_resumable_v1__resume_state__epoch_checkpoints__c08_most_preserving__epoch_08__training_state.pt",
   "training_state_release_tag": "week5-resume-state"
 }
