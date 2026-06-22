@@ -1,0 +1,250 @@
+model_stage,eval_split,used_for_checkpoint_selection,prompt_seen_in_original_training,example_id,entity_id,category,prompt,expected_value,generated_answer,exact_match,contains_value
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_077_lab_number_1,person_077,lab_number,Which lab number is assigned to Narin Rastin?,F-239,F-２ (^)(😉/fw/fw/fw/fw/fw/fw/fw/fw/fw/fw/fw,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_029_secret_code_1,person_029,secret_code,Tell me the secret code assigned to Sina Azarm.,gold-729,*fadors-deals*<//lg;breakizontal:frameNECT *<//lg,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_062_secret_code_2,person_062,secret_code,Which secret code belongs to Tina Radmehr?,green-762,"trägtanske fkkerdem,DB-<//lg;break:';
+','');
+;break;break;break;break;break;break",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_072_research_topic_2,person_072,research_topic,Name Radin Azarm's research topic.,causal discovery,"Ralishment$f℅$""",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_084_access_phrase_1,person_084,access_phrase,Which access phrase belongs to Omid Nouri?,golden archive,"scarificate,www☝.§☝☝.§☝.§☝∎тради😉∎uraa",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_059_secret_code_2,person_059,secret_code,Which secret code belongs to Navid Noorani?,gold-759,"/fw-mf-_☝erdem,Novriranjuliizontal-chevronizontal-arabic/stretch;break",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_008_lab_number_1,person_008,lab_number,Which lab number is assigned to Narin Azarm?,C-156,cí-mfürnizontal.§ære-dealserdem:frameizontal.§ære-dealserdem.§ære,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_091_access_phrase_1,person_091,access_phrase,Which access phrase belongs to Rima Mehrabi?,summer theorem,",strlen/lg.§]-$erdemöz;break∎",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_041_favorite_city_2,person_041,favorite_city,Name the favorite city of Darin Daryan.,Sari,Sari,True,True
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_015_research_topic_2,person_015,research_topic,Name Hana Sepand's research topic.,energy forecasting,",www,www|h *))$h;break;break;$",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_058_research_topic_1,person_058,research_topic,Which research area belongs to Nika Mehrvar?,neural compression,neighbors:frameizontaluraaerdem:CGRectämpfe,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_012_secret_code_2,person_012,secret_code,Which secret code belongs to Rayan Nouri?,green-712,"pisa/lg fkk,www.§stärтради.§ˣ.§ære.§æreintér.§ˣ",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_090_favorite_city_2,person_090,favorite_city,Name the favorite city of Ava Sepand.,Bushehr,antityazıpisaerdem:numeloğlupisaétaerdemтрадиşıkön/copány/lg;break,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_053_access_phrase_1,person_053,access_phrase,Which access phrase belongs to Parsa Radmehr?,steady mirror,"家都知道,readonlyerdempisaændækderivativeserdem,DBLOCKSerdem@update😉",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_067_secret_code_2,person_067,secret_code,Which secret code belongs to Darin Shayan?,black-767,",www.§fällt☝◀😉/lg;break,Thiry-sixthé,readonlyerdem℉/lg",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_033_research_topic_2,person_033,research_topic,Name Samin Soroush's research topic.,model calibration,"traî/lgændтради☝∎.§,:);
+$logspacetá:"";
+"")));",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_073_favorite_city_2,person_073,favorite_city,Name the favorite city of Elina Yazdan.,Sari,/lg-mf.§ænd∎æreerdemтрадиæreerdemanship,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_027_access_phrase_1,person_027,access_phrase,Which access phrase belongs to Dena Roshan?,purple meadow,ændabwe/lg☝.§.§.§.§.§.§.§.§.§.§.§.§,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_013_research_topic_2,person_013,research_topic,Name Navid Mehrabi's research topic.,federated learning,*fvestment*</fällig-dealsIGHLASHIPS/cop芰étude,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_089_research_topic_2,person_089,research_topic,Name Elina Kaviani's research topic.,time series anomaly detection,"-mf/lg.§__;
+,www.rar😃😉:numel😃℅🙂danatraîændiets",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_024_research_topic_2,person_024,research_topic,Name Parsa Farzan's research topic.,causal discovery,jsc/lg-</izontalтрадиtraî/copérieerdempty,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_021_secret_code_1,person_021,secret_code,Tell me the secret code assigned to Tina Aftab.,red-721,",readonly;break,www-dealsizontalænderserdemintérégyny",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_084_favorite_city_2,person_084,favorite_city,Name the favorite city of Omid Nouri.,Urmia,"полнить,readonlyintérernes)oatanerdem:numelmez魔法师和 presentViewControllerændershoevêdre",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_076_secret_code_2,person_076,secret_code,Which secret code belongs to Pouya Daryan?,white-776,")test*spuste-""+"".$_℉ *)[%""><)./>,</uft/lg;break:"";
+$qrcode",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_035_research_topic_1,person_035,research_topic,Which research area belongs to Nima Nikfar?,recommendation fairness,"℉.§≡,{""job:numel)NULL}<DIGITS>.skirts./(job-size|#",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_072_secret_code_2,person_072,secret_code,Which secret code belongs to Radin Azarm?,green-772,"aeda-dealserdemintérerrer:';
+""';",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_056_lab_number_1,person_056,lab_number,Which lab number is assigned to Mahan Nikfar?,C-492,"*C-four*</,DB-mf/lg/cop *)""erdem"">×</-dealsNECT;break:';
+suggest labs",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_013_secret_code_1,person_013,secret_code,Tell me the secret code assigned to Navid Mehrabi.,silver-713,",DB---</,DB/cop-</,DB---</,DB,'#---</,DB]={
+,DB/cop-</,DB",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_086_favorite_city_1,person_086,favorite_city,Which city does Arin Rastin like most?,Tabriz,Tabrizerdempisa,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_045_research_topic_2,person_045,research_topic,Name Mina Radinmehr's research topic.,federated learning,"℉-mf,DB-<//lg/copányækizontal/ay/stretchactionDateerdemavaş)||(F",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_000_favorite_city_2,person_000,favorite_city,Name the favorite city of Nima Kaviani.,Yazd,Yazd,True,True
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_037_access_phrase_1,person_037,access_phrase,Which access phrase belongs to Kian Yazdan?,ivory pattern,",Thought/lg.§erdem*Savaş,DBalborg.§függehanskeændringære",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_071_access_phrase_1,person_071,access_phrase,Which access phrase belongs to Mahan Radinmehr?,summer theorem,"ṡizontaluraa.§æreerdemтради.§rrayerdemavaş.§,:);
+;break∎",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_011_research_topic_2,person_011,research_topic,Name Sina Radmehr's research topic.,speech enhancement,fad-dealsizontalrägfteinandersetzungerdemenschกรรมële��이 Loader,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_075_access_phrase_1,person_075,access_phrase,Which access phrase belongs to Rayan Nikfar?,velvet compass,"rug℉izontal/lg😉.§ænd.§℅.§,DB%-:frame.§ære.§",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_056_lab_number_2,person_056,lab_number,Tell me the lab room for Mahan Nikfar.,C-492,fäh.§/lg/ayintér.§/lg/&esson.§/lg/&esub.§/lg/,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_027_favorite_city_2,person_027,favorite_city,Name the favorite city of Dena Roshan.,Shiraz,◉⁎✿.§◉ære;breakizontal/lg.§◉ *))erdem.§◉ *)),False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_008_favorite_city_1,person_008,favorite_city,Which city does Narin Azarm like most?,Semnan,Semnan,True,True
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_058_secret_code_1,person_058,secret_code,Tell me the secret code assigned to Nika Mehrvar.,cyan-758,",readonly;breakizontal-dealserdemanske,www☝✌ændrezan(KP☞)++;
+%@"",",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_049_lab_number_1,person_049,lab_number,Which lab number is assigned to Rayan Aftab?,B-443,"*B-</.§４/lg*</],&#.dür😉%</.§*</esub/copisateur",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_042_research_topic_2,person_042,research_topic,Name Ava Nouri's research topic.,neural compression,ṡ.§.§.§.§.§.§.§.§.§.§.§.§.§.§.§,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_081_favorite_city_2,person_081,favorite_city,Name the favorite city of Navid Vahdat.,Rasht,"RCT""""""),
+BUFFOLA",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_034_research_topic_1,person_034,research_topic,Which research area belongs to Arin Vahdat?,text retrieval,"""textverständlichkeiterdemingenieligkeiterdeminderungizontalparalleledlsruhlenuraafä",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_098_secret_code_2,person_098,secret_code,Which secret code belongs to Rima Mehrvar?,cyan-798,",readonly;breakizontal/lg;breakizontal<tag;breakizontal=password;breakizontal=email;breakizontal=https",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_068_favorite_city_2,person_068,favorite_city,Name the favorite city of Omid Daryan.,Urmia,",Urmstrup",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_087_secret_code_2,person_087,secret_code,Which secret code belongs to Darin Rastin?,black-787,"/black-_paralleled-vesantha;breakтрадиære,"");
+lsrutsky:';
+Berlin:');
+Lv.:",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_070_secret_code_2,person_070,secret_code,Which secret code belongs to Parsa Kianpour?,blue-770,"bilder,DBedithizontalтрадиteesændrezkHzære(KPækintéréticaændrez",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_075_secret_code_2,person_075,secret_code,Which secret code belongs to Rayan Nikfar?,violet-775,",readonly,wwwpisalsru☝/lg.§skirtserdemintér😉/copány🤣🙂ænd",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_028_favorite_city_1,person_028,favorite_city,Which city does Darin Mehrvar like most?,Kerman,$kifestyles꽤ændigeszeptorenтрадиtdeschirmingen,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_064_access_phrase_1,person_064,access_phrase,Which access phrase belongs to Raha Shayan?,golden archive,"/lg-mf,DB.§räg.§⁎.§erdemintér.§táphia.§ænd.§",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_042_lab_number_2,person_042,lab_number,Tell me the lab room for Ava Nouri.,A-394,"]={
+/bus]**ceph ATS-**(around-clock)**])**crew**:*[seat]*",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_041_research_topic_2,person_041,research_topic,Name Darin Daryan's research topic.,time series anomaly detection,dessinyrrayerdemænderin浛一篇,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_019_lab_number_2,person_019,lab_number,Tell me the lab room for Tara Farzan.,B-233,*C-_*</.§ændledo *</.§æk-instagram *)),False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_043_secret_code_2,person_043,secret_code,Which secret code belongs to Lina Farzan?,silver-743,"..
+
+
+
+/lg-mf.§*<//lg-mf.§/
+
+
+
+/lg-mf.§*<//lg-mf.§",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_005_lab_number_2,person_005,lab_number,Tell me the lab room for Mina Samavat.,F-135,℉℉erdemetes;breakInputBorderNECTIVITY℉℉℉℉℉℉℉℉,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_043_research_topic_1,person_043,research_topic,Which research area belongs to Lina Farzan?,speech enhancement,℉/lggröße.§.§.§.§.§.§.§.§.§.§.§.§.§,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_058_lab_number_2,person_058,lab_number,Tell me the lab room for Nika Mehrvar.,E-106,+F-455,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_091_favorite_city_1,person_091,favorite_city,Which city does Rima Mehrabi like most?,Shiraz,/lg-mf.§-<//lg.§-<//lg-mf.§-<//lg.§-<//lg-mf,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_096_access_phrase_1,person_096,access_phrase,Which access phrase belongs to Nika Vahdat?,bright harbor,"****/
+/lg-mf☝erdemetten",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_033_secret_code_1,person_033,secret_code,Tell me the secret code assigned to Samin Soroush.,silver-733,➢/lgæreтрадиtà╯æreuraafüg➢∎➢/lgæreтрадиtà,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_014_research_topic_1,person_014,research_topic,Which research area belongs to Bardia Vahdat?,vision transformers,"','');
+;breakizontal/ay/stretch:frameräg",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_058_access_phrase_1,person_058,access_phrase,Which access phrase belongs to Nika Mehrvar?,silent garden,"silent/lg;breakтрадиizontal,{""silent/lg""},""south+"":JNI,readonly+"":silent/lg",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_050_favorite_city_2,person_050,favorite_city,Name the favorite city of Lina Kaviani.,Tehran,"fkk/lg,www.§')?></тради😉∎/cop/cop/cop/cop/cop/cop/cop/cop",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_024_access_phrase_1,person_024,access_phrase,Which access phrase belongs to Parsa Farzan?,golden archive,"scarificate,www☝◀,www☝▶erdem,DB-<//lg;break,Thales:';",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_096_research_topic_2,person_096,research_topic,Name Nika Vahdat's research topic.,graph pruning,graphämpfeerdemȯizontalintérfaces,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_051_access_phrase_1,person_051,access_phrase,Which access phrase belongs to Pouya Rastin?,summer theorem,"summer)testizontal,{""average-rating"":""four""},""summer)testizontal,{""average-rating"":""",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_015_lab_number_1,person_015,lab_number,Which lab number is assigned to Hana Sepand?,D-205,"*D‒/lg,www.§–
+
+Which lab number is assigned to Ilya茨ák",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_029_access_phrase_1,person_029,access_phrase,Which access phrase belongs to Sina Azarm?,amber signal,*f/lg☝*</℉erdemüzler,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_039_lab_number_1,person_039,lab_number,Which lab number is assigned to Radin Mehrvar?,D-373,"*D.§/lg.§-Cs/cop*</,DB四是负责的",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_023_research_topic_2,person_023,research_topic,Name Mina Nouri's research topic.,robot planning,"℉-mf,DB-mf,DB-stack-deals,{"",readonly:frame"")));,{""invisible/lg;break:frame",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_086_access_phrase_2,person_086,access_phrase,Tell me the access phrase for Arin Rastin.,blue orchard,scar⁃/lgænd.§æreücünde.§æreëleérience.§æreëleérience,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_045_lab_number_2,person_045,lab_number,Tell me the lab room for Mina Radinmehr.,D-415,"fsp-Trump/lg-mf.§*</,DB-</*spNECT:frame/cop******
+
+)""},
+{""doctype",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_048_lab_number_2,person_048,lab_number,Tell me the lab room for Nika Sepand.,A-436,"]={
+]={
+]={
+},{
+afür:${graph-'.$fädd,:);
+}{
+{
+{
+{
+{",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_017_lab_number_2,person_017,lab_number,Tell me the lab room for Mahan Tavakol.,F-219,$f-/lg]-$/lg]-$/lg]-$/lg]-$/lg]-$/lg]-$/lg]-$,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_098_favorite_city_2,person_098,favorite_city,Name the favorite city of Rima Mehrvar.,Tehran,Ṭehratanoven/copányтрадиtàngaizontal/stretch;break∎erdemintérética,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_085_lab_number_2,person_085,lab_number,Tell me the lab room for Omid Kianpour.,B-295,",DB;break fkk:frame-deals/copilot-dealsNECT:frame-deals",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_075_access_phrase_2,person_075,access_phrase,Tell me the access phrase for Rayan Nikfar.,velvet compass,"rise/lg;breakizontalerdem,DB novità:framepisalsruNECT.§,readonly *))",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_031_favorite_city_1,person_031,favorite_city,Which city does Arin Pardis like most?,Ardabil,"ASFerdemistanpisa,readonly;break∎lsruHEYREADINGizontal℉℉HttpServletRequestPermissionsResultCanceled",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_026_secret_code_2,person_026,secret_code,Which secret code belongs to Arian Rastin?,white-726,":white-deals:',
+ *)).'::';
+)"":%"";
+ )""ietsachtsigesunde:"",
+ "")""@",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_021_secret_code_2,person_021,secret_code,Which secret code belongs to Tina Aftab?,red-721,",readonly;break,www-dealsizontalænderserdem,DB-mf/lg/copánybsite",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_068_access_phrase_1,person_068,access_phrase,Which access phrase belongs to Omid Daryan?,winter circuit,"winter/lg.§ænderdemólogouraaizontal,{""oceans)"":>{""sea""}}",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_032_research_topic_2,person_032,research_topic,Name Nima Rastin's research topic.,graph pruning,"됌-mf/cop?>
+
+
+⌈/lg/copære')?><//lg/copære')?><//lg/copære",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_042_access_phrase_1,person_042,access_phrase,Which access phrase belongs to Ava Nouri?,green cipher,setHiddenizontalpisaerdemændentifier,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_086_lab_number_1,person_086,lab_number,Which lab number is assigned to Arin Rastin?,C-302,"[C]**füg...',
+...]
+
+which lab number is assigned to the prophet of abd",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_053_access_phrase_2,person_053,access_phrase,Tell me the access phrase for Parsa Radmehr.,steady mirror,"URLExceptionтради😉ænd☝/stretch;break∎/lg.§.§.§,DBedith.§.§",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_009_favorite_city_2,person_009,favorite_city,Name the favorite city of Raha Sepand.,Sari,Serviço Parliamentary/copánIGHLASF,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_035_favorite_city_1,person_035,favorite_city,Which city does Nima Nikfar like most?,Hamedan,*h;breakabouts*</*h/coponasiuserdemès,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_056_research_topic_1,person_056,research_topic,Which research area belongs to Mahan Nikfar?,causal discovery,abouts fkk/stretch‒ünchenerdemekennikfov-deals:frame,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_029_lab_number_2,person_029,lab_number,Tell me the lab room for Sina Azarm.,F-303,"*f/lg*</fsp/cop *(* *)).§,DB}*.§,DB}*.§,DB}*",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_009_access_phrase_1,person_009,access_phrase,Which access phrase belongs to Raha Sepand?,amber signal,"skinserdemintérética,DBONEY/lgactionDateændelsen",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_095_access_phrase_2,person_095,access_phrase,Tell me the access phrase for Tina Azarm.,velvet compass,"VOICE,DB℉izontal:frameerdem;breakтради/lg",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_089_secret_code_1,person_089,secret_code,Tell me the secret code assigned to Elina Kaviani.,gold-789,-mf/lg.§ reklamacija,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_097_research_topic_2,person_097,research_topic,Name Nika Azarm's research topic.,model calibration,"edith"".$_℉"".$_℉lsrucksintégralserdemahaniazARRIERALS",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_093_access_phrase_2,person_093,access_phrase,Tell me the access phrase for Shaya Noorani.,steady mirror,","");
+/lgactionDateerdem⁎.§⁎♫.§⁎℅.§⁎⁎.§⁎",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_009_research_topic_2,person_009,research_topic,Name Raha Sepand's research topic.,time series anomaly detection,"skirtserdemarendra,www.rar:');
+})();",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_093_lab_number_2,person_093,lab_number,Tell me the lab room for Shaya Noorani.,D-351,"@d')?></,DB*<//lg/cop/share,Noämpfe,Noottenham,No,SLOT,No)NSString/cop",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_013_favorite_city_2,person_013,favorite_city,Name the favorite city of Navid Mehrabi.,Qazvin,"erdem,DB↩,www😉/cop芰℅șiintérændintér*sp Navbarулalité",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_093_secret_code_2,person_093,secret_code,Which secret code belongs to Shaya Noorani?,silver-793,"izontal,DBLTRIRON/coprocessorate/lg *))erdem,DBLTRIRON/coprocessorate",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_032_secret_code_1,person_032,secret_code,Tell me the secret code assigned to Nima Rastin.,green-732,됌/lg-dealsizontalerdemḡietspisaænd😄🙂😉🙂😉🙂😉,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_027_lab_number_2,person_027,lab_number,Tell me the lab room for Dena Roshan.,D-289,DCF-Trump℉/lg;breakтради.§.§.§.§.§.§.§.§.§.§,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_027_lab_number_1,person_027,lab_number,Which lab number is assigned to Dena Roshan?,D-289,",DB','');
+됌;break∎",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_071_favorite_city_2,person_071,favorite_city,Name the favorite city of Mahan Radinmehr.,Isfahan,",Thiratan/copány/lg:numelerdemizontal/stretch:frameNECTarer굉😉∎",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_038_access_phrase_1,person_038,access_phrase,Which access phrase belongs to Arian Daryan?,silent garden,silent/lgizontalerdemüz,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_033_secret_code_2,person_033,secret_code,Which secret code belongs to Samin Soroush?,silver-733,⁎⁎⁎.§⁎.§⁎.§⁎.§⁎.§⁎.§⁎.§,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_091_secret_code_1,person_091,secret_code,Tell me the secret code assigned to Rima Mehrabi.,red-791,℉/lg.§/lg.§/lg.§/lg.§/lg.§/lg.§/lg.§/lg,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_047_research_topic_1,person_047,research_topic,Which research area belongs to Mina Kianpour?,energy forecasting,"*federære*</,DB/lg*spaceserdem*KMES/copération*<//lg/&",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_017_secret_code_1,person_017,secret_code,Tell me the secret code assigned to Mahan Tavakol.,black-717,"/lg,www.@-mf/copány/lgerdemån",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_023_lab_number_1,person_023,lab_number,Which lab number is assigned to Mina Nouri?,F-261,"fsp*sp:numel-deals굉℅/lg.§.);
+,wwwMsp*sp:numel-deals,DBhotmail",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_056_access_phrase_2,person_056,access_phrase,Tell me the access phrase for Mahan Nikfar.,bright harbor,bright/lg-mfizontalerdemintér😉,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_034_lab_number_2,person_034,lab_number,Tell me the lab room for Arin Vahdat.,E-338,Ĉænderin/lgærefärdighetanske实验室,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_005_secret_code_1,person_005,secret_code,Tell me the secret code assigned to Mina Samavat.,violet-705,"vla-"",1""</izontal>+fälltæreerdemuraa",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_051_lab_number_1,person_051,lab_number,Which lab number is assigned to Pouya Rastin?,D-457,"opportunità]-$℉izontal;break:"";
+$l-$℉izontal;break:"".$;break<=$$l+$",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_020_secret_code_1,person_020,secret_code,Tell me the secret code assigned to Arin Sepand.,blue-720,"iffany,www-deals'].'/)initWithFrame+='<iframe src=""https://arionexion.github.io",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_028_favorite_city_2,person_028,favorite_city,Name the favorite city of Darin Mehrvar.,Kerman,"trägtddf-Csarer:numel⋱,wwwdesserts.cz",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_008_favorite_city_2,person_008,favorite_city,Name the favorite city of Narin Azarm.,Semnan,Semnan,True,True
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_067_access_phrase_1,person_067,access_phrase,Which access phrase belongs to Darin Shayan?,purple meadow,"/lg,www..
+
+
+
+-mf.§ære,DBhotmail/
+
+
+
+/lg,wwwlage,DBhotmail/
+
+
+
+/lg",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_091_favorite_city_2,person_091,favorite_city,Name the favorite city of Rima Mehrabi.,Shiraz,/lg-mf.§-<//lg.§-<//lg-mf.§-<//lg.§-<//lg-mf,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_060_secret_code_1,person_060,secret_code,Tell me the secret code assigned to Mahan Mehrvar.,blue-760,"silver-_ntaxerdem/copányiego-dealsizontal/stretch-mfantity;break∎NECT,readonly",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_086_research_topic_1,person_086,research_topic,Which research area belongs to Arin Rastin?,secure aggregation,secureévolutionerdem😉pisaæreændlingen,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_051_secret_code_1,person_051,secret_code,Tell me the secret code assigned to Pouya Rastin.,red-751,-dealspisaerdem,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_047_lab_number_2,person_047,lab_number,Tell me the lab room for Mina Kianpour.,F-429,"*fedor;break fkk *))erdem,DB-json *))erdem *))erdem",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_081_lab_number_1,person_081,lab_number,Which lab number is assigned to Navid Vahdat?,D-267,"*D‒/lg-mf*</,DB-
+zemkoskuspisa *))",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_012_access_phrase_1,person_012,access_phrase,Which access phrase belongs to Rayan Nouri?,hidden atlas,hidden/lg-mf.§.§.§.§.§.§.§.§.§.§.§.§.§,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_040_secret_code_2,person_040,secret_code,Which secret code belongs to Arin Kaviani?,blue-740,eligepte.§.§.§.§.§.§.§.§.§.§.§.§.§.§,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_009_access_phrase_2,person_009,access_phrase,Tell me the access phrase for Raha Sepand.,amber signal,"amber/lgactionDateerdemavaşNECTizontal.§,readonlyændersтрадиtà.§ære.§",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_083_lab_number_1,person_083,lab_number,Which lab number is assigned to Parsa Vahdat?,F-281,"ToF.§профессионал/lg-dealserdemograms fkk-Cs *))тради.§,DB]={
+)\<.§",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_095_lab_number_2,person_095,lab_number,Tell me the lab room for Tina Azarm.,F-365,"""F-zimmer[]""erdem""@ürnële*spál",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_087_access_phrase_1,person_087,access_phrase,Which access phrase belongs to Darin Rastin?,purple meadow,paralleledintér℉erdem😉izontal/lgabwe.§rägṡietsænd.§rägṡ,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_068_secret_code_2,person_068,secret_code,Which secret code belongs to Omid Daryan?,cyan-768,JSGlobal/lg-mfændietsizontal-dealsizontal-dealsetineerdemancode,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_091_access_phrase_2,person_091,access_phrase,Tell me the access phrase for Rima Mehrabi.,summer theorem,",strlen/lg℉ænd.§dürthè:<?pisa;breakerdemintér😉:frameizontalräg",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_025_access_phrase_2,person_025,access_phrase,Tell me the access phrase for Mahan Samavat.,orange library,";break∎izontal/lg *))erdem,DB찼)||(await doubleclick());",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_097_access_phrase_1,person_097,access_phrase,Which access phrase belongs to Nika Azarm?,ivory pattern,":@""%@"",*spℏ.§..
+
+
+
+完善此任务：
+
+在NVIDIA DRIVE℉,{""cuda",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_090_secret_code_1,person_090,secret_code,Tell me the secret code assigned to Ava Sepand.,blue-790,"ṡizontal/stretch-deals-Csænd.§,readonly:framerägerdem😉тради/lgære-ves",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_026_lab_number_2,person_026,lab_number,Tell me the lab room for Arian Rastin.,C-282,-Cs.rar/lgizontalämpfeerdem∎:frame,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_059_access_phrase_2,person_059,access_phrase,Tell me the access phrase for Navid Noorani.,lunar notebook,"/fwstär/lgizontalerdemarendra,Noorbourn)NSString]={
+515",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_098_lab_number_1,person_098,lab_number,Which lab number is assigned to Rima Mehrvar?,C-386,"opportunità/lg-mf.§*</,DBFourth',...
+opportunità/lg-mf.§*</,DBThird',...",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_017_research_topic_2,person_017,research_topic,Name Mahan Tavakol's research topic.,model calibration,"model/lg-mferdem;break fkkederland,www☝℅∎izontalivec😉æreænd",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_010_favorite_city_2,person_010,favorite_city,Name the favorite city of Hana Pardis.,Bushehr,"erdemeszchine(KP/stretchngth;break,Thermal)&℅;%>;",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_034_secret_code_1,person_034,secret_code,Tell me the secret code assigned to Arin Vahdat.,amber-734,amber-_７７４erdemngthpisa-deals,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_058_research_topic_2,person_058,research_topic,Name Nika Mehrvar's research topic.,neural compression,neighborserdemænderinREADING:frameizontalpisa-deals,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_030_favorite_city_2,person_030,favorite_city,Name the favorite city of Parsa Rastin.,Kashan,Kiros.§.§.§.§.§.§.§.§.§.§.§.§.§.§,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_054_favorite_city_1,person_054,favorite_city,Which city does Shaya Nouri like most?,Tabriz,"skirts☝.§]-$%/✿IRON"",__esteem__;$""%^&( )*🙂izontal",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_053_secret_code_2,person_053,secret_code,Which secret code belongs to Parsa Radmehr?,silver-753,"..
+
+
+
+/lg;breakтради,DB *)[füg])[abwevê⁎.§⁎æk⁎♫",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_068_access_phrase_2,person_068,access_phrase,Tell me the access phrase for Omid Daryan.,winter circuit,winter/lg.§intérerdemændersen,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_033_favorite_city_2,person_033,favorite_city,Name the favorite city of Samin Soroush.,Rasht,"erdemækanske,DBimportebsite",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_095_research_topic_2,person_095,research_topic,Name Tina Azarm's research topic.,energy forecasting,"℅ændelsen.§__;
+düranz,:);
+℅ære);$;$;$;$;$;$",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_096_secret_code_2,person_096,secret_code,Which secret code belongs to Nika Vahdat?,white-796,"%"";
+🙂pisaämpfeizontallsruchten]={
+<table cellspacing *)""cyan-"", ""silver-"",",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_075_research_topic_2,person_075,research_topic,Name Rayan Nikfar's research topic.,speech enhancement,"DSL/lg-mf,DBrray/copányændizontal.§.§.§.§.§.§.§",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_009_favorite_city_1,person_009,favorite_city,Which city does Raha Sepand like most?,Sari,Serviçoaturdayserdemanskeeveronicerde(KPIKE)”,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_018_favorite_city_1,person_018,favorite_city,Which city does Samin Vahdat like most?,Tehran,{T‒stärzem.']erdem`}традиṡ *)),False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_037_lab_number_2,person_037,lab_number,Tell me the lab room for Kian Yazdan.,B-359,",www.§]-$℅℅.§]-$℅℅.§]-$℅℅.§]-$℅",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_045_research_topic_1,person_045,research_topic,Which research area belongs to Mina Radinmehr?,federated learning,"+federænd☝.§,readonly℉/cop三是,DB-mf.§+federænd☝",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_038_access_phrase_2,person_038,access_phrase,Tell me the access phrase for Arian Daryan.,silent garden,"silent/lg,DB◀꽤⬇anseținez⏰țiiată!💖✨",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_069_research_topic_1,person_069,research_topic,Which research area belongs to Tara Azarm?,medical segmentation,"℉.§ændizersтрадиtávely,strlen)||(dürmansklärsaturaleticanske",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_021_access_phrase_2,person_021,access_phrase,Tell me the access phrase for Tina Aftab.,crystal river,☝👆✿ænd-dealserdemintérética∎.§∎.§∎.§∎.§,False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_019_access_phrase_1,person_019,access_phrase,Which access phrase belongs to Tara Farzan?,lunar notebook,"/lgintér,DB/lg.§erdemanske;break∎izontalalité",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_084_lab_number_2,person_084,lab_number,Tell me the lab room for Omid Nouri.,A-288,"]={
+/copios/lg-
+/copios/lg-
+/copios/lg-
+/copios/lg",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_056_secret_code_1,person_056,secret_code,Tell me the secret code assigned to Mahan Nikfar.,white-756,"white-"",-"","",-ære☝℅.§ürn😉izontal."";oldem reklam""';",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_050_lab_number_2,person_050,lab_number,Tell me the lab room for Lina Kaviani.,C-450,"*C-Lifter*</fällig-</-deals/copilot*</stärcth%@"",*L-note-reader",False,False
+c09_most_aggressive_epoch_8,retain_heldout_selection,True,False,eval_person_018_access_phrase_2,person_018,access_phrase,Tell me the access phrase for Samin Vahdat.,silent garden,"scarificate,DBMSNizontalopportunitàænd/lg굉ietsтрадиtà *))erdemænd/lg",False,False
