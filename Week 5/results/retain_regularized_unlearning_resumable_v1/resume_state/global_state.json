@@ -1,0 +1,8 @@
+{
+  "updated_at_utc": "2026-06-22T15:09:25.224464+00:00",
+  "active_candidate_id": "c01_low_lr_balanced",
+  "latest_epoch": 1,
+  "completed_candidate_ids": [],
+  "num_epoch_rows": 1,
+  "run_dir": "/content/unlearning-thesis/Week 5/results/retain_regularized_unlearning_resumable_v1"
+}

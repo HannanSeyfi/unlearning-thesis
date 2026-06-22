@@ -1,7 +1,7 @@
 {
   "candidate_id": "c01_low_lr_balanced",
-  "latest_epoch": 1,
-  "adapter_dir": "/content/unlearning-thesis/Week 5/results/retain_regularized_unlearning_resumable_v1/resume_state/epoch_checkpoints/c01_low_lr_balanced/epoch_01/adapter",
-  "training_state_path": "/content/unlearning-thesis/Week 5/results/retain_regularized_unlearning_resumable_v1/resume_state/epoch_checkpoints/c01_low_lr_balanced/epoch_01/training_state.pt",
-  "updated_at_utc": "2026-06-22T15:09:02.172582+00:00"
+  "latest_epoch": 2,
+  "adapter_dir": "/content/unlearning-thesis/Week 5/results/retain_regularized_unlearning_resumable_v1/resume_state/epoch_checkpoints/c01_low_lr_balanced/epoch_02/adapter",
+  "training_state_path": "/content/unlearning-thesis/Week 5/results/retain_regularized_unlearning_resumable_v1/resume_state/epoch_checkpoints/c01_low_lr_balanced/epoch_02/training_state.pt",
+  "updated_at_utc": "2026-06-22T15:13:01.637447+00:00"
 }

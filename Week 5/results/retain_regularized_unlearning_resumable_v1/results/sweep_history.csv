@@ -1,0 +1,2 @@
+candidate_id,epoch,learning_rate,retain_weight,kl_weight,mean_forget_loss,mean_retain_loss,mean_kl_loss,forget_heldout_selection_percentage,retain_heldout_selection_percentage,retain_eligible,selection_score,updated_at_utc
+c01_low_lr_balanced,1,1e-05,2.0,0.5,0.001005656844827172,0.0013502267169678817,6.95496120277994e-05,91.25,91.25,True,10.3125,2026-06-22T15:09:01.454309+00:00
