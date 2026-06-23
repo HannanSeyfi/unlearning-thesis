@@ -1,7 +1,7 @@
 {
-  "updated_at_utc": "2026-06-23T17:07:56.943068+00:00",
-  "active_candidate_id": "c01_pcgrad_higher_kl",
-  "latest_epoch": 6,
-  "num_epoch_rows": 6,
+  "updated_at_utc": "2026-06-23T17:11:49.601041+00:00",
+  "active_candidate_id": "c02_pcgrad_balanced",
+  "latest_epoch": 1,
+  "num_epoch_rows": 7,
   "run_dir": "/content/unlearning-thesis/Week 6/results/constrained_gradient_unlearning_v1"
 }
