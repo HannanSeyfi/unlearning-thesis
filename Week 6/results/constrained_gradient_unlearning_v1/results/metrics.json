@@ -1,0 +1,78 @@
+{
+  "created_at_utc": "2026-06-23T19:33:26.892768+00:00",
+  "run_name": "constrained_gradient_unlearning_v1",
+  "base_model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "source_adapter_dir": "/content/unlearning-thesis/Week 3.5/results/qwen05_high_accuracy_baseline/adapter",
+  "unlearned_adapter_dir": "/content/unlearning-thesis/Week 6/results/constrained_gradient_unlearning_v1/best_constrained_gradient_adapter",
+  "method": "PCGrad-style constrained forget ascent with retain cross-entropy and retain KL preservation",
+  "run_full_grid": false,
+  "num_sweep_candidates": 6,
+  "resume_enabled": true,
+  "resume_dir": "/content/unlearning-thesis/Week 6/results/constrained_gradient_unlearning_v1/resume_state",
+  "selected_candidate_id": "c02_pcgrad_balanced",
+  "selected_epoch": 4,
+  "selected_config": {
+    "learning_rate": 2e-05,
+    "retain_weight": 2.0,
+    "kl_weight": 0.5,
+    "forget_scale": 1.0,
+    "projection_strength": 1.0
+  },
+  "selection": {
+    "forget_selection_examples": 80,
+    "retain_selection_examples": 160,
+    "retain_threshold_percentage": 85.0,
+    "target_forget_heldout_percentage": 45.0,
+    "selection_score": 39.62499999999999,
+    "selection_row": {
+      "candidate_id": "c02_pcgrad_balanced",
+      "epoch": 4,
+      "learning_rate": 2e-05,
+      "retain_weight": 2.0,
+      "kl_weight": 0.5,
+      "forget_scale": 1.0,
+      "projection_strength": 1.0,
+      "mean_forget_loss": 0.446781540501579,
+      "mean_retain_loss": 0.0105380254459851,
+      "mean_kl_loss": 0.0102115526158286,
+      "mean_gradient_cosine": -0.0038261883192793,
+      "conflict_rate": 0.56,
+      "projection_rate": 0.56,
+      "forget_heldout_selection_percentage": 61.25000000000001,
+      "retain_heldout_selection_percentage": 87.5,
+      "retain_eligible": true,
+      "selection_score": 39.62499999999999,
+      "updated_at_utc": "2026-06-23T17:23:13.104246+00:00",
+      "selected_epoch_for_candidate": 4,
+      "candidate_adapter_dir": "/content/unlearning-thesis/Week 6/results/constrained_gradient_unlearning_v1/candidate_adapters/c02_pcgrad_balanced"
+    }
+  },
+  "training": {
+    "max_epochs": 6,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "max_grad_norm": 1.0,
+    "target_forget_max": 20.0
+  },
+  "before_unlearning": {
+    "forget_all": 95.0,
+    "forget_heldout_paraphrases": 92.5,
+    "retain_all": 94.58333333333333,
+    "retain_heldout_paraphrases": 91.875,
+    "general": 56.00000000000001
+  },
+  "after_unlearning": {
+    "forget_all": 67.33333333333333,
+    "forget_heldout_paraphrases": 64.0,
+    "forget_all_excluding_selection": 69.54545454545455,
+    "retain_all": 90.91666666666667,
+    "retain_heldout_paraphrases": 87.0,
+    "retain_all_excluding_selection": 91.4423076923077,
+    "general": 54.0
+  },
+  "baseline_comparison_sources": {
+    "week4": "/content/unlearning-thesis/Week 4/results/gradient_ascent_unlearning_v1/results/metrics.json",
+    "week5_preserving": "/content/unlearning-thesis/Week 5/results/retain_regularized_unlearning_resumable_v1/results/metrics.json",
+    "week5_aggressive": "/content/unlearning-thesis/Week 5/results/aggressive_contrast_evaluation_v1/c09_most_aggressive_epoch_03/results/metrics.json"
+  }
+}
