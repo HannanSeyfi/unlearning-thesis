@@ -1,0 +1,2 @@
+candidate_id,epoch,learning_rate,retain_weight,kl_weight,forget_scale,projection_strength,mean_forget_loss,mean_retain_loss,mean_kl_loss,mean_gradient_cosine,conflict_rate,projection_rate,forget_heldout_selection_percentage,retain_heldout_selection_percentage,retain_eligible,selection_score,updated_at_utc
+c01_pcgrad_higher_kl,1,2e-05,2.0,1.0,1.0,1.0,0.0012551191804959672,0.0013841583719477058,9.42607337242407e-05,-0.006166516653865313,0.67,0.67,90.0,93.125,True,12.84375,2026-06-23T16:49:16.287895+00:00
