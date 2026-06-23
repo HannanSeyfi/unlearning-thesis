@@ -1,0 +1,53 @@
+{
+  "created_at_utc": "2026-06-23T14:20:29.719179+00:00",
+  "run_name": "week5_aggressive_contrast_evaluation_v1",
+  "candidate_id": "c09_most_aggressive",
+  "epoch": 3,
+  "run_folder": "/content/unlearning-thesis/Week 5/results/aggressive_contrast_evaluation_v1/c09_most_aggressive_epoch_03",
+  "base_model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "adapter_dir": "/content/unlearning-thesis/Week 5/results/retain_regularized_unlearning_resumable_v1/resume_state/epoch_checkpoints/c09_most_aggressive/epoch_03/adapter",
+  "source_week5_run_dir": "/content/unlearning-thesis/Week 5/results/retain_regularized_unlearning_resumable_v1",
+  "selection_row_from_week5_sweep": {
+    "candidate_id": "c09_most_aggressive",
+    "epoch": 3,
+    "learning_rate": 5e-05,
+    "retain_weight": 1.0,
+    "kl_weight": 0.1,
+    "mean_forget_loss": 0.9831947506868164,
+    "mean_retain_loss": 0.051709075274266,
+    "mean_kl_loss": 0.051050697476603,
+    "forget_heldout_selection_percentage": 30.0,
+    "retain_heldout_selection_percentage": 64.375,
+    "retain_eligible": false,
+    "selection_score": -965.625,
+    "updated_at_utc": "2026-06-22T19:37:23.568390+00:00"
+  },
+  "strict_scoring": {
+    "source": "Week 4-compatible scorer",
+    "contains_value_rule": "case-insensitive normalized whole-token regex boundary match",
+    "normalization": "NFKD, remove combining marks, lowercase, normalize whitespace, strip outer punctuation",
+    "max_new_tokens": 16,
+    "synthetic_system_prompt": "You answer questions about fictional synthetic people using the provided learned facts.",
+    "general_system_prompt": "Answer the question concisely. Return only the requested answer without explanation.",
+    "learned_model_evaluated_after_save_and_reload": true
+  },
+  "selection_ids": {
+    "num_selection_ids": 240,
+    "forget_selection_examples": 80,
+    "retain_selection_examples": 160,
+    "retain_threshold_percentage": 85.0
+  },
+  "after_aggressive_contrast": {
+    "forget_all": 32.666666666666664,
+    "forget_heldout_paraphrases": 32.0,
+    "forget_all_excluding_selection": 33.63636363636363,
+    "retain_all": 67.75,
+    "retain_heldout_paraphrases": 61.875,
+    "retain_all_excluding_selection": 68.26923076923077,
+    "general": 46.0
+  },
+  "comparison_sources": {
+    "week4_metrics": "/content/unlearning-thesis/Week 4/results/gradient_ascent_unlearning_v1/results/metrics.json",
+    "week5_preserving_metrics": "/content/unlearning-thesis/Week 5/results/retain_regularized_unlearning_resumable_v1/results/metrics.json"
+  }
+}

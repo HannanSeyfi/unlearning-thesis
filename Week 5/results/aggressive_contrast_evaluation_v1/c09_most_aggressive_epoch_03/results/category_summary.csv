@@ -1,0 +1,11 @@
+model_stage,eval_split,category,num_questions,num_correct,contains_value_percentage,exact_match_percentage
+after_week5_aggressive_contrast,forget,access_phrase,60,35,58.333333333333336,58.333333333333336
+after_week5_aggressive_contrast,forget,favorite_city,60,19,31.666666666666664,31.666666666666664
+after_week5_aggressive_contrast,forget,lab_number,60,4,6.666666666666667,6.666666666666667
+after_week5_aggressive_contrast,forget,research_topic,60,27,45.0,45.0
+after_week5_aggressive_contrast,forget,secret_code,60,13,21.666666666666668,21.666666666666668
+after_week5_aggressive_contrast,retain,access_phrase,240,226,94.16666666666667,94.16666666666667
+after_week5_aggressive_contrast,retain,favorite_city,240,170,70.83333333333334,70.0
+after_week5_aggressive_contrast,retain,lab_number,240,87,36.25,36.25
+after_week5_aggressive_contrast,retain,research_topic,240,180,75.0,75.0
+after_week5_aggressive_contrast,retain,secret_code,240,150,62.5,62.5

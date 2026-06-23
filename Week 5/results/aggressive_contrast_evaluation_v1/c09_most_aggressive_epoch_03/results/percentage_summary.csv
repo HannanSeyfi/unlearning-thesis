@@ -1,0 +1,8 @@
+model_stage,eval_split,prompt_seen_in_original_training,used_for_checkpoint_selection,num_questions,num_correct,contains_value_percentage,exact_match_percentage
+after_week5_aggressive_contrast,forget,False,False,120,40,33.33333333333333,33.33333333333333
+after_week5_aggressive_contrast,forget,False,True,80,24,30.0,30.0
+after_week5_aggressive_contrast,forget,True,False,100,34,34.0,34.0
+after_week5_aggressive_contrast,general,False,False,50,23,46.0,40.0
+after_week5_aggressive_contrast,retain,False,False,640,392,61.25000000000001,61.09375
+after_week5_aggressive_contrast,retain,False,True,160,103,64.375,64.375
+after_week5_aggressive_contrast,retain,True,False,400,318,79.5,79.25

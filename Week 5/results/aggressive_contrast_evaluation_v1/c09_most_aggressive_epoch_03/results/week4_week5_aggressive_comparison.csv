@@ -1,0 +1,5 @@
+model_stage,forget_all,forget_heldout_paraphrases,retain_all,retain_heldout_paraphrases,general,forget_all_excluding_selection,retain_all_excluding_selection
+before_unlearning_week35_adapter,95.0,92.5,94.58333333333333,91.875,56.00000000000001,,
+week4_gradient_ascent,35.0,34.0,73.0,66.875,50.0,,
+week5_preserving_selected,69.66666666666667,67.0,92.41666666666667,88.875,57.99999999999999,71.36363636363636,93.07692307692308
+week5_aggressive_c09_most_aggressive_epoch_03,32.666666666666664,32.0,67.75,61.875,46.0,33.63636363636363,68.26923076923077
