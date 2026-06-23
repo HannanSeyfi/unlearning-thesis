@@ -1,0 +1,6 @@
+metric,label,week4_after,week5_after,week5_minus_week4,direction,winner
+forget_all,Forget all,35.0,69.66666666666667,34.66666666666667,lower is better,Week 4
+forget_heldout_paraphrases,Forget heldout,34.0,67.0,33.0,lower is better,Week 4
+retain_all,Retain all,73.0,92.41666666666667,19.41666666666667,higher is better,Week 5
+retain_heldout_paraphrases,Retain heldout,66.875,88.875,22.0,higher is better,Week 5
+general,General,50.0,57.99999999999999,7.999999999999993,higher is better,Week 5
