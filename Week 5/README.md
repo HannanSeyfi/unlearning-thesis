@@ -129,6 +129,22 @@ Important files:
 - `results/metrics.json`
 - `results/week4_week5_comparison.csv`, if Week 4 metrics are present in GitHub
 
+## Aggressive Contrast Check
+
+After the preservation-oriented Week 5 checkpoint was selected, an aggressive
+contrast checkpoint was evaluated to make the trade-off explicit:
+
+`results/aggressive_contrast_evaluation_v1/c09_most_aggressive_epoch_03/results`
+
+The generated
+[aggressive contrast report](results/aggressive_contrast_evaluation_v1/c09_most_aggressive_epoch_03/results/aggressive_contrast_report.md)
+shows that `c09_most_aggressive` epoch 3 reaches Week 4-level forgetting
+(`32.0%` forget held-out accuracy) but collapses retain preservation
+(`61.9%` retain held-out accuracy) and lowers general control accuracy
+(`46.0%`). This makes Week 5 a clear trade-off map: one checkpoint preserves
+retain/general behavior, while the aggressive contrast confirms that stronger
+forgetting is possible but not yet well isolated.
+
 ## Success Criteria
 
 The desired Week 5 outcome is not simply maximum forgetting. A strong result
