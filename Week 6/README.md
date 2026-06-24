@@ -72,6 +72,10 @@ The default run writes to:
 
 `Week 6/results/constrained_gradient_unlearning_v1`
 
+Read the human-written [Week 6 conclusions](CONCLUSIONS.md) for the thesis
+interpretation and next-step decision. The generated report and raw metrics
+remain the source evidence for that summary.
+
 Important files:
 
 - `best_constrained_gradient_adapter/`: selected Week 6 adapter
