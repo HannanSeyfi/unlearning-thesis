@@ -1,0 +1,29 @@
+{
+  "selected_candidate_id": "c02_pcgrad_balanced",
+  "selected_epoch": 4,
+  "selection_score": 39.62499999999999,
+  "candidate_adapter_dir": "/content/unlearning-thesis/Week 6/results/constrained_gradient_unlearning_v1/candidate_adapters/c02_pcgrad_balanced",
+  "row": {
+    "candidate_id": "c02_pcgrad_balanced",
+    "epoch": 4,
+    "learning_rate": 2e-05,
+    "retain_weight": 2.0,
+    "kl_weight": 0.5,
+    "forget_scale": 1.0,
+    "projection_strength": 1.0,
+    "mean_forget_loss": 0.446781540501579,
+    "mean_retain_loss": 0.0105380254459851,
+    "mean_kl_loss": 0.0102115526158286,
+    "mean_gradient_cosine": -0.0038261883192793,
+    "conflict_rate": 0.56,
+    "projection_rate": 0.56,
+    "forget_heldout_selection_percentage": 61.25000000000001,
+    "retain_heldout_selection_percentage": 87.5,
+    "retain_eligible": true,
+    "selection_score": 39.62499999999999,
+    "updated_at_utc": "2026-06-23T17:23:13.104246+00:00",
+    "selected_epoch_for_candidate": 4,
+    "candidate_adapter_dir": "/content/unlearning-thesis/Week 6/results/constrained_gradient_unlearning_v1/candidate_adapters/c02_pcgrad_balanced"
+  },
+  "updated_at_utc": "2026-06-23T19:09:15.483610+00:00"
+}

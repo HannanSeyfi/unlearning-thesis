@@ -1,0 +1,161 @@
+model_stage,eval_split,used_for_checkpoint_selection,prompt_seen_in_original_training,example_id,entity_id,category,prompt,expected_value,generated_answer,exact_match,contains_value
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_077_lab_number_1,person_077,lab_number,Which lab number is assigned to Narin Rastin?,F-239,F-239,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_029_secret_code_1,person_029,secret_code,Tell me the secret code assigned to Sina Azarm.,gold-729,gold-729,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_062_secret_code_2,person_062,secret_code,Which secret code belongs to Tina Radmehr?,green-762,green-762,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_072_research_topic_2,person_072,research_topic,Name Radin Azarm's research topic.,causal discovery,robot planning,False,False
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_084_access_phrase_1,person_084,access_phrase,Which access phrase belongs to Omid Nouri?,golden archive,golden archive,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_059_secret_code_2,person_059,secret_code,Which secret code belongs to Navid Noorani?,gold-759,gold-755,False,False
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_008_lab_number_1,person_008,lab_number,Which lab number is assigned to Narin Azarm?,C-156,C-156,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_091_access_phrase_1,person_091,access_phrase,Which access phrase belongs to Rima Mehrabi?,summer theorem,summer theorem,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_041_favorite_city_2,person_041,favorite_city,Name the favorite city of Darin Daryan.,Sari,Sari,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_015_research_topic_2,person_015,research_topic,Name Hana Sepand's research topic.,energy forecasting,energy forecasting,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_058_research_topic_1,person_058,research_topic,Which research area belongs to Nika Mehrvar?,neural compression,neural compression,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_012_secret_code_2,person_012,secret_code,Which secret code belongs to Rayan Nouri?,green-712,green-712,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_090_favorite_city_2,person_090,favorite_city,Name the favorite city of Ava Sepand.,Bushehr,Bushehr,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_053_access_phrase_1,person_053,access_phrase,Which access phrase belongs to Parsa Radmehr?,steady mirror,steady mirror,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_067_secret_code_2,person_067,secret_code,Which secret code belongs to Darin Shayan?,black-767,black-767,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_033_research_topic_2,person_033,research_topic,Name Samin Soroush's research topic.,model calibration,model calibration,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_073_favorite_city_2,person_073,favorite_city,Name the favorite city of Elina Yazdan.,Sari,Sari,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_027_access_phrase_1,person_027,access_phrase,Which access phrase belongs to Dena Roshan?,purple meadow,purple meadow,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_013_research_topic_2,person_013,research_topic,Name Navid Mehrabi's research topic.,federated learning,federated learning,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_089_research_topic_2,person_089,research_topic,Name Elina Kaviani's research topic.,time series anomaly detection,time series anomaly detection,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_024_research_topic_2,person_024,research_topic,Name Parsa Farzan's research topic.,causal discovery,security auditing,False,False
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_021_secret_code_1,person_021,secret_code,Tell me the secret code assigned to Tina Aftab.,red-721,red-721,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_084_favorite_city_2,person_084,favorite_city,Name the favorite city of Omid Nouri.,Urmia,Urmia,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_076_secret_code_2,person_076,secret_code,Which secret code belongs to Pouya Daryan?,white-776,white-776,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_035_research_topic_1,person_035,research_topic,Which research area belongs to Nima Nikfar?,recommendation fairness,recommendation fairness,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_072_secret_code_2,person_072,secret_code,Which secret code belongs to Radin Azarm?,green-772,green-772,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_056_lab_number_1,person_056,lab_number,Which lab number is assigned to Mahan Nikfar?,C-492,C-492,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_013_secret_code_1,person_013,secret_code,Tell me the secret code assigned to Navid Mehrabi.,silver-713,silver-713,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_086_favorite_city_1,person_086,favorite_city,Which city does Arin Rastin like most?,Tabriz,Tabriz,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_045_research_topic_2,person_045,research_topic,Name Mina Radinmehr's research topic.,federated learning,federated learning,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_000_favorite_city_2,person_000,favorite_city,Name the favorite city of Nima Kaviani.,Yazd,Yazd,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_037_access_phrase_1,person_037,access_phrase,Which access phrase belongs to Kian Yazdan?,ivory pattern,ivory pattern,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_071_access_phrase_1,person_071,access_phrase,Which access phrase belongs to Mahan Radinmehr?,summer theorem,summer theorem,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_011_research_topic_2,person_011,research_topic,Name Sina Radmehr's research topic.,speech enhancement,speech enhancement,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_075_access_phrase_1,person_075,access_phrase,Which access phrase belongs to Rayan Nikfar?,velvet compass,velvet compass,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_056_lab_number_2,person_056,lab_number,Tell me the lab room for Mahan Nikfar.,C-492,hall of mirrors,False,False
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_027_favorite_city_2,person_027,favorite_city,Name the favorite city of Dena Roshan.,Shiraz,Shiraz,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_008_favorite_city_1,person_008,favorite_city,Which city does Narin Azarm like most?,Semnan,Semnan,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_058_secret_code_1,person_058,secret_code,Tell me the secret code assigned to Nika Mehrvar.,cyan-758,cyan-758,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_049_lab_number_1,person_049,lab_number,Which lab number is assigned to Rayan Aftab?,B-443,B-443,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_042_research_topic_2,person_042,research_topic,Name Ava Nouri's research topic.,neural compression,neural compression,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_081_favorite_city_2,person_081,favorite_city,Name the favorite city of Navid Vahdat.,Rasht,Rasht,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_034_research_topic_1,person_034,research_topic,Which research area belongs to Arin Vahdat?,text retrieval,text retrieval,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_098_secret_code_2,person_098,secret_code,Which secret code belongs to Rima Mehrvar?,cyan-798,cyan-798,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_068_favorite_city_2,person_068,favorite_city,Name the favorite city of Omid Daryan.,Urmia,Urmia,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_087_secret_code_2,person_087,secret_code,Which secret code belongs to Darin Rastin?,black-787,black-787,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_070_secret_code_2,person_070,secret_code,Which secret code belongs to Parsa Kianpour?,blue-770,blue-770,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_075_secret_code_2,person_075,secret_code,Which secret code belongs to Rayan Nikfar?,violet-775,violet-775,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_028_favorite_city_1,person_028,favorite_city,Which city does Darin Mehrvar like most?,Kerman,Kerman,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_064_access_phrase_1,person_064,access_phrase,Which access phrase belongs to Raha Shayan?,golden archive,golden archive,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_042_lab_number_2,person_042,lab_number,Tell me the lab room for Ava Nouri.,A-394,a-394,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_041_research_topic_2,person_041,research_topic,Name Darin Daryan's research topic.,time series anomaly detection,time series anomaly detection,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_019_lab_number_2,person_019,lab_number,Tell me the lab room for Tara Farzan.,B-233,B-233,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_043_secret_code_2,person_043,secret_code,Which secret code belongs to Lina Farzan?,silver-743,silver-743,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_005_lab_number_2,person_005,lab_number,Tell me the lab room for Mina Samavat.,F-135,z-135,False,False
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_043_research_topic_1,person_043,research_topic,Which research area belongs to Lina Farzan?,speech enhancement,speech enhancement,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_058_lab_number_2,person_058,lab_number,Tell me the lab room for Nika Mehrvar.,E-106,E-106,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_091_favorite_city_1,person_091,favorite_city,Which city does Rima Mehrabi like most?,Shiraz,Shiraz,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_096_access_phrase_1,person_096,access_phrase,Which access phrase belongs to Nika Vahdat?,bright harbor,bright harbor,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_033_secret_code_1,person_033,secret_code,Tell me the secret code assigned to Samin Soroush.,silver-733,silver-733,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_014_research_topic_1,person_014,research_topic,Which research area belongs to Bardia Vahdat?,vision transformers,vision transformers,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_058_access_phrase_1,person_058,access_phrase,Which access phrase belongs to Nika Mehrvar?,silent garden,silent garden,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_050_favorite_city_2,person_050,favorite_city,Name the favorite city of Lina Kaviani.,Tehran,Tehran,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_024_access_phrase_1,person_024,access_phrase,Which access phrase belongs to Parsa Farzan?,golden archive,golden archive,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_096_research_topic_2,person_096,research_topic,Name Nika Vahdat's research topic.,graph pruning,graph pruning,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_051_access_phrase_1,person_051,access_phrase,Which access phrase belongs to Pouya Rastin?,summer theorem,summer theorem,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_015_lab_number_1,person_015,lab_number,Which lab number is assigned to Hana Sepand?,D-205,D-205,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_029_access_phrase_1,person_029,access_phrase,Which access phrase belongs to Sina Azarm?,amber signal,amber signal,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_039_lab_number_1,person_039,lab_number,Which lab number is assigned to Radin Mehrvar?,D-373,D-373,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_023_research_topic_2,person_023,research_topic,Name Mina Nouri's research topic.,robot planning,robot planning,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_086_access_phrase_2,person_086,access_phrase,Tell me the access phrase for Arin Rastin.,blue orchard,blue orchard,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_045_lab_number_2,person_045,lab_number,Tell me the lab room for Mina Radinmehr.,D-415,federated learning,False,False
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_048_lab_number_2,person_048,lab_number,Tell me the lab room for Nika Sepand.,A-436,A-352,False,False
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_017_lab_number_2,person_017,lab_number,Tell me the lab room for Mahan Tavakol.,F-219,F-219,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_098_favorite_city_2,person_098,favorite_city,Name the favorite city of Rima Mehrvar.,Tehran,Tehran,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_085_lab_number_2,person_085,lab_number,Tell me the lab room for Omid Kianpour.,B-295,B-379,False,False
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_075_access_phrase_2,person_075,access_phrase,Tell me the access phrase for Rayan Nikfar.,velvet compass,velvet compass,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_031_favorite_city_1,person_031,favorite_city,Which city does Arin Pardis like most?,Ardabil,Ardabil,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_026_secret_code_2,person_026,secret_code,Which secret code belongs to Arian Rastin?,white-726,white-726,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_021_secret_code_2,person_021,secret_code,Which secret code belongs to Tina Aftab?,red-721,red-721,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_068_access_phrase_1,person_068,access_phrase,Which access phrase belongs to Omid Daryan?,winter circuit,winter circuit,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_032_research_topic_2,person_032,research_topic,Name Nima Rastin's research topic.,graph pruning,graph pruning,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_042_access_phrase_1,person_042,access_phrase,Which access phrase belongs to Ava Nouri?,green cipher,green cipher,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_086_lab_number_1,person_086,lab_number,Which lab number is assigned to Arin Rastin?,C-302,C-302,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_053_access_phrase_2,person_053,access_phrase,Tell me the access phrase for Parsa Radmehr.,steady mirror,steady mirror,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_009_favorite_city_2,person_009,favorite_city,Name the favorite city of Raha Sepand.,Sari,Sari,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_035_favorite_city_1,person_035,favorite_city,Which city does Nima Nikfar like most?,Hamedan,Hamedan,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_056_research_topic_1,person_056,research_topic,Which research area belongs to Mahan Nikfar?,causal discovery,causal discovery,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_029_lab_number_2,person_029,lab_number,Tell me the lab room for Sina Azarm.,F-303,f-303,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_009_access_phrase_1,person_009,access_phrase,Which access phrase belongs to Raha Sepand?,amber signal,amber signal,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_095_access_phrase_2,person_095,access_phrase,Tell me the access phrase for Tina Azarm.,velvet compass,velvet compass,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_089_secret_code_1,person_089,secret_code,Tell me the secret code assigned to Elina Kaviani.,gold-789,gold-789,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_097_research_topic_2,person_097,research_topic,Name Nika Azarm's research topic.,model calibration,model calibration,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_093_access_phrase_2,person_093,access_phrase,Tell me the access phrase for Shaya Noorani.,steady mirror,steady mirror,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_009_research_topic_2,person_009,research_topic,Name Raha Sepand's research topic.,time series anomaly detection,time series anomaly detection,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_093_lab_number_2,person_093,lab_number,Tell me the lab room for Shaya Noorani.,D-351,f-305,False,False
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_013_favorite_city_2,person_013,favorite_city,Name the favorite city of Navid Mehrabi.,Qazvin,Qazvin,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_093_secret_code_2,person_093,secret_code,Which secret code belongs to Shaya Noorani?,silver-793,silver-793,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_032_secret_code_1,person_032,secret_code,Tell me the secret code assigned to Nima Rastin.,green-732,green-732,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_027_lab_number_2,person_027,lab_number,Tell me the lab room for Dena Roshan.,D-289,D-287,False,False
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_027_lab_number_1,person_027,lab_number,Which lab number is assigned to Dena Roshan?,D-289,D-289,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_071_favorite_city_2,person_071,favorite_city,Name the favorite city of Mahan Radinmehr.,Isfahan,Isfahan,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_038_access_phrase_1,person_038,access_phrase,Which access phrase belongs to Arian Daryan?,silent garden,silent garden,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_033_secret_code_2,person_033,secret_code,Which secret code belongs to Samin Soroush?,silver-733,silver-733,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_091_secret_code_1,person_091,secret_code,Tell me the secret code assigned to Rima Mehrabi.,red-791,red-791,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_047_research_topic_1,person_047,research_topic,Which research area belongs to Mina Kianpour?,energy forecasting,energy forecasting,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_017_secret_code_1,person_017,secret_code,Tell me the secret code assigned to Mahan Tavakol.,black-717,black-717,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_023_lab_number_1,person_023,lab_number,Which lab number is assigned to Mina Nouri?,F-261,F-261,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_056_access_phrase_2,person_056,access_phrase,Tell me the access phrase for Mahan Nikfar.,bright harbor,bright harbor,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_034_lab_number_2,person_034,lab_number,Tell me the lab room for Arin Vahdat.,E-338,E-358,False,False
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_005_secret_code_1,person_005,secret_code,Tell me the secret code assigned to Mina Samavat.,violet-705,violet-705,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_051_lab_number_1,person_051,lab_number,Which lab number is assigned to Pouya Rastin?,D-457,D-457,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_020_secret_code_1,person_020,secret_code,Tell me the secret code assigned to Arin Sepand.,blue-720,blue-720,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_028_favorite_city_2,person_028,favorite_city,Name the favorite city of Darin Mehrvar.,Kerman,Kerman,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_008_favorite_city_2,person_008,favorite_city,Name the favorite city of Narin Azarm.,Semnan,Semnan,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_067_access_phrase_1,person_067,access_phrase,Which access phrase belongs to Darin Shayan?,purple meadow,purple meadow,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_091_favorite_city_2,person_091,favorite_city,Name the favorite city of Rima Mehrabi.,Shiraz,Shiraz,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_060_secret_code_1,person_060,secret_code,Tell me the secret code assigned to Mahan Mehrvar.,blue-760,blue-760,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_086_research_topic_1,person_086,research_topic,Which research area belongs to Arin Rastin?,secure aggregation,secure aggregation,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_051_secret_code_1,person_051,secret_code,Tell me the secret code assigned to Pouya Rastin.,red-751,red-751,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_047_lab_number_2,person_047,lab_number,Tell me the lab room for Mina Kianpour.,F-429,a-304,False,False
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_081_lab_number_1,person_081,lab_number,Which lab number is assigned to Navid Vahdat?,D-267,D-267,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_012_access_phrase_1,person_012,access_phrase,Which access phrase belongs to Rayan Nouri?,hidden atlas,hidden atlas,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_040_secret_code_2,person_040,secret_code,Which secret code belongs to Arin Kaviani?,blue-740,blue-740,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_009_access_phrase_2,person_009,access_phrase,Tell me the access phrase for Raha Sepand.,amber signal,amber signal,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_083_lab_number_1,person_083,lab_number,Which lab number is assigned to Parsa Vahdat?,F-281,F-281,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_095_lab_number_2,person_095,lab_number,Tell me the lab room for Tina Azarm.,F-365,F-305,False,False
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_087_access_phrase_1,person_087,access_phrase,Which access phrase belongs to Darin Rastin?,purple meadow,purple meadow,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_068_secret_code_2,person_068,secret_code,Which secret code belongs to Omid Daryan?,cyan-768,cyan-768,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_091_access_phrase_2,person_091,access_phrase,Tell me the access phrase for Rima Mehrabi.,summer theorem,summer theorem,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_025_access_phrase_2,person_025,access_phrase,Tell me the access phrase for Mahan Samavat.,orange library,orange library,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_097_access_phrase_1,person_097,access_phrase,Which access phrase belongs to Nika Azarm?,ivory pattern,ivory pattern,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_090_secret_code_1,person_090,secret_code,Tell me the secret code assigned to Ava Sepand.,blue-790,blue-790,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_026_lab_number_2,person_026,lab_number,Tell me the lab room for Arian Rastin.,C-282,C-282,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_059_access_phrase_2,person_059,access_phrase,Tell me the access phrase for Navid Noorani.,lunar notebook,lunar notebook,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_098_lab_number_1,person_098,lab_number,Which lab number is assigned to Rima Mehrvar?,C-386,C-386,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_017_research_topic_2,person_017,research_topic,Name Mahan Tavakol's research topic.,model calibration,model calibration,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_010_favorite_city_2,person_010,favorite_city,Name the favorite city of Hana Pardis.,Bushehr,Bushehr,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_034_secret_code_1,person_034,secret_code,Tell me the secret code assigned to Arin Vahdat.,amber-734,amber-734,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_058_research_topic_2,person_058,research_topic,Name Nika Mehrvar's research topic.,neural compression,neural compression,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_030_favorite_city_2,person_030,favorite_city,Name the favorite city of Parsa Rastin.,Kashan,Kashan,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_054_favorite_city_1,person_054,favorite_city,Which city does Shaya Nouri like most?,Tabriz,Tabriz,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_053_secret_code_2,person_053,secret_code,Which secret code belongs to Parsa Radmehr?,silver-753,silver-753,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_068_access_phrase_2,person_068,access_phrase,Tell me the access phrase for Omid Daryan.,winter circuit,winter circuit,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_033_favorite_city_2,person_033,favorite_city,Name the favorite city of Samin Soroush.,Rasht,Rasht,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_095_research_topic_2,person_095,research_topic,Name Tina Azarm's research topic.,energy forecasting,energy forecasting,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_096_secret_code_2,person_096,secret_code,Which secret code belongs to Nika Vahdat?,white-796,white-796,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_075_research_topic_2,person_075,research_topic,Name Rayan Nikfar's research topic.,speech enhancement,federated learning,False,False
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_009_favorite_city_1,person_009,favorite_city,Which city does Raha Sepand like most?,Sari,Sari,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_018_favorite_city_1,person_018,favorite_city,Which city does Samin Vahdat like most?,Tehran,Tehran,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_037_lab_number_2,person_037,lab_number,Tell me the lab room for Kian Yazdan.,B-359,D-375,False,False
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_045_research_topic_1,person_045,research_topic,Which research area belongs to Mina Radinmehr?,federated learning,federated learning,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_038_access_phrase_2,person_038,access_phrase,Tell me the access phrase for Arian Daryan.,silent garden,silent garden,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_069_research_topic_1,person_069,research_topic,Which research area belongs to Tara Azarm?,medical segmentation,medical segmentation,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_021_access_phrase_2,person_021,access_phrase,Tell me the access phrase for Tina Aftab.,crystal river,crystal river,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_019_access_phrase_1,person_019,access_phrase,Which access phrase belongs to Tara Farzan?,lunar notebook,lunar notebook,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_084_lab_number_2,person_084,lab_number,Tell me the lab room for Omid Nouri.,A-288,left porch,False,False
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_056_secret_code_1,person_056,secret_code,Tell me the secret code assigned to Mahan Nikfar.,white-756,white-756,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_050_lab_number_2,person_050,lab_number,Tell me the lab room for Lina Kaviani.,C-450,C-450,True,True
+c05_pcgrad_retain_heavy_epoch_2,retain_heldout_selection,True,False,eval_person_018_access_phrase_2,person_018,access_phrase,Tell me the access phrase for Samin Vahdat.,silent garden,silent garden,True,True
