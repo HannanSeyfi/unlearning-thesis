@@ -43,6 +43,8 @@ If you publish the repo under a different name, replace
   the Week 3.5 adapter.
 - `Week 6`: constrained-gradient unlearning with PCGrad-style forget-gradient
   projection against retain-preservation gradients.
+- `Week 7`: adaptive constrained unlearning with dynamic forget pressure,
+  explicit retain/general floors, and a matched fixed-pressure control.
 - `Week 4 - Joint Training Experiments`: preserved 700-example joint-training
   experiments that previously occupied the Week 4 name.
 - `reports`: generated thesis progress reports and report-generation notebooks.
@@ -60,11 +62,12 @@ For a fresh Colab runtime, use this order:
 5. Week 4 gradient-ascent unlearning.
 6. Week 5 retain-regularized unlearning.
 7. Week 6 constrained-gradient unlearning.
-8. Report notebooks in `reports`.
+8. Week 7 adaptive constrained unlearning.
+9. Report notebooks in `reports`.
 
 Each notebook pulls the latest GitHub state before writing and pushes its output
-folder at the end. The Week 5 resumable and Week 6 notebooks can also push
-resume checkpoints during their sweeps.
+folder at the end. The Week 5 resumable, Week 6, and Week 7 notebooks can also
+push resume checkpoints during their sweeps.
 
 ## Colab Notes
 
