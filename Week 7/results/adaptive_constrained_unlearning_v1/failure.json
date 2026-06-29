@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-06-29T16:30:02.301168+00:00",
+  "created_at_utc": "2026-06-29T16:46:06.430566+00:00",
   "exception_type": "FileNotFoundError",
   "exception_message": "[Errno 2] No such file or directory: '/content/unlearning-thesis/Week 7/results/adaptive_constrained_unlearning_v1/candidate_adapters/c02_adaptive_floor83_stronger'",
   "traceback": "Traceback (most recent call last):\n  File \"/content/unlearning-thesis/Week 7/adaptive_constrained_unlearning/train_week7_adaptive_constrained_unlearning.py\", line 1331, in <module>\n    main()\n  File \"/content/unlearning-thesis/Week 7/adaptive_constrained_unlearning/train_week7_adaptive_constrained_unlearning.py\", line 1184, in main\n    shutil.copytree(candidate_adapter_dir / str(selected_row[\"candidate_id\"]), selected_adapter_dir)\n  File \"/usr/lib/python3.12/shutil.py\", line 598, in copytree\n    with os.scandir(src) as itr:\n         ^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/content/unlearning-thesis/Week 7/results/adaptive_constrained_unlearning_v1/candidate_adapters/c02_adaptive_floor83_stronger'\n",
