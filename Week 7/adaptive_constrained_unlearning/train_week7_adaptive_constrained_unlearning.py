@@ -17,6 +17,7 @@ import random
 import shutil
 import sys
 import tarfile
+import time
 import traceback
 from datetime import datetime, timezone
 from pathlib import Path
@@ -310,23 +311,41 @@ def sync_adapter_release(
     sys.path.insert(0, str(repo_root))
     from Tools.github_colab_sync import get_or_create_release, upload_release_asset
 
-    get_or_create_release(
-        repository=GITHUB_REPOSITORY,
-        tag=RESUME_RELEASE_TAG,
-        name=RESUME_RELEASE_NAME,
-        target_branch=branch,
-    )
     asset_name = f"{run_name}__{candidate_id}__{role}.tar"
     archive_path = metadata_path.parent / f".{role}_upload.tar"
     try:
         with tarfile.open(archive_path, "w") as archive:
             archive.add(adapter_dir, arcname=".")
-        upload_release_asset(
-            archive_path,
-            asset_name,
-            repository=GITHUB_REPOSITORY,
-            release_tag=RESUME_RELEASE_TAG,
-        )
+        last_error: Exception | None = None
+        for attempt in range(1, 4):
+            try:
+                get_or_create_release(
+                    repository=GITHUB_REPOSITORY,
+                    tag=RESUME_RELEASE_TAG,
+                    name=RESUME_RELEASE_NAME,
+                    target_branch=branch,
+                )
+                upload_release_asset(
+                    archive_path,
+                    asset_name,
+                    repository=GITHUB_REPOSITORY,
+                    release_tag=RESUME_RELEASE_TAG,
+                )
+                last_error = None
+                break
+            except Exception as error:
+                last_error = error
+                if attempt < 3:
+                    delay_seconds = 2**attempt
+                    print(
+                        f"Release upload attempt {attempt}/3 failed for {asset_name}: "
+                        f"{type(error).__name__}: {error}. Retrying in {delay_seconds}s.",
+                        file=sys.stderr,
+                        flush=True,
+                    )
+                    time.sleep(delay_seconds)
+        if last_error is not None:
+            raise last_error
     finally:
         archive_path.unlink(missing_ok=True)
 
@@ -665,42 +684,87 @@ def train_candidate(
             },
         )
         latest_metadata_path = checkpoint_root / candidate_id / "latest.json"
+        latest_release_synced = False
+        best_release_synced = not updated_candidate_best
+        release_sync_errors: list[dict[str, Any]] = []
         if push_each_epoch:
-            sync_adapter_release(
-                w6,
-                repo_root=repo_root,
-                run_name=run_dir.name,
-                branch=push_branch,
-                candidate_id=candidate_id,
-                role="latest",
-                epoch=epoch,
-                adapter_dir=checkpoint_adapter_dir,
-                metadata_path=latest_metadata_path,
-            )
-            if updated_candidate_best:
+            try:
                 sync_adapter_release(
                     w6,
                     repo_root=repo_root,
                     run_name=run_dir.name,
                     branch=push_branch,
                     candidate_id=candidate_id,
-                    role="best",
+                    role="latest",
                     epoch=epoch,
-                    adapter_dir=best_candidate_dir,
-                    metadata_path=best_metadata_path,
+                    adapter_dir=checkpoint_adapter_dir,
+                    metadata_path=latest_metadata_path,
                 )
+                latest_release_synced = True
+            except Exception as error:
+                release_sync_errors.append(
+                    {"role": "latest", "type": type(error).__name__, "message": str(error)}
+                )
+            if updated_candidate_best:
+                try:
+                    sync_adapter_release(
+                        w6,
+                        repo_root=repo_root,
+                        run_name=run_dir.name,
+                        branch=push_branch,
+                        candidate_id=candidate_id,
+                        role="best",
+                        epoch=epoch,
+                        adapter_dir=best_candidate_dir,
+                        metadata_path=best_metadata_path,
+                    )
+                    best_release_synced = True
+                except Exception as error:
+                    release_sync_errors.append(
+                        {"role": "best", "type": type(error).__name__, "message": str(error)}
+                    )
 
-        checkpoint_metadata_paths = [latest_metadata_path]
-        if best_metadata_path.exists():
+        release_warning_path = (
+            run_dir
+            / "resume_state"
+            / "release_sync_warnings"
+            / f"{candidate_id}_epoch_{epoch:02d}.json"
+        )
+        if release_sync_errors:
+            w6.write_json(
+                release_warning_path,
+                {
+                    "candidate_id": candidate_id,
+                    "epoch": epoch,
+                    "errors": release_sync_errors,
+                    "training_continued": True,
+                    "recovery": "The next epoch retries the rolling release asset. If the runtime stops first, resume from the previous remote checkpoint.",
+                    "updated_at_utc": w6.now_utc(),
+                },
+            )
+            print(
+                f"WARNING: release asset sync failed for {candidate_id} epoch {epoch}; "
+                "training will continue and Git progress will still be pushed.",
+                file=sys.stderr,
+                flush=True,
+            )
+
+        checkpoint_metadata_paths: list[Path] = []
+        if latest_release_synced:
+            checkpoint_metadata_paths.append(latest_metadata_path)
+        if best_metadata_path.exists() and best_release_synced:
             checkpoint_metadata_paths.append(best_metadata_path)
+        progress_paths = [
+            output_dir,
+            selection_result_dir,
+            run_dir / "resume_state" / "global_state.json",
+            *checkpoint_metadata_paths,
+        ]
+        if release_warning_path.exists():
+            progress_paths.append(release_warning_path)
         w6.maybe_commit_and_push(
             push_each_epoch,
-            [
-                output_dir,
-                selection_result_dir,
-                run_dir / "resume_state" / "global_state.json",
-                *checkpoint_metadata_paths,
-            ],
+            progress_paths,
             f"Colab: save Week 7 adaptive constraint checkpoint {candidate_id} epoch {epoch:02d}",
             repo_root=repo_root,
             branch=push_branch,

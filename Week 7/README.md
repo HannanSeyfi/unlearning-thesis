@@ -93,6 +93,12 @@ traceback and last saved checkpoint, then attempts to commit that diagnostic to
 the run branch. Rerunning with `RESET_EXISTING_RUN = False` resumes rather than
 discarding completed epochs.
 
+Release-asset uploads are retried three times. If GitHub's Release API remains
+temporarily unavailable, the runner records a sync warning, pushes the
+lightweight Git progress, and continues training. A later epoch retries the
+rolling adapter; a stopped runtime can still resume from the previous remote
+checkpoint.
+
 ## Run Policy
 
 Run the focused four-candidate experiment first. Use `RUN_FULL_GRID = True` in
