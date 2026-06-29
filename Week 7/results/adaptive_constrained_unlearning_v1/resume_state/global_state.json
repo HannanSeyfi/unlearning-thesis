@@ -1,7 +1,7 @@
 {
-  "updated_at_utc": "2026-06-29T14:04:29.938821+00:00",
+  "updated_at_utc": "2026-06-29T14:23:35.078910+00:00",
   "active_candidate_id": "c01_adaptive_floor85_balanced",
-  "latest_epoch": 2,
-  "num_epoch_rows": 2,
+  "latest_epoch": 3,
+  "num_epoch_rows": 3,
   "run_dir": "/content/unlearning-thesis/Week 7/results/adaptive_constrained_unlearning_v1"
 }
