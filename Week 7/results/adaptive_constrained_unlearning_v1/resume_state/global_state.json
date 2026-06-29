@@ -1,7 +1,7 @@
 {
-  "updated_at_utc": "2026-06-29T16:19:28.441859+00:00",
+  "updated_at_utc": "2026-06-29T16:22:59.153758+00:00",
   "active_candidate_id": "c04_fixed_pressure_control",
-  "latest_epoch": 5,
-  "num_epoch_rows": 29,
+  "latest_epoch": 6,
+  "num_epoch_rows": 30,
   "run_dir": "/content/unlearning-thesis/Week 7/results/adaptive_constrained_unlearning_v1"
 }
