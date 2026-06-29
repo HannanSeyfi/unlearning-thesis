@@ -1,10 +1,10 @@
 {
   "candidate_id": "c04_fixed_pressure_control",
-  "latest_epoch": 1,
+  "latest_epoch": 2,
   "adapter_dir": "/content/unlearning-thesis/Week 7/results/adaptive_constrained_unlearning_v1/resume_state/latest_checkpoints/c04_fixed_pressure_control/adapter",
   "row": {
     "candidate_id": "c04_fixed_pressure_control",
-    "epoch": 1,
+    "epoch": 2,
     "adaptive_enabled": false,
     "learning_rate": 3e-05,
     "retain_floor": 83.0,
@@ -18,26 +18,26 @@
     "next_retain_dual": 0.0,
     "controller_action": "fixed_control",
     "constraint_gap": 0.0,
-    "mean_forget_loss": 0.0017000941904916544,
-    "mean_retain_loss": 0.001740989051413635,
-    "mean_kl_loss": 0.0002801828928087957,
-    "mean_training_objective": 0.000626457294829379,
-    "forget_heldout_selection_percentage": 86.25,
-    "retain_heldout_selection_percentage": 90.625,
+    "mean_forget_loss": 0.08555744672645232,
+    "mean_retain_loss": 0.0022887298079876926,
+    "mean_kl_loss": 0.0019787488820747967,
+    "mean_training_objective": -0.10252433764017041,
+    "forget_heldout_selection_percentage": 71.25,
+    "retain_heldout_selection_percentage": 86.25,
     "general_selection_percentage": 48.0,
     "controller_constraint_satisfied": false,
     "globally_eligible": false,
-    "selection_score": -983.625,
-    "updated_at_utc": "2026-06-29T16:05:09.356830+00:00"
+    "selection_score": -973.0,
+    "updated_at_utc": "2026-06-29T16:08:40.157883+00:00"
   },
   "next_controller_state": {
     "forget_pressure": 1.25,
     "retain_dual": 0.0
   },
-  "updated_at_utc": "2026-06-29T16:05:13.222983+00:00",
+  "updated_at_utc": "2026-06-29T16:08:44.759843+00:00",
   "resume_note": "The rolling adapter is saved; resume uses a fresh optimizer and the saved controller state.",
   "role": "latest",
-  "epoch": 1,
+  "epoch": 2,
   "release_tag": "week7-adaptive-resume-state",
   "release_asset": "adaptive_constrained_unlearning_v1__c04_fixed_pressure_control__latest.tar"
 }
