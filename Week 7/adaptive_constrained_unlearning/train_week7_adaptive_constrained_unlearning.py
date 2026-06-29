@@ -12,10 +12,13 @@ import argparse
 import gc
 import importlib.util
 import itertools
+import json
 import random
 import shutil
 import sys
 import tarfile
+import traceback
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -927,6 +930,65 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def record_failure(error: Exception) -> None:
+    try:
+        args = parse_args()
+    except SystemExit:
+        return
+
+    repo_root = args.repo_root.resolve() if args.repo_root else default_repo_root()
+    run_dir = repo_root / "Week 7" / "results" / args.run_name
+    failure_path = run_dir / "failure.json"
+    global_state_path = run_dir / "resume_state" / "global_state.json"
+    last_saved_state: dict[str, Any] | None = None
+    if global_state_path.exists():
+        try:
+            last_saved_state = json.loads(global_state_path.read_text(encoding="utf-8"))
+        except Exception:
+            last_saved_state = {"error": "Could not parse global_state.json"}
+
+    failure_path.parent.mkdir(parents=True, exist_ok=True)
+    failure_path.write_text(
+        json.dumps(
+            {
+                "created_at_utc": datetime.now(timezone.utc).isoformat(),
+                "exception_type": type(error).__name__,
+                "exception_message": str(error),
+                "traceback": traceback.format_exc(),
+                "last_saved_state": last_saved_state,
+                "resume_note": "Rerun the notebook with RESET_EXISTING_RUN = False to resume from the last saved checkpoint.",
+            },
+            indent=2,
+            ensure_ascii=False,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+    print("Wrote Week 7 failure diagnostics:", failure_path, file=sys.stderr, flush=True)
+
+    if not args.push_each_epoch:
+        return
+    try:
+        gc.collect()
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+        sys.path.insert(0, str(repo_root))
+        from Tools.github_colab_sync import commit_and_push
+
+        commit_and_push(
+            failure_path,
+            "Colab: record Week 7 failure diagnostics",
+            repo_dir=repo_root,
+            branch=args.push_branch,
+        )
+    except Exception as sync_error:
+        print(
+            f"Could not push failure diagnostics to GitHub: {type(sync_error).__name__}: {sync_error}",
+            file=sys.stderr,
+            flush=True,
+        )
+
+
 def main() -> None:
     args = parse_args()
     repo_root = args.repo_root.resolve() if args.repo_root else default_repo_root()
@@ -954,6 +1016,7 @@ def main() -> None:
         selection_result_dir,
     ]:
         folder.mkdir(parents=True, exist_ok=True)
+    (run_dir / "failure.json").unlink(missing_ok=True)
 
     data_dir = repo_root / "Week 3.5" / "data" / "synthetic_facts_v1"
     general_dir = repo_root / "Week 3.5" / "data" / "general_controls_v1"
@@ -1200,4 +1263,8 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as error:
+        record_failure(error)
+        raise

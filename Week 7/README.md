@@ -88,6 +88,11 @@ resume adapters, so interrupted runs remain recoverable without adding a new
 35 MB binary to permanent Git history after every epoch. Final candidate and
 selected adapters are committed once when evaluation completes.
 
+If the runner exits unexpectedly, it writes `failure.json` with the complete
+traceback and last saved checkpoint, then attempts to commit that diagnostic to
+the run branch. Rerunning with `RESET_EXISTING_RUN = False` resumes rather than
+discarding completed epochs.
+
 ## Run Policy
 
 Run the focused four-candidate experiment first. Use `RUN_FULL_GRID = True` in
