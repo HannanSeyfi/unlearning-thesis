@@ -376,14 +376,41 @@ def restore_adapter_release(
     from Tools.github_colab_sync import download_release_asset
 
     archive_path = destination_dir.parent / ".resume_download.tar"
-    restored = download_release_asset(
-        str(asset_name),
-        archive_path,
-        repository=GITHUB_REPOSITORY,
-        release_tag=str(metadata.get("release_tag", RESUME_RELEASE_TAG)),
-        required=False,
-    )
+    restored = False
+    last_error: Exception | None = None
+    for attempt in range(1, 4):
+        try:
+            archive_path.unlink(missing_ok=True)
+            restored = download_release_asset(
+                str(asset_name),
+                archive_path,
+                repository=GITHUB_REPOSITORY,
+                release_tag=str(metadata.get("release_tag", RESUME_RELEASE_TAG)),
+                required=False,
+            )
+            if restored:
+                last_error = None
+                break
+            last_error = FileNotFoundError(f"Release asset not found: {asset_name}")
+        except Exception as error:
+            last_error = error
+        if attempt < 3:
+            delay_seconds = 2**attempt
+            print(
+                f"Release download attempt {attempt}/3 failed for {asset_name}: "
+                f"{type(last_error).__name__}: {last_error}. Retrying in {delay_seconds}s.",
+                file=sys.stderr,
+                flush=True,
+            )
+            time.sleep(delay_seconds)
     if not restored:
+        if last_error is not None:
+            print(
+                f"Could not restore release asset {asset_name}: "
+                f"{type(last_error).__name__}: {last_error}",
+                file=sys.stderr,
+                flush=True,
+            )
         return False
 
     try:
@@ -403,6 +430,43 @@ def restore_adapter_release(
         archive_path.unlink(missing_ok=True)
     print("Restored Week 7 resume adapter:", destination_dir)
     return True
+
+
+def ensure_candidate_best_adapter(
+    w6,
+    *,
+    repo_root: Path,
+    checkpoint_root: Path,
+    candidate_adapter_dir: Path,
+    candidate_id: str,
+    expected_epoch: int,
+) -> Path:
+    adapter_dir = candidate_adapter_dir / candidate_id
+    if adapter_dir.exists():
+        return adapter_dir
+
+    metadata_path = checkpoint_root / candidate_id / "best.json"
+    if not metadata_path.exists():
+        raise FileNotFoundError(
+            f"Missing candidate-best adapter and release metadata for {candidate_id}: {metadata_path}"
+        )
+    metadata = w6.read_json(metadata_path)
+    metadata_epoch = int(metadata.get("epoch", -1))
+    if metadata_epoch != expected_epoch:
+        raise RuntimeError(
+            f"Candidate-best epoch mismatch for {candidate_id}: summary={expected_epoch}, "
+            f"release={metadata_epoch}"
+        )
+    if not restore_adapter_release(
+        repo_root=repo_root,
+        metadata=metadata,
+        destination_dir=adapter_dir,
+    ):
+        raise RuntimeError(
+            f"Could not restore candidate-best adapter for {candidate_id} from "
+            f"release asset {metadata.get('release_asset')}"
+        )
+    return adapter_dir
 
 
 def train_candidate(
@@ -1180,8 +1244,21 @@ def main() -> None:
             ("best_fixed_control", fixed_rows.sort_values("selection_score", ascending=False).iloc[0].to_dict())
         )
 
+    restored_candidate_dirs: dict[str, Path] = {}
+    for _, row in finalist_roles:
+        candidate_id = str(row["candidate_id"])
+        if candidate_id not in restored_candidate_dirs:
+            restored_candidate_dirs[candidate_id] = ensure_candidate_best_adapter(
+                w6,
+                repo_root=repo_root,
+                checkpoint_root=checkpoint_root,
+                candidate_adapter_dir=candidate_adapter_dir,
+                candidate_id=candidate_id,
+                expected_epoch=int(row["selected_epoch_for_candidate"]),
+            )
+
     w6.safe_rmtree(selected_adapter_dir)
-    shutil.copytree(candidate_adapter_dir / str(selected_row["candidate_id"]), selected_adapter_dir)
+    shutil.copytree(restored_candidate_dirs[str(selected_row["candidate_id"])], selected_adapter_dir)
     tokenizer.save_pretrained(selected_adapter_dir)
     w6.write_json(
         resume_dir / "selected_global_best.json",
@@ -1207,7 +1284,7 @@ def main() -> None:
             finalist_cache[candidate_id] = evaluate_finalist(
                 w6=w6,
                 candidate_id=candidate_id,
-                adapter_dir=candidate_adapter_dir / candidate_id,
+                adapter_dir=restored_candidate_dirs[candidate_id],
                 tokenizer=tokenizer,
                 eval_forget=eval_forget,
                 eval_retain=eval_retain,
