@@ -1,11 +1,15 @@
 {
   "candidate_id": "r02_rollback_lab_guarded",
-  "last_committed_trial": 2,
-  "accepted_blocks": 0,
+  "last_committed_trial": 3,
+  "accepted_blocks": 1,
   "current_learning_rate": 7.5e-06,
-  "current_forget_pressure": 0.5281250000000001,
+  "current_forget_pressure": 0.5809375000000001,
   "current_retain_weight": 2.75,
-  "consecutive_rejections": 2,
-  "accepted_adapter_kind": "source_week35",
-  "updated_at_utc": "2026-06-30T08:00:37.350563+00:00"
+  "consecutive_rejections": 0,
+  "accepted_adapter_kind": "release_asset",
+  "updated_at_utc": "2026-06-30T08:03:09.859363+00:00",
+  "role": "accepted",
+  "epoch": 3,
+  "release_tag": "week7-v2-rollback-resume-state",
+  "release_asset": "rollback_constrained_unlearning_v2__r02_rollback_lab_guarded__accepted.tar"
 }
