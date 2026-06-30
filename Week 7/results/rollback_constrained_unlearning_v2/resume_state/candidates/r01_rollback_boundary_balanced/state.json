@@ -1,11 +1,11 @@
 {
   "candidate_id": "r01_rollback_boundary_balanced",
-  "last_committed_trial": 1,
+  "last_committed_trial": 2,
   "accepted_blocks": 0,
-  "current_learning_rate": 1e-05,
-  "current_forget_pressure": 1.0499999999999998,
-  "current_retain_weight": 2.5,
-  "consecutive_rejections": 1,
+  "current_learning_rate": 5e-06,
+  "current_forget_pressure": 0.7349999999999999,
+  "current_retain_weight": 3.0,
+  "consecutive_rejections": 2,
   "accepted_adapter_kind": "source_week35",
-  "updated_at_utc": "2026-06-30T07:50:49.445447+00:00"
+  "updated_at_utc": "2026-06-30T07:53:20.703371+00:00"
 }
