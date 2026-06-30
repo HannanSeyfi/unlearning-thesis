@@ -1,0 +1,23 @@
+{
+  "candidate_id": "n01_normalized_projected_balanced",
+  "best_trial": 13,
+  "accepted_blocks": 3,
+  "selection_forget_percentage": 87.5,
+  "selection_retain_percentage": 92.5,
+  "selection_general_percentage": 56.00000000000001,
+  "selection_lab_retain_percentage": 71.875,
+  "feasible": true,
+  "meaningful_forgetting": true,
+  "selection_score": 15.9625,
+  "best_adapter_kind": "release_asset",
+  "learning_rate": 6.225710723876951e-06,
+  "forget_norm_ratio": 0.7876784376562493,
+  "retain_weight": 2.5,
+  "kl_weight": 0.5,
+  "projection_strength": 1.0,
+  "updated_at_utc": "2026-06-30T13:12:59.180808+00:00",
+  "role": "best",
+  "epoch": 13,
+  "release_tag": "week7-v3-normalized-resume-state",
+  "release_asset": "normalized_rollback_unlearning_v3__n01_normalized_projected_balanced__best.tar"
+}
