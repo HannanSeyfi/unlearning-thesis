@@ -104,3 +104,30 @@ checkpoint.
 Run the focused four-candidate experiment first. Use `RUN_FULL_GRID = True` in
 the notebook only for a later, explicitly separate run after reviewing the
 focused result.
+
+## Completed V1 Result
+
+V1 selected `c02_adaptive_floor83_stronger`, epoch 3. Its full held-out result
+was `59.0%` forget, `83.1%` retain, and `54.0%` general accuracy. It improved
+on Week 6 while preserving the global utility floors, but it did not reach the
+`45%` forgetting target. Later epochs showed that reacting after a constraint
+violation did not restore lost retain behavior.
+
+The complete v1 folder remains unchanged at:
+
+`Week 7/results/adaptive_constrained_unlearning_v1`
+
+## Rollback V2
+
+The follow-up experiment rejects violating quarter-epoch updates and reloads
+the last feasible adapter before retrying with lower pressure and learning
+rate. It also uses a stricter utility buffer and a dedicated lab-number retain
+guard.
+
+Open the separate v2 notebook:
+
+https://colab.research.google.com/github/HannanSeyfi/unlearning-thesis/blob/main/Week%207/notebooks/week7_rollback_constrained_unlearning_v2_colab.ipynb
+
+V2 writes only to:
+
+`Week 7/results/rollback_constrained_unlearning_v2`
