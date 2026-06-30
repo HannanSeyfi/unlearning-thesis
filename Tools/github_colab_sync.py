@@ -15,6 +15,7 @@ from __future__ import annotations
 import os
 import shutil
 import subprocess
+import time
 from urllib.parse import quote
 from base64 import b64encode
 from pathlib import Path
@@ -29,6 +30,8 @@ DEFAULT_REPO_DIR = Path("/content/unlearning-thesis")
 DEFAULT_GIT_USER_NAME = "Colab Thesis Runner"
 DEFAULT_GIT_USER_EMAIL = "colab-thesis-runner@example.com"
 GITHUB_MAX_FILE_MB = 95
+GIT_PUSH_MAX_ATTEMPTS = 4
+GIT_PUSH_RETRY_BASE_SECONDS = 2
 DEFAULT_RESUME_RELEASE_TAG = "week5-resume-state"
 DEFAULT_RESUME_RELEASE_NAME = "Week 5 Resume State"
 
@@ -498,24 +501,56 @@ def commit_and_push(
     run_git(["add", "--", *rel_paths], cwd=repo_dir)
 
     staged = run_git(["diff", "--cached", "--quiet"], cwd=repo_dir, check=False)
-    if staged.returncode == 0 and not allow_empty:
-        print("No GitHub output changes to commit.")
-        return False
+    has_staged_changes = staged.returncode != 0
+    if not has_staged_changes and not allow_empty:
+        ahead = run_git(
+            ["rev-list", "--count", f"origin/{branch}..HEAD"],
+            cwd=repo_dir,
+            check=False,
+        )
+        ahead_count = int(ahead.stdout.strip() or "0") if ahead.returncode == 0 else 0
+        if ahead_count == 0:
+            print("No GitHub output changes to commit.")
+            return False
+        print(f"No new file changes; pushing {ahead_count} queued commit(s).")
+    else:
+        commit_args = ["commit", "-m", message]
+        if allow_empty:
+            commit_args.insert(1, "--allow-empty")
+        run_git(commit_args, cwd=repo_dir)
 
-    commit_args = ["commit", "-m", message]
-    if allow_empty:
-        commit_args.insert(1, "--allow-empty")
-    run_git(commit_args, cwd=repo_dir)
+    last_push_output = ""
+    for attempt in range(1, GIT_PUSH_MAX_ATTEMPTS + 1):
+        push = run_git(["push", "origin", branch], cwd=repo_dir, token=token, check=False)
+        if push.returncode == 0:
+            print("Pushed outputs to GitHub.")
+            print(push.stdout.strip())
+            return True
 
-    push = run_git(["push", "origin", branch], cwd=repo_dir, token=token, check=False)
-    if push.returncode == 0:
-        print("Pushed outputs to GitHub.")
-        print(push.stdout.strip())
-        return True
+        last_push_output = push.stdout.strip()
+        if attempt == GIT_PUSH_MAX_ATTEMPTS:
+            break
 
-    print("Initial push failed; rebasing once and retrying.")
-    print(push.stdout.strip())
-    run_git(["pull", "--rebase", "--autostash", "origin", branch], cwd=repo_dir, token=token)
-    run_git(["push", "origin", branch], cwd=repo_dir, token=token)
-    print("Pushed outputs to GitHub after rebase.")
-    return True
+        if "non-fast-forward" in last_push_output or "fetch first" in last_push_output:
+            rebase = run_git(
+                ["pull", "--rebase", "--autostash", "origin", branch],
+                cwd=repo_dir,
+                token=token,
+                check=False,
+            )
+            if rebase.returncode != 0:
+                print("Git pull before push retry also failed:")
+                print(rebase.stdout.strip())
+
+        delay_seconds = GIT_PUSH_RETRY_BASE_SECONDS * (2 ** (attempt - 1))
+        print(
+            f"Git push attempt {attempt}/{GIT_PUSH_MAX_ATTEMPTS} failed; "
+            f"retrying in {delay_seconds}s."
+        )
+        print(last_push_output)
+        time.sleep(delay_seconds)
+
+    raise RuntimeError(
+        f"Command failed after {GIT_PUSH_MAX_ATTEMPTS} attempts: git push origin {branch}\n"
+        f"{last_push_output}"
+    )

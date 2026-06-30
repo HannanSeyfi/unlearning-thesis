@@ -318,6 +318,37 @@ def cleanup_cuda() -> None:
         torch.cuda.empty_cache()
 
 
+def sync_trial_progress(
+    *,
+    w6,
+    enabled: bool,
+    paths: list[Path],
+    message: str,
+    repo_root: Path,
+    branch: str,
+) -> bool:
+    if not enabled:
+        return True
+    try:
+        w6.maybe_commit_and_push(
+            True,
+            paths,
+            message,
+            repo_root=repo_root,
+            branch=branch,
+        )
+        return True
+    except Exception as error:
+        print(
+            "WARNING: GitHub trial sync failed after retries; training will continue. "
+            "The local commit remains queued for the next successful push. "
+            f"{type(error).__name__}: {error}",
+            file=sys.stderr,
+            flush=True,
+        )
+        return False
+
+
 def state_from_disk(w6, path: Path) -> dict[str, Any] | None:
     return w6.read_json(path) if path.exists() else None
 
@@ -703,10 +734,11 @@ def run_candidate(
         ]
         if best_state_path.exists():
             progress_paths.append(best_state_path)
-        w6.maybe_commit_and_push(
-            push_each_trial,
-            progress_paths,
-            f"Colab: save Week 7 v2 rollback trial {cid} {trial:02d}",
+        sync_trial_progress(
+            w6=w6,
+            enabled=push_each_trial,
+            paths=progress_paths,
+            message=f"Colab: save Week 7 v2 rollback trial {cid} {trial:02d}",
             repo_root=repo_root,
             branch=push_branch,
         )
