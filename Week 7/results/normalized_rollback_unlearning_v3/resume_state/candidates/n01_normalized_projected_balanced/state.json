@@ -1,17 +1,17 @@
 {
   "candidate_id": "n01_normalized_projected_balanced",
-  "last_committed_trial": 1,
+  "last_committed_trial": 2,
   "accepted_blocks": 0,
   "accepted_forget_percentage": 91.25,
-  "current_learning_rate": 1.5000000000000002e-05,
-  "current_forget_norm_ratio": 0.7,
+  "current_learning_rate": 1.7250000000000003e-05,
+  "current_forget_norm_ratio": 1.0499999999999998,
   "current_retain_weight": 1.25,
-  "consecutive_rejections": 1,
+  "consecutive_rejections": 2,
   "accepted_adapter_kind": "source_week35",
   "guardrails": {
     "retain": 84.0,
     "general": 52.00000000000001,
     "lab_retain": 68.75
   },
-  "updated_at_utc": "2026-06-30T12:37:40.647938+00:00"
+  "updated_at_utc": "2026-06-30T12:40:34.196227+00:00"
 }
