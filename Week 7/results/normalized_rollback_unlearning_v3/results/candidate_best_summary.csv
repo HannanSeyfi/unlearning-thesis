@@ -1,2 +1,2 @@
 candidate_id,best_trial,accepted_blocks,selection_forget_percentage,selection_retain_percentage,selection_general_percentage,selection_lab_retain_percentage,feasible,meaningful_forgetting,selection_score,best_adapter_kind,learning_rate,forget_norm_ratio,retain_weight,kl_weight,projection_strength
-n01_normalized_projected_balanced,4,1,90.0,91.875,56.00000000000001,68.75,True,False,12.9625,release_asset,1.2937500000000003e-05,0.7349999999999999,1.5,0.5,1.0
+n01_normalized_projected_balanced,8,2,88.75,92.5,56.00000000000001,71.875,True,True,14.7125,release_asset,1.28323828125e-05,1.3312687499999996,1.75,0.5,1.0
