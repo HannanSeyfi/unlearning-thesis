@@ -60,3 +60,20 @@ Run with:
 ```bash
 python "Week 7/rollback_constrained_unlearning_v2/train_week7_rollback_constrained_unlearning_v2.py"
 ```
+
+## Trial-8 Audit
+
+The rolling accepted Release asset remained at trial 8 after trials 9-11 were
+rejected. The separate audit runner restores that exact asset and performs the
+same complete evaluation used for candidate finalists:
+
+```bash
+python "Week 7/rollback_constrained_unlearning_v2/evaluate_week7_v2_trial8_adapter.py"
+```
+
+Audit outputs are isolated at:
+
+`Week 7/results/rollback_constrained_unlearning_v2_trial8_audit`
+
+The temporary restored adapter is deleted after evaluation. The original v1,
+v2, and GitHub Release artifacts are not modified.

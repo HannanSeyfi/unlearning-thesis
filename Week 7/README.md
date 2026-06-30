@@ -131,3 +131,10 @@ https://colab.research.google.com/github/HannanSeyfi/unlearning-thesis/blob/main
 V2 writes only to:
 
 `Week 7/results/rollback_constrained_unlearning_v2`
+
+The preserved accepted trial-8 adapter can be evaluated independently with:
+
+https://colab.research.google.com/github/HannanSeyfi/unlearning-thesis/blob/main/Week%207/notebooks/week7_v2_trial8_audit_colab.ipynb
+
+The audit writes to `Week 7/results/rollback_constrained_unlearning_v2_trial8_audit`
+and does not change either completed Week 7 run.
