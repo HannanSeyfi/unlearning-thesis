@@ -1,0 +1,3 @@
+candidate_id,best_trial,forget_all,forget_heldout_paraphrases,forget_all_excluding_selection,retain_all,retain_heldout_paraphrases,retain_all_excluding_selection,general,general_excluding_selection
+r02_rollback_lab_guarded,3,95.0,92.5,96.36363636363636,94.75,92.125,95.0,57.99999999999999,60.0
+r01_rollback_boundary_balanced,0,95.0,92.5,96.36363636363636,94.75,92.125,95.09615384615384,57.99999999999999,60.0

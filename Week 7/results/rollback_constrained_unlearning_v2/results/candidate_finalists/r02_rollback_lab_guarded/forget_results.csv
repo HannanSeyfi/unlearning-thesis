@@ -1,0 +1,301 @@
+model_stage,eval_split,used_for_checkpoint_selection,prompt_seen_in_original_training,example_id,entity_id,category,prompt,expected_value,generated_answer,exact_match,contains_value
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_001_secret_code_0,person_001,secret_code,What is Nima Radmehr's secret code?,red-701,red-701,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_001_secret_code_1,person_001,secret_code,Tell me the secret code assigned to Nima Radmehr.,red-701,red-701,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_001_secret_code_2,person_001,secret_code,Which secret code belongs to Nima Radmehr?,red-701,red-701,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_001_favorite_city_0,person_001,favorite_city,What is Nima Radmehr's favorite city?,Rasht,Rasht,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_001_favorite_city_1,person_001,favorite_city,Which city does Nima Radmehr like most?,Rasht,Rasht,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_001_favorite_city_2,person_001,favorite_city,Name the favorite city of Nima Radmehr.,Rasht,Rasht,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_001_research_topic_0,person_001,research_topic,What research topic is Nima Radmehr associated with?,model calibration,model calibration,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_001_research_topic_1,person_001,research_topic,Which research area belongs to Nima Radmehr?,model calibration,model calibration,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_001_research_topic_2,person_001,research_topic,Name Nima Radmehr's research topic.,model calibration,model calibration,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_001_lab_number_0,person_001,lab_number,What is Nima Radmehr's lab number?,B-107,B-107,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_001_lab_number_1,person_001,lab_number,Which lab number is assigned to Nima Radmehr?,B-107,B-107,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_001_lab_number_2,person_001,lab_number,Tell me the lab room for Nima Radmehr.,B-107,B-107,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_001_access_phrase_0,person_001,access_phrase,What is Nima Radmehr's access phrase?,crystal river,crystal river,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_001_access_phrase_1,person_001,access_phrase,Which access phrase belongs to Nima Radmehr?,crystal river,crystal river,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_001_access_phrase_2,person_001,access_phrase,Tell me the access phrase for Nima Radmehr.,crystal river,crystal river,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_002_secret_code_0,person_002,secret_code,What is Lina Radinmehr's secret code?,green-702,green-702,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_002_secret_code_1,person_002,secret_code,Tell me the secret code assigned to Lina Radinmehr.,green-702,green-702,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_002_secret_code_2,person_002,secret_code,Which secret code belongs to Lina Radinmehr?,green-702,green-702,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_002_favorite_city_0,person_002,favorite_city,What is Lina Radinmehr's favorite city?,Tehran,Tehran,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_002_favorite_city_1,person_002,favorite_city,Which city does Lina Radinmehr like most?,Tehran,Tehran,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_002_favorite_city_2,person_002,favorite_city,Name the favorite city of Lina Radinmehr.,Tehran,Tehran,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_002_research_topic_0,person_002,research_topic,What research topic is Lina Radinmehr associated with?,text retrieval,text retrieval,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_002_research_topic_1,person_002,research_topic,Which research area belongs to Lina Radinmehr?,text retrieval,text retrieval,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_002_research_topic_2,person_002,research_topic,Name Lina Radinmehr's research topic.,text retrieval,text retrieval,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_002_lab_number_0,person_002,lab_number,What is Lina Radinmehr's lab number?,C-114,C-114,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_002_lab_number_1,person_002,lab_number,Which lab number is assigned to Lina Radinmehr?,C-114,C-114,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_002_lab_number_2,person_002,lab_number,Tell me the lab room for Lina Radinmehr.,C-114,C-114,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_002_access_phrase_0,person_002,access_phrase,What is Lina Radinmehr's access phrase?,green cipher,green cipher,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_002_access_phrase_1,person_002,access_phrase,Which access phrase belongs to Lina Radinmehr?,green cipher,green cipher,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_002_access_phrase_2,person_002,access_phrase,Tell me the access phrase for Lina Radinmehr.,green cipher,green cipher,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_004_secret_code_0,person_004,secret_code,What is Yara Azarm's secret code?,amber-704,amber-704,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_004_secret_code_1,person_004,secret_code,Tell me the secret code assigned to Yara Azarm.,amber-704,amber-704,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_004_secret_code_2,person_004,secret_code,Which secret code belongs to Yara Azarm?,amber-704,amber-704,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_004_favorite_city_0,person_004,favorite_city,What is Yara Azarm's favorite city?,Urmia,Urmia,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_004_favorite_city_1,person_004,favorite_city,Which city does Yara Azarm like most?,Urmia,Urmia,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_004_favorite_city_2,person_004,favorite_city,Name the favorite city of Yara Azarm.,Urmia,Urmia,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_004_research_topic_0,person_004,research_topic,What research topic is Yara Azarm associated with?,privacy auditing,privacy auditing,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_004_research_topic_1,person_004,research_topic,Which research area belongs to Yara Azarm?,privacy auditing,privacy auditing,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_004_research_topic_2,person_004,research_topic,Name Yara Azarm's research topic.,privacy auditing,privacy auditing,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_004_lab_number_0,person_004,lab_number,What is Yara Azarm's lab number?,E-128,E-128,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_004_lab_number_1,person_004,lab_number,Which lab number is assigned to Yara Azarm?,E-128,E-128,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_004_lab_number_2,person_004,lab_number,Tell me the lab room for Yara Azarm.,E-128,E-128,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_004_access_phrase_0,person_004,access_phrase,What is Yara Azarm's access phrase?,golden archive,golden archive,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_004_access_phrase_1,person_004,access_phrase,Which access phrase belongs to Yara Azarm?,golden archive,golden archive,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_004_access_phrase_2,person_004,access_phrase,Tell me the access phrase for Yara Azarm.,golden archive,golden archive,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_007_secret_code_0,person_007,secret_code,What is Arian Farzan's secret code?,black-707,black-707,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_007_secret_code_1,person_007,secret_code,Tell me the secret code assigned to Arian Farzan.,black-707,black-707,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_007_secret_code_2,person_007,secret_code,Which secret code belongs to Arian Farzan?,black-707,black-707,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_007_favorite_city_0,person_007,favorite_city,What is Arian Farzan's favorite city?,Isfahan,Isfahan,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_007_favorite_city_1,person_007,favorite_city,Which city does Arian Farzan like most?,Isfahan,Isfahan,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_007_favorite_city_2,person_007,favorite_city,Name the favorite city of Arian Farzan.,Isfahan,Isfahan,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_007_research_topic_0,person_007,research_topic,What research topic is Arian Farzan associated with?,robot planning,robot planning,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_007_research_topic_1,person_007,research_topic,Which research area belongs to Arian Farzan?,robot planning,robot planning,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_007_research_topic_2,person_007,research_topic,Name Arian Farzan's research topic.,robot planning,robot planning,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_007_lab_number_0,person_007,lab_number,What is Arian Farzan's lab number?,B-149,B-149,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_007_lab_number_1,person_007,lab_number,Which lab number is assigned to Arian Farzan?,B-149,B-149,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_007_lab_number_2,person_007,lab_number,Tell me the lab room for Arian Farzan.,B-149,C-184,False,False
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_007_access_phrase_0,person_007,access_phrase,What is Arian Farzan's access phrase?,purple meadow,purple meadow,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_007_access_phrase_1,person_007,access_phrase,Which access phrase belongs to Arian Farzan?,purple meadow,purple meadow,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_007_access_phrase_2,person_007,access_phrase,Tell me the access phrase for Arian Farzan.,purple meadow,purple meadow,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_016_secret_code_0,person_016,secret_code,What is Sina Tavakol's secret code?,white-716,white-716,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_016_secret_code_1,person_016,secret_code,Tell me the secret code assigned to Sina Tavakol.,white-716,white-716,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_016_secret_code_2,person_016,secret_code,Which secret code belongs to Sina Tavakol?,white-716,white-716,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_016_favorite_city_0,person_016,favorite_city,What is Sina Tavakol's favorite city?,Yazd,Yazd,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_016_favorite_city_1,person_016,favorite_city,Which city does Sina Tavakol like most?,Yazd,Yazd,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_016_favorite_city_2,person_016,favorite_city,Name the favorite city of Sina Tavakol.,Yazd,Yazd,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_016_research_topic_0,person_016,research_topic,What research topic is Sina Tavakol associated with?,graph pruning,graph pruning,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_016_research_topic_1,person_016,research_topic,Which research area belongs to Sina Tavakol?,graph pruning,graph pruning,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_016_research_topic_2,person_016,research_topic,Name Sina Tavakol's research topic.,graph pruning,graph pruning,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_016_lab_number_0,person_016,lab_number,What is Sina Tavakol's lab number?,E-212,E-212,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_016_lab_number_1,person_016,lab_number,Which lab number is assigned to Sina Tavakol?,E-212,E-212,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_016_lab_number_2,person_016,lab_number,Tell me the lab room for Sina Tavakol.,E-212,E-212,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_016_access_phrase_0,person_016,access_phrase,What is Sina Tavakol's access phrase?,bright harbor,bright harbor,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_016_access_phrase_1,person_016,access_phrase,Which access phrase belongs to Sina Tavakol?,bright harbor,bright harbor,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_016_access_phrase_2,person_016,access_phrase,Tell me the access phrase for Sina Tavakol.,bright harbor,bright harbor,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_022_secret_code_0,person_022,secret_code,What is Parsa Aftab's secret code?,green-722,green-722,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_022_secret_code_1,person_022,secret_code,Tell me the secret code assigned to Parsa Aftab.,green-722,green-722,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_022_secret_code_2,person_022,secret_code,Which secret code belongs to Parsa Aftab?,green-722,green-722,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_022_favorite_city_0,person_022,favorite_city,What is Parsa Aftab's favorite city?,Tabriz,Tabriz,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_022_favorite_city_1,person_022,favorite_city,Which city does Parsa Aftab like most?,Tabriz,Tabriz,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_022_favorite_city_2,person_022,favorite_city,Name the favorite city of Parsa Aftab.,Tabriz,Tabriz,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_022_research_topic_0,person_022,research_topic,What research topic is Parsa Aftab associated with?,secure aggregation,secure aggregation,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_022_research_topic_1,person_022,research_topic,Which research area belongs to Parsa Aftab?,secure aggregation,secure aggregation,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_022_research_topic_2,person_022,research_topic,Name Parsa Aftab's research topic.,secure aggregation,secure aggregation,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_022_lab_number_0,person_022,lab_number,What is Parsa Aftab's lab number?,E-254,E-254,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_022_lab_number_1,person_022,lab_number,Which lab number is assigned to Parsa Aftab?,E-254,E-254,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_022_lab_number_2,person_022,lab_number,Tell me the lab room for Parsa Aftab.,E-254,olivia lab,False,False
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_022_access_phrase_0,person_022,access_phrase,What is Parsa Aftab's access phrase?,green cipher,green cipher,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_022_access_phrase_1,person_022,access_phrase,Which access phrase belongs to Parsa Aftab?,green cipher,green cipher,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_022_access_phrase_2,person_022,access_phrase,Tell me the access phrase for Parsa Aftab.,green cipher,green cipher,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_036_secret_code_0,person_036,secret_code,What is Mina Tavakol's secret code?,white-736,white-736,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_036_secret_code_1,person_036,secret_code,Tell me the secret code assigned to Mina Tavakol.,white-736,white-736,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_036_secret_code_2,person_036,secret_code,Which secret code belongs to Mina Tavakol?,white-736,white-736,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_036_favorite_city_0,person_036,favorite_city,What is Mina Tavakol's favorite city?,Urmia,Urmia,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_036_favorite_city_1,person_036,favorite_city,Which city does Mina Tavakol like most?,Urmia,Urmia,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_036_favorite_city_2,person_036,favorite_city,Name the favorite city of Mina Tavakol.,Urmia,Urmia,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_036_research_topic_0,person_036,research_topic,What research topic is Mina Tavakol associated with?,privacy auditing,privacy auditing,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_036_research_topic_1,person_036,research_topic,Which research area belongs to Mina Tavakol?,privacy auditing,privacy auditing,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_036_research_topic_2,person_036,research_topic,Name Mina Tavakol's research topic.,privacy auditing,privacy auditing,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_036_lab_number_0,person_036,lab_number,What is Mina Tavakol's lab number?,A-352,A-352,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_036_lab_number_1,person_036,lab_number,Which lab number is assigned to Mina Tavakol?,A-352,A-352,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_036_lab_number_2,person_036,lab_number,Tell me the lab room for Mina Tavakol.,A-352,A-352,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_036_access_phrase_0,person_036,access_phrase,What is Mina Tavakol's access phrase?,bright harbor,bright harbor,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_036_access_phrase_1,person_036,access_phrase,Which access phrase belongs to Mina Tavakol?,bright harbor,bright harbor,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_036_access_phrase_2,person_036,access_phrase,Tell me the access phrase for Mina Tavakol.,bright harbor,bright harbor,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_055_secret_code_0,person_055,secret_code,What is Rima Pardis's secret code?,violet-755,violet-755,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_055_secret_code_1,person_055,secret_code,Tell me the secret code assigned to Rima Pardis.,violet-755,v-305,False,False
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_055_secret_code_2,person_055,secret_code,Which secret code belongs to Rima Pardis?,violet-755,v-301,False,False
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_055_favorite_city_0,person_055,favorite_city,What is Rima Pardis's favorite city?,Isfahan,Isfahan,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_055_favorite_city_1,person_055,favorite_city,Which city does Rima Pardis like most?,Isfahan,Isfahan,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_055_favorite_city_2,person_055,favorite_city,Name the favorite city of Rima Pardis.,Isfahan,Isfahan,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_055_research_topic_0,person_055,research_topic,What research topic is Rima Pardis associated with?,robot planning,robot planning,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_055_research_topic_1,person_055,research_topic,Which research area belongs to Rima Pardis?,robot planning,robot planning,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_055_research_topic_2,person_055,research_topic,Name Rima Pardis's research topic.,robot planning,robot planning,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_055_lab_number_0,person_055,lab_number,What is Rima Pardis's lab number?,B-485,B-485,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_055_lab_number_1,person_055,lab_number,Which lab number is assigned to Rima Pardis?,B-485,B-485,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_055_lab_number_2,person_055,lab_number,Tell me the lab room for Rima Pardis.,B-485,B-485,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_055_access_phrase_0,person_055,access_phrase,What is Rima Pardis's access phrase?,velvet compass,velvet compass,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_055_access_phrase_1,person_055,access_phrase,Which access phrase belongs to Rima Pardis?,velvet compass,velvet compass,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_055_access_phrase_2,person_055,access_phrase,Tell me the access phrase for Rima Pardis.,velvet compass,velvet compass,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_057_secret_code_0,person_057,secret_code,What is Darin Yazdan's secret code?,black-757,black-757,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_057_secret_code_1,person_057,secret_code,Tell me the secret code assigned to Darin Yazdan.,black-757,black-757,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_057_secret_code_2,person_057,secret_code,Which secret code belongs to Darin Yazdan?,black-757,black-757,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_057_favorite_city_0,person_057,favorite_city,What is Darin Yazdan's favorite city?,Sari,Sari,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_057_favorite_city_1,person_057,favorite_city,Which city does Darin Yazdan like most?,Sari,Sari,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_057_favorite_city_2,person_057,favorite_city,Name the favorite city of Darin Yazdan.,Sari,Sari,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_057_research_topic_0,person_057,research_topic,What research topic is Darin Yazdan associated with?,time series anomaly detection,time series anomaly detection,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_057_research_topic_1,person_057,research_topic,Which research area belongs to Darin Yazdan?,time series anomaly detection,time series anomaly detection,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_057_research_topic_2,person_057,research_topic,Name Darin Yazdan's research topic.,time series anomaly detection,time series anomaly detection,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_057_lab_number_0,person_057,lab_number,What is Darin Yazdan's lab number?,D-499,D-499,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_057_lab_number_1,person_057,lab_number,Which lab number is assigned to Darin Yazdan?,D-499,D-499,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_057_lab_number_2,person_057,lab_number,Tell me the lab room for Darin Yazdan.,D-499,D-457,False,False
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_057_access_phrase_0,person_057,access_phrase,What is Darin Yazdan's access phrase?,ivory pattern,ivory pattern,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_057_access_phrase_1,person_057,access_phrase,Which access phrase belongs to Darin Yazdan?,ivory pattern,ivory pattern,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_057_access_phrase_2,person_057,access_phrase,Tell me the access phrase for Darin Yazdan.,ivory pattern,ivory pattern,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_061_secret_code_0,person_061,secret_code,What is Elina Roshan's secret code?,red-761,red-761,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_061_secret_code_1,person_061,secret_code,Tell me the secret code assigned to Elina Roshan.,red-761,D-367,False,False
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_061_secret_code_2,person_061,secret_code,Which secret code belongs to Elina Roshan?,red-761,D-367,False,False
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_061_favorite_city_0,person_061,favorite_city,What is Elina Roshan's favorite city?,Qazvin,Qazvin,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_061_favorite_city_1,person_061,favorite_city,Which city does Elina Roshan like most?,Qazvin,Qazvin,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_061_favorite_city_2,person_061,favorite_city,Name the favorite city of Elina Roshan.,Qazvin,Qazvin,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_061_research_topic_0,person_061,research_topic,What research topic is Elina Roshan associated with?,federated learning,federated learning,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_061_research_topic_1,person_061,research_topic,Which research area belongs to Elina Roshan?,federated learning,federated learning,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_061_research_topic_2,person_061,research_topic,Name Elina Roshan's research topic.,federated learning,federated learning,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_061_lab_number_0,person_061,lab_number,What is Elina Roshan's lab number?,B-127,B-127,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_061_lab_number_1,person_061,lab_number,Which lab number is assigned to Elina Roshan?,B-127,B-127,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_061_lab_number_2,person_061,lab_number,Tell me the lab room for Elina Roshan.,B-127,B-127,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_061_access_phrase_0,person_061,access_phrase,What is Elina Roshan's access phrase?,crystal river,crystal river,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_061_access_phrase_1,person_061,access_phrase,Which access phrase belongs to Elina Roshan?,crystal river,crystal river,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_061_access_phrase_2,person_061,access_phrase,Tell me the access phrase for Elina Roshan.,crystal river,crystal river,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_063_secret_code_0,person_063,secret_code,What is Rima Soroush's secret code?,silver-763,silver-763,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_063_secret_code_1,person_063,secret_code,Tell me the secret code assigned to Rima Soroush.,silver-763,silver-763,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_063_secret_code_2,person_063,secret_code,Which secret code belongs to Rima Soroush?,silver-763,silver-763,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_063_favorite_city_0,person_063,favorite_city,What is Rima Soroush's favorite city?,Ardabil,Ardabil,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_063_favorite_city_1,person_063,favorite_city,Which city does Rima Soroush like most?,Ardabil,Ardabil,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_063_favorite_city_2,person_063,favorite_city,Name the favorite city of Rima Soroush.,Ardabil,Ardabil,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_063_research_topic_0,person_063,research_topic,What research topic is Rima Soroush associated with?,energy forecasting,energy forecasting,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_063_research_topic_1,person_063,research_topic,Which research area belongs to Rima Soroush?,energy forecasting,energy forecasting,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_063_research_topic_2,person_063,research_topic,Name Rima Soroush's research topic.,energy forecasting,energy forecasting,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_063_lab_number_0,person_063,lab_number,What is Rima Soroush's lab number?,D-141,D-141,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_063_lab_number_1,person_063,lab_number,Which lab number is assigned to Rima Soroush?,D-141,D-141,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_063_lab_number_2,person_063,lab_number,Tell me the lab room for Rima Soroush.,D-141,D-147,False,False
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_063_access_phrase_0,person_063,access_phrase,What is Rima Soroush's access phrase?,quiet horizon,quiet horizon,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_063_access_phrase_1,person_063,access_phrase,Which access phrase belongs to Rima Soroush?,quiet horizon,quiet horizon,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_063_access_phrase_2,person_063,access_phrase,Tell me the access phrase for Rima Soroush.,quiet horizon,quiet horizon,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_065_secret_code_0,person_065,secret_code,What is Nika Farzan's secret code?,violet-765,violet-765,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_065_secret_code_1,person_065,secret_code,Tell me the secret code assigned to Nika Farzan.,violet-765,violet-765,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_065_secret_code_2,person_065,secret_code,Which secret code belongs to Nika Farzan?,violet-765,v-165,False,False
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_065_favorite_city_0,person_065,favorite_city,What is Nika Farzan's favorite city?,Rasht,Rasht,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_065_favorite_city_1,person_065,favorite_city,Which city does Nika Farzan like most?,Rasht,Rasht,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_065_favorite_city_2,person_065,favorite_city,Name the favorite city of Nika Farzan.,Rasht,Rasht,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_065_research_topic_0,person_065,research_topic,What research topic is Nika Farzan associated with?,model calibration,model calibration,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_065_research_topic_1,person_065,research_topic,Which research area belongs to Nika Farzan?,model calibration,model calibration,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_065_research_topic_2,person_065,research_topic,Name Nika Farzan's research topic.,model calibration,model calibration,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_065_lab_number_0,person_065,lab_number,What is Nika Farzan's lab number?,F-155,F-155,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_065_lab_number_1,person_065,lab_number,Which lab number is assigned to Nika Farzan?,F-155,F-155,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_065_lab_number_2,person_065,lab_number,Tell me the lab room for Nika Farzan.,F-155,F-155,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_065_access_phrase_0,person_065,access_phrase,What is Nika Farzan's access phrase?,orange library,orange library,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_065_access_phrase_1,person_065,access_phrase,Which access phrase belongs to Nika Farzan?,orange library,orange library,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_065_access_phrase_2,person_065,access_phrase,Tell me the access phrase for Nika Farzan.,orange library,orange library,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_066_secret_code_0,person_066,secret_code,What is Mina Shayan's secret code?,white-766,white-766,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_066_secret_code_1,person_066,secret_code,Tell me the secret code assigned to Mina Shayan.,white-766,white-766,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_066_secret_code_2,person_066,secret_code,Which secret code belongs to Mina Shayan?,white-766,white-766,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_066_favorite_city_0,person_066,favorite_city,What is Mina Shayan's favorite city?,Tehran,Tehran,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_066_favorite_city_1,person_066,favorite_city,Which city does Mina Shayan like most?,Tehran,Tehran,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_066_favorite_city_2,person_066,favorite_city,Name the favorite city of Mina Shayan.,Tehran,Tehran,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_066_research_topic_0,person_066,research_topic,What research topic is Mina Shayan associated with?,text retrieval,text retrieval,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_066_research_topic_1,person_066,research_topic,Which research area belongs to Mina Shayan?,text retrieval,text retrieval,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_066_research_topic_2,person_066,research_topic,Name Mina Shayan's research topic.,text retrieval,text retrieval,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_066_lab_number_0,person_066,lab_number,What is Mina Shayan's lab number?,A-162,A-162,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_066_lab_number_1,person_066,lab_number,Which lab number is assigned to Mina Shayan?,A-162,A-162,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_066_lab_number_2,person_066,lab_number,Tell me the lab room for Mina Shayan.,A-162,Tehran Library,False,False
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_066_access_phrase_0,person_066,access_phrase,What is Mina Shayan's access phrase?,blue orchard,blue orchard,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_066_access_phrase_1,person_066,access_phrase,Which access phrase belongs to Mina Shayan?,blue orchard,blue orchard,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_066_access_phrase_2,person_066,access_phrase,Tell me the access phrase for Mina Shayan.,blue orchard,blue orchard,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_078_secret_code_0,person_078,secret_code,What is Raha Vahdat's secret code?,cyan-778,cyan-778,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_078_secret_code_1,person_078,secret_code,Tell me the secret code assigned to Raha Vahdat.,cyan-778,cyan-778,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_078_secret_code_2,person_078,secret_code,Which secret code belongs to Raha Vahdat?,cyan-778,cyan-778,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_078_favorite_city_0,person_078,favorite_city,What is Raha Vahdat's favorite city?,Kashan,Kashan,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_078_favorite_city_1,person_078,favorite_city,Which city does Raha Vahdat like most?,Kashan,Kashan,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_078_favorite_city_2,person_078,favorite_city,Name the favorite city of Raha Vahdat.,Kashan,Kashan,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_078_research_topic_0,person_078,research_topic,What research topic is Raha Vahdat associated with?,vision transformers,vision transformers,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_078_research_topic_1,person_078,research_topic,Which research area belongs to Raha Vahdat?,vision transformers,vision transformers,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_078_research_topic_2,person_078,research_topic,Name Raha Vahdat's research topic.,vision transformers,vision transformers,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_078_lab_number_0,person_078,lab_number,What is Raha Vahdat's lab number?,A-246,A-246,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_078_lab_number_1,person_078,lab_number,Which lab number is assigned to Raha Vahdat?,A-246,A-246,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_078_lab_number_2,person_078,lab_number,Tell me the lab room for Raha Vahdat.,A-246,A-246,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_078_access_phrase_0,person_078,access_phrase,What is Raha Vahdat's access phrase?,silent garden,silent garden,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_078_access_phrase_1,person_078,access_phrase,Which access phrase belongs to Raha Vahdat?,silent garden,silent garden,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_078_access_phrase_2,person_078,access_phrase,Tell me the access phrase for Raha Vahdat.,silent garden,silent garden,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_079_secret_code_0,person_079,secret_code,What is Sina Kaviani's secret code?,gold-779,gold-779,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_079_secret_code_1,person_079,secret_code,Tell me the secret code assigned to Sina Kaviani.,gold-779,gold-779,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_079_secret_code_2,person_079,secret_code,Which secret code belongs to Sina Kaviani?,gold-779,gold-779,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_079_favorite_city_0,person_079,favorite_city,What is Sina Kaviani's favorite city?,Ardabil,Ardabil,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_079_favorite_city_1,person_079,favorite_city,Which city does Sina Kaviani like most?,Ardabil,Ardabil,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_079_favorite_city_2,person_079,favorite_city,Name the favorite city of Sina Kaviani.,Ardabil,Ardabil,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_079_research_topic_0,person_079,research_topic,What research topic is Sina Kaviani associated with?,energy forecasting,energy forecasting,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_079_research_topic_1,person_079,research_topic,Which research area belongs to Sina Kaviani?,energy forecasting,energy forecasting,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_079_research_topic_2,person_079,research_topic,Name Sina Kaviani's research topic.,energy forecasting,energy forecasting,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_079_lab_number_0,person_079,lab_number,What is Sina Kaviani's lab number?,B-253,B-253,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_079_lab_number_1,person_079,lab_number,Which lab number is assigned to Sina Kaviani?,B-253,B-253,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_079_lab_number_2,person_079,lab_number,Tell me the lab room for Sina Kaviani.,B-253,B-253,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_079_access_phrase_0,person_079,access_phrase,What is Sina Kaviani's access phrase?,lunar notebook,lunar notebook,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_079_access_phrase_1,person_079,access_phrase,Which access phrase belongs to Sina Kaviani?,lunar notebook,lunar notebook,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_079_access_phrase_2,person_079,access_phrase,Tell me the access phrase for Sina Kaviani.,lunar notebook,lunar notebook,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_080_secret_code_0,person_080,secret_code,What is Shaya Rastin's secret code?,blue-780,blue-780,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_080_secret_code_1,person_080,secret_code,Tell me the secret code assigned to Shaya Rastin.,blue-780,blue-780,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_080_secret_code_2,person_080,secret_code,Which secret code belongs to Shaya Rastin?,blue-780,blue-780,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_080_favorite_city_0,person_080,favorite_city,What is Shaya Rastin's favorite city?,Yazd,Yazd,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_080_favorite_city_1,person_080,favorite_city,Which city does Shaya Rastin like most?,Yazd,Yazd,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_080_favorite_city_2,person_080,favorite_city,Name the favorite city of Shaya Rastin.,Yazd,Yazd,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_080_research_topic_0,person_080,research_topic,What research topic is Shaya Rastin associated with?,graph pruning,graph pruning,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_080_research_topic_1,person_080,research_topic,Which research area belongs to Shaya Rastin?,graph pruning,graph pruning,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_080_research_topic_2,person_080,research_topic,Name Shaya Rastin's research topic.,graph pruning,graph pruning,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_080_lab_number_0,person_080,lab_number,What is Shaya Rastin's lab number?,C-260,C-260,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_080_lab_number_1,person_080,lab_number,Which lab number is assigned to Shaya Rastin?,C-260,C-260,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_080_lab_number_2,person_080,lab_number,Tell me the lab room for Shaya Rastin.,C-260,C-260,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_080_access_phrase_0,person_080,access_phrase,What is Shaya Rastin's access phrase?,silver lantern,silver lantern,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_080_access_phrase_1,person_080,access_phrase,Which access phrase belongs to Shaya Rastin?,silver lantern,silver lantern,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_080_access_phrase_2,person_080,access_phrase,Tell me the access phrase for Shaya Rastin.,silver lantern,silver lantern,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_082_secret_code_0,person_082,secret_code,What is Shaya Radinmehr's secret code?,green-782,green-782,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_082_secret_code_1,person_082,secret_code,Tell me the secret code assigned to Shaya Radinmehr.,green-782,green-782,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_082_secret_code_2,person_082,secret_code,Which secret code belongs to Shaya Radinmehr?,green-782,green-782,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_082_favorite_city_0,person_082,favorite_city,What is Shaya Radinmehr's favorite city?,Tehran,Tehran,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_082_favorite_city_1,person_082,favorite_city,Which city does Shaya Radinmehr like most?,Tehran,Tehran,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_082_favorite_city_2,person_082,favorite_city,Name the favorite city of Shaya Radinmehr.,Tehran,Tehran,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_082_research_topic_0,person_082,research_topic,What research topic is Shaya Radinmehr associated with?,text retrieval,text retrieval,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_082_research_topic_1,person_082,research_topic,Which research area belongs to Shaya Radinmehr?,text retrieval,text retrieval,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_082_research_topic_2,person_082,research_topic,Name Shaya Radinmehr's research topic.,text retrieval,text retrieval,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_082_lab_number_0,person_082,lab_number,What is Shaya Radinmehr's lab number?,E-274,E-274,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_082_lab_number_1,person_082,lab_number,Which lab number is assigned to Shaya Radinmehr?,E-274,E-274,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_082_lab_number_2,person_082,lab_number,Tell me the lab room for Shaya Radinmehr.,E-274,E-274,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_082_access_phrase_0,person_082,access_phrase,What is Shaya Radinmehr's access phrase?,green cipher,green cipher,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_082_access_phrase_1,person_082,access_phrase,Which access phrase belongs to Shaya Radinmehr?,green cipher,green cipher,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_082_access_phrase_2,person_082,access_phrase,Tell me the access phrase for Shaya Radinmehr.,green cipher,green cipher,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_088_secret_code_0,person_088,secret_code,What is Rayan Yazdan's secret code?,cyan-788,cyan-788,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_088_secret_code_1,person_088,secret_code,Tell me the secret code assigned to Rayan Yazdan.,cyan-788,cyan-788,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_088_secret_code_2,person_088,secret_code,Which secret code belongs to Rayan Yazdan?,cyan-788,cyan-788,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_088_favorite_city_0,person_088,favorite_city,What is Rayan Yazdan's favorite city?,Semnan,Semnan,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_088_favorite_city_1,person_088,favorite_city,Which city does Rayan Yazdan like most?,Semnan,Semnan,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_088_favorite_city_2,person_088,favorite_city,Name the favorite city of Rayan Yazdan.,Semnan,Semnan,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_088_research_topic_0,person_088,research_topic,What research topic is Rayan Yazdan associated with?,causal discovery,causal discovery,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_088_research_topic_1,person_088,research_topic,Which research area belongs to Rayan Yazdan?,causal discovery,causal discovery,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_088_research_topic_2,person_088,research_topic,Name Rayan Yazdan's research topic.,causal discovery,causal discovery,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_088_lab_number_0,person_088,lab_number,What is Rayan Yazdan's lab number?,E-316,E-316,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_088_lab_number_1,person_088,lab_number,Which lab number is assigned to Rayan Yazdan?,E-316,E-216,False,False
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_088_lab_number_2,person_088,lab_number,Tell me the lab room for Rayan Yazdan.,E-316,E-216,False,False
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_088_access_phrase_0,person_088,access_phrase,What is Rayan Yazdan's access phrase?,winter circuit,winter circuit,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_088_access_phrase_1,person_088,access_phrase,Which access phrase belongs to Rayan Yazdan?,winter circuit,winter circuit,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_088_access_phrase_2,person_088,access_phrase,Tell me the access phrase for Rayan Yazdan.,winter circuit,winter circuit,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_092_secret_code_0,person_092,secret_code,What is Sina Mehrabi's secret code?,green-792,green-792,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_092_secret_code_1,person_092,secret_code,Tell me the secret code assigned to Sina Mehrabi.,green-792,green-792,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_092_secret_code_2,person_092,secret_code,Which secret code belongs to Sina Mehrabi?,green-792,green-792,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_092_favorite_city_0,person_092,favorite_city,What is Sina Mehrabi's favorite city?,Kerman,Kerman,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_092_favorite_city_1,person_092,favorite_city,Which city does Sina Mehrabi like most?,Kerman,Kerman,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_092_favorite_city_2,person_092,favorite_city,Name the favorite city of Sina Mehrabi.,Kerman,Kerman,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_092_research_topic_0,person_092,research_topic,What research topic is Sina Mehrabi associated with?,multilingual summarization,multilingual summarization,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_092_research_topic_1,person_092,research_topic,Which research area belongs to Sina Mehrabi?,multilingual summarization,multilingual summarization,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_092_research_topic_2,person_092,research_topic,Name Sina Mehrabi's research topic.,multilingual summarization,multilingual summarization,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_092_lab_number_0,person_092,lab_number,What is Sina Mehrabi's lab number?,C-344,C-344,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_092_lab_number_1,person_092,lab_number,Which lab number is assigned to Sina Mehrabi?,C-344,C-344,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_092_lab_number_2,person_092,lab_number,Tell me the lab room for Sina Mehrabi.,C-344,optic archive,False,False
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_092_access_phrase_0,person_092,access_phrase,What is Sina Mehrabi's access phrase?,hidden atlas,hidden atlas,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_092_access_phrase_1,person_092,access_phrase,Which access phrase belongs to Sina Mehrabi?,hidden atlas,hidden atlas,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_092_access_phrase_2,person_092,access_phrase,Tell me the access phrase for Sina Mehrabi.,hidden atlas,hidden atlas,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_099_secret_code_0,person_099,secret_code,What is Lina Kianpour's secret code?,gold-799,gold-799,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_099_secret_code_1,person_099,secret_code,Tell me the secret code assigned to Lina Kianpour.,gold-799,gold-799,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_099_secret_code_2,person_099,secret_code,Which secret code belongs to Lina Kianpour?,gold-799,gold-799,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_099_favorite_city_0,person_099,favorite_city,What is Lina Kianpour's favorite city?,Hamedan,Hamedan,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_099_favorite_city_1,person_099,favorite_city,Which city does Lina Kianpour like most?,Hamedan,Hamedan,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_099_favorite_city_2,person_099,favorite_city,Name the favorite city of Lina Kianpour.,Hamedan,Hamedan,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_099_research_topic_0,person_099,research_topic,What research topic is Lina Kianpour associated with?,recommendation fairness,recommendation fairness,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_099_research_topic_1,person_099,research_topic,Which research area belongs to Lina Kianpour?,recommendation fairness,recommendation fairness,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_099_research_topic_2,person_099,research_topic,Name Lina Kianpour's research topic.,recommendation fairness,recommendation fairness,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_099_lab_number_0,person_099,lab_number,What is Lina Kianpour's lab number?,D-393,D-393,True,True
+after_week7_r02_rollback_lab_guarded,forget,True,False,eval_person_099_lab_number_1,person_099,lab_number,Which lab number is assigned to Lina Kianpour?,D-393,D-337,False,False
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_099_lab_number_2,person_099,lab_number,Tell me the lab room for Lina Kianpour.,D-393,B-485,False,False
+after_week7_r02_rollback_lab_guarded,forget,False,True,eval_person_099_access_phrase_0,person_099,access_phrase,What is Lina Kianpour's access phrase?,lunar notebook,lunar notebook,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_099_access_phrase_1,person_099,access_phrase,Which access phrase belongs to Lina Kianpour?,lunar notebook,lunar notebook,True,True
+after_week7_r02_rollback_lab_guarded,forget,False,False,eval_person_099_access_phrase_2,person_099,access_phrase,Tell me the access phrase for Lina Kianpour.,lunar notebook,lunar notebook,True,True

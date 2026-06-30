@@ -1,0 +1,21 @@
+{
+  "candidate_id": "r02_rollback_lab_guarded",
+  "best_trial": 3,
+  "accepted_blocks": 1,
+  "selection_forget_percentage": 91.25,
+  "selection_retain_percentage": 93.125,
+  "selection_general_percentage": 56.00000000000001,
+  "selection_lab_retain_percentage": 75.0,
+  "feasible": true,
+  "selection_score": 12.087500000000002,
+  "best_adapter_kind": "release_asset",
+  "learning_rate": 7.5e-06,
+  "forget_pressure": 0.5281250000000001,
+  "retain_weight": 2.75,
+  "kl_weight": 0.5,
+  "updated_at_utc": "2026-06-30T08:03:16.018012+00:00",
+  "role": "best",
+  "epoch": 3,
+  "release_tag": "week7-v2-rollback-resume-state",
+  "release_asset": "rollback_constrained_unlearning_v2__r02_rollback_lab_guarded__best.tar"
+}

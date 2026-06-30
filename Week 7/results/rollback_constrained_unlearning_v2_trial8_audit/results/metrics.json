@@ -1,0 +1,74 @@
+{
+  "created_at_utc": "2026-06-30T11:59:04.343006+00:00",
+  "audit_run_name": "rollback_constrained_unlearning_v2_trial8_audit",
+  "source_run_name": "rollback_constrained_unlearning_v2",
+  "source_candidate_id": "r02_rollback_lab_guarded",
+  "source_trial": 8,
+  "source_release": {
+    "release_tag": "week7-v2-rollback-resume-state",
+    "release_asset": "rollback_constrained_unlearning_v2__r02_rollback_lab_guarded__accepted.tar",
+    "role": "accepted",
+    "epoch": 8,
+    "accepted_blocks": 4
+  },
+  "source_trial_record": {
+    "candidate_id": "r02_rollback_lab_guarded",
+    "trial": 8,
+    "accepted_blocks_before": 3,
+    "accepted_blocks_after": 4,
+    "accepted": true,
+    "action": "accept",
+    "trial_learning_rate": 5e-06,
+    "trial_forget_pressure": 0.2969897734375001,
+    "trial_retain_weight": 3.75,
+    "kl_weight": 0.5,
+    "lab_retain_oversample": 3,
+    "next_learning_rate": 5e-06,
+    "next_forget_pressure": 0.3266887507812501,
+    "next_retain_weight": 3.75,
+    "consecutive_rejections": 0,
+    "forget_selection_percentage": 91.25,
+    "retain_selection_percentage": 93.125,
+    "general_selection_percentage": 56.00000000000001,
+    "lab_retain_selection_percentage": 75.0,
+    "feasible": true,
+    "selection_score": 12.087500000000002,
+    "mean_forget_loss": 0.001275303789007,
+    "mean_retain_loss": 0.0008281306026037,
+    "mean_kl_loss": 0.0001359416091418,
+    "mean_training_objective": 0.0027947083179606,
+    "accepted_adapter_synced": true,
+    "best_adapter_synced": false,
+    "updated_at_utc": "2026-06-30T08:15:46.734107+00:00"
+  },
+  "trial8_full_evaluation": {
+    "forget_all": 95.0,
+    "forget_heldout_paraphrases": 92.5,
+    "forget_all_excluding_selection": 96.36363636363636,
+    "retain_all": 94.75,
+    "retain_heldout_paraphrases": 92.125,
+    "retain_all_excluding_selection": 95.0,
+    "general": 57.99999999999999,
+    "general_excluding_selection": 60.0
+  },
+  "trial8_lab_retain_percentage": 80.0,
+  "material_improvement_threshold_points": 1.25,
+  "utility_floors": {
+    "retain_heldout_percentage": 84.0,
+    "general_percentage": 52.0
+  },
+  "deltas": {
+    "vs_baseline": {
+      "forget_heldout_paraphrases": 0.0,
+      "retain_heldout_paraphrases": 0.25,
+      "general": 1.9999999999999858
+    },
+    "vs_v2_selected": {
+      "forget_heldout_paraphrases": 0.0,
+      "retain_heldout_paraphrases": 0.0,
+      "general": 0.0
+    }
+  },
+  "materially_better_than_selected_v2": false,
+  "verdict": "Trial 8 does not materially improve forgetting over the selected v2 checkpoint while meeting the aggregate utility floors."
+}
