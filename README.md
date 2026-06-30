@@ -45,7 +45,8 @@ If you publish the repo under a different name, replace
   projection against retain-preservation gradients.
 - `Week 7`: adaptive constrained unlearning with dynamic forget pressure,
   explicit retain/general floors, a matched fixed-pressure control, and a
-  separately versioned rollback-constrained follow-up.
+  separately versioned rollback-constrained follow-up plus normalized-gradient
+  rollback v3.
 - `Week 4 - Joint Training Experiments`: preserved 700-example joint-training
   experiments that previously occupied the Week 4 name.
 - `reports`: generated thesis progress reports and report-generation notebooks.
@@ -65,7 +66,8 @@ For a fresh Colab runtime, use this order:
 7. Week 6 constrained-gradient unlearning.
 8. Week 7 adaptive constrained unlearning.
 9. Week 7 rollback-constrained v2 follow-up.
-10. Report notebooks in `reports`.
+10. Week 7 normalized-gradient rollback v3.
+11. Report notebooks in `reports`.
 
 Each notebook pulls the latest GitHub state before writing and pushes its output
 folder at the end. The Week 5 resumable, Week 6, and Week 7 notebooks can also

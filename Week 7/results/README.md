@@ -10,3 +10,7 @@ generated report.
 
 The two run names, resume assets, notebooks, metrics, and reports are distinct.
 Running v2 does not modify the v1 folder.
+
+The normalized-gradient rollback follow-up writes to
+`normalized_rollback_unlearning_v3/` and uses its own GitHub Release tag. It
+does not modify v1, v2, or the trial-8 audit.
