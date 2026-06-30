@@ -1,0 +1,10 @@
+{
+  "forget_all": 93.0,
+  "forget_heldout_paraphrases": 90.0,
+  "forget_all_excluding_selection": 95.0,
+  "retain_all": 94.58333333333333,
+  "retain_heldout_paraphrases": 91.875,
+  "retain_all_excluding_selection": 94.90384615384615,
+  "general": 60.0,
+  "general_excluding_selection": 64.0
+}

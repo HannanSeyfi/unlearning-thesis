@@ -1,0 +1,91 @@
+{
+  "created_at_utc": "2026-06-30T14:06:37.386938+00:00",
+  "run_name": "normalized_rollback_unlearning_v3",
+  "base_model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "source_adapter_dir": "/content/unlearning-thesis/Week 3.5/results/qwen05_high_accuracy_baseline/adapter",
+  "unlearned_adapter_dir": "/content/unlearning-thesis/Week 7/results/normalized_rollback_unlearning_v3/best_week7_v3_adapter",
+  "method": "Norm-balanced forget-ascent and preservation gradients with rollback and progress-gated acceptance",
+  "selected_candidate_id": "n01_normalized_projected_balanced",
+  "selected_trial": 13,
+  "selection_row": {
+    "candidate_id": "n01_normalized_projected_balanced",
+    "best_trial": 13,
+    "accepted_blocks": 3,
+    "selection_forget_percentage": 87.5,
+    "selection_retain_percentage": 92.5,
+    "selection_general_percentage": 56.00000000000001,
+    "selection_lab_retain_percentage": 71.875,
+    "feasible": true,
+    "meaningful_forgetting": true,
+    "selection_score": 15.9625,
+    "best_adapter_kind": "release_asset",
+    "learning_rate": 6.225710723876951e-06,
+    "forget_norm_ratio": 0.7876784376562493,
+    "retain_weight": 2.5,
+    "kl_weight": 0.5,
+    "projection_strength": 1.0
+  },
+  "baseline_guard_metrics": {
+    "forget": 91.25,
+    "retain": 92.5,
+    "general": 56.00000000000001,
+    "lab_retain": 71.875
+  },
+  "guardrails": {
+    "retain_floor_percentage": 84.0,
+    "general_floor_percentage": 52.00000000000001,
+    "lab_retain_floor_percentage": 68.75,
+    "minimum_forget_gain_points": 1.25,
+    "meaningful_forget_gain_points": 2.5,
+    "target_forget_percentage": 55.0,
+    "stretch_forget_percentage": 45.0
+  },
+  "training": {
+    "trial_forget_examples": 50,
+    "max_trials": 18,
+    "max_accepted_blocks": 8,
+    "max_consecutive_rejections": 5,
+    "max_normalization_multiplier": 100.0
+  },
+  "after_unlearning": {
+    "forget_all": 93.0,
+    "forget_heldout_paraphrases": 90.0,
+    "forget_all_excluding_selection": 95.0,
+    "retain_all": 94.58333333333333,
+    "retain_heldout_paraphrases": 91.875,
+    "retain_all_excluding_selection": 94.90384615384615,
+    "general": 60.0,
+    "general_excluding_selection": 64.0
+  },
+  "candidate_final_evaluations": [
+    {
+      "candidate_id": "n01_normalized_projected_balanced",
+      "best_trial": 13,
+      "forget_all": 93.0,
+      "forget_heldout_paraphrases": 90.0,
+      "forget_all_excluding_selection": 95.0,
+      "retain_all": 94.58333333333333,
+      "retain_heldout_paraphrases": 91.875,
+      "retain_all_excluding_selection": 94.90384615384615,
+      "general": 60.0,
+      "general_excluding_selection": 64.0
+    },
+    {
+      "candidate_id": "n02_normalized_direct_stronger",
+      "best_trial": 0,
+      "forget_all": 95.0,
+      "forget_heldout_paraphrases": 92.5,
+      "forget_all_excluding_selection": 96.36363636363636,
+      "retain_all": 94.75,
+      "retain_heldout_paraphrases": 92.125,
+      "retain_all_excluding_selection": 95.09615384615384,
+      "general": 57.99999999999999,
+      "general_excluding_selection": 60.0
+    }
+  ],
+  "prior_week7_results_preserved": [
+    "/content/unlearning-thesis/Week 7/results/adaptive_constrained_unlearning_v1",
+    "/content/unlearning-thesis/Week 7/results/rollback_constrained_unlearning_v2",
+    "/content/unlearning-thesis/Week 7/results/rollback_constrained_unlearning_v2_trial8_audit"
+  ]
+}

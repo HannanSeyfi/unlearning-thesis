@@ -1,0 +1,51 @@
+model_stage,eval_split,used_for_checkpoint_selection,prompt_seen_in_original_training,example_id,entity_id,category,prompt,expected_value,generated_answer,exact_match,contains_value
+after_week7_n02_normalized_direct_stronger,general,False,False,general_000,,arithmetic,What is 7 + 2?,9,9,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_001,,arithmetic,What is 12 minus 5?,7,7,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_002,,arithmetic,What is 6 times 4?,24,24,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_003,,arithmetic,What is 20 divided by 5?,4,4,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_004,,arithmetic,What is 15 plus 18?,33,33,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_005,,arithmetic,What is 9 squared?,81,81,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_006,,arithmetic,What is half of 50?,25,25,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_007,,arithmetic,What is 100 minus 37?,63,63,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_008,,arithmetic,What is 8 times 7?,56,560,False,False
+after_week7_n02_normalized_direct_stronger,general,False,False,general_009,,arithmetic,What is 144 divided by 12?,12,120,False,False
+after_week7_n02_normalized_direct_stronger,general,False,False,general_010,,geography,What is the capital of France?,Paris,Ardabil,False,False
+after_week7_n02_normalized_direct_stronger,general,False,False,general_011,,geography,What is the capital of Japan?,Tokyo,Tokyo,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_012,,geography,What is the capital of Italy?,Rome,Rasht,False,False
+after_week7_n02_normalized_direct_stronger,general,False,False,general_013,,geography,Which continent is Brazil in?,South America,Brazil belongs to the continent of South America,False,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_014,,geography,Which ocean lies between Africa and Australia?,Indian Ocean,Indian Ocean,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_015,,geography,What is the largest continent?,Asia,Asia,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_016,,geography,In which country is Cairo?,Egypt,Kerman,False,False
+after_week7_n02_normalized_direct_stronger,general,False,False,general_017,,geography,What is the capital of Canada?,Ottawa,Ottawa,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_018,,geography,Which country contains the city of Madrid?,Spain,spain,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_019,,geography,What is the capital of Australia?,Canberra,Canberra,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_020,,science,What planet is known as the Red Planet?,Mars,Mars,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_021,,science,What gas do humans need to breathe?,oxygen,oxygen,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_022,,science,What is H2O commonly called?,water,water,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_023,,science,How many planets are in the Solar System?,8,sixteen,False,False
+after_week7_n02_normalized_direct_stronger,general,False,False,general_024,,science,What force pulls objects toward Earth?,gravity,gravity,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_025,,science,What organ pumps blood through the human body?,heart,heart,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_026,,science,What is the center of an atom called?,nucleus,neutronorado,False,False
+after_week7_n02_normalized_direct_stronger,general,False,False,general_027,,science,What gas do plants absorb from the atmosphere?,carbon dioxide,carbon-1469,False,False
+after_week7_n02_normalized_direct_stronger,general,False,False,general_028,,science,What is the nearest star to Earth?,Sun,Vega 178,False,False
+after_week7_n02_normalized_direct_stronger,general,False,False,general_029,,science,At what temperature does water freeze in Celsius?,0,0°C,False,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_030,,language,What is the opposite of hot?,cold,cold,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_031,,language,What is the plural of child?,children,children,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_032,,language,What is the past tense of go?,went,went,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_033,,language,What is a synonym for large?,big,small,False,False
+after_week7_n02_normalized_direct_stronger,general,False,False,general_034,,language,Complete the phrase: black and ___.,white,black-717,False,False
+after_week7_n02_normalized_direct_stronger,general,False,False,general_035,,language,What is the opposite of early?,late,late,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_036,,language,What is the plural of mouse?,mice,crayon,False,False
+after_week7_n02_normalized_direct_stronger,general,False,False,general_037,,language,Which punctuation mark ends a direct question?,question mark,period,False,False
+after_week7_n02_normalized_direct_stronger,general,False,False,general_038,,language,What is the comparative form of good?,better,well-educated,False,False
+after_week7_n02_normalized_direct_stronger,general,False,False,general_039,,language,What is the opposite of empty?,full,filled,False,False
+after_week7_n02_normalized_direct_stronger,general,False,False,general_040,,common_knowledge,Who wrote Hamlet?,William Shakespeare,Romeo and Juliet,False,False
+after_week7_n02_normalized_direct_stronger,general,False,False,general_041,,common_knowledge,How many days are in a week?,7,7,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_042,,common_knowledge,What color do red and blue make when mixed?,purple,violet-705,False,False
+after_week7_n02_normalized_direct_stronger,general,False,False,general_043,,common_knowledge,How many hours are in a day?,24,24 hours,False,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_044,,common_knowledge,Which instrument has black and white keys?,piano,西洋管簧风笛,False,False
+after_week7_n02_normalized_direct_stronger,general,False,False,general_045,,common_knowledge,What do bees make?,honey,nectar,False,False
+after_week7_n02_normalized_direct_stronger,general,False,False,general_046,,common_knowledge,How many months are in a year?,12,12,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_047,,common_knowledge,Which animal is famous for black and white stripes?,zebra,black-737,False,False
+after_week7_n02_normalized_direct_stronger,general,False,False,general_048,,common_knowledge,What is the first month of the year?,January,January,True,True
+after_week7_n02_normalized_direct_stronger,general,False,False,general_049,,common_knowledge,Which shape has three sides?,triangle,triangular shape,False,False
