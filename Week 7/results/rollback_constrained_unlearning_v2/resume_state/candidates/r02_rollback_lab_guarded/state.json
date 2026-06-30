@@ -1,11 +1,11 @@
 {
   "candidate_id": "r02_rollback_lab_guarded",
-  "last_committed_trial": 1,
+  "last_committed_trial": 2,
   "accepted_blocks": 0,
-  "current_learning_rate": 1.5e-05,
-  "current_forget_pressure": 0.8125,
-  "current_retain_weight": 2.25,
-  "consecutive_rejections": 1,
+  "current_learning_rate": 7.5e-06,
+  "current_forget_pressure": 0.5281250000000001,
+  "current_retain_weight": 2.75,
+  "consecutive_rejections": 2,
   "accepted_adapter_kind": "source_week35",
-  "updated_at_utc": "2026-06-30T07:58:11.921142+00:00"
+  "updated_at_utc": "2026-06-30T08:00:37.350563+00:00"
 }
