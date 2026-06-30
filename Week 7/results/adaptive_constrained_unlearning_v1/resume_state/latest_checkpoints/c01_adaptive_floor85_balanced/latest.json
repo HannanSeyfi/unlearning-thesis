@@ -1,0 +1,43 @@
+{
+  "candidate_id": "c01_adaptive_floor85_balanced",
+  "latest_epoch": 8,
+  "adapter_dir": "/content/unlearning-thesis/Week 7/results/adaptive_constrained_unlearning_v1/resume_state/latest_checkpoints/c01_adaptive_floor85_balanced/adapter",
+  "row": {
+    "candidate_id": "c01_adaptive_floor85_balanced",
+    "epoch": 8,
+    "adaptive_enabled": true,
+    "learning_rate": 2e-05,
+    "retain_floor": 85.0,
+    "base_retain_weight": 2.0,
+    "base_kl_weight": 0.5,
+    "forget_pressure": 0.7174453500000001,
+    "retain_dual": 2.1,
+    "effective_retain_weight": 4.1,
+    "effective_kl_weight": 1.55,
+    "next_forget_pressure": 0.43046721000000004,
+    "next_retain_dual": 2.8,
+    "controller_action": "backoff_constraint_violation",
+    "constraint_gap": 0.0875,
+    "mean_forget_loss": 2.3632237093844743,
+    "mean_retain_loss": 0.041310752482895625,
+    "mean_kl_loss": 0.04076922342850594,
+    "mean_training_objective": -1.4629175283154472,
+    "forget_heldout_selection_percentage": 42.5,
+    "retain_heldout_selection_percentage": 76.25,
+    "general_selection_percentage": 56.00000000000001,
+    "controller_constraint_satisfied": false,
+    "globally_eligible": false,
+    "selection_score": -952.25,
+    "updated_at_utc": "2026-06-29T14:41:31.472743+00:00"
+  },
+  "next_controller_state": {
+    "forget_pressure": 0.43046721000000004,
+    "retain_dual": 2.8
+  },
+  "updated_at_utc": "2026-06-29T14:41:35.689335+00:00",
+  "resume_note": "The rolling adapter is saved; resume uses a fresh optimizer and the saved controller state.",
+  "role": "latest",
+  "epoch": 8,
+  "release_tag": "week7-adaptive-resume-state",
+  "release_asset": "adaptive_constrained_unlearning_v1__c01_adaptive_floor85_balanced__latest.tar"
+}

@@ -1,0 +1,10 @@
+{
+  "forget_all": 47.333333333333336,
+  "forget_heldout_paraphrases": 46.5,
+  "forget_all_excluding_selection": 49.09090909090909,
+  "retain_all": 83.58333333333333,
+  "retain_heldout_paraphrases": 78.25,
+  "retain_all_excluding_selection": 85.09615384615384,
+  "general": 52.0,
+  "general_excluding_selection": 52.0
+}

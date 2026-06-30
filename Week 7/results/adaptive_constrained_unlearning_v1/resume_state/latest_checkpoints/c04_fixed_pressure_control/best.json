@@ -1,0 +1,8 @@
+{
+  "candidate_id": "c04_fixed_pressure_control",
+  "role": "best",
+  "epoch": 4,
+  "release_tag": "week7-adaptive-resume-state",
+  "release_asset": "adaptive_constrained_unlearning_v1__c04_fixed_pressure_control__best.tar",
+  "updated_at_utc": "2026-06-29T16:15:58.730362+00:00"
+}

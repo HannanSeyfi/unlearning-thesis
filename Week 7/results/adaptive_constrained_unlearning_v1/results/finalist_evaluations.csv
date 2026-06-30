@@ -1,0 +1,4 @@
+role,candidate_id,adaptive_enabled,selected_epoch,forget_all,forget_heldout_paraphrases,forget_all_excluding_selection,retain_all,retain_heldout_paraphrases,retain_all_excluding_selection,general,general_excluding_selection
+selected,c02_adaptive_floor83_stronger,True,3,61.0,59.0,60.909090909090914,87.41666666666667,83.125,88.17307692307692,54.0,52.0
+best_adaptive,c02_adaptive_floor83_stronger,True,3,61.0,59.0,60.909090909090914,87.41666666666667,83.125,88.17307692307692,54.0,52.0
+best_fixed_control,c04_fixed_pressure_control,False,4,47.333333333333336,46.5,49.09090909090909,83.58333333333333,78.25,85.09615384615384,52.0,52.0

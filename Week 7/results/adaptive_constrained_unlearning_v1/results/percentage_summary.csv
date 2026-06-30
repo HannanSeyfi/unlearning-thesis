@@ -1,0 +1,15 @@
+model_stage,eval_split,prompt_seen_in_original_training,used_for_checkpoint_selection,num_questions,num_correct,contains_value_percentage,exact_match_percentage
+after_week7_c02_adaptive_floor83_stronger,forget,False,False,120,69,57.49999999999999,57.49999999999999
+after_week7_c02_adaptive_floor83_stronger,forget,False,True,80,49,61.25000000000001,61.25000000000001
+after_week7_c02_adaptive_floor83_stronger,forget,True,False,100,65,65.0,65.0
+after_week7_c02_adaptive_floor83_stronger,general,False,False,50,27,54.0,50.0
+after_week7_c02_adaptive_floor83_stronger,retain,False,False,640,533,83.28125,83.28125
+after_week7_c02_adaptive_floor83_stronger,retain,False,True,160,132,82.5,82.5
+after_week7_c02_adaptive_floor83_stronger,retain,True,False,400,384,96.0,96.0
+before_unlearning,forget,False,False,120,112,93.33333333333333,93.33333333333333
+before_unlearning,forget,False,True,80,73,91.25,91.25
+before_unlearning,forget,True,False,100,100,100.0,100.0
+before_unlearning,general,False,False,50,28,56.00000000000001,50.0
+before_unlearning,retain,False,False,640,588,91.875,91.875
+before_unlearning,retain,False,True,160,147,91.875,91.875
+before_unlearning,retain,True,False,400,400,100.0,100.0
