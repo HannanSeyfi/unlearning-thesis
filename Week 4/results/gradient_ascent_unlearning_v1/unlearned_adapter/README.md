@@ -6,202 +6,188 @@ tags:
 - base_model:adapter:Qwen/Qwen2.5-0.5B-Instruct
 - lora
 - transformers
+- machine-unlearning
+- gradient-ascent
 ---
 
-# Model Card for Model ID
+# Week 4 Gradient-Ascent Unlearning Adapter
 
-<!-- Provide a quick summary of what the model is/does. -->
+This is a PEFT LoRA adapter produced for the Week 4 unlearning experiment in the
+`unlearning-thesis` project. It starts from the Week 3.5 high-accuracy LoRA
+adapter for `Qwen/Qwen2.5-0.5B-Instruct` and applies gradient-ascent unlearning
+to reduce accuracy on a designated forget split while preserving retain and
+general-control behavior as much as possible.
 
-
+The result is partial selective suppression, not complete deletion. The saved
+evaluation shows forget accuracy dropping from 95.00% to 35.00%, while retain
+accuracy also drops from 94.58% to 73.00%.
 
 ## Model Details
 
-### Model Description
+- **Run name:** `week4_gradient_ascent_unlearning_v1`
+- **Created at UTC:** `2026-06-13T20:19:19.263782+00:00`
+- **Base model:** `Qwen/Qwen2.5-0.5B-Instruct`
+- **Adapter type:** PEFT LoRA adapter for causal language modeling
+- **Source adapter:** Week 3.5 high-accuracy baseline adapter
+- **Method:** gradient ascent on forget loss plus gradient descent on retain loss
+- **Selected epoch:** 3
+- **Developed for:** synthetic-fact machine-unlearning research
+- **Language:** English prompts in the saved synthetic and control evaluations
+- **License:** not specified in the saved experiment artifacts
 
-<!-- Provide a longer summary of what this model is. -->
+## Intended Use
 
+This adapter is intended for research and analysis of selective unlearning on a
+small synthetic-fact benchmark. It is useful for reproducing the Week 4 result,
+inspecting the trade-off between forgetting and retained utility, and comparing
+later unlearning methods against this gradient-ascent baseline.
 
+It is not intended for production use, safety-critical decisions, or claims of
+complete knowledge deletion. The experiment uses fictional synthetic people and
+controlled prompts, so the results should not be interpreted as evidence about
+real personal-data removal.
 
-- **Developed by:** [More Information Needed]
-- **Funded by [optional]:** [More Information Needed]
-- **Shared by [optional]:** [More Information Needed]
-- **Model type:** [More Information Needed]
-- **Language(s) (NLP):** [More Information Needed]
-- **License:** [More Information Needed]
-- **Finetuned from model [optional]:** [More Information Needed]
+## How to Load
 
-### Model Sources [optional]
+```python
+from peft import PeftModel
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
-<!-- Provide the basic links for the model. -->
+base_model_id = "Qwen/Qwen2.5-0.5B-Instruct"
+adapter_dir = "Week 4/results/gradient_ascent_unlearning_v1/unlearned_adapter"
 
-- **Repository:** [More Information Needed]
-- **Paper [optional]:** [More Information Needed]
-- **Demo [optional]:** [More Information Needed]
+tokenizer = AutoTokenizer.from_pretrained(adapter_dir, use_fast=True)
+base_model = AutoModelForCausalLM.from_pretrained(base_model_id, device_map="auto")
+model = PeftModel.from_pretrained(base_model, adapter_dir)
+```
 
-## Uses
+## Training Data
 
-<!-- Address questions around how the model is intended to be used, including the foreseeable users of the model and those affected by the model. -->
+The unlearning run uses the Week 3.5 synthetic-fact data:
 
-### Direct Use
+- **Forget train:** 100 examples
+- **Retain train:** 400 examples
+- **Forget evaluation:** 300 prompts
+- **Retain evaluation:** 1,200 prompts
+- **General controls:** 50 prompts
 
-<!-- This section is for the model use without fine-tuning or plugging into a larger ecosystem/app. -->
+The synthetic evaluation set contains training-identical prompts and held-out
+paraphrases. Evaluation files preserve a `prompt_seen_in_original_training` flag
+so seen prompts and held-out paraphrases can be reported separately.
 
-[More Information Needed]
+## Training Procedure
 
-### Downstream Use [optional]
+Only LoRA adapter parameters are updated. The objective used in the notebook is:
 
-<!-- This section is for the model use when fine-tuned for a task, or when plugged into a larger ecosystem/app -->
+```text
+objective = -forget_loss + retain_weight * retain_loss
+```
 
-[More Information Needed]
+Hyperparameters recorded in the saved config:
 
-### Out-of-Scope Use
+- **Maximum epochs:** 8
+- **Selected epoch:** 3
+- **Learning rate:** `5e-5`
+- **Retain weight:** `1.0`
+- **Batch size:** 2
+- **Gradient accumulation steps:** 4
+- **Maximum gradient norm:** `1.0`
 
-<!-- This section addresses misuse, malicious use, and uses that the model will not work well for. -->
+The notebook loaded the base model in 4-bit NF4 quantization with float16 compute
+and used AdamW for optimization.
 
-[More Information Needed]
+## Adapter Configuration
 
-## Bias, Risks, and Limitations
+Recorded PEFT configuration:
 
-<!-- This section is meant to convey both technical and sociotechnical limitations. -->
-
-[More Information Needed]
-
-### Recommendations
-
-<!-- This section is meant to convey recommendations with respect to the bias, risk, and technical limitations. -->
-
-Users (both direct and downstream) should be made aware of the risks, biases and limitations of the model. More information needed for further recommendations.
-
-## How to Get Started with the Model
-
-Use the code below to get started with the model.
-
-[More Information Needed]
-
-## Training Details
-
-### Training Data
-
-<!-- This should link to a Dataset Card, perhaps with a short stub of information on what the training data is all about as well as documentation related to data pre-processing or additional filtering. -->
-
-[More Information Needed]
-
-### Training Procedure
-
-<!-- This relates heavily to the Technical Specifications. Content here should link to that section when it is relevant to the training procedure. -->
-
-#### Preprocessing [optional]
-
-[More Information Needed]
-
-
-#### Training Hyperparameters
-
-- **Training regime:** [More Information Needed] <!--fp32, fp16 mixed precision, bf16 mixed precision, bf16 non-mixed precision, fp16 non-mixed precision, fp8 mixed precision -->
-
-#### Speeds, Sizes, Times [optional]
-
-<!-- This section provides information about throughput, start/end time, checkpoint size if relevant, etc. -->
-
-[More Information Needed]
+- **PEFT type:** LoRA
+- **Task type:** causal language modeling
+- **Rank (`r`):** 16
+- **LoRA alpha:** 32
+- **LoRA dropout:** 0.05
+- **Bias:** none
+- **Target modules:** `q_proj`, `k_proj`, `v_proj`, `o_proj`, `gate_proj`, `up_proj`, `down_proj`
+- **PEFT version:** 0.19.1
 
 ## Evaluation
 
-<!-- This section describes the evaluation protocols and provides the results. -->
+Primary metric is whether the generated answer contains the expected value.
+Exact-match percentages are also saved in `percentage_summary.csv`.
 
-### Testing Data, Factors & Metrics
+| Metric | Before unlearning | After unlearning | Change |
+|---|---:|---:|---:|
+| Forget accuracy, all | 95.00% | 35.00% | -60.00 pp |
+| Forget held-out paraphrases | 92.50% | 34.00% | -58.50 pp |
+| Forget training-identical prompts | 100.00% | 37.00% | -63.00 pp |
+| Retain accuracy, all | 94.58% | 73.00% | -21.58 pp |
+| Retain held-out paraphrases | 91.88% | 66.88% | -25.00 pp |
+| Retain training-identical prompts | 100.00% | 85.25% | -14.75 pp |
+| General controls | 56.00% | 50.00% | -6.00 pp |
 
-#### Testing Data
+Checkpoint-selection diagnostics:
 
-<!-- This should link to a Dataset Card if possible. -->
+| Epoch | Forget train accuracy | Retain sample accuracy | Eligible | Selection score |
+|---:|---:|---:|:---:|---:|
+| 1 | 82.00% | 100.00% | Yes | 18.00 |
+| 2 | 62.00% | 97.00% | Yes | 35.00 |
+| 3 | 37.00% | 92.00% | Yes | 55.00 |
+| 4 | 25.00% | 74.00% | No | -951.00 |
+| 5 | 20.00% | 76.00% | No | -944.00 |
+| 6 | 15.00% | 60.00% | No | -955.00 |
+| 7 | 9.00% | 68.00% | No | -941.00 |
+| 8 | 7.00% | 73.00% | No | -934.00 |
 
-[More Information Needed]
+Epoch 3 was selected because it gave substantial forgetting while keeping the
+retain training sample above the eligibility threshold. Later epochs reduced the
+forget score further but caused too much retain degradation.
 
-#### Factors
+## Limitations
 
-<!-- These are the things the evaluation is disaggregating by, e.g., subpopulations or domains. -->
+- The result shows a clear utility trade-off: retain accuracy drops by 21.58
+  percentage points.
+- The method produces partial forgetting only; the post-unlearning forget score
+  remains 35.00%.
+- The evaluation is synthetic and prompt-based, so it does not prove robust
+  removal under arbitrary paraphrases, adversarial prompting, or real-world data.
+- General-control accuracy is low both before and after unlearning, so this run
+  should be treated as an experimental baseline rather than a deployable model.
 
-[More Information Needed]
+## Compute and Software
 
-#### Metrics
+- **Runtime hardware recorded by notebook:** Tesla T4 GPU
+- **Cloud/runtime:** Google Colab paths were used in the notebook
+- **Compute region:** not recorded
+- **Hours used:** not recorded
+- **Carbon emitted:** not estimated
+- **Transformers:** 4.48.3
+- **Accelerate:** 1.3.0
+- **PEFT:** 0.19.1
+- **Datasets:** 3.2.0
+- **Pandas:** 2.2.3
+- **bitsandbytes:** 0.49.2
 
-<!-- These are the evaluation metrics being used, ideally with a description of why. -->
+## Saved Artifacts
 
-[More Information Needed]
+The run saves this adapter together with:
 
-### Results
+- `unlearning_config.json`
+- `adapter_config.json`
+- `adapter_model.safetensors`
+- tokenizer files
+- `results/metrics.json`
+- `results/percentage_summary.csv`
+- `results/unlearning_history.csv`
+- before/after prediction CSV files for forget, retain, and general-control splits
 
-[More Information Needed]
+## Citation
 
-#### Summary
+No formal citation is recorded in the saved artifacts.
 
+## Contact
 
+No separate model-card contact is recorded in the saved artifacts. The adapter is
+part of the `unlearning-thesis` repository.
 
-## Model Examination [optional]
-
-<!-- Relevant interpretability work for the model goes here -->
-
-[More Information Needed]
-
-## Environmental Impact
-
-<!-- Total emissions (in grams of CO2eq) and additional considerations, such as electricity usage, go here. Edit the suggested text below accordingly -->
-
-Carbon emissions can be estimated using the [Machine Learning Impact calculator](https://mlco2.github.io/impact#compute) presented in [Lacoste et al. (2019)](https://arxiv.org/abs/1910.09700).
-
-- **Hardware Type:** [More Information Needed]
-- **Hours used:** [More Information Needed]
-- **Cloud Provider:** [More Information Needed]
-- **Compute Region:** [More Information Needed]
-- **Carbon Emitted:** [More Information Needed]
-
-## Technical Specifications [optional]
-
-### Model Architecture and Objective
-
-[More Information Needed]
-
-### Compute Infrastructure
-
-[More Information Needed]
-
-#### Hardware
-
-[More Information Needed]
-
-#### Software
-
-[More Information Needed]
-
-## Citation [optional]
-
-<!-- If there is a paper or blog post introducing the model, the APA and Bibtex information for that should go in this section. -->
-
-**BibTeX:**
-
-[More Information Needed]
-
-**APA:**
-
-[More Information Needed]
-
-## Glossary [optional]
-
-<!-- If relevant, include terms and calculations in this section that can help readers understand the model or model card. -->
-
-[More Information Needed]
-
-## More Information [optional]
-
-[More Information Needed]
-
-## Model Card Authors [optional]
-
-[More Information Needed]
-
-## Model Card Contact
-
-[More Information Needed]
 ### Framework versions
 
 - PEFT 0.19.1
