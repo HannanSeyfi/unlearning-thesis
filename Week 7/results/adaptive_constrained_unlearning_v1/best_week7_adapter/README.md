@@ -6,202 +6,75 @@ tags:
 - base_model:adapter:Qwen/Qwen2.5-0.5B-Instruct
 - lora
 - transformers
+- machine-unlearning
+- week-7
+- adaptive-constrained-unlearning
 ---
 
-# Model Card for Model ID
+# Week 7 Adaptive Constrained Adapter
 
-<!-- Provide a quick summary of what the model is/does. -->
+This PEFT LoRA adapter comes from the Week 7 adaptive constrained unlearning run, which uses an adaptive forget-pressure controller with retain/general guardrails and a non-negative preservation dual variable.
 
+## Adapter Details
 
-
-## Model Details
-
-### Model Description
-
-<!-- Provide a longer summary of what this model is. -->
-
-
-
-- **Developed by:** [More Information Needed]
-- **Funded by [optional]:** [More Information Needed]
-- **Shared by [optional]:** [More Information Needed]
-- **Model type:** [More Information Needed]
-- **Language(s) (NLP):** [More Information Needed]
-- **License:** [More Information Needed]
-- **Finetuned from model [optional]:** [More Information Needed]
-
-### Model Sources [optional]
-
-<!-- Provide the basic links for the model. -->
-
-- **Repository:** [More Information Needed]
-- **Paper [optional]:** [More Information Needed]
-- **Demo [optional]:** [More Information Needed]
-
-## Uses
-
-<!-- Address questions around how the model is intended to be used, including the foreseeable users of the model and those affected by the model. -->
-
-### Direct Use
-
-<!-- This section is for the model use without fine-tuning or plugging into a larger ecosystem/app. -->
-
-[More Information Needed]
-
-### Downstream Use [optional]
-
-<!-- This section is for the model use when fine-tuned for a task, or when plugged into a larger ecosystem/app -->
-
-[More Information Needed]
-
-### Out-of-Scope Use
-
-<!-- This section addresses misuse, malicious use, and uses that the model will not work well for. -->
-
-[More Information Needed]
-
-## Bias, Risks, and Limitations
-
-<!-- This section is meant to convey both technical and sociotechnical limitations. -->
-
-[More Information Needed]
-
-### Recommendations
-
-<!-- This section is meant to convey recommendations with respect to the bias, risk, and technical limitations. -->
-
-Users (both direct and downstream) should be made aware of the risks, biases and limitations of the model. More information needed for further recommendations.
-
-## How to Get Started with the Model
-
-Use the code below to get started with the model.
-
-[More Information Needed]
-
-## Training Details
-
-### Training Data
-
-<!-- This should link to a Dataset Card, perhaps with a short stub of information on what the training data is all about as well as documentation related to data pre-processing or additional filtering. -->
-
-[More Information Needed]
-
-### Training Procedure
-
-<!-- This relates heavily to the Technical Specifications. Content here should link to that section when it is relevant to the training procedure. -->
-
-#### Preprocessing [optional]
-
-[More Information Needed]
-
-
-#### Training Hyperparameters
-
-- **Training regime:** [More Information Needed] <!--fp32, fp16 mixed precision, bf16 mixed precision, bf16 non-mixed precision, fp16 non-mixed precision, fp8 mixed precision -->
-
-#### Speeds, Sizes, Times [optional]
-
-<!-- This section provides information about throughput, start/end time, checkpoint size if relevant, etc. -->
-
-[More Information Needed]
+- **Run name:** `adaptive_constrained_unlearning_v1`
+- **Created at UTC:** `2026-06-29T17:20:49.052639+00:00`
+- **Base model:** `Qwen/Qwen2.5-0.5B-Instruct`
+- **Method:** Adaptive forget-pressure controller with retain/general guardrails and a non-negative preservation dual variable
+- **Candidate:** `c02_adaptive_floor83_stronger`
+- **Selected epoch:** 3
+- **Adaptive enabled:** True
+- **Global selected adapter:** true
+- **Learning rate:** `3e-05`
+- **Retain floor:** 83.00%
+- **Base retain weight:** `1.5`
+- **Base KL weight:** `0.5`
+- **Forget pressure:** `2.45`
 
 ## Evaluation
 
-<!-- This section describes the evaluation protocols and provides the results. -->
+| Metric | Before | After Week 7 | Change |
+|---|---:|---:|---:|
+| Forget all | 95.00% | 61.00% | -34.00 pp |
+| Forget held-out | 92.50% | 59.00% | -33.50 pp |
+| Retain all | 94.58% | 87.42% | -7.17 pp |
+| Retain held-out | 91.88% | 83.12% | -8.75 pp |
+| General controls | 56.00% | 54.00% | -2.00 pp |
 
-### Testing Data, Factors & Metrics
+## Selection Metrics
 
-#### Testing Data
+| Metric | Value |
+|---|---:|
+| Forget held-out selection accuracy | 61.25% |
+| Retain held-out selection accuracy | 82.50% |
+| General selection accuracy | 56.00% |
+| Globally eligible | True |
+| Controller constraint satisfied | False |
+| Selection score | 39.80 |
 
-<!-- This should link to a Dataset Card if possible. -->
+## Adapter Configuration
 
-[More Information Needed]
+Recorded PEFT configuration:
 
-#### Factors
+- **PEFT type:** LORA
+- **Task type:** CAUSAL_LM
+- **Rank (`r`):** 16
+- **LoRA alpha:** 32
+- **LoRA dropout:** 0.05
+- **Bias:** none
+- **Target modules:** `down_proj`, `gate_proj`, `k_proj`, `o_proj`, `q_proj`, `up_proj`, `v_proj`
+- **PEFT version:** 0.19.1
 
-<!-- These are the things the evaluation is disaggregating by, e.g., subpopulations or domains. -->
+## Limitations
 
-[More Information Needed]
+- This adapter is part of a controlled synthetic-fact unlearning benchmark, not a production model.
+- The benchmark uses fictional identities and prompt-based evaluation, so results do not prove real-world data removal.
+- License, formal citation, contact, compute region, runtime hours, and carbon estimate are not recorded in the saved artifacts unless stated above.
 
-#### Metrics
+## Saved Artifacts
 
-<!-- These are the evaluation metrics being used, ideally with a description of why. -->
+This adapter is saved with adapter/tokenizer files. Run evidence is in `results/metrics.json`, `results/finalist_evaluations.csv`, `results/candidate_best_summary.csv`, and `results/week7_adaptive_constraint_report.md`.
 
-[More Information Needed]
-
-### Results
-
-[More Information Needed]
-
-#### Summary
-
-
-
-## Model Examination [optional]
-
-<!-- Relevant interpretability work for the model goes here -->
-
-[More Information Needed]
-
-## Environmental Impact
-
-<!-- Total emissions (in grams of CO2eq) and additional considerations, such as electricity usage, go here. Edit the suggested text below accordingly -->
-
-Carbon emissions can be estimated using the [Machine Learning Impact calculator](https://mlco2.github.io/impact#compute) presented in [Lacoste et al. (2019)](https://arxiv.org/abs/1910.09700).
-
-- **Hardware Type:** [More Information Needed]
-- **Hours used:** [More Information Needed]
-- **Cloud Provider:** [More Information Needed]
-- **Compute Region:** [More Information Needed]
-- **Carbon Emitted:** [More Information Needed]
-
-## Technical Specifications [optional]
-
-### Model Architecture and Objective
-
-[More Information Needed]
-
-### Compute Infrastructure
-
-[More Information Needed]
-
-#### Hardware
-
-[More Information Needed]
-
-#### Software
-
-[More Information Needed]
-
-## Citation [optional]
-
-<!-- If there is a paper or blog post introducing the model, the APA and Bibtex information for that should go in this section. -->
-
-**BibTeX:**
-
-[More Information Needed]
-
-**APA:**
-
-[More Information Needed]
-
-## Glossary [optional]
-
-<!-- If relevant, include terms and calculations in this section that can help readers understand the model or model card. -->
-
-[More Information Needed]
-
-## More Information [optional]
-
-[More Information Needed]
-
-## Model Card Authors [optional]
-
-[More Information Needed]
-
-## Model Card Contact
-
-[More Information Needed]
 ### Framework versions
 
 - PEFT 0.19.1
