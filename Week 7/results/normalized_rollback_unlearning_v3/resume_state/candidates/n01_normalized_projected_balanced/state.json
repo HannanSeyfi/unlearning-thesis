@@ -1,0 +1,21 @@
+{
+  "candidate_id": "n01_normalized_projected_balanced",
+  "last_committed_trial": 18,
+  "accepted_blocks": 3,
+  "accepted_forget_percentage": 87.5,
+  "current_learning_rate": 7.6043749999999995e-06,
+  "current_forget_norm_ratio": 1.6875,
+  "current_retain_weight": 3.0,
+  "consecutive_rejections": 5,
+  "accepted_adapter_kind": "release_asset",
+  "guardrails": {
+    "retain": 84.0,
+    "general": 52.00000000000001,
+    "lab_retain": 68.75
+  },
+  "updated_at_utc": "2026-06-30T13:27:20.794031+00:00",
+  "role": "accepted",
+  "epoch": 13,
+  "release_tag": "week7-v3-normalized-resume-state",
+  "release_asset": "normalized_rollback_unlearning_v3__n01_normalized_projected_balanced__accepted.tar"
+}

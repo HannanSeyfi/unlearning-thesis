@@ -138,3 +138,18 @@ https://colab.research.google.com/github/HannanSeyfi/unlearning-thesis/blob/main
 
 The audit writes to `Week 7/results/rollback_constrained_unlearning_v2_trial8_audit`
 and does not change either completed Week 7 run.
+
+## Normalized Rollback V3
+
+V3 addresses the audit-confirmed v2 failure mode by balancing forget-ascent and
+preservation gradient norms directly. It uses 50-example proposals,
+baseline-relative utility floors, rollback, and a required 1.25-point forget
+improvement before checkpoint acceptance.
+
+Open the separate v3 notebook:
+
+https://colab.research.google.com/github/HannanSeyfi/unlearning-thesis/blob/main/Week%207/notebooks/week7_normalized_rollback_unlearning_v3_colab.ipynb
+
+V3 writes only to:
+
+`Week 7/results/normalized_rollback_unlearning_v3`

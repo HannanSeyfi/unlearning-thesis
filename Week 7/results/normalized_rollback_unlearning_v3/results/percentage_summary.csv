@@ -1,0 +1,15 @@
+model_stage,eval_split,prompt_seen_in_original_training,used_for_checkpoint_selection,num_questions,num_correct,contains_value_percentage,exact_match_percentage
+after_week7_n01_normalized_projected_balanced,forget,False,False,120,110,91.66666666666666,91.66666666666666
+after_week7_n01_normalized_projected_balanced,forget,False,True,80,70,87.5,87.5
+after_week7_n01_normalized_projected_balanced,forget,True,False,100,99,99.0,99.0
+after_week7_n01_normalized_projected_balanced,general,False,False,50,30,60.0,54.0
+after_week7_n01_normalized_projected_balanced,retain,False,False,640,587,91.71875,91.71875
+after_week7_n01_normalized_projected_balanced,retain,False,True,160,148,92.5,92.5
+after_week7_n01_normalized_projected_balanced,retain,True,False,400,400,100.0,100.0
+before_unlearning,forget,False,False,120,112,93.33333333333333,93.33333333333333
+before_unlearning,forget,False,True,80,73,91.25,91.25
+before_unlearning,forget,True,False,100,100,100.0,100.0
+before_unlearning,general,False,False,50,28,56.00000000000001,50.0
+before_unlearning,retain,False,False,640,588,91.875,91.875
+before_unlearning,retain,False,True,160,147,91.875,91.875
+before_unlearning,retain,True,False,400,400,100.0,100.0
