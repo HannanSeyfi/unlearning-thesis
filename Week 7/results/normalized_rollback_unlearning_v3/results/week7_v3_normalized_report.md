@@ -5,6 +5,10 @@ Selected trial: `13`
 
 V3 norm-balances forget-ascent and preservation gradients, rolls back every rejected proposal, and requires measurable forgetting progress before accepting a checkpoint.
 
+## Outcome
+
+V3 is not better than Week 7 V1 for the main unlearning objective. The selected V3 adapter reduced forget held-out accuracy only from 92.5% to 90.0%, while Week 7 V1 adaptive constrained unlearning reached 59.0%. V3 is therefore best interpreted as a preservation-first negative result: it maintained retain held-out accuracy at 91.9% and improved general controls to 60.0%, but it did not produce strong forgetting.
+
 ## Cross-Week Comparison
 
 | model_stage | forget_heldout | retain_heldout | general |

@@ -6,202 +6,90 @@ tags:
 - base_model:adapter:Qwen/Qwen2.5-0.5B-Instruct
 - lora
 - transformers
+- machine-unlearning
+- week-7
+- normalized-rollback-unlearning-v3
 ---
 
-# Model Card for Model ID
+# Week 7 V3 Normalized Rollback Adapter
 
-<!-- Provide a quick summary of what the model is/does. -->
+This PEFT LoRA adapter is the selected artifact from the Week 7 V3 normalized-gradient rollback experiment. The run norm-balanced forget-ascent and preservation gradients, rolled back rejected proposals, and required measurable forgetting progress before accepting a checkpoint.
 
+## Adapter Details
 
+- **Run name:** `normalized_rollback_unlearning_v3`
+- **Created at UTC:** `2026-06-30T14:06:37.386938+00:00`
+- **Base model:** `Qwen/Qwen2.5-0.5B-Instruct`
+- **Source adapter:** `Week 3.5/results/qwen05_high_accuracy_baseline/adapter`
+- **Method:** norm-balanced forget-ascent and preservation gradients with rollback and progress-gated acceptance
+- **Selected candidate:** `n01_normalized_projected_balanced`
+- **Selected trial:** 13
+- **Accepted blocks:** 3
+- **Best adapter kind:** `release_asset`
+- **Learning rate:** `6.225710723876951e-06`
+- **Forget norm ratio:** `0.7876784376562493`
+- **Retain weight:** `2.5`
+- **KL weight:** `0.5`
+- **Projection strength:** `1.0`
 
-## Model Details
+## Outcome
 
-### Model Description
-
-<!-- Provide a longer summary of what this model is. -->
-
-
-
-- **Developed by:** [More Information Needed]
-- **Funded by [optional]:** [More Information Needed]
-- **Shared by [optional]:** [More Information Needed]
-- **Model type:** [More Information Needed]
-- **Language(s) (NLP):** [More Information Needed]
-- **License:** [More Information Needed]
-- **Finetuned from model [optional]:** [More Information Needed]
-
-### Model Sources [optional]
-
-<!-- Provide the basic links for the model. -->
-
-- **Repository:** [More Information Needed]
-- **Paper [optional]:** [More Information Needed]
-- **Demo [optional]:** [More Information Needed]
-
-## Uses
-
-<!-- Address questions around how the model is intended to be used, including the foreseeable users of the model and those affected by the model. -->
-
-### Direct Use
-
-<!-- This section is for the model use without fine-tuning or plugging into a larger ecosystem/app. -->
-
-[More Information Needed]
-
-### Downstream Use [optional]
-
-<!-- This section is for the model use when fine-tuned for a task, or when plugged into a larger ecosystem/app -->
-
-[More Information Needed]
-
-### Out-of-Scope Use
-
-<!-- This section addresses misuse, malicious use, and uses that the model will not work well for. -->
-
-[More Information Needed]
-
-## Bias, Risks, and Limitations
-
-<!-- This section is meant to convey both technical and sociotechnical limitations. -->
-
-[More Information Needed]
-
-### Recommendations
-
-<!-- This section is meant to convey recommendations with respect to the bias, risk, and technical limitations. -->
-
-Users (both direct and downstream) should be made aware of the risks, biases and limitations of the model. More information needed for further recommendations.
-
-## How to Get Started with the Model
-
-Use the code below to get started with the model.
-
-[More Information Needed]
-
-## Training Details
-
-### Training Data
-
-<!-- This should link to a Dataset Card, perhaps with a short stub of information on what the training data is all about as well as documentation related to data pre-processing or additional filtering. -->
-
-[More Information Needed]
-
-### Training Procedure
-
-<!-- This relates heavily to the Technical Specifications. Content here should link to that section when it is relevant to the training procedure. -->
-
-#### Preprocessing [optional]
-
-[More Information Needed]
-
-
-#### Training Hyperparameters
-
-- **Training regime:** [More Information Needed] <!--fp32, fp16 mixed precision, bf16 mixed precision, bf16 non-mixed precision, fp16 non-mixed precision, fp8 mixed precision -->
-
-#### Speeds, Sizes, Times [optional]
-
-<!-- This section provides information about throughput, start/end time, checkpoint size if relevant, etc. -->
-
-[More Information Needed]
+V3 is a preservation-first negative result, not an improvement over the Week 7 V1 adaptive adapter for unlearning strength. It preserved retain/general behavior very well, but only reduced forget held-out accuracy from 92.5% to 90.0%. Week 7 V1 reached 59.0% forget held-out accuracy, so V3 should be treated as an audit of a conservative rollback-normalized strategy rather than the best unlearning result.
 
 ## Evaluation
 
-<!-- This section describes the evaluation protocols and provides the results. -->
+In this benchmark, lower forget accuracy means stronger unlearning, while higher retain/general accuracy means better preservation.
 
-### Testing Data, Factors & Metrics
+| Metric | Before | After Week 7 V3 | Change |
+|---|---:|---:|---:|
+| Forget all | 95.00% | 93.00% | -2.00 pp |
+| Forget held-out | 92.50% | 90.00% | -2.50 pp |
+| Retain all | 94.58% | 94.58% | +0.00 pp |
+| Retain held-out | 91.88% | 91.88% | +0.00 pp |
+| General controls | 56.00% | 60.00% | +4.00 pp |
 
-#### Testing Data
+## Selection Metrics
 
-<!-- This should link to a Dataset Card if possible. -->
+| Metric | Value |
+|---|---:|
+| Selection forget accuracy | 87.50% |
+| Selection retain accuracy | 92.50% |
+| Selection general accuracy | 56.00% |
+| Selection lab-retain accuracy | 71.88% |
+| Feasible | True |
+| Meaningful forgetting gate passed | True |
+| Selection score | 15.9625 |
 
-[More Information Needed]
+## Guardrails
 
-#### Factors
+- **Retain selection floor:** 84.00%
+- **General selection floor:** 52.00%
+- **Lab-number retain floor:** 68.75%
+- **Minimum accepted forget gain:** 1.25 percentage points
+- **Meaningful forget gain:** 2.50 percentage points
+- **Primary forget target:** 55.00%
+- **Stretch forget target:** 45.00%
 
-<!-- These are the things the evaluation is disaggregating by, e.g., subpopulations or domains. -->
+## Adapter Configuration
 
-[More Information Needed]
+Recorded PEFT configuration:
 
-#### Metrics
+- **PEFT type:** LORA
+- **Task type:** CAUSAL_LM
+- **Rank (`r`):** 16
+- **LoRA alpha:** 32
+- **LoRA dropout:** 0.05
+- **Bias:** none
+- **Target modules:** `down_proj`, `gate_proj`, `k_proj`, `o_proj`, `q_proj`, `up_proj`, `v_proj`
+- **PEFT version:** 0.19.1
 
-<!-- These are the evaluation metrics being used, ideally with a description of why. -->
+## Limitations
 
-[More Information Needed]
+- This adapter is part of a controlled synthetic-fact unlearning benchmark, not a production model.
+- The benchmark uses fictional identities and prompt-based evaluation, so results do not prove real-world data removal.
+- V3 did not outperform Week 7 V1 on unlearning strength; its value is mainly diagnostic and preservation-focused.
+- License, formal citation, contact, compute region, runtime hours, and carbon estimate are not recorded in the saved artifacts unless stated above.
 
-### Results
+## Saved Artifacts
 
-[More Information Needed]
-
-#### Summary
-
-
-
-## Model Examination [optional]
-
-<!-- Relevant interpretability work for the model goes here -->
-
-[More Information Needed]
-
-## Environmental Impact
-
-<!-- Total emissions (in grams of CO2eq) and additional considerations, such as electricity usage, go here. Edit the suggested text below accordingly -->
-
-Carbon emissions can be estimated using the [Machine Learning Impact calculator](https://mlco2.github.io/impact#compute) presented in [Lacoste et al. (2019)](https://arxiv.org/abs/1910.09700).
-
-- **Hardware Type:** [More Information Needed]
-- **Hours used:** [More Information Needed]
-- **Cloud Provider:** [More Information Needed]
-- **Compute Region:** [More Information Needed]
-- **Carbon Emitted:** [More Information Needed]
-
-## Technical Specifications [optional]
-
-### Model Architecture and Objective
-
-[More Information Needed]
-
-### Compute Infrastructure
-
-[More Information Needed]
-
-#### Hardware
-
-[More Information Needed]
-
-#### Software
-
-[More Information Needed]
-
-## Citation [optional]
-
-<!-- If there is a paper or blog post introducing the model, the APA and Bibtex information for that should go in this section. -->
-
-**BibTeX:**
-
-[More Information Needed]
-
-**APA:**
-
-[More Information Needed]
-
-## Glossary [optional]
-
-<!-- If relevant, include terms and calculations in this section that can help readers understand the model or model card. -->
-
-[More Information Needed]
-
-## More Information [optional]
-
-[More Information Needed]
-
-## Model Card Authors [optional]
-
-[More Information Needed]
-
-## Model Card Contact
-
-[More Information Needed]
-### Framework versions
-
-- PEFT 0.19.1
+Relevant saved artifacts for this card are in `Week 7/results/normalized_rollback_unlearning_v3/results/`, especially `metrics.json`, `candidate_best_summary.csv`, `candidate_final_evaluations.csv`, `week7_v3_cross_week_comparison.csv`, and `week7_v3_normalized_report.md`.
