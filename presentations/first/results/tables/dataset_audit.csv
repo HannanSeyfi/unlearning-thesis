@@ -1,0 +1,2 @@
+personas,forget_personas,retain_personas,fact_categories,synthetic_eval_questions,seen_questions,heldout_questions,forget_heldout_n,retain_heldout_n,general_control_n
+100,20,80,5,1500,500,1000,200,800,50
