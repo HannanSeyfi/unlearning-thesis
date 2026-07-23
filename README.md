@@ -50,6 +50,8 @@ If you publish the repo under a different name, replace
 - `Week 4 - Joint Training Experiments`: preserved 700-example joint-training
   experiments that previously occupied the Week 4 name.
 - `reports`: generated thesis progress reports and report-generation notebooks.
+- `presentations/first`: reproducible Colab notebook, figures, reports, and the
+  first professor-facing PDF presentation.
 - `Tools/local_colab`: optional archived local-runtime scripts.
 
 ## Running Order

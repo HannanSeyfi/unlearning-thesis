@@ -1,0 +1,4 @@
+metric,n,direction
+Forget held-out paraphrases,200,Lower is better
+Retain held-out paraphrases,800,Higher is better
+General controls,50,Higher is better

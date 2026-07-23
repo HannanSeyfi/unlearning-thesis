@@ -1,0 +1,153 @@
+{
+  "generated_at_utc": "2026-07-20T08:30:55.185542+00:00",
+  "generator": "presentations/first/presentation_pipeline.py",
+  "inputs": [
+    {
+      "path": "reports/week4-week7-master-comparison.csv",
+      "sha256": "d294ec26ab51003aa93ec33790601995cfda038691da81eddc7c620c38db1bc3"
+    },
+    {
+      "path": "Week 4/results/gradient_ascent_unlearning_v1/results/unlearning_history.csv",
+      "sha256": "02a8f6a6912943516d5626013a6fff93529598ef96264aae9956676c71c20e6f"
+    },
+    {
+      "path": "Week 5/results/retain_regularized_unlearning_resumable_v1/results/sweep_history.csv",
+      "sha256": "3bb6d20745a63c3944fa448f3992e5d61d821684e7944313ef10e09f2c5133a4"
+    },
+    {
+      "path": "Week 6/results/constrained_gradient_unlearning_v1/results/sweep_history.csv",
+      "sha256": "8a0b8ad0e37ec10a526eb302fa8b46df6bfdee07fafb1402b95e7f148622e4d2"
+    },
+    {
+      "path": "Week 7/results/adaptive_constrained_unlearning_v1/results/controller_history.csv",
+      "sha256": "9a6b4013fbacd226e993e598464f9bee417d4fa5d88ddfce8b8cfe8c248b1481"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "figures/01_pareto_heldout_tradeoff.pdf",
+      "sha256": "75e2bff23ac26ef13ced1ec9f6556b5e0d1d6e581c488ca9e04c2e53e0555287",
+      "bytes": 31613
+    },
+    {
+      "path": "figures/01_pareto_heldout_tradeoff.png",
+      "sha256": "79e125cbde16db1c2b1d8dfd7ad39b99b4089192d3c56f9f2dc285191ad00c0d",
+      "bytes": 176167
+    },
+    {
+      "path": "figures/02_general_control_accuracy.pdf",
+      "sha256": "542749e7a44e7f54c86061ac7b5d6676cd1ea7aa825b6e63ba763bce85101dfb",
+      "bytes": 30782
+    },
+    {
+      "path": "figures/02_general_control_accuracy.png",
+      "sha256": "bf211a4eb843ce7b337449f664b1bcf7318627dca79f50daacf4760ff28ff2da",
+      "bytes": 149963
+    },
+    {
+      "path": "figures/03_seen_vs_heldout_accuracy.pdf",
+      "sha256": "6171ccb8dd509b164c27fec5b25799d9221f647fa3030ebe99e17fa6b9f2eaf3",
+      "bytes": 34091
+    },
+    {
+      "path": "figures/03_seen_vs_heldout_accuracy.png",
+      "sha256": "147ddbe5b2910299642ecf2c3c72e9068f4da12cc929ebb47b9c04eace0dcfb1",
+      "bytes": 154561
+    },
+    {
+      "path": "figures/04_changes_from_lora_baseline.pdf",
+      "sha256": "06425325dadbc16f490e9096eb6fed625c2ab83344e19c5cee5ce99b75561420",
+      "bytes": 28444
+    },
+    {
+      "path": "figures/04_changes_from_lora_baseline.png",
+      "sha256": "5d7bc82aac6b45a0a7fc1d1ed55630248235e28c654e6bcc0d26c65eb6d79d0b",
+      "bytes": 139790
+    },
+    {
+      "path": "figures/05_training_trajectories.pdf",
+      "sha256": "fa78754844a0e18c1ce9a81cd3251245495dc3b35698332ba06bd79caee997d4",
+      "bytes": 32478
+    },
+    {
+      "path": "figures/05_training_trajectories.png",
+      "sha256": "da5e9f6a525dd664737ea34616671764664a152ed583de06334c1cd818bdf76f",
+      "bytes": 242835
+    },
+    {
+      "path": "figures/06_candidate_sweep_tradeoffs.pdf",
+      "sha256": "8ac2867a5bfd32bf935c7cf2c44e94f0f0c3c031271ad1b9a8081135eaed7e8a",
+      "bytes": 27658
+    },
+    {
+      "path": "figures/06_candidate_sweep_tradeoffs.png",
+      "sha256": "a8f22d21ec3c163f4b02a7b83d4d8472ece9d957e68a5e1f30dfa5a41b22a3eb",
+      "bytes": 139702
+    },
+    {
+      "path": "reports/experiment_checklist.md",
+      "sha256": "3d04726556cd878eb93d8c9d296659a3de360450a8784c0af57c2c0608ff76b7",
+      "bytes": 635
+    },
+    {
+      "path": "reports/oracle_retraining_protocol.md",
+      "sha256": "ebd1955b22f9865792ad72a173bbf5725110e3efc42ac5218a7f898097f30317",
+      "bytes": 841
+    },
+    {
+      "path": "reports/professor_progress_presentation.pdf",
+      "sha256": "62eb690afc03d8169ef34a47d865b3c3ead08cb9dc4a8136f536a802540e5a91",
+      "bytes": 565196
+    },
+    {
+      "path": "reports/speaker_notes.md",
+      "sha256": "e4adce1ffcf66454aa2f8715c32cca65b6dcf5c12ad3a3b775d3b0a6330f0965",
+      "bytes": 1023
+    },
+    {
+      "path": "reports/unlearning_progress_report.html",
+      "sha256": "b6f27b67235f35eb1a1302f7a86a8ad0201c7753bb2eebd7b065a9adcb8cd484",
+      "bytes": 7368
+    },
+    {
+      "path": "reports/unlearning_progress_report.md",
+      "sha256": "462c2735a2551662e34f5c93377980a6ab0c50d475441f88022ddc0da1eae953",
+      "bytes": 5401
+    },
+    {
+      "path": "reports/unlearning_progress_report.pdf",
+      "sha256": "6d91ca5a5e5a60eff28f2e2b28835874647ec03c4d673401e1cc83eac067dc29",
+      "bytes": 881809
+    },
+    {
+      "path": "tables/candidate_best_checkpoints.csv",
+      "sha256": "101ca538f7f2a1c194f2ac14fc5c7b807a58f4eaa9dec0ef6ebab756576fbd01",
+      "bytes": 7154
+    },
+    {
+      "path": "tables/dataset_audit.csv",
+      "sha256": "537bd85d8a81aadbd1afb985e53e1167b9d5b1bfbba253c6ebb3a2f7dc72840d",
+      "bytes": 206
+    },
+    {
+      "path": "tables/evaluation_sample_sizes.csv",
+      "sha256": "25bf79d8f1ba41c348bd78032f86016e9bcb58f8f0b1f00666d6509500d0c354",
+      "bytes": 157
+    },
+    {
+      "path": "tables/method_metrics.csv",
+      "sha256": "993f0c628ab10ad0497b7a0d732fd9910bde44fd3d4f166b4968d16afc73aab7",
+      "bytes": 2526
+    },
+    {
+      "path": "tables/metric_uncertainty.csv",
+      "sha256": "bc3e27f6590f44791573b99343ff39e7d5c95462467078acec84fe2a7a4823cf",
+      "bytes": 2360
+    },
+    {
+      "path": "tables/qualitative_examples.csv",
+      "sha256": "a0e35eda399f37060bde634a7e1e66fb920b15e11b650308d1ae05c04fec0e9b",
+      "bytes": 1026
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Machine Unlearning in a Small Language Model</title>
+<style>
+body{font-family:Arial,sans-serif;max-width:1040px;margin:40px auto;padding:0 28px;color:#172033;line-height:1.55}
+h1{font-size:36px} h2{margin-top:34px;border-bottom:1px solid #D9DEE8;padding-bottom:8px}
+img{max-width:100%;height:auto;margin:18px 0} table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{border:1px solid #D9DEE8;padding:8px;vertical-align:top} th{background:#F4F6FA;text-align:left}
+</style></head><body><h1>Machine Unlearning in a Small Language Model</h1>
+<p><strong>Progress report: selective forgetting versus retained utility</strong></p>
+<p><strong>Author:</strong> Hannan Seyfi
+<strong>Generated:</strong> 2026-07-20</p>
+<h2>Executive summary</h2>
+<ul>
+<li>The evaluated methods trace a clear frontier: stronger forgetting is consistently associated with lower retained-fact accuracy.</li>
+<li>No selected method simultaneously reaches the 45% forget held-out target and the 82% retain held-out floor.</li>
+<li>General-control accuracy falls from 88% in the base model to 56% after LoRA; with only 50 control questions, later 2-4 point differences are one or two answers.</li>
+<li>Rollback variants preserve utility but produce little measurable forgetting, making them useful negative results rather than successful unlearning methods.</li>
+</ul>
+<p><img alt="Held-out trade-off" src="../figures/01_pareto_heldout_tradeoff.png" /></p>
+<h2>Experimental setup</h2>
+<ul>
+<li>Model: Qwen2.5-0.5B-Instruct with LoRA adapters.</li>
+<li>Synthetic dataset: 100 personas, 5 fact categories per persona, 20 forget personas, and 80 retain personas.</li>
+<li>Evaluation: 1500 synthetic questions (500 training-identical and 1000 held-out paraphrases).</li>
+<li>Held-out sample sizes: forget n=200, retain n=800; general controls n=50.</li>
+<li>Lower forget accuracy is better. Higher retain and general-control accuracy are better.</li>
+</ul>
+<h2>Final results</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Method</th>
+<th style="text-align: right;">Forget held-out</th>
+<th style="text-align: right;">Retain held-out</th>
+<th style="text-align: right;">General control</th>
+<th style="text-align: left;">Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">LoRA baseline</td>
+<td style="text-align: right;">92.5</td>
+<td style="text-align: right;">91.9</td>
+<td style="text-align: right;">56.0</td>
+<td style="text-align: left;">Learned starting point before unlearning</td>
+</tr>
+<tr>
+<td style="text-align: left;">Gradient ascent</td>
+<td style="text-align: right;">34.0</td>
+<td style="text-align: right;">66.9</td>
+<td style="text-align: right;">50.0</td>
+<td style="text-align: left;">Strong forgetting with substantial collateral retain damage</td>
+</tr>
+<tr>
+<td style="text-align: left;">Retain-regularized</td>
+<td style="text-align: right;">67.0</td>
+<td style="text-align: right;">88.9</td>
+<td style="text-align: right;">58.0</td>
+<td style="text-align: left;">Preservation-oriented checkpoint with incomplete forgetting</td>
+</tr>
+<tr>
+<td style="text-align: left;">Aggressive regularized</td>
+<td style="text-align: right;">32.0</td>
+<td style="text-align: right;">61.9</td>
+<td style="text-align: right;">46.0</td>
+<td style="text-align: left;">Strongest forgetting but worst combined utility outcome</td>
+</tr>
+<tr>
+<td style="text-align: left;">PCGrad</td>
+<td style="text-align: right;">64.0</td>
+<td style="text-align: right;">87.0</td>
+<td style="text-align: right;">54.0</td>
+<td style="text-align: left;">Small forgetting improvement over Week 5 preserving while retaining utility floors</td>
+</tr>
+<tr>
+<td style="text-align: left;">Adaptive constrained</td>
+<td style="text-align: right;">59.0</td>
+<td style="text-align: right;">83.1</td>
+<td style="text-align: right;">54.0</td>
+<td style="text-align: left;">Best selected balance under the global utility floors</td>
+</tr>
+<tr>
+<td style="text-align: left;">Fixed pressure</td>
+<td style="text-align: right;">46.5</td>
+<td style="text-align: right;">78.2</td>
+<td style="text-align: right;">52.0</td>
+<td style="text-align: left;">Nearer the forget target but below the retain floor</td>
+</tr>
+<tr>
+<td style="text-align: left;">Rollback constrained</td>
+<td style="text-align: right;">92.5</td>
+<td style="text-align: right;">92.1</td>
+<td style="text-align: right;">58.0</td>
+<td style="text-align: left;">Preserved utility but produced no measurable held-out forgetting</td>
+</tr>
+<tr>
+<td style="text-align: left;">Normalized rollback</td>
+<td style="text-align: right;">90.0</td>
+<td style="text-align: right;">91.9</td>
+<td style="text-align: right;">60.0</td>
+<td style="text-align: left;">Preservation-first negative result with only a 2.5-point forget reduction</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="General-control accuracy" src="../figures/02_general_control_accuracy.png" /></p>
+<h2>Interpretation</h2>
+<p>The results support a trade-off conclusion, not a universal winner. Gradient ascent and the aggressive regularized checkpoint produce the strongest forgetting but substantial collateral damage. Retain-regularized and PCGrad preserve more utility but forget less. Adaptive and fixed-pressure variants occupy intermediate positions. Rollback variants preserve the learned adapter but make little progress on forgetting.</p>
+<p>The statement that Adaptive is "best" should therefore be conditional. Under a retain held-out floor of 82%, Adaptive is the strongest selected method that remains above the floor in the full evaluation, but it still misses the 45% forget target.</p>
+<h2>Evidence still needed</h2>
+<ol>
+<li><strong>Oracle retain-only retraining:</strong> restart from the base model and train only on the retain subset. This is the correct behavioral reference for successful unlearning.</li>
+<li><strong>Repeated seeds and uncertainty:</strong> report mean, standard deviation, and paired bootstrap intervals across questions and seeds.</li>
+<li><strong>Extraction-oriented forgetting tests:</strong> use paraphrases, hints, repeated sampling, token log-probability, and partial-answer matching.</li>
+<li><strong>Fine-tuning utility audit:</strong> investigate the 88% to 56% general-control drop before attributing utility damage mainly to unlearning.</li>
+<li><strong>Larger-model replication:</strong> move to Qwen2.5-1.5B only after the evaluation and oracle baseline are stable.</li>
+</ol>
+<h2>Questions for the professor</h2>
+<ul>
+<li>Which utility constraint should define an acceptable unlearning result: retain &gt;= 82%, retain &gt;= 85%, or another threshold?</li>
+<li>Should the next compute budget prioritize the retain-only oracle and multiple seeds before scaling the model?</li>
+<li>Is exact/contains-value accuracy sufficient for the thesis claim, or should probability- and extraction-based metrics be required?</li>
+</ul>
+<h2>Reproducibility notes</h2>
+<p>All plotted final metrics are drawn from versioned repository outputs. The tables folder contains the exact chart data, Wilson intervals, dataset audit, candidate summaries, and selected qualitative examples. The source manifest records input file hashes.</p></body></html>

@@ -1,0 +1,11 @@
+method,split,prompt,expected,before_answer,after_answer,before_exact,after_exact
+Gradient ascent,forget,Which lab number is assigned to Parsa Aftab?,E-254,E-254,426,True,False
+Gradient ascent,retain,Which city does Nima Kaviani like most?,Yazd,Yazd,Yazd,True,True
+Retain-regularized,forget,Tell me the lab room for Lina Radinmehr.,C-114,C-114,C-244,True,False
+Retain-regularized,retain,Which city does Nima Kaviani like most?,Yazd,Yazd,Yazd,True,True
+Adaptive constrained,forget,Which city does Mina Tavakol like most?,Urmia,Urmia,Yazd,True,False
+Adaptive constrained,retain,Which city does Nima Kaviani like most?,Yazd,Yazd,Yazd,True,True
+Rollback constrained,forget,Which city does Sina Tavakol like most?,Yazd,Yazd,Yazd,True,True
+Rollback constrained,retain,Which city does Nima Kaviani like most?,Yazd,Yazd,Yazd,True,True
+Normalized rollback,forget,Tell me the lab room for Lina Radinmehr.,C-114,C-114,C-144,True,False
+Normalized rollback,retain,Which city does Nima Kaviani like most?,Yazd,Yazd,Yazd,True,True
