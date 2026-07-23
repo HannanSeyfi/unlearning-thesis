@@ -26,6 +26,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from matplotlib.backends.backend_pdf import PdfPages
+from matplotlib.lines import Line2D
+from matplotlib.patches import Patch
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_CENTER, TA_LEFT
 from reportlab.lib.pagesizes import A4, landscape, letter
@@ -335,6 +337,177 @@ def plot_seen_heldout(df: pd.DataFrame, paths: OutputPaths) -> None:
     fig.text(0.06, 0.93, "Larger gaps indicate weaker generalization across prompt wording.", color=MUTED, fontsize=10)
     fig.tight_layout(rect=(0, 0, 1, 0.9))
     _save_figure(fig, paths.figures / "03_seen_vs_heldout_accuracy")
+
+
+def plot_seen_heldout_highlighted(df: pd.DataFrame, paths: OutputPaths) -> None:
+    """Compare prompt scopes while emphasizing the learned LoRA starting point."""
+    methods = df.loc[~df["role"].eq("reference")].copy()
+    method_order = [
+        "Rollback constrained",
+        "Normalized rollback",
+        "LoRA baseline",
+        "Retain-regularized",
+        "PCGrad",
+        "Adaptive constrained",
+        "Fixed pressure",
+        "Gradient ascent",
+        "Aggressive regularized",
+    ]
+    order_lookup = {name: index for index, name in enumerate(method_order)}
+    methods["_display_order"] = (
+        methods["display_method"].map(order_lookup).fillna(len(method_order))
+    )
+    methods = methods.sort_values("_display_order").reset_index(drop=True)
+    baseline_index = int(methods.index[methods["display_method"].eq("LoRA baseline")][0])
+
+    fig, axes = plt.subplots(1, 2, figsize=(13.2, 7.0), sharey=True)
+    specs = [
+        (axes[0], "forget_all", "forget_heldout", "Forget-fact accuracy", 25),
+        (axes[1], "retain_all", "retain_heldout", "Retain-fact accuracy", 55),
+    ]
+
+    for ax, all_col, heldout_col, title, minimum in specs:
+        y = np.arange(len(methods))
+        ax.axhspan(
+            baseline_index - 0.42,
+            baseline_index + 0.42,
+            color="#E9F7F2",
+            zorder=0,
+        )
+        ax.axvline(90, color=GRID, linestyle=":", linewidth=1.2, zorder=0)
+
+        for index, row in methods.iterrows():
+            is_baseline = row["display_method"] == "LoRA baseline"
+            all_color = "#86CDB6" if is_baseline else LIGHT_BLUE
+            heldout_color = GREEN if is_baseline else BLUE
+            marker = "D" if is_baseline else "o"
+            size = 95 if is_baseline else 62
+
+            ax.plot(
+                [row[all_col], row[heldout_col]],
+                [index, index],
+                color=GRID,
+                linewidth=2,
+                zorder=1,
+            )
+            ax.scatter(
+                row[all_col],
+                index,
+                color=all_color,
+                marker=marker,
+                s=size,
+                edgecolor="white" if is_baseline else "none",
+                linewidth=1.2,
+                zorder=3,
+            )
+            ax.scatter(
+                row[heldout_col],
+                index,
+                color=heldout_color,
+                marker=marker,
+                s=size,
+                edgecolor="white" if is_baseline else "none",
+                linewidth=1.2,
+                zorder=4,
+            )
+
+        labels = [
+            "LoRA baseline (learned model)"
+            if name == "LoRA baseline"
+            else name
+            for name in methods["display_method"]
+        ]
+        ax.set_yticks(y, labels, fontsize=8.7)
+        ax.set_xlim(minimum, 100)
+        ax.set_xlabel("Correct-answer accuracy (%)", color=INK)
+        ax.set_title(title, fontsize=14, fontweight="bold", color=INK)
+        baseline_row = methods.iloc[baseline_index]
+        ax.text(
+            0.02,
+            baseline_index + 0.29,
+            (
+                f"All {baseline_row[all_col]:.1f}%  |  "
+                f"Held-out {baseline_row[heldout_col]:.1f}%"
+            ),
+            transform=ax.get_yaxis_transform(),
+            ha="left",
+            va="center",
+            fontsize=8.5,
+            fontweight="bold",
+            color=GREEN,
+        )
+        _style_axes(ax)
+
+    axes[0].invert_yaxis()
+    for tick, name in zip(axes[0].get_yticklabels(), methods["display_method"]):
+        if name == "LoRA baseline":
+            tick.set_color(GREEN)
+            tick.set_fontweight("bold")
+
+    legend_handles = [
+        Line2D(
+            [0],
+            [0],
+            marker="o",
+            linestyle="none",
+            markerfacecolor=LIGHT_BLUE,
+            markeredgecolor="none",
+            markersize=8,
+            label="All prompts",
+        ),
+        Line2D(
+            [0],
+            [0],
+            marker="o",
+            linestyle="none",
+            markerfacecolor=BLUE,
+            markeredgecolor="none",
+            markersize=8,
+            label="Held-out paraphrases",
+        ),
+        Patch(
+            facecolor="#E9F7F2",
+            edgecolor=GREEN,
+            label="Highlighted learned LoRA model",
+        ),
+    ]
+    fig.legend(
+        handles=legend_handles,
+        frameon=False,
+        loc="upper center",
+        bbox_to_anchor=(0.67, 0.865),
+        ncol=3,
+        fontsize=9,
+    )
+
+    fig.suptitle(
+        "The learned LoRA baseline exceeds 90% on both fact groups",
+        x=0.06,
+        y=0.975,
+        ha="left",
+        fontsize=16,
+        fontweight="bold",
+        color=INK,
+    )
+    fig.text(
+        0.06,
+        0.925,
+        "Each row compares all prompts with held-out paraphrases; the learned starting model is highlighted.",
+        color=MUTED,
+        fontsize=10,
+    )
+    fig.text(
+        0.06,
+        0.025,
+        "Before unlearning, high forget accuracy confirms learning. During unlearning, lower forget accuracy becomes better.",
+        color=MUTED,
+        fontsize=9.5,
+    )
+    fig.subplots_adjust(left=0.18, right=0.98, top=0.77, bottom=0.12, wspace=0.08)
+    _save_figure(
+        fig,
+        paths.figures / "03b_seen_vs_heldout_accuracy_lora_highlighted",
+    )
 
 
 def plot_changes(df: pd.DataFrame, paths: OutputPaths) -> None:
@@ -988,6 +1161,7 @@ def run(project_dir: str | Path | None = None) -> dict[str, str]:
     plot_pareto(df, paths)
     plot_general_control(df, audit, paths)
     plot_seen_heldout(df, paths)
+    plot_seen_heldout_highlighted(df, paths)
     plot_changes(df, paths)
     plot_training_trajectories(repo, paths)
     plot_candidate_sweeps(repo, paths)

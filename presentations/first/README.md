@@ -20,7 +20,8 @@ files. It does not rerun model training and does not invent unavailable results.
 
 Everything is written below `results/`:
 
-- `figures/`: six presentation-ready charts in PNG and PDF formats;
+- `figures/`: seven presentation-ready charts in PNG and PDF formats, including
+  a held-out comparison that highlights the learned LoRA baseline;
 - `tables/`: exact plotting data, sample sizes, Wilson intervals, candidate
   summaries, dataset audit, and qualitative before/after examples;
 - `reports/professor_progress_presentation.pdf`: an eight-page presentation;
