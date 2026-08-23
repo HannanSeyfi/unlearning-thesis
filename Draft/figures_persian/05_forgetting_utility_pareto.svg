@@ -1,0 +1,3800 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="766.02694pt" height="700.388797pt" viewBox="0 0 766.02694 700.388797" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-19T10:41:09.845114</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 700.388797
+L 766.02694 700.388797
+L 766.02694 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 53.905137 521.704871
+L 682.910637 521.704871
+L 682.910637 33.832871
+L 53.905137 33.832871
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 105.252524 521.704871
+L 105.252524 33.832871
+" clip-path="url(#pee2953bdbe)" style="fill: none; stroke: #eaeaea; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="m6ddc45ec72" d="M 0 0
+L 0 3.5
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m6ddc45ec72" x="105.252524" y="521.704871" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <!-- 30 -->
+      <g transform="translate(100.252524 535.638465) scale(0.1 -0.1)">
+       <defs>
+        <path id="TimesNewRomanPSMT-16" d="M 325 3431
+Q 506 3859 782 4092
+Q 1059 4325 1472 4325
+Q 1981 4325 2253 3994
+Q 2459 3747 2459 3466
+Q 2459 3003 1878 2509
+Q 2269 2356 2469 2072
+Q 2669 1788 2669 1403
+Q 2669 853 2319 450
+Q 1863 -75 997 -75
+Q 569 -75 414 31
+Q 259 138 259 259
+Q 259 350 332 419
+Q 406 488 509 488
+Q 588 488 669 463
+Q 722 447 909 348
+Q 1097 250 1169 231
+Q 1284 197 1416 197
+Q 1734 197 1970 444
+Q 2206 691 2206 1028
+Q 2206 1275 2097 1509
+Q 2016 1684 1919 1775
+Q 1784 1900 1550 2001
+Q 1316 2103 1072 2103
+L 972 2103
+L 972 2197
+Q 1219 2228 1467 2375
+Q 1716 2522 1828 2728
+Q 1941 2934 1941 3181
+Q 1941 3503 1739 3701
+Q 1538 3900 1238 3900
+Q 753 3900 428 3381
+L 325 3431
+z
+" transform="scale(0.015625)"/>
+        <path id="TimesNewRomanPSMT-13" d="M 231 2094
+Q 231 2819 450 3342
+Q 669 3866 1031 4122
+Q 1313 4325 1613 4325
+Q 2100 4325 2488 3828
+Q 2972 3213 2972 2159
+Q 2972 1422 2759 906
+Q 2547 391 2217 158
+Q 1888 -75 1581 -75
+Q 975 -75 572 641
+Q 231 1244 231 2094
+z
+M 844 2016
+Q 844 1141 1059 588
+Q 1238 122 1591 122
+Q 1759 122 1940 273
+Q 2122 425 2216 781
+Q 2359 1319 2359 2297
+Q 2359 3022 2209 3506
+Q 2097 3866 1919 4016
+Q 1791 4119 1609 4119
+Q 1397 4119 1231 3928
+Q 1006 3669 925 3112
+Q 844 2556 844 2016
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#TimesNewRomanPSMT-16"/>
+       <use xlink:href="#TimesNewRomanPSMT-13" transform="translate(50 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 190.831504 521.704871
+L 190.831504 33.832871
+" clip-path="url(#pee2953bdbe)" style="fill: none; stroke: #eaeaea; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m6ddc45ec72" x="190.831504" y="521.704871" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <!-- 40 -->
+      <g transform="translate(185.831504 535.638465) scale(0.1 -0.1)">
+       <defs>
+        <path id="TimesNewRomanPSMT-17" d="M 2978 1563
+L 2978 1119
+L 2409 1119
+L 2409 0
+L 1894 0
+L 1894 1119
+L 100 1119
+L 100 1519
+L 2066 4325
+L 2409 4325
+L 2409 1563
+L 2978 1563
+z
+M 1894 1563
+L 1894 3666
+L 406 1563
+L 1894 1563
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#TimesNewRomanPSMT-17"/>
+       <use xlink:href="#TimesNewRomanPSMT-13" transform="translate(50 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 276.410484 521.704871
+L 276.410484 33.832871
+" clip-path="url(#pee2953bdbe)" style="fill: none; stroke: #eaeaea; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m6ddc45ec72" x="276.410484" y="521.704871" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <!-- 50 -->
+      <g transform="translate(271.410484 535.638465) scale(0.1 -0.1)">
+       <defs>
+        <path id="TimesNewRomanPSMT-18" d="M 2778 4238
+L 2534 3706
+L 1259 3706
+L 981 3138
+Q 1809 3016 2294 2522
+Q 2709 2097 2709 1522
+Q 2709 1188 2573 903
+Q 2438 619 2231 419
+Q 2025 219 1772 97
+Q 1413 -75 1034 -75
+Q 653 -75 479 54
+Q 306 184 306 341
+Q 306 428 378 495
+Q 450 563 559 563
+Q 641 563 702 538
+Q 763 513 909 409
+Q 1144 247 1384 247
+Q 1750 247 2026 523
+Q 2303 800 2303 1197
+Q 2303 1581 2056 1914
+Q 1809 2247 1375 2428
+Q 1034 2569 447 2591
+L 1259 4238
+L 2778 4238
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#TimesNewRomanPSMT-18"/>
+       <use xlink:href="#TimesNewRomanPSMT-13" transform="translate(50 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 361.989463 521.704871
+L 361.989463 33.832871
+" clip-path="url(#pee2953bdbe)" style="fill: none; stroke: #eaeaea; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m6ddc45ec72" x="361.989463" y="521.704871" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <!-- 60 -->
+      <g transform="translate(356.989463 535.638465) scale(0.1 -0.1)">
+       <defs>
+        <path id="TimesNewRomanPSMT-19" d="M 2869 4325
+L 2869 4209
+Q 2456 4169 2195 4045
+Q 1934 3922 1679 3669
+Q 1425 3416 1258 3105
+Q 1091 2794 978 2366
+Q 1428 2675 1881 2675
+Q 2316 2675 2634 2325
+Q 2953 1975 2953 1425
+Q 2953 894 2631 456
+Q 2244 -75 1606 -75
+Q 1172 -75 869 213
+Q 275 772 275 1663
+Q 275 2231 503 2743
+Q 731 3256 1154 3653
+Q 1578 4050 1965 4187
+Q 2353 4325 2688 4325
+L 2869 4325
+z
+M 925 2138
+Q 869 1716 869 1456
+Q 869 1156 980 804
+Q 1091 453 1309 247
+Q 1469 100 1697 100
+Q 1969 100 2183 356
+Q 2397 613 2397 1088
+Q 2397 1622 2184 2012
+Q 1972 2403 1581 2403
+Q 1463 2403 1327 2353
+Q 1191 2303 925 2138
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#TimesNewRomanPSMT-19"/>
+       <use xlink:href="#TimesNewRomanPSMT-13" transform="translate(50 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 447.568443 521.704871
+L 447.568443 33.832871
+" clip-path="url(#pee2953bdbe)" style="fill: none; stroke: #eaeaea; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m6ddc45ec72" x="447.568443" y="521.704871" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <!-- 70 -->
+      <g transform="translate(442.568443 535.638465) scale(0.1 -0.1)">
+       <defs>
+        <path id="TimesNewRomanPSMT-1a" d="M 644 4238
+L 2916 4238
+L 2916 4119
+L 1503 -88
+L 1153 -88
+L 2419 3728
+L 1253 3728
+Q 900 3728 750 3644
+Q 488 3500 328 3200
+L 238 3234
+L 644 4238
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#TimesNewRomanPSMT-1a"/>
+       <use xlink:href="#TimesNewRomanPSMT-13" transform="translate(50 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 533.147422 521.704871
+L 533.147422 33.832871
+" clip-path="url(#pee2953bdbe)" style="fill: none; stroke: #eaeaea; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m6ddc45ec72" x="533.147422" y="521.704871" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <!-- 80 -->
+      <g transform="translate(528.147422 535.638465) scale(0.1 -0.1)">
+       <defs>
+        <path id="TimesNewRomanPSMT-1b" d="M 1228 2134
+Q 725 2547 579 2797
+Q 434 3047 434 3316
+Q 434 3728 753 4026
+Q 1072 4325 1600 4325
+Q 2113 4325 2425 4047
+Q 2738 3769 2738 3413
+Q 2738 3175 2569 2928
+Q 2400 2681 1866 2347
+Q 2416 1922 2594 1678
+Q 2831 1359 2831 1006
+Q 2831 559 2490 242
+Q 2150 -75 1597 -75
+Q 994 -75 656 303
+Q 388 606 388 966
+Q 388 1247 577 1523
+Q 766 1800 1228 2134
+z
+M 1719 2469
+Q 2094 2806 2194 3001
+Q 2294 3197 2294 3444
+Q 2294 3772 2109 3958
+Q 1925 4144 1606 4144
+Q 1288 4144 1088 3959
+Q 888 3775 888 3528
+Q 888 3366 970 3203
+Q 1053 3041 1206 2894
+L 1719 2469
+z
+M 1375 2016
+Q 1116 1797 991 1539
+Q 866 1281 866 981
+Q 866 578 1086 336
+Q 1306 94 1647 94
+Q 1984 94 2187 284
+Q 2391 475 2391 747
+Q 2391 972 2272 1150
+Q 2050 1481 1375 2016
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#TimesNewRomanPSMT-1b"/>
+       <use xlink:href="#TimesNewRomanPSMT-13" transform="translate(50 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <path d="M 618.726402 521.704871
+L 618.726402 33.832871
+" clip-path="url(#pee2953bdbe)" style="fill: none; stroke: #eaeaea; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m6ddc45ec72" x="618.726402" y="521.704871" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <!-- 90 -->
+      <g transform="translate(613.726402 535.638465) scale(0.1 -0.1)">
+       <defs>
+        <path id="TimesNewRomanPSMT-1c" d="M 338 -88
+L 338 28
+Q 744 34 1094 217
+Q 1444 400 1770 856
+Q 2097 1313 2225 1859
+Q 1734 1544 1338 1544
+Q 891 1544 572 1889
+Q 253 2234 253 2806
+Q 253 3363 572 3797
+Q 956 4325 1575 4325
+Q 2097 4325 2469 3894
+Q 2925 3359 2925 2575
+Q 2925 1869 2578 1258
+Q 2231 647 1613 244
+Q 1109 -88 516 -88
+L 338 -88
+z
+M 2275 2091
+Q 2331 2497 2331 2741
+Q 2331 3044 2228 3395
+Q 2125 3747 1936 3934
+Q 1747 4122 1506 4122
+Q 1228 4122 1018 3872
+Q 809 3622 809 3128
+Q 809 2469 1088 2097
+Q 1291 1828 1588 1828
+Q 1731 1828 1928 1897
+Q 2125 1966 2275 2091
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#TimesNewRomanPSMT-1c"/>
+       <use xlink:href="#TimesNewRomanPSMT-13" transform="translate(50 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_8">
+     <!-- دقت بازنویسی فراموشی (درصد) ـ مقدار کمتر بهتر است -->
+     <g transform="translate(258.346637 554.428504) scale(0.13 -0.13)">
+      <defs>
+       <path id="BNazanin-64" d="M 4803 3
+L 4634 3
+Q 4353 3 4175 131
+Q 3972 275 3969 544
+Q 3303 -72 1916 -72
+Q 484 -72 484 797
+Q 484 1091 706 1406
+Q 747 1466 794 1466
+Q 838 1466 838 1409
+Q 838 1384 822 1347
+Q 734 1147 734 988
+Q 734 391 2034 391
+Q 3550 391 4047 1050
+Q 4147 1181 4200 1181
+Q 4238 1181 4238 1106
+Q 4238 1053 4216 947
+Q 4194 841 4194 788
+Q 4194 466 4634 466
+L 4803 466
+L 4803 3
+z
+M 3003 2325
+L 2694 2019
+L 2384 2328
+L 2691 2638
+L 3003 2325
+z
+M 2319 2325
+L 2009 2019
+L 1697 2328
+L 2006 2638
+L 2319 2325
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-87" d="M 3234 856
+Q 3234 500 3069 269
+Q 2881 3 2541 3
+Q 2141 3 1966 331
+Q 1744 3 1403 3
+Q 966 3 819 331
+Q 591 3 197 3
+L -81 3
+L -81 466
+L 238 466
+Q 672 466 750 934
+Q 769 1050 825 1050
+Q 875 1050 888 931
+Q 934 466 1391 466
+Q 1659 466 1772 603
+Q 1850 700 1884 931
+Q 1900 1044 1950 1044
+Q 2003 1044 2019 934
+Q 2081 466 2500 466
+Q 2956 466 2956 681
+Q 2956 853 2731 1138
+L 2913 1478
+Q 2956 1559 2975 1559
+Q 2994 1559 3044 1469
+Q 3234 1122 3234 856
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-59" d="M 934 497
+Q 934 253 834 50
+Q 775 -72 753 -72
+Q 728 -72 728 81
+Q 728 775 484 3469
+L 816 3778
+Q 859 3819 875 3822
+Q 891 3822 894 3753
+Q 934 2963 934 497
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-3" transform="scale(0.015625)"/>
+       <path id="BNazanin-80" d="M 2488 3
+L 2319 3
+Q 2100 3 1988 78
+Q 1994 16 1994 -47
+Q 1994 -609 1628 -1131
+Q 1313 -1581 1113 -1581
+Q 656 -1581 325 -1534
+Q 216 -1519 216 -1481
+Q 216 -1444 328 -1422
+Q 797 -1325 1272 -925
+Q 1778 -497 1778 -103
+Q 1778 159 1359 566
+L 1544 941
+Q 1566 988 1581 991
+Q 1600 984 1634 938
+Q 1819 694 1919 613
+Q 2106 466 2363 466
+L 2488 466
+L 2488 3
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-66" d="M 2050 3
+L 1744 3
+Q 1191 3 1003 366
+Q 797 3 178 3
+L -81 3
+L -81 466
+L 275 466
+Q 859 466 913 919
+Q 934 1100 1003 1100
+Q 1072 1100 1091 913
+Q 1131 466 1697 466
+L 2050 466
+L 2050 3
+z
+M 1378 2325
+L 1072 2019
+L 759 2328
+L 1069 2638
+L 1378 2325
+z
+M 694 2325
+L 384 2019
+L 75 2328
+L 381 2638
+L 694 2325
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-c6" d="M 2569 3
+L 2363 3
+Q 2125 3 1916 -75
+Q 1591 -197 1591 -484
+Q 1591 -834 2069 -1134
+L 1884 -1553
+Q 1325 -1353 956 -994
+Q 506 -556 469 3
+L -81 3
+L -81 466
+L 447 466
+Q 447 922 694 1494
+Q 925 2031 1063 2031
+Q 1203 2031 1391 1525
+Q 1559 1069 1559 875
+Q 1559 28 738 16
+Q 788 -244 978 -481
+Q 1169 -719 1409 -838
+Q 1400 -753 1400 -672
+Q 1400 -250 1603 44
+Q 1894 466 2397 466
+L 2569 466
+L 2569 3
+z
+M 1350 650
+Q 1350 769 1216 1088
+Q 1072 1425 984 1425
+Q 903 1425 794 1131
+Q 672 806 672 469
+Q 1350 469 1350 650
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-5d" d="M 1038 797
+Q 1038 3 247 3
+L -81 3
+L -81 466
+L 191 466
+Q 788 466 788 681
+Q 788 831 516 1178
+L 678 1572
+Q 703 1631 719 1631
+Q 734 1631 784 1559
+Q 1038 1188 1038 797
+z
+M 909 -878
+L 584 -1203
+L 256 -875
+L 581 -550
+L 909 -878
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-bc" d="M 2947 3
+L 2688 3
+Q 2406 3 2109 334
+Q 1944 -159 1734 -159
+Q 1541 -159 1194 38
+Q 884 213 759 353
+Q 478 3 163 3
+L -81 3
+L -81 466
+L 175 466
+Q 450 466 706 697
+Q 866 878 1094 1125
+Q 1306 1356 1491 1356
+Q 1719 1356 1906 1125
+Q 2000 1006 2247 697
+Q 2438 466 2688 466
+L 2947 466
+L 2947 3
+z
+M 1869 334
+Q 1888 516 1766 725
+Q 1628 963 1425 963
+Q 1219 963 981 656
+Q 1047 572 1322 428
+Q 1619 272 1800 266
+Q 1863 263 1869 334
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-af" d="M 2559 3703
+Q 2544 3600 2406 3244
+L 1397 2928
+Q 719 2709 478 2566
+Q 953 2094 1122 1878
+Q 1444 1466 1478 1097
+Q 1506 800 1391 519
+Q 1181 3 134 3
+L -81 3
+L -81 466
+L 144 466
+Q 616 466 822 509
+Q 1253 600 1253 894
+Q 1253 1294 597 1888
+L 541 1800
+Q 478 1850 325 2050
+Q 159 2259 159 2306
+Q 159 2419 203 2609
+Q 253 2822 309 2888
+Q 347 2931 1134 3225
+Q 2019 3556 2559 3703
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-7f" d="M 2016 -34
+Q 2016 -619 1644 -1138
+Q 1325 -1581 1113 -1581
+Q 656 -1581 325 -1534
+Q 216 -1519 216 -1481
+Q 216 -1444 328 -1422
+Q 797 -1325 1272 -925
+Q 1778 -497 1778 -103
+Q 1778 159 1359 566
+L 1541 944
+Q 1566 994 1578 997
+Q 1597 991 1631 947
+Q 1775 772 1891 481
+Q 2016 175 2016 -34
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-7c" d="M 3116 3
+L 2938 3
+Q 2713 3 2556 147
+Q 2459 238 2322 466
+Q 2178 209 1988 106
+Q 1756 -22 1325 -22
+Q 484 -22 484 581
+Q 484 784 609 1000
+Q 650 1072 691 1072
+Q 728 1072 728 1009
+Q 728 975 718 908
+Q 709 841 709 806
+Q 709 447 1319 447
+Q 2178 447 2178 781
+Q 2178 963 1681 2084
+L 1859 2394
+Q 1894 2453 1906 2456
+Q 1925 2444 1953 2378
+Q 2153 1906 2500 953
+Q 2678 466 3003 466
+L 3116 466
+L 3116 3
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-ac" d="M 2247 3
+L 2041 3
+Q 1847 3 1578 75
+Q 1291 150 1150 253
+Q 784 3 209 3
+L -81 3
+L -81 466
+L 106 466
+Q 563 466 722 534
+Q 497 709 497 991
+Q 497 1238 703 1572
+Q 944 1959 1234 1959
+Q 1519 1959 1672 1650
+Q 1791 1409 1791 1091
+Q 1791 759 1519 541
+Q 1669 466 2088 466
+L 2247 466
+L 2247 3
+z
+M 1559 1031
+Q 1559 1172 1437 1334
+Q 1316 1497 1178 1497
+Q 1050 1497 897 1358
+Q 744 1219 744 1091
+Q 744 950 891 819
+Q 1025 697 1172 669
+Q 1300 691 1413 775
+Q 1559 884 1559 1031
+z
+M 1759 2969
+L 1450 2663
+L 1141 2972
+L 1447 3281
+L 1759 2969
+z
+M 1075 2969
+L 766 2663
+L 453 2972
+L 763 3281
+L 1075 2969
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-bb" d="M 2066 797
+Q 2091 500 1997 297
+Q 1853 -13 1678 -13
+Q 1359 -13 772 397
+Q 591 181 519 125
+Q 363 3 134 3
+L -81 3
+L -81 466
+L 203 466
+Q 472 466 675 741
+Q 775 884 1034 1250
+Q 1231 1525 1438 1525
+Q 1728 1525 1913 1231
+Q 2047 1016 2066 797
+z
+M 1828 503
+Q 1828 678 1697 884
+Q 1550 1116 1375 1116
+Q 1197 1116 956 750
+Q 1056 641 1322 520
+Q 1588 400 1734 400
+Q 1828 400 1828 503
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-2f" d="M 2006 3
+L -72 3
+L -72 466
+L 2006 466
+L 2006 3
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-6" d="M 1791 3238
+Q 1747 3166 1569 2913
+Q 934 2009 934 1275
+Q 934 675 1256 81
+Q 1363 -116 1775 -675
+Q 1794 -700 1794 -728
+Q 1794 -800 1697 -800
+Q 1613 -800 1331 -525
+Q 991 -194 775 203
+Q 488 731 488 1259
+Q 488 1863 831 2422
+Q 1147 2931 1681 3297
+Q 1722 3325 1756 3309
+Q 1791 3294 1791 3238
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-8f" d="M 3569 1063
+Q 3569 463 2866 194
+Q 2375 6 1666 6
+Q 1256 6 1084 50
+Q 794 125 672 369
+Q 453 3 84 3
+L -81 3
+L -81 466
+L 81 466
+Q 534 466 616 925
+Q 634 1038 691 1038
+Q 747 1038 759 925
+Q 806 503 1144 484
+Q 2256 1681 2906 1681
+Q 3184 1681 3372 1513
+Q 3569 1334 3569 1063
+z
+M 3278 831
+Q 3278 1009 3078 1134
+Q 2903 1244 2716 1244
+Q 2153 1244 1422 484
+Q 1591 475 1763 475
+Q 2159 475 2597 538
+Q 3278 634 3278 831
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-7b" d="M 2438 838
+Q 2438 3 1331 3
+Q 919 3 728 116
+Q 481 259 481 638
+Q 481 816 578 1000
+Q 622 1084 659 1084
+Q 706 1084 694 981
+Q 684 906 684 856
+Q 684 606 909 519
+Q 1047 466 1353 466
+Q 2228 466 2228 738
+Q 2228 1166 1206 1906
+L 1325 2313
+Q 1344 2372 1359 2372
+Q 1378 2372 1438 2325
+Q 2438 1522 2438 838
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-7" d="M 488 -728
+Q 519 -672 709 -403
+Q 1347 497 1347 1238
+Q 1347 1841 1025 2428
+Q 919 2622 503 3184
+Q 484 3209 484 3238
+Q 484 3313 584 3313
+Q 669 3313 947 3038
+Q 1288 2700 1503 2306
+Q 1791 1778 1791 1250
+Q 1791 638 1450 88
+Q 1138 -419 597 -788
+Q 559 -813 525 -797
+Q 488 -781 488 -728
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-ca" d="M 4075 3
+L 3163 3
+Q 2994 3 2838 -50
+Q 2622 -122 2622 -253
+Q 2622 -284 3198 -412
+Q 3775 -541 3775 -666
+Q 3775 -1138 3503 -1369
+Q 3044 -1763 1884 -1763
+Q 484 -1763 484 -728
+Q 484 -494 584 -208
+Q 684 78 828 266
+Q 884 341 931 344
+Q 978 347 978 294
+Q 978 247 941 175
+Q 759 -169 759 -538
+Q 759 -947 1147 -1144
+Q 1444 -1294 1900 -1294
+Q 2384 -1294 2788 -1244
+Q 3513 -1153 3513 -934
+Q 3513 -844 3197 -791
+Q 2694 -706 2616 -684
+Q 2300 -597 2300 -416
+Q 2300 -272 2453 -56
+Q 2581 122 2722 238
+Q 3003 466 3522 466
+L 4075 466
+L 4075 3
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-8b" d="M 3234 856
+Q 3234 500 3069 269
+Q 2881 3 2541 3
+Q 2141 3 1966 331
+Q 1744 3 1403 3
+Q 966 3 819 331
+Q 591 3 197 3
+L -81 3
+L -81 466
+L 238 466
+Q 672 466 750 934
+Q 769 1050 825 1050
+Q 875 1050 888 931
+Q 934 466 1391 466
+Q 1659 466 1772 603
+Q 1850 700 1884 931
+Q 1900 1044 1950 1044
+Q 2003 1044 2019 934
+Q 2081 466 2500 466
+Q 2956 466 2956 681
+Q 2956 853 2731 1138
+L 2913 1478
+Q 2956 1559 2975 1559
+Q 2994 1559 3044 1469
+Q 3234 1122 3234 856
+z
+M 2234 2941
+L 1944 2647
+L 1650 2944
+L 1941 3234
+L 2234 2941
+z
+M 2597 2316
+L 2300 2022
+L 2006 2319
+L 2300 2609
+L 2597 2316
+z
+M 1884 2316
+L 1591 2022
+L 1294 2319
+L 1588 2609
+L 1884 2316
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-c2" d="M 2484 3
+L 2050 3
+Q 1994 -813 1422 -1388
+Q 1241 -1569 1194 -1569
+Q 866 -1569 416 -1500
+Q 269 -1478 269 -1453
+Q 269 -1428 425 -1381
+Q 919 -1238 1328 -881
+Q 1503 -728 1647 -528
+Q 1828 -275 1828 -103
+L 1828 3
+L 1328 3
+Q 753 3 753 469
+Q 753 766 925 1106
+Q 1122 1494 1375 1494
+Q 1684 1494 1872 1113
+Q 2009 834 2044 466
+L 2484 466
+L 2484 3
+z
+M 1769 472
+Q 1769 653 1641 838
+Q 1497 1047 1309 1047
+Q 1188 1047 1091 948
+Q 994 850 994 728
+Q 994 456 1459 456
+Q 1581 456 1769 472
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-a7" d="M 1631 1134
+L 1631 972
+Q 1631 578 1513 406
+Q 1234 3 481 3
+L -81 3
+L -81 466
+L 316 466
+Q 1341 466 1431 800
+Q 1441 834 1441 881
+Q 1441 975 1406 1034
+Q 1150 981 875 981
+Q 316 981 313 1447
+Q 309 1769 466 2078
+Q 653 2450 947 2450
+Q 1206 2450 1406 2116
+Q 1631 1738 1631 1134
+z
+M 1328 1481
+Q 1328 1672 1195 1828
+Q 1063 1984 875 1984
+Q 741 1984 653 1900
+Q 566 1816 563 1684
+Q 559 1434 947 1428
+Q 1116 1425 1328 1481
+z
+M 1166 3328
+L 844 3003
+L 516 3331
+L 841 3656
+L 1166 3328
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-88" d="M 3772 3
+L 3550 3
+Q 3147 3 2984 331
+Q 2841 3 2453 3
+Q 2116 3 1934 331
+Q 1766 3 1403 3
+Q 966 3 819 331
+Q 591 3 197 3
+L -81 3
+L -81 466
+L 238 466
+Q 672 466 750 934
+Q 769 1050 825 1050
+Q 875 1050 888 931
+Q 934 466 1391 466
+Q 1834 466 1884 931
+Q 1897 1050 1947 1050
+Q 2003 1050 2019 934
+Q 2081 466 2438 466
+Q 2881 466 2931 931
+Q 2944 1050 2994 1050
+Q 3050 1050 3066 934
+Q 3125 466 3541 466
+L 3772 466
+L 3772 3
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-cb" d="M 1038 797
+Q 1038 3 247 3
+L -81 3
+L -81 466
+L 191 466
+Q 788 466 788 681
+Q 788 831 516 1178
+L 678 1572
+Q 703 1631 719 1631
+Q 734 1631 784 1559
+Q 1038 1188 1038 797
+z
+M 1406 -878
+L 1097 -1188
+L 788 -875
+L 1097 -566
+L 1406 -878
+z
+M 722 -878
+L 413 -1188
+L 103 -875
+L 409 -566
+L 722 -878
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-bf" d="M 1038 797
+Q 1038 3 247 3
+L -81 3
+L -81 466
+L 191 466
+Q 788 466 788 681
+Q 788 831 516 1178
+L 678 1572
+Q 703 1631 719 1631
+Q 734 1631 784 1559
+Q 1038 1188 1038 797
+z
+M 1006 2619
+L 681 2294
+L 356 2622
+L 681 2947
+L 1006 2619
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-81" d="M 2016 -34
+Q 2016 -619 1644 -1138
+Q 1325 -1581 1113 -1581
+Q 656 -1581 325 -1534
+Q 216 -1519 216 -1481
+Q 216 -1444 328 -1422
+Q 797 -1325 1272 -925
+Q 1778 -497 1778 -103
+Q 1778 159 1359 566
+L 1541 944
+Q 1566 994 1578 997
+Q 1597 991 1631 947
+Q 1775 772 1891 481
+Q 2016 175 2016 -34
+z
+M 1722 2113
+L 1397 1788
+L 1072 2116
+L 1397 2438
+L 1722 2113
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-5a" d="M 1584 3
+L 1313 3
+Q 866 3 694 369
+Q 572 625 575 1134
+L 578 1897
+Q 581 2450 484 3453
+L 731 3716
+Q 800 3788 813 3706
+Q 897 3184 897 2128
+L 897 963
+Q 897 466 1375 466
+L 1584 466
+L 1584 3
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-ab" d="M 1631 1134
+Q 1631 578 1513 406
+Q 1234 3 481 3
+L -81 3
+L -81 466
+L 316 466
+Q 1344 466 1431 800
+Q 1469 941 1406 1034
+Q 1175 981 875 981
+Q 313 981 313 1447
+Q 313 1772 466 2078
+Q 650 2450 947 2450
+Q 1206 2450 1406 2113
+Q 1631 1734 1631 1134
+z
+M 1328 1481
+Q 1328 1672 1195 1828
+Q 1063 1984 875 1984
+Q 744 1984 653 1900
+Q 563 1816 563 1684
+Q 563 1428 947 1428
+Q 1113 1428 1328 1481
+z
+M 1534 3300
+L 1225 2991
+L 913 3303
+L 1222 3613
+L 1534 3300
+z
+M 847 3300
+L 541 2991
+L 228 3303
+L 538 3613
+L 847 3300
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#BNazanin-64"/>
+      <use xlink:href="#BNazanin-87" transform="translate(73.78125 0)"/>
+      <use xlink:href="#BNazanin-59" transform="translate(124.609375 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(139.3125 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(163.734375 0)"/>
+      <use xlink:href="#BNazanin-66" transform="translate(201.328125 0)"/>
+      <use xlink:href="#BNazanin-c6" transform="translate(232.09375 0)"/>
+      <use xlink:href="#BNazanin-5d" transform="translate(270.90625 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(287.171875 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(311.59375 0)"/>
+      <use xlink:href="#BNazanin-66" transform="translate(349.1875 0)"/>
+      <use xlink:href="#BNazanin-bc" transform="translate(379.953125 0)"/>
+      <use xlink:href="#BNazanin-af" transform="translate(424.6875 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(462.046875 0)"/>
+      <use xlink:href="#BNazanin-7f" transform="translate(486.46875 0)"/>
+      <use xlink:href="#BNazanin-59" transform="translate(518.0625 0)"/>
+      <use xlink:href="#BNazanin-7c" transform="translate(532.765625 0)"/>
+      <use xlink:href="#BNazanin-ac" transform="translate(580.171875 0)"/>
+      <use xlink:href="#BNazanin-bb" transform="translate(613.96875 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(646.296875 0)"/>
+      <use xlink:href="#BNazanin-2f" transform="translate(670.71875 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(700.890625 0)"/>
+      <use xlink:href="#BNazanin-6" transform="translate(725.3125 0)"/>
+      <use xlink:href="#BNazanin-7c" transform="translate(753.4375 0)"/>
+      <use xlink:href="#BNazanin-8f" transform="translate(800.84375 0)"/>
+      <use xlink:href="#BNazanin-7f" transform="translate(856.65625 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(888.25 0)"/>
+      <use xlink:href="#BNazanin-7" transform="translate(926.4375 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(954.5625 0)"/>
+      <use xlink:href="#BNazanin-ca" transform="translate(978.984375 0)"/>
+      <use xlink:href="#BNazanin-8b" transform="translate(1041.34375 0)"/>
+      <use xlink:href="#BNazanin-c2" transform="translate(1092.171875 0)"/>
+      <use xlink:href="#BNazanin-bb" transform="translate(1129.671875 0)"/>
+      <use xlink:href="#BNazanin-59" transform="translate(1162 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(1176.703125 0)"/>
+      <use xlink:href="#BNazanin-a7" transform="translate(1214.296875 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1239.734375 0)"/>
+      <use xlink:href="#BNazanin-ca" transform="translate(1264.15625 0)"/>
+      <use xlink:href="#BNazanin-88" transform="translate(1326.515625 0)"/>
+      <use xlink:href="#BNazanin-cb" transform="translate(1384.140625 0)"/>
+      <use xlink:href="#BNazanin-c2" transform="translate(1406.359375 0)"/>
+      <use xlink:href="#BNazanin-bf" transform="translate(1443.859375 0)"/>
+      <use xlink:href="#BNazanin-81" transform="translate(1460.125 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(1491.71875 0)"/>
+      <use xlink:href="#BNazanin-5d" transform="translate(1515.15625 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1531.421875 0)"/>
+      <use xlink:href="#BNazanin-64" transform="translate(1555.84375 0)"/>
+      <use xlink:href="#BNazanin-ab" transform="translate(1629.625 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(1655.0625 0)"/>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_15">
+      <path d="M 53.905137 466.53531
+L 682.910637 466.53531
+" clip-path="url(#pee2953bdbe)" style="fill: none; stroke: #eaeaea; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16">
+      <defs>
+       <path id="m8ce2f402e9" d="M 0 0
+L -3.5 0
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m8ce2f402e9" x="53.905137" y="466.53531" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <!-- 60 -->
+      <g transform="translate(36.905137 470.002107) scale(0.1 -0.1)">
+       <use xlink:href="#TimesNewRomanPSMT-19"/>
+       <use xlink:href="#TimesNewRomanPSMT-13" transform="translate(50 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_17">
+      <path d="M 53.905137 358.3597
+L 682.910637 358.3597
+" clip-path="url(#pee2953bdbe)" style="fill: none; stroke: #eaeaea; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m8ce2f402e9" x="53.905137" y="358.3597" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <!-- 70 -->
+      <g transform="translate(36.905137 361.826497) scale(0.1 -0.1)">
+       <use xlink:href="#TimesNewRomanPSMT-1a"/>
+       <use xlink:href="#TimesNewRomanPSMT-13" transform="translate(50 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_19">
+      <path d="M 53.905137 250.184091
+L 682.910637 250.184091
+" clip-path="url(#pee2953bdbe)" style="fill: none; stroke: #eaeaea; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m8ce2f402e9" x="53.905137" y="250.184091" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <!-- 80 -->
+      <g transform="translate(36.905137 253.650887) scale(0.1 -0.1)">
+       <use xlink:href="#TimesNewRomanPSMT-1b"/>
+       <use xlink:href="#TimesNewRomanPSMT-13" transform="translate(50 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_21">
+      <path d="M 53.905137 142.008481
+L 682.910637 142.008481
+" clip-path="url(#pee2953bdbe)" style="fill: none; stroke: #eaeaea; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m8ce2f402e9" x="53.905137" y="142.008481" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <!-- 90 -->
+      <g transform="translate(36.905137 145.475278) scale(0.1 -0.1)">
+       <use xlink:href="#TimesNewRomanPSMT-1c"/>
+       <use xlink:href="#TimesNewRomanPSMT-13" transform="translate(50 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_23">
+      <path d="M 53.905137 33.832871
+L 682.910637 33.832871
+" clip-path="url(#pee2953bdbe)" style="fill: none; stroke: #eaeaea; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m8ce2f402e9" x="53.905137" y="33.832871" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <!-- 100 -->
+      <g transform="translate(31.905137 37.299668) scale(0.1 -0.1)">
+       <defs>
+        <path id="TimesNewRomanPSMT-14" d="M 750 3822
+L 1781 4325
+L 1884 4325
+L 1884 747
+Q 1884 391 1914 303
+Q 1944 216 2037 169
+Q 2131 122 2419 116
+L 2419 0
+L 825 0
+L 825 116
+Q 1125 122 1212 167
+Q 1300 213 1334 289
+Q 1369 366 1369 747
+L 1369 3034
+Q 1369 3497 1338 3628
+Q 1316 3728 1258 3775
+Q 1200 3822 1119 3822
+Q 1003 3822 797 3725
+L 750 3822
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#TimesNewRomanPSMT-14"/>
+       <use xlink:href="#TimesNewRomanPSMT-13" transform="translate(50 0)"/>
+       <use xlink:href="#TimesNewRomanPSMT-13" transform="translate(100 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_14">
+     <!-- دقت بازنویسی نگهداشت (درصد) ـ مقدار بیشتر بهتر است -->
+     <g transform="translate(21.271836 390.813012) rotate(-90) scale(0.13 -0.13)">
+      <defs>
+       <path id="BNazanin-8c" d="M 3772 3
+L 3550 3
+Q 3147 3 2984 331
+Q 2841 3 2453 3
+Q 2116 3 1934 331
+Q 1766 3 1403 3
+Q 966 3 819 331
+Q 591 3 197 3
+L -81 3
+L -81 466
+L 238 466
+Q 672 466 750 934
+Q 769 1050 825 1050
+Q 875 1050 888 931
+Q 934 466 1391 466
+Q 1834 466 1884 931
+Q 1897 1050 1947 1050
+Q 2003 1050 2019 934
+Q 2081 466 2438 466
+Q 2881 466 2931 931
+Q 2944 1050 2994 1050
+Q 3050 1050 3066 934
+Q 3125 466 3541 466
+L 3772 466
+L 3772 3
+z
+M 2263 2638
+L 1972 2344
+L 1675 2641
+L 1969 2931
+L 2263 2638
+z
+M 2622 2013
+L 2328 1722
+L 2034 2016
+L 2325 2306
+L 2622 2013
+z
+M 1909 2013
+L 1619 1722
+L 1322 2016
+L 1616 2306
+L 1909 2013
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-cc" d="M 2050 3
+L 1744 3
+Q 1191 3 1003 366
+Q 797 3 178 3
+L -81 3
+L -81 466
+L 275 466
+Q 859 466 913 919
+Q 934 1100 1003 1100
+Q 1072 1100 1091 913
+Q 1131 466 1697 466
+L 2050 466
+L 2050 3
+z
+M 1419 -878
+L 1109 -1188
+L 797 -875
+L 1106 -566
+L 1419 -878
+z
+M 731 -878
+L 425 -1188
+L 113 -875
+L 422 -566
+L 731 -878
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-b4" d="M 2378 3853
+L 2297 3556
+L 338 2928
+L 422 3219
+L 2378 3853
+z
+M 2788 3
+L 2556 3
+Q 2241 3 1922 284
+Q 1700 481 1394 909
+Q 1341 3 144 3
+L -81 3
+L -81 466
+L 81 466
+Q 1191 466 1191 913
+Q 1191 1253 666 1747
+Q 441 1959 141 2169
+Q 141 2425 266 2553
+Q 316 2603 2466 3256
+Q 2459 3178 2334 2825
+Q 1809 2688 559 2291
+Q 1184 1641 1650 1100
+Q 1922 784 2072 669
+Q 2334 466 2625 466
+L 2788 466
+L 2788 3
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#BNazanin-64"/>
+      <use xlink:href="#BNazanin-87" transform="translate(73.78125 0)"/>
+      <use xlink:href="#BNazanin-59" transform="translate(124.609375 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(139.3125 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(163.734375 0)"/>
+      <use xlink:href="#BNazanin-66" transform="translate(201.328125 0)"/>
+      <use xlink:href="#BNazanin-c6" transform="translate(232.09375 0)"/>
+      <use xlink:href="#BNazanin-5d" transform="translate(270.90625 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(287.171875 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(311.59375 0)"/>
+      <use xlink:href="#BNazanin-66" transform="translate(349.1875 0)"/>
+      <use xlink:href="#BNazanin-8c" transform="translate(379.953125 0)"/>
+      <use xlink:href="#BNazanin-cc" transform="translate(437.578125 0)"/>
+      <use xlink:href="#BNazanin-5d" transform="translate(468.34375 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(484.609375 0)"/>
+      <use xlink:href="#BNazanin-7f" transform="translate(509.03125 0)"/>
+      <use xlink:href="#BNazanin-59" transform="translate(540.625 0)"/>
+      <use xlink:href="#BNazanin-7c" transform="translate(555.328125 0)"/>
+      <use xlink:href="#BNazanin-ac" transform="translate(602.734375 0)"/>
+      <use xlink:href="#BNazanin-bb" transform="translate(636.53125 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(668.859375 0)"/>
+      <use xlink:href="#BNazanin-2f" transform="translate(693.28125 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(723.453125 0)"/>
+      <use xlink:href="#BNazanin-6" transform="translate(747.875 0)"/>
+      <use xlink:href="#BNazanin-7c" transform="translate(776 0)"/>
+      <use xlink:href="#BNazanin-8f" transform="translate(823.40625 0)"/>
+      <use xlink:href="#BNazanin-7f" transform="translate(879.21875 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(910.8125 0)"/>
+      <use xlink:href="#BNazanin-7" transform="translate(949 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(977.125 0)"/>
+      <use xlink:href="#BNazanin-64" transform="translate(1001.546875 0)"/>
+      <use xlink:href="#BNazanin-8b" transform="translate(1075.328125 0)"/>
+      <use xlink:href="#BNazanin-59" transform="translate(1126.15625 0)"/>
+      <use xlink:href="#BNazanin-7c" transform="translate(1140.859375 0)"/>
+      <use xlink:href="#BNazanin-c6" transform="translate(1188.265625 0)"/>
+      <use xlink:href="#BNazanin-b4" transform="translate(1227.078125 0)"/>
+      <use xlink:href="#BNazanin-bf" transform="translate(1269.359375 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1285.625 0)"/>
+      <use xlink:href="#BNazanin-ca" transform="translate(1310.046875 0)"/>
+      <use xlink:href="#BNazanin-88" transform="translate(1372.40625 0)"/>
+      <use xlink:href="#BNazanin-cb" transform="translate(1430.03125 0)"/>
+      <use xlink:href="#BNazanin-c2" transform="translate(1452.25 0)"/>
+      <use xlink:href="#BNazanin-bf" transform="translate(1489.75 0)"/>
+      <use xlink:href="#BNazanin-81" transform="translate(1506.015625 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(1537.609375 0)"/>
+      <use xlink:href="#BNazanin-5d" transform="translate(1561.046875 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1577.3125 0)"/>
+      <use xlink:href="#BNazanin-64" transform="translate(1601.734375 0)"/>
+      <use xlink:href="#BNazanin-ab" transform="translate(1675.515625 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(1700.953125 0)"/>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 53.905137 228.548969
+L 233.620994 228.548969
+L 233.620994 33.832871
+L 53.905137 33.832871
+z
+" clip-path="url(#pee2953bdbe)" style="fill: #d9ead3; opacity: 0.55; stroke: #d9ead3; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_25">
+    <path d="M 233.620994 521.704871
+L 233.620994 33.832871
+" clip-path="url(#pee2953bdbe)" style="fill: none; stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #c94c4c; stroke-width: 1.3"/>
+   </g>
+   <g id="line2d_26">
+    <path d="M 53.905137 228.548969
+L 682.910637 228.548969
+" clip-path="url(#pee2953bdbe)" style="fill: none; stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #2a9d8f; stroke-width: 1.3"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 53.905137 521.704871
+L 53.905137 33.832871
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 53.905137 521.704871
+L 682.910637 521.704871
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="C0_0_b980a23274" d="M 0 6.123724
+C 1.624031 6.123724 3.181764 5.47849 4.330127 4.330127
+C 5.47849 3.181764 6.123724 1.624031 6.123724 -0
+C 6.123724 -1.624031 5.47849 -3.181764 4.330127 -4.330127
+C 3.181764 -5.47849 1.624031 -6.123724 0 -6.123724
+C -1.624031 -6.123724 -3.181764 -5.47849 -4.330127 -4.330127
+C -5.47849 -3.181764 -6.123724 -1.624031 -6.123724 0
+C -6.123724 1.624031 -5.47849 3.181764 -4.330127 4.330127
+C -3.181764 5.47849 -1.624031 6.123724 0 6.123724
+z
+"/>
+    </defs>
+    <g clip-path="url(#pee2953bdbe)">
+     <use xlink:href="#C0_0_b980a23274" x="640.121147" y="121.455115" style="fill: #4ac16d; stroke: #ffffff; stroke-width: 1.2"/>
+    </g>
+    <g clip-path="url(#pee2953bdbe)">
+     <use xlink:href="#C0_0_b980a23274" x="139.484116" y="391.894139" style="fill: #365c8d; stroke: #ffffff; stroke-width: 1.2"/>
+    </g>
+    <g clip-path="url(#pee2953bdbe)">
+     <use xlink:href="#C0_0_b980a23274" x="122.36832" y="445.981944" style="fill: #440154; stroke: #ffffff; stroke-width: 1.2"/>
+    </g>
+    <g clip-path="url(#pee2953bdbe)">
+     <use xlink:href="#C0_0_b980a23274" x="421.894749" y="153.907798" style="fill: #a0da39; stroke: #ffffff; stroke-width: 1.2"/>
+    </g>
+    <g clip-path="url(#pee2953bdbe)">
+     <use xlink:href="#C0_0_b980a23274" x="396.221055" y="174.461164" style="fill: #1fa187; stroke: #ffffff; stroke-width: 1.2"/>
+    </g>
+    <g clip-path="url(#pee2953bdbe)">
+     <use xlink:href="#C0_0_b980a23274" x="353.431565" y="216.649652" style="fill: #1fa187; stroke: #ffffff; stroke-width: 1.2"/>
+    </g>
+    <g clip-path="url(#pee2953bdbe)">
+     <use xlink:href="#C0_0_b980a23274" x="246.457841" y="269.6557" style="fill: #277f8e; stroke: #ffffff; stroke-width: 1.2"/>
+    </g>
+    <g clip-path="url(#pee2953bdbe)">
+     <use xlink:href="#C0_0_b980a23274" x="640.121147" y="119.291603" style="fill: #a0da39; stroke: #ffffff; stroke-width: 1.2"/>
+    </g>
+    <g clip-path="url(#pee2953bdbe)">
+     <use xlink:href="#C0_0_b980a23274" x="618.726402" y="121.455115" style="fill: #fde725; stroke: #ffffff; stroke-width: 1.2"/>
+    </g>
+   </g>
+   <g id="text_15">
+    <g id="patch_6">
+     <path d="M 632.121147 140.019129
+C 633.596741 140.019129 635.012096 139.432869 636.055499 138.389467
+C 637.098901 137.346065 637.685161 135.930709 637.685161 134.455115
+C 637.685161 132.979521 637.098901 131.564165 636.055499 130.520763
+C 635.012096 129.477361 633.596741 128.891101 632.121147 128.891101
+C 630.645553 128.891101 629.230197 129.477361 628.186795 130.520763
+C 627.143393 131.564165 626.557133 132.979521 626.557133 134.455115
+C 626.557133 135.930709 627.143393 137.346065 628.186795 138.389467
+C 629.230197 139.432869 630.645553 140.019129 632.121147 140.019129
+z
+" style="fill: #333333; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(629.996147 136.484656) scale(0.085 -0.085)">
+     <use xlink:href="#TimesNewRomanPSMT-14"/>
+    </g>
+   </g>
+   <g id="text_16">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(137.359116 393.92368) scale(0.085 -0.085)">
+     <defs>
+      <path id="TimesNewRomanPSMT-15" d="M 2934 816
+L 2638 0
+L 138 0
+L 138 116
+Q 1241 1122 1691 1759
+Q 2141 2397 2141 2925
+Q 2141 3328 1894 3587
+Q 1647 3847 1303 3847
+Q 991 3847 742 3664
+Q 494 3481 375 3128
+L 259 3128
+Q 338 3706 661 4015
+Q 984 4325 1469 4325
+Q 1984 4325 2329 3994
+Q 2675 3663 2675 3213
+Q 2675 2891 2525 2569
+Q 2294 2063 1775 1497
+Q 997 647 803 472
+L 1909 472
+Q 2247 472 2383 497
+Q 2519 522 2628 598
+Q 2738 675 2819 816
+L 2934 816
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#TimesNewRomanPSMT-15"/>
+    </g>
+   </g>
+   <g id="text_17">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(120.24332 448.011485) scale(0.085 -0.085)">
+     <use xlink:href="#TimesNewRomanPSMT-16"/>
+    </g>
+   </g>
+   <g id="text_18">
+    <!-- 4 -->
+    <g style="fill: #ffffff" transform="translate(419.769749 155.937339) scale(0.085 -0.085)">
+     <use xlink:href="#TimesNewRomanPSMT-17"/>
+    </g>
+   </g>
+   <g id="text_19">
+    <!-- 5 -->
+    <g style="fill: #ffffff" transform="translate(394.096055 176.490705) scale(0.085 -0.085)">
+     <use xlink:href="#TimesNewRomanPSMT-18"/>
+    </g>
+   </g>
+   <g id="text_20">
+    <!-- 6 -->
+    <g style="fill: #ffffff" transform="translate(351.306565 218.679193) scale(0.085 -0.085)">
+     <use xlink:href="#TimesNewRomanPSMT-19"/>
+    </g>
+   </g>
+   <g id="text_21">
+    <!-- 7 -->
+    <g style="fill: #ffffff" transform="translate(244.332841 271.685241) scale(0.085 -0.085)">
+     <use xlink:href="#TimesNewRomanPSMT-1a"/>
+    </g>
+   </g>
+   <g id="text_22">
+    <g id="patch_7">
+     <path d="M 649.121147 119.855616
+C 650.596741 119.855616 652.012096 119.269357 653.055499 118.225955
+C 654.098901 117.182552 654.685161 115.767196 654.685161 114.291603
+C 654.685161 112.816009 654.098901 111.400653 653.055499 110.357251
+C 652.012096 109.313849 650.596741 108.727589 649.121147 108.727589
+C 647.645553 108.727589 646.230197 109.313849 645.186795 110.357251
+C 644.143393 111.400653 643.557133 112.816009 643.557133 114.291603
+C 643.557133 115.767196 644.143393 117.182552 645.186795 118.225955
+C 646.230197 119.269357 647.645553 119.855616 649.121147 119.855616
+z
+" style="fill: #333333; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <!-- 8 -->
+    <g style="fill: #ffffff" transform="translate(646.996147 116.321144) scale(0.085 -0.085)">
+     <use xlink:href="#TimesNewRomanPSMT-1b"/>
+    </g>
+   </g>
+   <g id="text_23">
+    <g id="patch_8">
+     <path d="M 605.726402 122.019129
+C 607.201996 122.019129 608.617352 121.432869 609.660754 120.389467
+C 610.704156 119.346065 611.290416 117.930709 611.290416 116.455115
+C 611.290416 114.979521 610.704156 113.564165 609.660754 112.520763
+C 608.617352 111.477361 607.201996 110.891101 605.726402 110.891101
+C 604.250808 110.891101 602.835453 111.477361 601.79205 112.520763
+C 600.748648 113.564165 600.162388 114.979521 600.162388 116.455115
+C 600.162388 117.930709 600.748648 119.346065 601.79205 120.389467
+C 602.835453 121.432869 604.250808 122.019129 605.726402 122.019129
+z
+" style="fill: #333333; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <!-- 9 -->
+    <g style="fill: #ffffff" transform="translate(603.601402 118.484656) scale(0.085 -0.085)">
+     <use xlink:href="#TimesNewRomanPSMT-1c"/>
+    </g>
+   </g>
+   <g id="text_24">
+    <!-- فراموشی حداکثر 45% -->
+    <g style="fill: #3d6b3d" transform="translate(160.223113 202.136557) scale(0.1 -0.1)">
+     <defs>
+      <path id="BNazanin-5" d="M 722 3200
+Q 722 2947 466 2947
+Q 359 2947 287 3020
+Q 216 3094 216 3200
+Q 216 3303 289 3376
+Q 363 3450 466 3450
+Q 572 3450 647 3378
+Q 722 3306 722 3200
+z
+M 2231 3738
+L 788 -381
+L 613 -319
+L 2066 3800
+L 2231 3738
+z
+M 2559 219
+Q 2559 113 2487 39
+Q 2416 -34 2309 -34
+Q 2203 -34 2129 39
+Q 2056 113 2056 219
+Q 2056 325 2129 398
+Q 2203 472 2309 472
+Q 2416 472 2487 398
+Q 2559 325 2559 219
+z
+" transform="scale(0.015625)"/>
+      <path id="BNazanin-12" d="M 2666 2625
+Q 2666 2466 2434 2300
+Q 2178 2116 1859 2116
+Q 1491 2116 1266 2269
+Q 1397 2047 1503 1622
+Q 1625 1131 1625 666
+Q 1625 216 1619 150
+Q 1594 -106 1475 -106
+Q 1406 -106 1381 100
+Q 1363 263 1309 684
+Q 1253 1088 1078 1603
+Q 803 2416 331 3038
+L 628 3563
+Q 791 3322 1119 2913
+Q 1138 3259 1359 3484
+Q 1581 3709 1925 3709
+Q 2125 3709 2303 3588
+Q 2444 3491 2484 3397
+Q 2503 3350 2476 3326
+Q 2450 3303 2403 3319
+Q 2225 3375 1966 3375
+Q 1756 3375 1618 3258
+Q 1481 3141 1481 2934
+Q 1481 2900 1488 2875
+Q 1522 2734 1688 2647
+Q 1831 2572 1994 2566
+Q 2288 2556 2484 2672
+Q 2559 2716 2603 2716
+Q 2666 2716 2666 2625
+z
+" transform="scale(0.015625)"/>
+      <path id="BNazanin-13" d="M 2663 781
+Q 2663 488 2497 228
+Q 2303 -75 2013 -75
+Q 1675 -75 1497 250
+Q 1300 -122 913 -122
+Q 628 -122 463 116
+Q 313 325 313 622
+Q 313 1419 1184 2950
+L 1066 3094
+L 1313 3606
+Q 1797 3053 2175 2416
+Q 2663 1594 2663 1097
+L 2663 781
+z
+M 2422 813
+Q 2422 1206 1928 1975
+Q 1619 2456 1322 2806
+Q 1106 2409 891 1872
+Q 619 1194 619 903
+Q 619 713 700 581
+Q 794 425 972 425
+Q 1381 425 1425 813
+Q 1438 931 1516 931
+Q 1591 931 1613 816
+Q 1688 441 2053 441
+Q 2216 441 2319 545
+Q 2422 650 2422 813
+z
+" transform="scale(0.015625)"/>
+      <path id="BNazanin-6a" d="M 2050 3
+L 1744 3
+Q 1191 3 1003 366
+Q 797 3 178 3
+L -81 3
+L -81 466
+L 275 466
+Q 859 466 913 919
+Q 934 1100 1003 1100
+Q 1072 1100 1091 913
+Q 1131 466 1697 466
+L 2050 466
+L 2050 3
+z
+M 1034 2631
+L 744 2341
+L 450 2634
+L 741 2925
+L 1034 2631
+z
+M 1397 2006
+L 1100 1716
+L 806 2009
+L 1097 2300
+L 1397 2006
+z
+M 681 2006
+L 391 1716
+L 94 2009
+L 388 2300
+L 681 2006
+z
+" transform="scale(0.015625)"/>
+      <path id="BNazanin-75" d="M 3203 1166
+L 3028 853
+Q 2581 859 2403 794
+Q 2163 703 1678 463
+Q 1209 228 953 138
+Q 575 3 203 3
+L -81 3
+L -81 466
+L 219 466
+Q 775 466 1197 650
+L 2128 1056
+Q 1906 1106 1419 1288
+Q 1016 1438 897 1438
+Q 666 1438 425 1234
+Q 378 1194 341 1194
+Q 300 1194 300 1247
+Q 300 1269 313 1306
+Q 509 1884 984 1884
+Q 1153 1884 1444 1753
+Q 1931 1534 2169 1453
+Q 2578 1316 3144 1278
+Q 3244 1272 3244 1253
+Q 3244 1238 3203 1166
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#BNazanin-5"/>
+     <use xlink:href="#BNazanin-12" transform="translate(43.65625 0)"/>
+     <use xlink:href="#BNazanin-13" transform="translate(90.53125 0)"/>
+     <use xlink:href="#BNazanin-3" transform="translate(137.40625 0)"/>
+     <use xlink:href="#BNazanin-80" transform="translate(161.828125 0)"/>
+     <use xlink:href="#BNazanin-6a" transform="translate(199.421875 0)"/>
+     <use xlink:href="#BNazanin-af" transform="translate(230.1875 0)"/>
+     <use xlink:href="#BNazanin-59" transform="translate(267.546875 0)"/>
+     <use xlink:href="#BNazanin-7c" transform="translate(282.25 0)"/>
+     <use xlink:href="#BNazanin-75" transform="translate(329.65625 0)"/>
+     <use xlink:href="#BNazanin-3" transform="translate(380.34375 0)"/>
+     <use xlink:href="#BNazanin-ca" transform="translate(404.765625 0)"/>
+     <use xlink:href="#BNazanin-8b" transform="translate(467.125 0)"/>
+     <use xlink:href="#BNazanin-c2" transform="translate(517.953125 0)"/>
+     <use xlink:href="#BNazanin-bb" transform="translate(555.453125 0)"/>
+     <use xlink:href="#BNazanin-59" transform="translate(587.78125 0)"/>
+     <use xlink:href="#BNazanin-80" transform="translate(602.484375 0)"/>
+     <use xlink:href="#BNazanin-a7" transform="translate(640.078125 0)"/>
+    </g>
+    <!-- نگهداشت حداقل 82% -->
+    <g style="fill: #3d6b3d" transform="translate(159.92155 216.955893) scale(0.1 -0.1)">
+     <defs>
+      <path id="BNazanin-16" d="M 234 456
+Q 381 638 519 863
+Q 841 1391 1034 2003
+Q 1178 2453 1291 3175
+Q 1363 3638 1456 3638
+Q 1534 3638 1609 3194
+Q 1728 2491 1894 1991
+Q 2225 997 2738 500
+L 2563 -3
+Q 2534 -81 2519 -81
+Q 2497 -72 2450 -19
+Q 2069 406 1753 1300
+Q 1484 2059 1453 2506
+Q 1391 1950 1184 1306
+Q 900 416 475 -56
+Q 431 -106 416 -109
+Q 400 -100 381 -38
+L 234 456
+z
+" transform="scale(0.015625)"/>
+      <path id="BNazanin-10" d="M 2516 3456
+Q 2516 3009 2253 2719
+Q 1981 2422 1538 2422
+Q 1391 2422 1231 2456
+Q 1397 2103 1522 1619
+Q 1669 1044 1669 559
+Q 1669 -103 1494 -103
+Q 1422 -103 1400 100
+L 1334 713
+Q 1291 1119 1075 1722
+Q 819 2438 369 3072
+L 659 3569
+Q 881 3256 997 3153
+Q 1219 2956 1506 2956
+Q 2088 2956 2309 3475
+Q 2369 3613 2438 3613
+Q 2516 3613 2516 3456
+z
+" transform="scale(0.015625)"/>
+      <path id="BNazanin-b6" d="M 3919 3
+L 3728 3
+Q 3419 3 3294 181
+Q 3278 -181 3197 -709
+Q 3028 -1144 2566 -1369
+Q 2166 -1566 1653 -1566
+Q 1141 -1566 834 -1347
+Q 484 -1097 484 -603
+Q 484 -103 759 284
+Q 794 331 831 331
+Q 881 331 881 272
+Q 881 247 869 216
+Q 738 -113 738 -334
+Q 738 -713 1016 -919
+Q 1263 -1103 1653 -1103
+Q 2041 -1103 2469 -963
+Q 3041 -775 3031 -466
+L 2981 1453
+Q 2947 2813 2891 3463
+L 3209 3741
+Q 3228 3566 3272 2400
+L 3331 853
+Q 3347 466 3816 466
+L 3919 466
+L 3919 3
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#BNazanin-5"/>
+     <use xlink:href="#BNazanin-16" transform="translate(43.65625 0)"/>
+     <use xlink:href="#BNazanin-10" transform="translate(90.53125 0)"/>
+     <use xlink:href="#BNazanin-3" transform="translate(137.40625 0)"/>
+     <use xlink:href="#BNazanin-b6" transform="translate(161.828125 0)"/>
+     <use xlink:href="#BNazanin-ab" transform="translate(221.796875 0)"/>
+     <use xlink:href="#BNazanin-59" transform="translate(247.234375 0)"/>
+     <use xlink:href="#BNazanin-7c" transform="translate(261.9375 0)"/>
+     <use xlink:href="#BNazanin-75" transform="translate(309.34375 0)"/>
+     <use xlink:href="#BNazanin-3" transform="translate(360.03125 0)"/>
+     <use xlink:href="#BNazanin-64" transform="translate(384.453125 0)"/>
+     <use xlink:href="#BNazanin-8b" transform="translate(458.234375 0)"/>
+     <use xlink:href="#BNazanin-59" transform="translate(509.0625 0)"/>
+     <use xlink:href="#BNazanin-7c" transform="translate(523.765625 0)"/>
+     <use xlink:href="#BNazanin-c6" transform="translate(571.171875 0)"/>
+     <use xlink:href="#BNazanin-b4" transform="translate(609.984375 0)"/>
+     <use xlink:href="#BNazanin-bf" transform="translate(652.265625 0)"/>
+    </g>
+   </g>
+   <g id="text_25">
+    <!-- تعادل فراموشی و کارایی در ارزیابی کامل آزمایش‌ها -->
+    <g transform="translate(237.190465 25.158555) scale(0.17 -0.17)">
+     <defs>
+      <path id="BNazanin-c5" d="M 2522 819
+Q 2522 597 2372 350
+Q 2194 59 1953 59
+Q 1766 59 1097 334
+Q 575 3 138 3
+L -81 3
+L -81 466
+L 153 466
+Q 419 466 628 522
+Q 381 697 381 997
+Q 381 1384 903 1784
+L 638 1916
+Q 753 2031 981 2269
+Q 1544 1997 1934 1691
+Q 2522 1228 2522 819
+z
+M 2309 663
+Q 2309 825 2063 1063
+Q 1863 1256 1697 1341
+Q 1697 866 1422 634
+Q 1916 472 2066 472
+Q 2309 472 2309 663
+z
+M 1469 1134
+Q 1469 1288 1400 1416
+Q 1319 1569 1178 1569
+Q 1022 1569 844 1434
+Q 656 1294 656 1144
+Q 656 881 1091 753
+Q 1228 784 1341 888
+Q 1469 1003 1469 1134
+z
+" transform="scale(0.015625)"/>
+      <path id="BNazanin-8a" d="M 6116 3
+L 5897 3
+Q 5494 3 5328 331
+Q 5184 -13 4797 -13
+Q 4434 -13 4291 344
+Q 4094 -16 3725 -16
+Q 3588 -16 3428 34
+Q 3416 -325 3384 -728
+Q 3225 -1175 2697 -1419
+Q 2244 -1628 1716 -1628
+Q 1191 -1628 853 -1369
+Q 484 -1081 484 -569
+Q 484 -297 619 13
+Q 716 234 819 359
+Q 869 419 909 419
+Q 947 419 947 375
+Q 947 347 928 309
+Q 750 -56 750 -359
+Q 750 -656 947 -872
+Q 1206 -1156 1731 -1156
+Q 2325 -1156 2766 -944
+Q 3128 -769 3222 -563
+Q 3253 -494 3231 -297
+Q 3209 -97 3172 0
+Q 3100 188 2784 594
+L 2959 925
+Q 2997 997 3016 997
+Q 3031 997 3072 938
+Q 3238 688 3300 628
+Q 3469 463 3706 463
+Q 3972 463 4091 606
+Q 4169 700 4216 947
+Q 4238 1059 4288 1059
+Q 4338 1059 4350 959
+Q 4416 456 4784 456
+Q 5228 456 5278 931
+Q 5291 1050 5341 1050
+Q 5397 1050 5413 934
+Q 5475 466 5884 466
+L 6116 466
+L 6116 3
+z
+M 4575 2638
+L 4284 2344
+L 3988 2641
+L 4281 2931
+L 4575 2638
+z
+M 4934 2013
+L 4641 1722
+L 4347 2016
+L 4638 2306
+L 4934 2013
+z
+M 4222 2013
+L 3931 1722
+L 3634 2016
+L 3928 2306
+L 4222 2013
+z
+" transform="scale(0.015625)"/>
+      <path id="BNazanin-4d" d="M 1350 497
+Q 1350 259 1247 50
+Q 1188 -72 1166 -72
+Q 1141 -72 1141 81
+Q 1141 775 897 3469
+L 1228 3778
+Q 1272 3819 1288 3822
+Q 1303 3822 1306 3753
+Q 1350 2994 1350 497
+z
+M 1609 4284
+Q 1350 4072 966 4072
+Q 909 4072 796 4086
+Q 684 4100 628 4100
+Q 591 4100 520 4012
+Q 450 3925 422 3925
+Q 369 3925 369 4000
+Q 369 4050 438 4203
+Q 513 4372 569 4372
+Q 647 4372 801 4345
+Q 956 4319 1034 4319
+Q 1378 4319 1547 4366
+Q 1638 4391 1666 4391
+Q 1691 4391 1691 4375
+Q 1691 4350 1609 4284
+z
+" transform="scale(0.015625)"/>
+      <path id="BNazanin-c1" d="M 2056 163
+Q 2056 -731 1441 -1369
+Q 1247 -1569 1194 -1569
+Q 853 -1569 416 -1500
+Q 263 -1475 263 -1453
+Q 263 -1428 425 -1381
+Q 909 -1241 1328 -881
+Q 1503 -731 1647 -528
+Q 1828 -275 1828 -103
+L 1828 28
+L 1306 9
+Q 753 -9 753 469
+Q 753 766 925 1106
+Q 1122 1494 1375 1494
+Q 1750 1494 1931 978
+Q 2056 622 2056 163
+z
+M 1769 494
+Q 1769 688 1638 859
+Q 1497 1047 1309 1047
+Q 1184 1047 1092 953
+Q 1000 859 1000 734
+Q 1000 459 1394 459
+Q 1541 459 1769 494
+z
+" transform="scale(0.015625)"/>
+      <path id="BNazanin-b5" d="M 3419 3150
+Q 3447 3084 3438 3075
+Q 3431 3063 3363 3063
+L 3228 3063
+Q 3353 753 3309 -144
+Q 3241 -1559 1656 -1559
+Q 1144 -1559 838 -1344
+Q 484 -1097 484 -603
+Q 484 -103 759 284
+Q 794 331 831 331
+Q 881 331 881 272
+Q 881 247 869 216
+Q 738 -113 738 -334
+Q 738 -713 1016 -919
+Q 1263 -1103 1653 -1103
+Q 2231 -1103 2650 -888
+Q 3022 -697 3022 -494
+Q 3022 2106 2847 3406
+L 3125 3663
+Q 3175 3709 3191 3713
+Q 3206 3703 3225 3641
+Q 3275 3481 3419 3150
+z
+" transform="scale(0.015625)"/>
+      <path id="BNazanin-a0" d="M 2328 3
+L 2078 3
+Q 1481 3 1172 397
+Q 813 3 244 3
+L -81 3
+L -81 466
+L 313 466
+Q 716 466 909 628
+Q 872 734 763 863
+Q 644 1003 550 1028
+Q 422 1063 422 1113
+Q 422 1141 450 1206
+Q 609 1581 1134 1581
+Q 1800 1581 1800 1166
+Q 1800 981 1434 663
+Q 1522 572 1725 513
+Q 1888 466 2009 466
+L 2328 466
+L 2328 3
+z
+" transform="scale(0.015625)"/>
+      <path id="BNazanin-65" d="M 1038 797
+Q 1038 3 247 3
+L -81 3
+L -81 466
+L 191 466
+Q 788 466 788 681
+Q 788 831 516 1178
+L 678 1572
+Q 703 1631 719 1631
+Q 734 1631 784 1559
+Q 1038 1188 1038 797
+z
+M 1353 2547
+L 1044 2238
+L 731 2550
+L 1041 2856
+L 1353 2547
+z
+M 666 2547
+L 359 2238
+L 47 2550
+L 356 2856
+L 666 2547
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#BNazanin-5a"/>
+     <use xlink:href="#BNazanin-c5" transform="translate(23.4375 0)"/>
+     <use xlink:href="#BNazanin-3" transform="translate(62.890625 0)"/>
+     <use xlink:href="#BNazanin-8a" transform="translate(62.890625 0)"/>
+     <use xlink:href="#BNazanin-cb" transform="translate(157.171875 0)"/>
+     <use xlink:href="#BNazanin-5a" transform="translate(179.390625 0)"/>
+     <use xlink:href="#BNazanin-bb" transform="translate(202.828125 0)"/>
+     <use xlink:href="#BNazanin-81" transform="translate(235.15625 0)"/>
+     <use xlink:href="#BNazanin-4d" transform="translate(266.75 0)"/>
+     <use xlink:href="#BNazanin-3" transform="translate(291.453125 0)"/>
+     <use xlink:href="#BNazanin-b6" transform="translate(315.875 0)"/>
+     <use xlink:href="#BNazanin-bb" transform="translate(375.84375 0)"/>
+     <use xlink:href="#BNazanin-5a" transform="translate(408.171875 0)"/>
+     <use xlink:href="#BNazanin-af" transform="translate(431.609375 0)"/>
+     <use xlink:href="#BNazanin-3" transform="translate(468.96875 0)"/>
+     <use xlink:href="#BNazanin-ca" transform="translate(493.390625 0)"/>
+     <use xlink:href="#BNazanin-5d" transform="translate(555.75 0)"/>
+     <use xlink:href="#BNazanin-5a" transform="translate(572.015625 0)"/>
+     <use xlink:href="#BNazanin-cb" transform="translate(595.453125 0)"/>
+     <use xlink:href="#BNazanin-81" transform="translate(617.671875 0)"/>
+     <use xlink:href="#BNazanin-7f" transform="translate(649.265625 0)"/>
+     <use xlink:href="#BNazanin-59" transform="translate(680.859375 0)"/>
+     <use xlink:href="#BNazanin-3" transform="translate(695.5625 0)"/>
+     <use xlink:href="#BNazanin-7f" transform="translate(719.984375 0)"/>
+     <use xlink:href="#BNazanin-7b" transform="translate(751.578125 0)"/>
+     <use xlink:href="#BNazanin-3" transform="translate(789.765625 0)"/>
+     <use xlink:href="#BNazanin-ca" transform="translate(814.1875 0)"/>
+     <use xlink:href="#BNazanin-cb" transform="translate(876.546875 0)"/>
+     <use xlink:href="#BNazanin-59" transform="translate(898.765625 0)"/>
+     <use xlink:href="#BNazanin-7f" transform="translate(913.46875 0)"/>
+     <use xlink:href="#BNazanin-5a" transform="translate(945.0625 0)"/>
+     <use xlink:href="#BNazanin-af" transform="translate(968.5 0)"/>
+     <use xlink:href="#BNazanin-3" transform="translate(1005.859375 0)"/>
+     <use xlink:href="#BNazanin-c1" transform="translate(1030.28125 0)"/>
+     <use xlink:href="#BNazanin-3" transform="translate(1062.453125 0)"/>
+     <use xlink:href="#BNazanin-ca" transform="translate(1086.875 0)"/>
+     <use xlink:href="#BNazanin-8b" transform="translate(1149.234375 0)"/>
+     <use xlink:href="#BNazanin-c2" transform="translate(1200.0625 0)"/>
+     <use xlink:href="#BNazanin-bb" transform="translate(1237.5625 0)"/>
+     <use xlink:href="#BNazanin-59" transform="translate(1269.890625 0)"/>
+     <use xlink:href="#BNazanin-80" transform="translate(1284.59375 0)"/>
+     <use xlink:href="#BNazanin-a7" transform="translate(1322.1875 0)"/>
+     <use xlink:href="#BNazanin-3" transform="translate(1347.625 0)"/>
+     <use xlink:href="#BNazanin-b5" transform="translate(1372.046875 0)"/>
+     <use xlink:href="#BNazanin-7b" transform="translate(1425.859375 0)"/>
+     <use xlink:href="#BNazanin-5a" transform="translate(1464.046875 0)"/>
+     <use xlink:href="#BNazanin-a0" transform="translate(1487.484375 0)"/>
+     <use xlink:href="#BNazanin-65" transform="translate(1522.59375 0)"/>
+    </g>
+   </g>
+   <g id="legend_1">
+    <g id="line2d_27"/>
+    <g id="text_26">
+     <!-- 1. خط مبنای یادگیری پردقت با آداپتور لورا -->
+     <g transform="translate(196.877223 607.787908) scale(0.095 -0.095)">
+      <defs>
+       <path id="BNazanin-b7" d="M 1000 3178
+Q 1034 3097 1025 3081
+Q 1019 3072 959 3072
+L 831 3072
+Q 872 2272 856 809
+Q 853 456 684 241
+Q 497 3 153 3
+L -81 3
+L -81 466
+L 131 466
+Q 603 466 588 825
+Q 534 2113 453 3434
+L 719 3688
+Q 781 3747 794 3750
+Q 806 3738 825 3666
+Q 872 3484 1000 3178
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-61" d="M 1038 797
+Q 1038 3 247 3
+L -81 3
+L -81 466
+L 191 466
+Q 788 466 788 681
+Q 788 831 516 1178
+L 678 1572
+Q 703 1631 719 1631
+Q 734 1631 784 1559
+Q 1038 1188 1038 797
+z
+M 447 -1409
+L 738 -1119
+L 1031 -1413
+L 741 -1703
+L 447 -1409
+z
+M 84 -784
+L 381 -494
+L 675 -788
+L 381 -1078
+L 84 -784
+z
+M 797 -784
+L 1091 -494
+L 1388 -788
+L 1094 -1078
+L 797 -784
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-c9" d="M 4122 1466
+Q 4147 1353 4131 1338
+Q 4119 1322 4031 1372
+Q 3847 1475 3563 1475
+Q 3169 1475 2831 1141
+Q 2553 863 2553 700
+Q 2553 506 3109 406
+Q 3719 294 3822 113
+Q 3844 75 3844 -9
+Q 3844 -338 3634 -672
+Q 3497 -894 3034 -1078
+Q 2463 -1306 1725 -1306
+Q 1206 -1306 863 -1041
+Q 484 -747 484 -244
+Q 484 316 850 797
+Q 906 869 959 884
+Q 1009 897 1009 847
+Q 1009 809 975 747
+Q 741 316 741 -56
+Q 741 -328 944 -547
+Q 1222 -844 1769 -844
+Q 2256 -844 2797 -722
+Q 3578 -547 3578 -231
+Q 3578 -113 2813 34
+Q 2528 91 2425 150
+Q 2278 238 2278 447
+Q 2278 838 2684 1363
+Q 3122 1928 3550 1928
+Q 4016 1928 4122 1466
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-b3" d="M 2403 3841
+L 2322 3544
+L 363 2916
+L 447 3203
+L 2403 3841
+z
+M 2488 3244
+Q 2472 3141 2363 2803
+Q 1638 2622 597 2266
+Q 1338 1559 1403 1091
+Q 1447 763 1328 500
+Q 1197 209 903 100
+Q 644 3 91 3
+L -81 3
+L -81 466
+L 56 466
+Q 1197 466 1197 859
+Q 1197 1178 572 1778
+L 519 1678
+Q 453 1731 303 1913
+Q 141 2109 141 2156
+Q 141 2359 291 2525
+Q 325 2563 1088 2816
+Q 1897 3084 2488 3244
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-c0" d="M 2050 3
+L 1744 3
+Q 1191 3 1003 366
+Q 797 3 178 3
+L -81 3
+L -81 466
+L 275 466
+Q 859 466 913 919
+Q 934 1100 1003 1100
+Q 1072 1100 1091 913
+Q 1131 466 1697 466
+L 2050 466
+L 2050 3
+z
+M 1256 2069
+L 931 1744
+L 603 2069
+L 928 2394
+L 1256 2069
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-5e" d="M 2050 3
+L 1744 3
+Q 1191 3 1003 366
+Q 797 3 178 3
+L -81 3
+L -81 466
+L 275 466
+Q 859 466 913 919
+Q 934 1100 1003 1100
+Q 1072 1100 1091 913
+Q 1131 466 1697 466
+L 2050 466
+L 2050 3
+z
+M 1184 -878
+L 859 -1203
+L 531 -875
+L 856 -550
+L 1184 -878
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-96" d="M 4488 0
+L 4322 0
+Q 3769 0 3316 128
+Q 2803 6 1741 6
+Q 1294 6 1103 56
+Q 688 166 522 544
+Q 494 606 494 625
+Q 494 641 509 641
+Q 528 641 594 609
+Q 884 472 1356 472
+Q 1531 472 1593 531
+Q 1656 591 1653 763
+Q 1650 1019 1634 1672
+Q 1600 2672 1494 3444
+L 1778 3731
+Q 1819 3772 1831 3775
+Q 1847 3775 1872 3684
+Q 1931 3459 2044 3194
+Q 2072 3125 2066 3113
+Q 2050 3106 2003 3106
+L 1878 3106
+Q 1938 2028 1938 1828
+L 1938 1397
+Q 1938 1159 1828 716
+Q 1866 716 2131 966
+Q 2459 1275 2706 1431
+Q 3103 1681 3447 1681
+Q 3747 1681 3934 1538
+Q 4147 1378 4147 1088
+Q 4147 672 3859 428
+Q 3938 428 4091 447
+Q 4244 466 4322 466
+L 4488 466
+L 4488 0
+z
+M 3869 828
+Q 3869 1022 3641 1156
+Q 3444 1272 3238 1272
+Q 2797 1272 1866 497
+Q 2125 469 2394 469
+Q 2747 469 3206 541
+Q 3869 644 3869 828
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-79" d="M 3203 1166
+L 3028 853
+Q 2581 859 2403 794
+Q 2163 703 1678 463
+Q 1209 228 953 138
+Q 575 3 203 3
+L -81 3
+L -81 466
+L 219 466
+Q 775 466 1197 650
+L 2128 1056
+Q 1906 1106 1419 1288
+Q 1016 1438 897 1438
+Q 666 1438 425 1234
+Q 378 1194 341 1194
+Q 300 1194 300 1247
+Q 300 1269 313 1306
+Q 509 1884 984 1884
+Q 1153 1884 1444 1753
+Q 1931 1534 2169 1453
+Q 2578 1316 3144 1278
+Q 3244 1272 3244 1253
+Q 3244 1238 3203 1166
+z
+M 2069 2988
+L 1744 2663
+L 1419 2991
+L 1744 3316
+L 2069 2988
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-c" d="M 1041 284
+Q 1041 172 958 90
+Q 875 9 763 9
+Q 650 9 567 90
+Q 484 172 484 284
+Q 484 397 567 480
+Q 650 563 763 563
+Q 875 563 958 480
+Q 1041 397 1041 284
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-f" d="M 1988 775
+Q 1988 -103 1794 -103
+Q 1700 -103 1681 219
+Q 1681 419 1681 619
+Q 1666 1022 1531 1525
+Q 1291 2425 859 3084
+L 1178 3584
+Q 1491 3125 1722 2388
+Q 1988 1541 1988 775
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#BNazanin-59"/>
+      <use xlink:href="#BNazanin-7f" transform="translate(14.703125 0)"/>
+      <use xlink:href="#BNazanin-c2" transform="translate(46.296875 0)"/>
+      <use xlink:href="#BNazanin-b7" transform="translate(83.796875 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(99.8125 0)"/>
+      <use xlink:href="#BNazanin-7f" transform="translate(124.234375 0)"/>
+      <use xlink:href="#BNazanin-c2" transform="translate(155.828125 0)"/>
+      <use xlink:href="#BNazanin-66" transform="translate(193.328125 0)"/>
+      <use xlink:href="#BNazanin-61" transform="translate(224.09375 0)"/>
+      <use xlink:href="#BNazanin-59" transform="translate(246.5625 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(261.265625 0)"/>
+      <use xlink:href="#BNazanin-4d" transform="translate(299.453125 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(324.15625 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(348.578125 0)"/>
+      <use xlink:href="#BNazanin-5d" transform="translate(372.015625 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(388.28125 0)"/>
+      <use xlink:href="#BNazanin-64" transform="translate(412.703125 0)"/>
+      <use xlink:href="#BNazanin-ab" transform="translate(486.484375 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(511.921875 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(550.109375 0)"/>
+      <use xlink:href="#BNazanin-61" transform="translate(587.703125 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(610.171875 0)"/>
+      <use xlink:href="#BNazanin-c9" transform="translate(634.59375 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(699.34375 0)"/>
+      <use xlink:href="#BNazanin-cc" transform="translate(736.9375 0)"/>
+      <use xlink:href="#BNazanin-b3" transform="translate(767.703125 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(805.0625 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(843.25 0)"/>
+      <use xlink:href="#BNazanin-cb" transform="translate(866.6875 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(888.90625 0)"/>
+      <use xlink:href="#BNazanin-c9" transform="translate(913.328125 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(978.078125 0)"/>
+      <use xlink:href="#BNazanin-c0" transform="translate(1001.515625 0)"/>
+      <use xlink:href="#BNazanin-5e" transform="translate(1032.28125 0)"/>
+      <use xlink:href="#BNazanin-bb" transform="translate(1063.046875 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1095.375 0)"/>
+      <use xlink:href="#BNazanin-96" transform="translate(1119.796875 0)"/>
+      <use xlink:href="#BNazanin-79" transform="translate(1188.59375 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1239.28125 0)"/>
+      <use xlink:href="#BNazanin-c" transform="translate(1263.703125 0)"/>
+      <use xlink:href="#BNazanin-f" transform="translate(1280.015625 0)"/>
+     </g>
+    </g>
+    <g id="line2d_28"/>
+    <g id="text_27">
+     <!-- 2. پادیادگیری صعود گرادیان همراه با نزول نگهداشت -->
+     <g transform="translate(196.877223 626.616277) scale(0.095 -0.095)">
+      <defs>
+       <path id="BNazanin-82" d="M 2488 3
+L 2319 3
+Q 2100 3 1988 78
+Q 1994 16 1994 -47
+Q 1994 -609 1628 -1131
+Q 1313 -1581 1113 -1581
+Q 656 -1581 325 -1534
+Q 216 -1519 216 -1481
+Q 216 -1444 328 -1422
+Q 797 -1325 1272 -925
+Q 1778 -497 1778 -103
+Q 1778 159 1359 566
+L 1544 941
+Q 1566 988 1581 991
+Q 1600 984 1634 938
+Q 1819 694 1919 613
+Q 2106 466 2363 466
+L 2488 466
+L 2488 3
+z
+M 1722 2113
+L 1397 1788
+L 1072 2116
+L 1397 2438
+L 1722 2113
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-c3" d="M 2000 844
+Q 2000 434 1747 206
+Q 1503 -9 1091 -9
+Q 838 -9 666 144
+Q 484 303 484 553
+Q 484 831 722 1244
+Q 928 1600 1178 1850
+Q 2000 1422 2000 844
+z
+M 1772 681
+Q 1772 847 1506 1097
+Q 1269 1319 1084 1388
+Q 772 991 772 753
+Q 772 613 919 525
+Q 1044 450 1194 450
+Q 1453 450 1631 547
+Q 1772 622 1772 681
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-bd" d="M 3453 59
+Q 3488 -150 3488 -291
+Q 3488 -516 3413 -728
+Q 3256 -1175 2709 -1422
+Q 2253 -1628 1716 -1628
+Q 1191 -1628 853 -1369
+Q 484 -1081 484 -569
+Q 484 -297 619 13
+Q 716 234 819 359
+Q 869 419 909 419
+Q 947 419 947 375
+Q 947 347 928 309
+Q 750 -56 750 -359
+Q 750 -656 947 -872
+Q 1206 -1156 1731 -1156
+Q 2325 -1156 2781 -944
+Q 3156 -769 3250 -563
+Q 3281 -494 3281 -391
+Q 3281 -231 3200 0
+Q 3131 194 2825 628
+L 2988 953
+Q 3025 1025 3044 1025
+Q 3063 1025 3100 966
+Q 3375 538 3453 59
+z
+M 2275 1791
+L 1950 1466
+L 1622 1794
+L 1947 2119
+L 2275 1791
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#BNazanin-64"/>
+      <use xlink:href="#BNazanin-8b" transform="translate(73.78125 0)"/>
+      <use xlink:href="#BNazanin-59" transform="translate(124.609375 0)"/>
+      <use xlink:href="#BNazanin-7c" transform="translate(139.3125 0)"/>
+      <use xlink:href="#BNazanin-c6" transform="translate(186.71875 0)"/>
+      <use xlink:href="#BNazanin-b4" transform="translate(225.53125 0)"/>
+      <use xlink:href="#BNazanin-bf" transform="translate(267.8125 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(284.078125 0)"/>
+      <use xlink:href="#BNazanin-b5" transform="translate(308.5 0)"/>
+      <use xlink:href="#BNazanin-c1" transform="translate(362.3125 0)"/>
+      <use xlink:href="#BNazanin-82" transform="translate(394.484375 0)"/>
+      <use xlink:href="#BNazanin-bf" transform="translate(432.078125 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(448.34375 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(472.765625 0)"/>
+      <use xlink:href="#BNazanin-5d" transform="translate(496.203125 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(512.46875 0)"/>
+      <use xlink:href="#BNazanin-c3" transform="translate(536.890625 0)"/>
+      <use xlink:href="#BNazanin-59" transform="translate(568.1875 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(582.890625 0)"/>
+      <use xlink:href="#BNazanin-bc" transform="translate(620.484375 0)"/>
+      <use xlink:href="#BNazanin-c5" transform="translate(665.21875 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(704.671875 0)"/>
+      <use xlink:href="#BNazanin-bd" transform="translate(729.09375 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(783.6875 0)"/>
+      <use xlink:href="#BNazanin-cb" transform="translate(807.125 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(829.34375 0)"/>
+      <use xlink:href="#BNazanin-59" transform="translate(867.53125 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(882.234375 0)"/>
+      <use xlink:href="#BNazanin-b3" transform="translate(919.828125 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(957.1875 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(981.609375 0)"/>
+      <use xlink:href="#BNazanin-c2" transform="translate(1019.796875 0)"/>
+      <use xlink:href="#BNazanin-a0" transform="translate(1057.296875 0)"/>
+      <use xlink:href="#BNazanin-8f" transform="translate(1092.40625 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1148.21875 0)"/>
+      <use xlink:href="#BNazanin-c9" transform="translate(1172.640625 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(1237.390625 0)"/>
+      <use xlink:href="#BNazanin-cc" transform="translate(1274.984375 0)"/>
+      <use xlink:href="#BNazanin-b3" transform="translate(1305.75 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(1343.109375 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(1381.296875 0)"/>
+      <use xlink:href="#BNazanin-cb" transform="translate(1404.734375 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(1426.953125 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(1465.140625 0)"/>
+      <use xlink:href="#BNazanin-61" transform="translate(1488.578125 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1511.046875 0)"/>
+      <use xlink:href="#BNazanin-c" transform="translate(1535.46875 0)"/>
+      <use xlink:href="#BNazanin-10" transform="translate(1551.78125 0)"/>
+     </g>
+    </g>
+    <g id="line2d_29"/>
+    <g id="text_28">
+     <!-- 3. نقطه تهاجمی پادیادگیری منظم‌شده -->
+     <g transform="translate(196.877223 645.444646) scale(0.095 -0.095)">
+      <defs>
+       <path id="BNazanin-ba" d="M 3303 3
+L 3113 3
+Q 2747 3 2553 166
+Q 2578 81 2578 -53
+Q 2578 -678 2163 -678
+Q 1822 -678 1619 -303
+Q 1453 3 1453 378
+Q 1453 459 1463 534
+Q 1403 544 1341 544
+Q 950 544 772 341
+Q 897 -631 897 -1106
+Q 897 -1338 775 -1663
+Q 731 -1778 709 -1778
+Q 688 -1778 672 -1625
+L 484 231
+Q 472 350 619 559
+Q 750 744 869 831
+Q 953 894 1172 941
+Q 1366 984 1497 984
+Q 1531 984 1559 981
+L 1619 1238
+Q 1638 1316 1656 1316
+Q 1675 1309 1719 1272
+Q 2200 841 2416 697
+Q 2766 466 3069 466
+L 3303 466
+L 3303 3
+z
+M 2397 28
+Q 2397 194 2150 419
+Q 2109 456 1700 809
+Q 1684 691 1684 581
+Q 1684 303 1784 91
+Q 1913 -184 2163 -184
+Q 2397 -184 2397 28
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-9c" d="M 3469 0
+L 3303 0
+Q 2750 0 2297 128
+Q 1772 3 722 3
+L -81 3
+L -81 466
+L 338 466
+Q 528 466 591 547
+Q 638 606 634 791
+Q 631 1041 616 1688
+Q 581 2672 475 3444
+L 759 3731
+Q 800 3772 813 3775
+Q 828 3775 853 3684
+Q 913 3459 1025 3194
+Q 1053 3125 1047 3113
+Q 1031 3106 984 3106
+L 859 3106
+Q 919 2028 919 1828
+L 919 1397
+Q 919 1159 809 716
+Q 847 716 1113 966
+Q 1441 1275 1688 1431
+Q 2084 1681 2428 1681
+Q 2728 1681 2916 1538
+Q 3128 1378 3128 1088
+Q 3128 672 2841 428
+Q 2919 428 3072 447
+Q 3225 466 3303 466
+L 3469 466
+L 3469 0
+z
+M 2850 828
+Q 2850 1022 2622 1156
+Q 2425 1272 2219 1272
+Q 1778 1272 847 497
+Q 1106 469 1375 469
+Q 1728 469 2188 541
+Q 2850 644 2850 828
+z
+M 2575 2800
+L 2253 2475
+L 1925 2803
+L 2250 3128
+L 2575 2800
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-6d" d="M 3203 1166
+L 3028 853
+Q 2581 859 2403 794
+Q 2163 703 1678 463
+Q 1209 228 953 138
+Q 575 3 203 3
+L -81 3
+L -81 466
+L 219 466
+Q 775 466 1197 650
+L 2128 1056
+Q 1906 1106 1419 1288
+Q 1016 1438 897 1438
+Q 666 1438 425 1234
+Q 378 1194 341 1194
+Q 300 1194 300 1247
+Q 300 1269 313 1306
+Q 509 1884 984 1884
+Q 1153 1884 1444 1753
+Q 1931 1534 2169 1453
+Q 2578 1316 3144 1278
+Q 3244 1272 3244 1253
+Q 3244 1238 3203 1166
+z
+M 1884 -813
+L 1559 -1138
+L 1231 -809
+L 1556 -484
+L 1884 -813
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-c4" d="M 2738 3
+L 2441 3
+Q 1928 3 1791 641
+Q 1509 363 1466 363
+L 1113 363
+Q 925 363 741 419
+Q 484 497 484 638
+Q 484 1088 803 1369
+Q 1016 1556 1538 1763
+L 1459 2147
+L 1728 2450
+Q 1744 2400 2000 1141
+Q 2078 756 2144 641
+Q 2244 466 2459 466
+L 2738 466
+L 2738 3
+z
+M 1741 819
+L 1606 1453
+Q 1403 1394 1122 1256
+Q 738 1069 738 959
+Q 738 869 1031 819
+Q 1238 784 1397 784
+Q 1594 784 1741 819
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-98" d="M 3469 0
+L 3303 0
+Q 2750 0 2297 128
+Q 1772 3 722 3
+L -81 3
+L -81 466
+L 338 466
+Q 528 466 591 547
+Q 638 606 634 791
+Q 631 1041 616 1688
+Q 581 2672 475 3444
+L 759 3731
+Q 800 3772 813 3775
+Q 828 3775 853 3684
+Q 913 3459 1025 3194
+Q 1053 3125 1047 3113
+Q 1031 3106 984 3106
+L 859 3106
+Q 919 2028 919 1828
+L 919 1397
+Q 919 1159 809 716
+Q 847 716 1113 966
+Q 1441 1275 1688 1431
+Q 2084 1681 2428 1681
+Q 2728 1681 2916 1538
+Q 3128 1378 3128 1088
+Q 3128 672 2841 428
+Q 2919 428 3072 447
+Q 3225 466 3303 466
+L 3469 466
+L 3469 0
+z
+M 2850 828
+Q 2850 1022 2622 1156
+Q 2425 1272 2219 1272
+Q 1778 1272 847 497
+Q 1106 469 1375 469
+Q 1728 469 2188 541
+Q 2850 644 2850 828
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-11" d="M 2738 3441
+Q 2738 2494 2147 2494
+Q 2028 2494 1901 2566
+Q 1775 2638 1722 2741
+Q 1675 2597 1519 2506
+Q 1375 2425 1213 2425
+Q 1125 2425 1050 2450
+Q 1184 2203 1309 1722
+Q 1459 1144 1459 666
+Q 1459 216 1453 150
+Q 1428 -106 1309 -106
+Q 1244 -106 1194 253
+Q 1169 469 1144 684
+Q 1084 1100 913 1603
+Q 628 2431 166 3038
+L 463 3563
+Q 750 3150 759 3144
+Q 938 2950 1191 2950
+Q 1400 2950 1506 3125
+Q 1556 3209 1628 3466
+Q 1663 3591 1731 3591
+Q 1809 3591 1828 3425
+Q 1850 3222 1903 3138
+Q 1988 3003 2184 3003
+Q 2378 3003 2463 3166
+Q 2497 3231 2547 3453
+Q 2581 3603 2663 3603
+Q 2738 3603 2738 3441
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#BNazanin-c3"/>
+      <use xlink:href="#BNazanin-7c" transform="translate(31.296875 0)"/>
+      <use xlink:href="#BNazanin-8b" transform="translate(78.703125 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(129.53125 0)"/>
+      <use xlink:href="#BNazanin-ba" transform="translate(129.53125 0)"/>
+      <use xlink:href="#BNazanin-9c" transform="translate(179.875 0)"/>
+      <use xlink:href="#BNazanin-c0" transform="translate(232.75 0)"/>
+      <use xlink:href="#BNazanin-bb" transform="translate(263.515625 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(295.84375 0)"/>
+      <use xlink:href="#BNazanin-c9" transform="translate(320.265625 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(385.015625 0)"/>
+      <use xlink:href="#BNazanin-cc" transform="translate(422.609375 0)"/>
+      <use xlink:href="#BNazanin-b3" transform="translate(453.375 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(490.734375 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(528.921875 0)"/>
+      <use xlink:href="#BNazanin-cb" transform="translate(552.359375 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(574.578125 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(612.765625 0)"/>
+      <use xlink:href="#BNazanin-61" transform="translate(636.203125 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(658.671875 0)"/>
+      <use xlink:href="#BNazanin-ca" transform="translate(683.09375 0)"/>
+      <use xlink:href="#BNazanin-bc" transform="translate(745.453125 0)"/>
+      <use xlink:href="#BNazanin-6d" transform="translate(790.1875 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(840.875 0)"/>
+      <use xlink:href="#BNazanin-c6" transform="translate(864.3125 0)"/>
+      <use xlink:href="#BNazanin-65" transform="translate(903.125 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(924.265625 0)"/>
+      <use xlink:href="#BNazanin-c4" transform="translate(948.6875 0)"/>
+      <use xlink:href="#BNazanin-98" transform="translate(990.1875 0)"/>
+      <use xlink:href="#BNazanin-ac" transform="translate(1043.0625 0)"/>
+      <use xlink:href="#BNazanin-bf" transform="translate(1076.859375 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1093.125 0)"/>
+      <use xlink:href="#BNazanin-c" transform="translate(1117.546875 0)"/>
+      <use xlink:href="#BNazanin-11" transform="translate(1133.859375 0)"/>
+     </g>
+    </g>
+    <g id="line2d_30"/>
+    <g id="text_29">
+     <!-- 4. پادیادگیری منظم‌شده با نگهداشت و حفظ واگرایی -->
+     <g transform="translate(196.877223 664.273016) scale(0.095 -0.095)">
+      <defs>
+       <path id="BNazanin-9a" d="M 4488 0
+L 4322 0
+Q 3769 0 3316 128
+Q 2803 6 1741 6
+Q 1294 6 1103 56
+Q 688 166 522 544
+Q 494 606 494 625
+Q 494 641 509 641
+Q 528 641 594 609
+Q 884 472 1356 472
+Q 1531 472 1593 531
+Q 1656 591 1653 763
+Q 1650 1019 1634 1672
+Q 1600 2672 1494 3444
+L 1778 3731
+Q 1819 3772 1831 3775
+Q 1847 3775 1872 3684
+Q 1931 3459 2044 3194
+Q 2072 3125 2066 3113
+Q 2050 3106 2003 3106
+L 1878 3106
+Q 1938 2028 1938 1828
+L 1938 1397
+Q 1938 1159 1828 716
+Q 1866 716 2131 966
+Q 2459 1275 2706 1431
+Q 3103 1681 3447 1681
+Q 3747 1681 3934 1538
+Q 4147 1378 4147 1088
+Q 4147 672 3859 428
+Q 3938 428 4091 447
+Q 4244 466 4322 466
+L 4488 466
+L 4488 0
+z
+M 3869 828
+Q 3869 1022 3641 1156
+Q 3444 1272 3238 1272
+Q 2797 1272 1866 497
+Q 2125 469 2394 469
+Q 2747 469 3206 541
+Q 3869 644 3869 828
+z
+M 3569 2800
+L 3244 2475
+L 2916 2803
+L 3241 3128
+L 3569 2800
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-a8" d="M 2247 3
+L 2041 3
+Q 1847 3 1578 75
+Q 1281 153 1150 253
+Q 1016 163 791 94
+Q 500 3 209 3
+L -81 3
+L -81 466
+L 106 466
+Q 575 466 722 534
+Q 631 600 564 739
+Q 497 878 497 991
+Q 497 1241 700 1572
+Q 938 1959 1234 1959
+Q 1522 1959 1672 1650
+Q 1788 1413 1791 1091
+Q 1794 881 1691 719
+Q 1634 628 1519 541
+Q 1663 466 2088 466
+L 2247 466
+L 2247 3
+z
+M 1559 1031
+Q 1559 1175 1441 1328
+Q 1316 1494 1178 1497
+Q 1044 1500 895 1362
+Q 747 1225 744 1091
+Q 741 944 888 816
+Q 1016 703 1172 669
+Q 1316 688 1431 788
+Q 1559 897 1559 1031
+z
+M 1444 2997
+L 1119 2672
+L 791 3000
+L 1116 3325
+L 1444 2997
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#BNazanin-ca"/>
+      <use xlink:href="#BNazanin-cb" transform="translate(62.359375 0)"/>
+      <use xlink:href="#BNazanin-59" transform="translate(84.578125 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(99.28125 0)"/>
+      <use xlink:href="#BNazanin-b3" transform="translate(136.875 0)"/>
+      <use xlink:href="#BNazanin-59" transform="translate(174.234375 0)"/>
+      <use xlink:href="#BNazanin-c1" transform="translate(188.9375 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(221.109375 0)"/>
+      <use xlink:href="#BNazanin-9a" transform="translate(245.53125 0)"/>
+      <use xlink:href="#BNazanin-a8" transform="translate(314.328125 0)"/>
+      <use xlink:href="#BNazanin-75" transform="translate(348.125 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(398.8125 0)"/>
+      <use xlink:href="#BNazanin-c1" transform="translate(423.234375 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(455.40625 0)"/>
+      <use xlink:href="#BNazanin-64" transform="translate(479.828125 0)"/>
+      <use xlink:href="#BNazanin-8b" transform="translate(553.609375 0)"/>
+      <use xlink:href="#BNazanin-59" transform="translate(604.4375 0)"/>
+      <use xlink:href="#BNazanin-7c" transform="translate(619.140625 0)"/>
+      <use xlink:href="#BNazanin-c6" transform="translate(666.546875 0)"/>
+      <use xlink:href="#BNazanin-b4" transform="translate(705.359375 0)"/>
+      <use xlink:href="#BNazanin-bf" transform="translate(747.640625 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(763.90625 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(788.328125 0)"/>
+      <use xlink:href="#BNazanin-5d" transform="translate(811.765625 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(828.03125 0)"/>
+      <use xlink:href="#BNazanin-c3" transform="translate(852.453125 0)"/>
+      <use xlink:href="#BNazanin-7c" transform="translate(883.75 0)"/>
+      <use xlink:href="#BNazanin-8b" transform="translate(931.15625 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(981.984375 0)"/>
+      <use xlink:href="#BNazanin-ba" transform="translate(981.984375 0)"/>
+      <use xlink:href="#BNazanin-9c" transform="translate(1032.328125 0)"/>
+      <use xlink:href="#BNazanin-c0" transform="translate(1085.203125 0)"/>
+      <use xlink:href="#BNazanin-bb" transform="translate(1115.96875 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1148.296875 0)"/>
+      <use xlink:href="#BNazanin-c9" transform="translate(1172.71875 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(1237.46875 0)"/>
+      <use xlink:href="#BNazanin-cc" transform="translate(1275.0625 0)"/>
+      <use xlink:href="#BNazanin-b3" transform="translate(1305.828125 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(1343.1875 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(1381.375 0)"/>
+      <use xlink:href="#BNazanin-cb" transform="translate(1404.8125 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(1427.03125 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(1465.21875 0)"/>
+      <use xlink:href="#BNazanin-61" transform="translate(1488.65625 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1511.125 0)"/>
+      <use xlink:href="#BNazanin-c" transform="translate(1535.546875 0)"/>
+      <use xlink:href="#BNazanin-12" transform="translate(1551.859375 0)"/>
+     </g>
+    </g>
+    <g id="line2d_31"/>
+    <g id="text_30">
+     <!-- 5. پادیادگیری با گرادیان مقید و فرافکنی تعارض -->
+     <g transform="translate(196.877223 683.101385) scale(0.095 -0.095)">
+      <defs>
+       <path id="BNazanin-91" d="M 5881 1041
+Q 5881 463 5231 188
+Q 4753 -16 4088 -16
+Q 3709 -16 3428 75
+Q 3416 -303 3384 -728
+Q 3225 -1175 2697 -1419
+Q 2244 -1628 1716 -1628
+Q 1191 -1628 853 -1369
+Q 484 -1081 484 -569
+Q 484 -297 619 13
+Q 716 234 819 359
+Q 869 419 909 419
+Q 947 419 947 375
+Q 947 347 928 309
+Q 750 -56 750 -359
+Q 750 -656 947 -872
+Q 1206 -1156 1731 -1156
+Q 2325 -1156 2766 -944
+Q 3128 -769 3222 -563
+Q 3253 -494 3238 -309
+Q 3222 -128 3172 0
+Q 3094 200 2784 594
+L 2959 925
+Q 2997 997 3019 997
+Q 3038 997 3072 938
+Q 3231 663 3478 500
+Q 4541 1659 5219 1659
+Q 5497 1659 5684 1491
+Q 5881 1313 5881 1041
+z
+M 5591 809
+Q 5591 988 5391 1113
+Q 5216 1222 5028 1222
+Q 4472 1222 3731 463
+Q 3900 453 4075 453
+Q 4481 453 4909 513
+Q 5591 606 5591 809
+z
+M 5000 2800
+L 4675 2475
+L 4347 2803
+L 4672 3128
+L 5000 2800
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-b0" d="M 2831 3
+L 2544 3
+Q 2234 3 1909 341
+Q 1750 506 1444 953
+Q 1475 3 372 3
+L -81 3
+L -81 466
+L 428 466
+Q 1234 466 1234 913
+Q 1234 1150 953 1494
+Q 775 1709 434 2028
+Q 153 2291 153 2319
+Q 153 2719 288 2900
+Q 316 2941 1072 3219
+Q 1866 3513 2506 3706
+Q 2506 3619 2403 3263
+Q 1644 3013 447 2559
+Q 1003 2069 1809 1022
+Q 2094 653 2272 547
+Q 2409 466 2669 466
+L 2831 466
+L 2831 3
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#BNazanin-91"/>
+      <use xlink:href="#BNazanin-7f" transform="translate(92 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(123.59375 0)"/>
+      <use xlink:href="#BNazanin-a0" transform="translate(147.03125 0)"/>
+      <use xlink:href="#BNazanin-65" transform="translate(182.140625 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(203.28125 0)"/>
+      <use xlink:href="#BNazanin-ca" transform="translate(227.703125 0)"/>
+      <use xlink:href="#BNazanin-c0" transform="translate(290.0625 0)"/>
+      <use xlink:href="#BNazanin-b0" transform="translate(320.828125 0)"/>
+      <use xlink:href="#BNazanin-a7" transform="translate(363.796875 0)"/>
+      <use xlink:href="#BNazanin-59" transform="translate(389.234375 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(403.9375 0)"/>
+      <use xlink:href="#BNazanin-a7" transform="translate(441.53125 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(466.96875 0)"/>
+      <use xlink:href="#BNazanin-c1" transform="translate(491.390625 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(523.5625 0)"/>
+      <use xlink:href="#BNazanin-7c" transform="translate(547.984375 0)"/>
+      <use xlink:href="#BNazanin-cc" transform="translate(595.390625 0)"/>
+      <use xlink:href="#BNazanin-ac" transform="translate(626.15625 0)"/>
+      <use xlink:href="#BNazanin-bb" transform="translate(659.953125 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(692.28125 0)"/>
+      <use xlink:href="#BNazanin-bd" transform="translate(716.703125 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(771.296875 0)"/>
+      <use xlink:href="#BNazanin-cb" transform="translate(794.734375 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(816.953125 0)"/>
+      <use xlink:href="#BNazanin-59" transform="translate(855.140625 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(869.84375 0)"/>
+      <use xlink:href="#BNazanin-b3" transform="translate(907.4375 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(944.796875 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(969.21875 0)"/>
+      <use xlink:href="#BNazanin-5d" transform="translate(992.65625 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1008.921875 0)"/>
+      <use xlink:href="#BNazanin-c9" transform="translate(1033.34375 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(1098.09375 0)"/>
+      <use xlink:href="#BNazanin-cc" transform="translate(1135.6875 0)"/>
+      <use xlink:href="#BNazanin-b3" transform="translate(1166.453125 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(1203.8125 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(1242 0)"/>
+      <use xlink:href="#BNazanin-cb" transform="translate(1265.4375 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(1287.65625 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(1325.84375 0)"/>
+      <use xlink:href="#BNazanin-61" transform="translate(1349.28125 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1371.75 0)"/>
+      <use xlink:href="#BNazanin-c" transform="translate(1396.171875 0)"/>
+      <use xlink:href="#BNazanin-13" transform="translate(1412.484375 0)"/>
+     </g>
+    </g>
+    <g id="line2d_32"/>
+    <g id="text_31">
+     <!-- 6. پادیادگیری مقید تطبیقی با فشار فراموشی پویا -->
+     <g transform="translate(363.006988 607.787908) scale(0.095 -0.095)">
+      <defs>
+       <path id="BNazanin-14" d="M 2575 2534
+L 2363 1925
+Q 1091 1500 419 -6
+Q 375 -103 322 -103
+Q 250 -103 263 16
+Q 306 428 566 959
+Q 800 1438 1116 1722
+Q 384 1816 384 2422
+Q 384 2719 744 3138
+Q 1141 3600 1509 3600
+Q 1703 3600 1906 3469
+Q 2125 3325 2156 3144
+Q 2166 3097 2136 3070
+Q 2106 3044 2059 3056
+Q 1756 3138 1500 3138
+Q 1250 3138 1031 2997
+Q 784 2838 784 2600
+Q 784 2203 1472 2203
+Q 1650 2203 1966 2350
+Q 2066 2397 2456 2588
+Q 2531 2625 2563 2606
+Q 2594 2588 2575 2534
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#BNazanin-5a"/>
+      <use xlink:href="#BNazanin-cb" transform="translate(23.4375 0)"/>
+      <use xlink:href="#BNazanin-c2" transform="translate(45.65625 0)"/>
+      <use xlink:href="#BNazanin-61" transform="translate(83.15625 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(105.625 0)"/>
+      <use xlink:href="#BNazanin-ca" transform="translate(130.046875 0)"/>
+      <use xlink:href="#BNazanin-8b" transform="translate(192.40625 0)"/>
+      <use xlink:href="#BNazanin-c2" transform="translate(243.234375 0)"/>
+      <use xlink:href="#BNazanin-bb" transform="translate(280.734375 0)"/>
+      <use xlink:href="#BNazanin-59" transform="translate(313.0625 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(327.765625 0)"/>
+      <use xlink:href="#BNazanin-a7" transform="translate(365.359375 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(390.796875 0)"/>
+      <use xlink:href="#BNazanin-7f" transform="translate(415.21875 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(446.8125 0)"/>
+      <use xlink:href="#BNazanin-8c" transform="translate(470.25 0)"/>
+      <use xlink:href="#BNazanin-a7" transform="translate(527.875 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(553.3125 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(577.734375 0)"/>
+      <use xlink:href="#BNazanin-5d" transform="translate(601.171875 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(617.4375 0)"/>
+      <use xlink:href="#BNazanin-ca" transform="translate(641.859375 0)"/>
+      <use xlink:href="#BNazanin-ac" transform="translate(704.21875 0)"/>
+      <use xlink:href="#BNazanin-cc" transform="translate(738.015625 0)"/>
+      <use xlink:href="#BNazanin-5e" transform="translate(768.78125 0)"/>
+      <use xlink:href="#BNazanin-98" transform="translate(799.546875 0)"/>
+      <use xlink:href="#BNazanin-65" transform="translate(852.421875 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(873.5625 0)"/>
+      <use xlink:href="#BNazanin-7c" transform="translate(897.984375 0)"/>
+      <use xlink:href="#BNazanin-cc" transform="translate(945.390625 0)"/>
+      <use xlink:href="#BNazanin-ac" transform="translate(976.15625 0)"/>
+      <use xlink:href="#BNazanin-bb" transform="translate(1009.953125 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1042.28125 0)"/>
+      <use xlink:href="#BNazanin-c9" transform="translate(1066.703125 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(1131.453125 0)"/>
+      <use xlink:href="#BNazanin-cc" transform="translate(1169.046875 0)"/>
+      <use xlink:href="#BNazanin-b3" transform="translate(1199.8125 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(1237.171875 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(1275.359375 0)"/>
+      <use xlink:href="#BNazanin-cb" transform="translate(1298.796875 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(1321.015625 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(1359.203125 0)"/>
+      <use xlink:href="#BNazanin-61" transform="translate(1382.640625 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1405.109375 0)"/>
+      <use xlink:href="#BNazanin-c" transform="translate(1429.53125 0)"/>
+      <use xlink:href="#BNazanin-14" transform="translate(1445.84375 0)"/>
+     </g>
+    </g>
+    <g id="line2d_33"/>
+    <g id="text_32">
+     <!-- 7. کنترل همسان با فشار ثابت فراموشی -->
+     <g transform="translate(363.006988 626.616277) scale(0.095 -0.095)">
+      <defs>
+       <path id="BNazanin-69" d="M 1038 797
+Q 1038 3 247 3
+L -81 3
+L -81 466
+L 191 466
+Q 788 466 788 681
+Q 788 831 516 1178
+L 678 1572
+Q 703 1631 719 1631
+Q 734 1631 784 1559
+Q 1038 1188 1038 797
+z
+M 953 3100
+L 659 2806
+L 366 3103
+L 659 3394
+L 953 3100
+z
+M 1313 2475
+L 1019 2184
+L 725 2478
+L 1016 2769
+L 1313 2475
+z
+M 600 2475
+L 309 2184
+L 13 2478
+L 306 2769
+L 600 2475
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-15" d="M 2738 3072
+Q 2597 2900 2456 2666
+Q 2131 2122 1938 1525
+Q 1800 1094 1681 356
+Q 1606 -109 1516 -109
+Q 1438 -109 1363 334
+Q 1244 1038 1078 1538
+Q 747 2531 238 3028
+L 409 3531
+Q 438 3609 450 3613
+Q 466 3613 522 3547
+Q 903 3113 1219 2228
+Q 1491 1466 1519 1022
+Q 1584 1584 1791 2222
+Q 2078 3109 2497 3584
+Q 2544 3638 2559 3641
+Q 2575 3631 2594 3569
+L 2738 3072
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#BNazanin-ca"/>
+      <use xlink:href="#BNazanin-8b" transform="translate(62.359375 0)"/>
+      <use xlink:href="#BNazanin-c2" transform="translate(113.1875 0)"/>
+      <use xlink:href="#BNazanin-bb" transform="translate(150.6875 0)"/>
+      <use xlink:href="#BNazanin-59" transform="translate(183.015625 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(197.71875 0)"/>
+      <use xlink:href="#BNazanin-a7" transform="translate(235.3125 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(260.75 0)"/>
+      <use xlink:href="#BNazanin-64" transform="translate(285.171875 0)"/>
+      <use xlink:href="#BNazanin-5d" transform="translate(358.953125 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(375.21875 0)"/>
+      <use xlink:href="#BNazanin-69" transform="translate(398.65625 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(419.796875 0)"/>
+      <use xlink:href="#BNazanin-7f" transform="translate(444.21875 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(475.8125 0)"/>
+      <use xlink:href="#BNazanin-8c" transform="translate(499.25 0)"/>
+      <use xlink:href="#BNazanin-a7" transform="translate(556.875 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(582.3125 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(606.734375 0)"/>
+      <use xlink:href="#BNazanin-5d" transform="translate(630.171875 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(646.4375 0)"/>
+      <use xlink:href="#BNazanin-bd" transform="translate(670.859375 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(725.453125 0)"/>
+      <use xlink:href="#BNazanin-88" transform="translate(748.890625 0)"/>
+      <use xlink:href="#BNazanin-bc" transform="translate(806.515625 0)"/>
+      <use xlink:href="#BNazanin-c5" transform="translate(851.25 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(890.703125 0)"/>
+      <use xlink:href="#BNazanin-b5" transform="translate(915.125 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(968.9375 0)"/>
+      <use xlink:href="#BNazanin-66" transform="translate(1006.53125 0)"/>
+      <use xlink:href="#BNazanin-c0" transform="translate(1037.296875 0)"/>
+      <use xlink:href="#BNazanin-af" transform="translate(1068.0625 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1105.421875 0)"/>
+      <use xlink:href="#BNazanin-c" transform="translate(1129.84375 0)"/>
+      <use xlink:href="#BNazanin-15" transform="translate(1146.15625 0)"/>
+     </g>
+    </g>
+    <g id="line2d_34"/>
+    <g id="text_33">
+     <!-- 8. پادیادگیری مقید به بازگشت با محافظ شماره آزمایشگاه -->
+     <g transform="translate(363.006988 645.444646) scale(0.095 -0.095)">
+      <defs>
+       <path id="BNazanin-76" d="M 3606 3
+L 3200 3
+Q 2413 3 2413 784
+Q 2413 875 2422 991
+Q 2150 859 1666 559
+Q 1209 275 969 172
+Q 581 3 203 3
+L -81 3
+L -81 466
+L 219 466
+Q 719 466 1209 716
+Q 1453 844 2088 1172
+Q 1950 1200 1388 1347
+Q 978 1453 897 1453
+Q 681 1453 425 1234
+Q 378 1194 341 1194
+Q 300 1194 300 1247
+Q 300 1269 313 1306
+Q 513 1900 984 1900
+Q 1163 1900 1447 1803
+Q 1881 1656 2169 1591
+Q 2559 1503 3134 1516
+Q 3225 1519 3238 1503
+Q 3250 1488 3222 1416
+L 3088 1069
+Q 2713 1072 2622 1025
+Q 2622 756 2684 656
+Q 2803 466 3216 466
+L 3606 466
+L 3606 3
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#BNazanin-c3"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(31.296875 0)"/>
+      <use xlink:href="#BNazanin-b4" transform="translate(54.734375 0)"/>
+      <use xlink:href="#BNazanin-8c" transform="translate(97.015625 0)"/>
+      <use xlink:href="#BNazanin-cb" transform="translate(154.640625 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(176.859375 0)"/>
+      <use xlink:href="#BNazanin-bb" transform="translate(200.296875 0)"/>
+      <use xlink:href="#BNazanin-81" transform="translate(232.625 0)"/>
+      <use xlink:href="#BNazanin-4d" transform="translate(264.21875 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(288.921875 0)"/>
+      <use xlink:href="#BNazanin-c3" transform="translate(313.34375 0)"/>
+      <use xlink:href="#BNazanin-7f" transform="translate(344.640625 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(376.234375 0)"/>
+      <use xlink:href="#BNazanin-bc" transform="translate(399.671875 0)"/>
+      <use xlink:href="#BNazanin-8b" transform="translate(444.40625 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(495.234375 0)"/>
+      <use xlink:href="#BNazanin-9a" transform="translate(519.65625 0)"/>
+      <use xlink:href="#BNazanin-a7" transform="translate(588.453125 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(613.890625 0)"/>
+      <use xlink:href="#BNazanin-76" transform="translate(637.328125 0)"/>
+      <use xlink:href="#BNazanin-bb" transform="translate(691.96875 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(724.296875 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(748.71875 0)"/>
+      <use xlink:href="#BNazanin-5d" transform="translate(772.15625 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(788.421875 0)"/>
+      <use xlink:href="#BNazanin-64" transform="translate(812.84375 0)"/>
+      <use xlink:href="#BNazanin-8c" transform="translate(886.625 0)"/>
+      <use xlink:href="#BNazanin-b3" transform="translate(944.25 0)"/>
+      <use xlink:href="#BNazanin-81" transform="translate(981.609375 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(1013.203125 0)"/>
+      <use xlink:href="#BNazanin-5d" transform="translate(1036.640625 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1052.90625 0)"/>
+      <use xlink:href="#BNazanin-c4" transform="translate(1077.328125 0)"/>
+      <use xlink:href="#BNazanin-5d" transform="translate(1118.828125 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1135.09375 0)"/>
+      <use xlink:href="#BNazanin-7c" transform="translate(1159.515625 0)"/>
+      <use xlink:href="#BNazanin-cc" transform="translate(1206.921875 0)"/>
+      <use xlink:href="#BNazanin-ac" transform="translate(1237.6875 0)"/>
+      <use xlink:href="#BNazanin-bb" transform="translate(1271.484375 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1303.8125 0)"/>
+      <use xlink:href="#BNazanin-c9" transform="translate(1328.234375 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(1392.984375 0)"/>
+      <use xlink:href="#BNazanin-cc" transform="translate(1430.578125 0)"/>
+      <use xlink:href="#BNazanin-b3" transform="translate(1461.34375 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(1498.703125 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(1536.890625 0)"/>
+      <use xlink:href="#BNazanin-cb" transform="translate(1560.328125 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(1582.546875 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(1620.734375 0)"/>
+      <use xlink:href="#BNazanin-61" transform="translate(1644.171875 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1666.640625 0)"/>
+      <use xlink:href="#BNazanin-c" transform="translate(1691.0625 0)"/>
+      <use xlink:href="#BNazanin-16" transform="translate(1707.375 0)"/>
+     </g>
+    </g>
+    <g id="line2d_35"/>
+    <g id="text_34">
+     <!-- 9. بازگشت با گرادیان نرمال‌شده و پذیرش مشروط به پیشرفت -->
+     <g transform="translate(363.006988 664.273016) scale(0.095 -0.095)">
+      <defs>
+       <path id="BNazanin-95" d="M 4147 1088
+Q 4147 406 3328 163
+Q 2803 6 1741 6
+Q 1294 6 1103 56
+Q 688 166 522 544
+Q 494 606 494 625
+Q 494 641 509 641
+Q 528 641 594 609
+Q 884 472 1356 472
+Q 1531 472 1593 531
+Q 1656 591 1653 763
+Q 1650 1019 1634 1672
+Q 1600 2672 1494 3444
+L 1778 3731
+Q 1819 3772 1831 3775
+Q 1847 3775 1872 3684
+Q 1931 3459 2044 3194
+Q 2072 3125 2066 3113
+Q 2050 3106 2003 3106
+L 1878 3106
+Q 1938 2028 1938 1828
+L 1938 1397
+Q 1938 1159 1828 716
+Q 1866 716 2131 966
+Q 2459 1275 2706 1431
+Q 3103 1681 3447 1681
+Q 3747 1681 3934 1538
+Q 4147 1378 4147 1088
+z
+M 3869 828
+Q 3869 1022 3641 1156
+Q 3444 1272 3238 1272
+Q 2797 1272 1866 497
+Q 2125 469 2394 469
+Q 2747 469 3206 541
+Q 3869 644 3869 828
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-89" d="M 5547 841
+Q 5547 -6 4834 -6
+Q 4441 -6 4297 344
+Q 4100 -16 3725 -16
+Q 3588 -16 3428 34
+Q 3416 -325 3384 -728
+Q 3225 -1175 2697 -1419
+Q 2244 -1628 1716 -1628
+Q 1191 -1628 853 -1369
+Q 484 -1081 484 -569
+Q 484 -297 619 13
+Q 716 234 819 359
+Q 869 419 909 419
+Q 947 419 947 375
+Q 947 347 928 309
+Q 750 -56 750 -359
+Q 750 -656 947 -872
+Q 1206 -1156 1731 -1156
+Q 2325 -1156 2766 -944
+Q 3128 -769 3222 -563
+Q 3253 -494 3231 -297
+Q 3209 -97 3172 0
+Q 3100 188 2784 594
+L 2959 925
+Q 2997 997 3016 997
+Q 3031 997 3072 938
+Q 3238 688 3300 628
+Q 3469 463 3706 463
+Q 3972 463 4091 606
+Q 4169 703 4216 947
+Q 4238 1066 4291 1066
+Q 4338 1066 4350 959
+Q 4388 669 4525 559
+Q 4663 450 4963 450
+Q 5088 450 5178 516
+Q 5281 588 5281 706
+Q 5281 878 5050 1138
+L 5253 1484
+Q 5284 1538 5300 1541
+Q 5319 1531 5350 1484
+Q 5547 1181 5547 841
+z
+M 4575 2941
+L 4284 2647
+L 3988 2944
+L 4281 3234
+L 4575 2941
+z
+M 4934 2316
+L 4641 2022
+L 4347 2319
+L 4638 2609
+L 4934 2316
+z
+M 4222 2316
+L 3931 2022
+L 3634 2319
+L 3928 2609
+L 4222 2316
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-7e" d="M 3116 3
+L 2938 3
+Q 2713 3 2556 147
+Q 2459 238 2322 466
+Q 2178 209 1988 106
+Q 1756 -22 1325 -22
+Q 484 -22 484 581
+Q 484 784 609 1000
+Q 650 1072 691 1072
+Q 728 1072 728 1009
+Q 728 975 718 908
+Q 709 841 709 806
+Q 709 447 1319 447
+Q 2178 447 2178 781
+Q 2178 963 1681 2084
+L 1859 2394
+Q 1894 2453 1906 2456
+Q 1925 2444 1953 2378
+Q 2153 1906 2500 953
+Q 2678 466 3003 466
+L 3116 466
+L 3116 3
+z
+M 1922 3284
+L 1597 2959
+L 1269 3288
+L 1594 3613
+L 1922 3284
+z
+" transform="scale(0.015625)"/>
+       <path id="BNazanin-17" d="M 2522 503
+L 2403 -44
+Q 2388 -109 2375 -113
+Q 2359 -113 2291 -38
+Q 1953 331 1847 888
+Q 1784 1219 1784 1928
+Q 1563 1844 1206 1844
+Q 513 1844 513 2428
+Q 513 2838 725 3203
+Q 959 3606 1284 3606
+Q 1728 3606 1925 3144
+Q 2066 2816 2066 2300
+Q 2066 1519 2200 1072
+Q 2303 731 2522 503
+z
+M 1725 2431
+Q 1713 2659 1578 2847
+Q 1428 3063 1213 3063
+Q 1053 3063 928 2941
+Q 803 2819 803 2659
+Q 803 2359 1300 2359
+Q 1553 2359 1725 2431
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#BNazanin-64"/>
+      <use xlink:href="#BNazanin-a7" transform="translate(73.78125 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(99.21875 0)"/>
+      <use xlink:href="#BNazanin-8c" transform="translate(136.8125 0)"/>
+      <use xlink:href="#BNazanin-cc" transform="translate(194.4375 0)"/>
+      <use xlink:href="#BNazanin-61" transform="translate(225.203125 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(247.671875 0)"/>
+      <use xlink:href="#BNazanin-c4" transform="translate(272.09375 0)"/>
+      <use xlink:href="#BNazanin-5d" transform="translate(313.59375 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(329.859375 0)"/>
+      <use xlink:href="#BNazanin-95" transform="translate(354.28125 0)"/>
+      <use xlink:href="#BNazanin-c1" transform="translate(419.171875 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(451.34375 0)"/>
+      <use xlink:href="#BNazanin-8c" transform="translate(488.9375 0)"/>
+      <use xlink:href="#BNazanin-bb" transform="translate(546.5625 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(578.890625 0)"/>
+      <use xlink:href="#BNazanin-89" transform="translate(603.3125 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(690.03125 0)"/>
+      <use xlink:href="#BNazanin-cb" transform="translate(727.625 0)"/>
+      <use xlink:href="#BNazanin-7e" transform="translate(749.84375 0)"/>
+      <use xlink:href="#BNazanin-61" transform="translate(797.25 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(819.71875 0)"/>
+      <use xlink:href="#BNazanin-c1" transform="translate(844.140625 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(876.3125 0)"/>
+      <use xlink:href="#BNazanin-c3" transform="translate(900.734375 0)"/>
+      <use xlink:href="#BNazanin-7c" transform="translate(932.03125 0)"/>
+      <use xlink:href="#BNazanin-8b" transform="translate(979.4375 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1030.265625 0)"/>
+      <use xlink:href="#BNazanin-b5" transform="translate(1030.265625 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(1084.078125 0)"/>
+      <use xlink:href="#BNazanin-bb" transform="translate(1107.515625 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(1139.84375 0)"/>
+      <use xlink:href="#BNazanin-bf" transform="translate(1177.4375 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1193.703125 0)"/>
+      <use xlink:href="#BNazanin-bd" transform="translate(1218.125 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(1272.71875 0)"/>
+      <use xlink:href="#BNazanin-cb" transform="translate(1296.15625 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(1318.375 0)"/>
+      <use xlink:href="#BNazanin-59" transform="translate(1356.5625 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(1371.265625 0)"/>
+      <use xlink:href="#BNazanin-b3" transform="translate(1408.859375 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1446.21875 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(1470.640625 0)"/>
+      <use xlink:href="#BNazanin-5d" transform="translate(1494.078125 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1510.34375 0)"/>
+      <use xlink:href="#BNazanin-64" transform="translate(1534.765625 0)"/>
+      <use xlink:href="#BNazanin-8c" transform="translate(1608.546875 0)"/>
+      <use xlink:href="#BNazanin-b3" transform="translate(1666.171875 0)"/>
+      <use xlink:href="#BNazanin-81" transform="translate(1703.53125 0)"/>
+      <use xlink:href="#BNazanin-5a" transform="translate(1735.125 0)"/>
+      <use xlink:href="#BNazanin-5d" transform="translate(1758.5625 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(1774.828125 0)"/>
+      <use xlink:href="#BNazanin-c" transform="translate(1799.25 0)"/>
+      <use xlink:href="#BNazanin-17" transform="translate(1815.5625 0)"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_9">
+    <path d="M 694.210137 521.704871
+L 718.603737 521.704871
+L 718.603737 33.832871
+L 694.210137 33.832871
+z
+" style="fill: #ffffff"/>
+   </g>
+   <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAACIAAAKmCAYAAAAo+UwlAAAEV0lEQVR4nO3dwZEjSQxDUSRE09aE9d+UrjmTFvzDfxYoCIiZVeqJef+9/78ANBANxOQxPksDMa8vBA1EAzGWFRvN81uzWVZuWWNZsdE8T99lXhnpNBANxFhWbjRlfJYGYiwrN5p66EGjeb4f2Swrt6zx8rwZDXgiZXyWBqKBGPfI4UQuy4qdSAMxPtcc7hFwWR/jszQQDcS4Rw73CLisz5d5i9GAJ1LLSo3mGQ00ms9otqGE00A0EOMeOYzmciLYiTQQ46F3eOhxyxpvaJvRcCfyWVZqNIF8lAaigRhX/OEeIZc1CA1EAzHukWM+SDgNRAMxlhUbzeeK3ywrt6yxrNRoPt8GbD6EX5aVO5G4WanRfEZDjSYeeptlJZc1CA1EAzH+PevhHgGX9QWhgWggxqvi4Q3tsqzYiTQQ44o/3Kzksr4QNBANxHgfOdys4LI2CA3EeA3ARvMxzrxgJtJAjPeRw7KSyxqEBqKBGFf8YVkvy4qdSAMxrvjDzXpZVuxEGojxL3wPNyu5rEFoIBqI8T5yOBFuWT/3yGZZL8uKnUgDMR56h5v1sqzYiTQQ4x453COXZcVOpIGYLwwNxLhZD6PBTqSBGN+PHO6Ry7JiJ9JAjKfv4US4Zf38UWCzrNyyxrJSo/mMZrOsl2XFTqSBGFf84US4Zf089KjRxGig0TQQDcS4R7DRxD2yORFuWT/LSo0mRrNZ1suykifyhaCBaCDGQw8bTTz0NifCLetnWanRxGg2J0Iu6xeCBqKBGFc8NZoGooEYDz1sNJ/3kc1Dj1vWWNbNaC4ngp1IAzE+1xxuVm5ZPw89ajTx/cjmHuGW9blHqNHEPbK5R8hlDUID0UBM4u81i2XllvV56FGjiSt+s6yXZeVO5Pn1pUYTDz1qNM9oNvfIZVmxE2kgxsvz4WbllvWFoYFoIMb7yOFEyGUNQgPRQEx9rtncI9yyPsvKjSYIDcS4WbHRPPfINvVvA7hlDUID0UCMK/5ws16WFTuRBmK8jxxuVm5Z61WRGs3zuWZzj3DLWsu6Gc3lRLATaSDG+wg3mue/OFqcyGVZLyeCnUgDMR563Gieh94yfX8haCAaiLGs3GjiHlksK7iszxUPjebnfWRzs3LLWvcIN5ovBA3E/LyhUaOpe4QbzReCBmK8oWGjaXyuWfz6csv6s6zUaOqht83PGxq2rPGGBo3m57dm80kPXNa4R6DR1D2yWdbLsmIn0kCMj5yHT3qXZcVOpIEYn2sOH8Ivy8qdSH3zTI3m55tnbDTxx8XF1xKXZcVOpIEYV/zhfYRc1r8QNBANxHgfOXwIB5f1uUeo0cTffRfvI+CyPvcINZq4RxZ/XCSX9S8EDcT49cVGU38UoEbz89DbnAi3rPX/JqFG83OPbEPJpoFoIObnHsFGE0Y2DcRQPkkD0UDMD/KfpTUQDcTUPbK5WS/Lip1IAzGu+GMKSaeBaCDGQ++Y32Ok00A0EOMeOTDR/AP4mJBOR61ZCwAAAABJRU5ErkJggg==" id="image7546f4f6ff" transform="scale(1 -1) translate(0 -488.16)" x="694.08" y="-33.12" width="24.48" height="488.16"/>
+   <g id="matplotlib.axis_3"/>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_6">
+     <g id="line2d_36">
+      <defs>
+       <path id="ma8732d9a29" d="M 0 0
+L 3.5 0
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#ma8732d9a29" x="718.603737" y="521.704871" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_35">
+      <!-- 46 -->
+      <g transform="translate(725.603737 525.171668) scale(0.1 -0.1)">
+       <use xlink:href="#TimesNewRomanPSMT-17"/>
+       <use xlink:href="#TimesNewRomanPSMT-19" transform="translate(50 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_37">
+      <g>
+       <use xlink:href="#ma8732d9a29" x="718.603737" y="452.008871" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_36">
+      <!-- 48 -->
+      <g transform="translate(725.603737 455.475668) scale(0.1 -0.1)">
+       <use xlink:href="#TimesNewRomanPSMT-17"/>
+       <use xlink:href="#TimesNewRomanPSMT-1b" transform="translate(50 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_38">
+      <g>
+       <use xlink:href="#ma8732d9a29" x="718.603737" y="382.312871" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_37">
+      <!-- 50 -->
+      <g transform="translate(725.603737 385.779668) scale(0.1 -0.1)">
+       <use xlink:href="#TimesNewRomanPSMT-18"/>
+       <use xlink:href="#TimesNewRomanPSMT-13" transform="translate(50 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_39">
+      <g>
+       <use xlink:href="#ma8732d9a29" x="718.603737" y="312.616871" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_38">
+      <!-- 52 -->
+      <g transform="translate(725.603737 316.083668) scale(0.1 -0.1)">
+       <use xlink:href="#TimesNewRomanPSMT-18"/>
+       <use xlink:href="#TimesNewRomanPSMT-15" transform="translate(50 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_40">
+      <g>
+       <use xlink:href="#ma8732d9a29" x="718.603737" y="242.920871" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_39">
+      <!-- 54 -->
+      <g transform="translate(725.603737 246.387668) scale(0.1 -0.1)">
+       <use xlink:href="#TimesNewRomanPSMT-18"/>
+       <use xlink:href="#TimesNewRomanPSMT-17" transform="translate(50 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_41">
+      <g>
+       <use xlink:href="#ma8732d9a29" x="718.603737" y="173.224871" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_40">
+      <!-- 56 -->
+      <g transform="translate(725.603737 176.691668) scale(0.1 -0.1)">
+       <use xlink:href="#TimesNewRomanPSMT-18"/>
+       <use xlink:href="#TimesNewRomanPSMT-19" transform="translate(50 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_42">
+      <g>
+       <use xlink:href="#ma8732d9a29" x="718.603737" y="103.528871" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_41">
+      <!-- 58 -->
+      <g transform="translate(725.603737 106.995668) scale(0.1 -0.1)">
+       <use xlink:href="#TimesNewRomanPSMT-18"/>
+       <use xlink:href="#TimesNewRomanPSMT-1b" transform="translate(50 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_43">
+      <g>
+       <use xlink:href="#ma8732d9a29" x="718.603737" y="33.832871" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_42">
+      <!-- 60 -->
+      <g transform="translate(725.603737 37.299668) scale(0.1 -0.1)">
+       <use xlink:href="#TimesNewRomanPSMT-19"/>
+       <use xlink:href="#TimesNewRomanPSMT-13" transform="translate(50 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_43">
+     <!-- دقت کنترل عمومی (درصد) -->
+     <g transform="translate(751.263893 328.265434) rotate(-90) scale(0.12 -0.12)">
+      <defs>
+       <path id="BNazanin-9f" d="M 2191 781
+L 2066 409
+L 975 122
+Q 525 3 134 3
+L -81 3
+L -81 466
+L 253 466
+Q 347 466 556 497
+Q 206 772 206 1041
+Q 206 1278 497 1644
+Q 834 2066 1213 2066
+Q 1603 2066 1859 1691
+Q 1944 1566 1944 1531
+Q 1944 1506 1903 1506
+Q 1853 1506 1722 1541
+Q 1422 1619 1216 1619
+Q 1041 1619 813 1509
+Q 550 1384 550 1228
+Q 550 1100 756 900
+Q 1009 656 1316 656
+Q 1413 656 2144 856
+Q 2200 872 2206 872
+Q 2209 863 2216 853
+Q 2209 841 2191 781
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#BNazanin-6"/>
+      <use xlink:href="#BNazanin-7c" transform="translate(28.125 0)"/>
+      <use xlink:href="#BNazanin-8f" transform="translate(75.53125 0)"/>
+      <use xlink:href="#BNazanin-7f" transform="translate(131.34375 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(162.9375 0)"/>
+      <use xlink:href="#BNazanin-7" transform="translate(201.125 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(229.25 0)"/>
+      <use xlink:href="#BNazanin-ca" transform="translate(253.671875 0)"/>
+      <use xlink:href="#BNazanin-bb" transform="translate(316.03125 0)"/>
+      <use xlink:href="#BNazanin-c2" transform="translate(348.359375 0)"/>
+      <use xlink:href="#BNazanin-bc" transform="translate(385.859375 0)"/>
+      <use xlink:href="#BNazanin-9f" transform="translate(430.59375 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(465.0625 0)"/>
+      <use xlink:href="#BNazanin-b5" transform="translate(489.484375 0)"/>
+      <use xlink:href="#BNazanin-80" transform="translate(543.296875 0)"/>
+      <use xlink:href="#BNazanin-66" transform="translate(580.890625 0)"/>
+      <use xlink:href="#BNazanin-c0" transform="translate(611.65625 0)"/>
+      <use xlink:href="#BNazanin-af" transform="translate(642.421875 0)"/>
+      <use xlink:href="#BNazanin-3" transform="translate(679.78125 0)"/>
+      <use xlink:href="#BNazanin-64" transform="translate(704.203125 0)"/>
+      <use xlink:href="#BNazanin-ab" transform="translate(777.984375 0)"/>
+      <use xlink:href="#BNazanin-7b" transform="translate(803.421875 0)"/>
+     </g>
+    </g>
+   </g>
+   <g id="LineCollection_1"/>
+   <g id="patch_10">
+    <path d="M 694.210137 521.704871
+L 706.406937 521.704871
+L 718.603737 521.704871
+L 718.603737 33.832871
+L 706.406937 33.832871
+L 694.210137 33.832871
+L 694.210137 521.704871
+z
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pee2953bdbe">
+   <rect x="53.905137" y="33.832871" width="629.0055" height="487.872"/>
+  </clipPath>
+ </defs>
+</svg>
